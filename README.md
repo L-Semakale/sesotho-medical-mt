@@ -3,17 +3,15 @@
 A proof-of-concept web application that translates **medical text between English and Sesotho
 (Southern Sotho)** to support clear communication between healthcare workers and patients in Lesotho.
 
-> **Track:** BSc. Software Engineering — Capstone Project
-> **Status:** Proof-of-Concept Prototype — NLLB-200 evaluated · SUS usability testing completed
+ **Track:** BSc. Software Engineering — Capstone Project
+ **Status:** Proof-of-Concept Prototype — NLLB-200 evaluated · SUS usability testing completed
 
----
 
 ## Repository & Demo
 
 **GitHub Repo:** https://github.com/L-Semakale/sesotho-medical-mt
 **Video Demo:** [Watch the demo here](https://youtu.be/IUWbhWTxlg0)
 
----
 
 ## Description
 
@@ -29,11 +27,10 @@ This system bridges that gap using a **dual-path translation architecture**:
 This design prioritises safety for high-frequency medical phrases while preserving broad
 translation coverage for novel inputs.
 
-> ⚠️ **Medical Disclaimer:** This is a proof-of-concept research prototype.
-> It must not be used for clinical diagnosis, treatment decisions, or as a replacement
-> for professional medical interpretation.
+  **Medical Disclaimer:** This is a proof-of-concept research prototype.
+ It must not be used for clinical diagnosis, treatment decisions, or as a replacement
+ for professional medical interpretation.
 
----
 
 ## Medical Domains Covered
 
@@ -48,7 +45,6 @@ translation coverage for novel inputs.
 | Maternal & Child Health | 400 |
 | **Total** | **5,000** |
 
----
 
 ## How Translation Works
 
@@ -58,7 +54,6 @@ translation coverage for novel inputs.
 4. Response includes the translation and its source (`verified_corpus` or `nllb_model`)
 5. Every translation is logged to history with timestamp and model used
 
----
 
 ## Model Evaluation
 
@@ -68,11 +63,11 @@ using SacreBLEU. No fine-tuning was applied — see rationale below.
 | Metric | Score | Interpretation |
 |---|---|---|
 | **BLEU** | **27.01** | Above 20 = understandable; strong for low-resource Sesotho MT |
-| **chrF++** ⭐ | **49.15** | **Primary metric** — character-level, suited to Sesotho morphology |
+| **chrF++**  | **49.15** | **Primary metric** — character-level, suited to Sesotho morphology |
 | **TER** | **60.67** | ~60% editing effort — expected baseline for low-resource MT |
 
-> ⭐ chrF++ is the primary metric because Sesotho is morphologically rich.
-> Character-level matching captures partial word matches that BLEU misses.
+  chrF++ is the primary metric because Sesotho is morphologically rich.
+ Character-level matching captures partial word matches that BLEU misses.
 
 Full results: `backend/data/evaluation_results.txt`
 Side-by-side examples: `backend/data/evaluation_examples.csv`
@@ -101,11 +96,10 @@ This approach is consistent with Saunders (2022) on lightweight domain adaptatio
 | Minor | 3 | 30% |
 | **CRITICAL** | **1** | **10%** |
 
-> ⚠️ **Critical Finding:** NLLB-200 hallucinated **"lethal dose"** from **"missed dose"**
-> in one output. This directly justifies the dual-path architecture — the verified corpus
-> cache intercepts high-frequency medical phrases before the model is called.
+  **Critical Finding:** NLLB-200 hallucinated **"lethal dose"** from **"missed dose"**
+ in one output. This directly justifies the dual-path architecture — the verified corpus
+ cache intercepts high-frequency medical phrases before the model is called.
 
----
 
 ## Tech Stack
 
@@ -126,14 +120,14 @@ This approach is consistent with Saunders (2022) on lightweight domain adaptatio
 
 ## Screenshots
 
-### 👤 User View — Translator
+###  User View — Translator
 > Medical disclaimer visible on load. Tabs for Translate, History, Usability, and Feedback.
 
 ![User Dashboard — Translator](docs/screenshots/01_translator.png)
 
 ---
 
-### 🔐 Admin View — Evaluation Metrics
+###  Admin View — Evaluation Metrics
 > Real BLEU, chrF++, and TER scores from NLLB-200 evaluated on the 100-pair held-out medical test set.
 > Corpus goal of 5,000 sentence pairs displayed in the header.
 
@@ -191,7 +185,6 @@ npm start
 > Run `download_model.py` once after cloning to cache it locally in `backend/models/`.
 > On first translation request, the model loads into memory (~30 seconds).
 
----
 
 ## Database Schema
 
@@ -314,11 +307,10 @@ a validated 10-item questionnaire scored 0–100.
 | Minimum acceptable SUS score | 65 / 100 | — |
 | Sampling method | Purposive — Sesotho-speaking or bilingual users | — |
 
-> SUS results are stored in `usability_feedback` table and accessible via `GET /api/sus`.
-> Participants were not asked to provide personal medical information.
-> All feedback is stored anonymously.
+ SUS results are stored in `usability_feedback` table and accessible via `GET /api/sus`.
+ Participants were not asked to provide personal medical information.
+ All feedback is stored anonymously.
 
----
 
 ## Dataset Split
 
@@ -391,16 +383,3 @@ Local Flask backend + React development server for demonstration.
 | Database | SQLite → PostgreSQL |
 | Model | Loaded from HuggingFace on startup |
 | Domain & HTTPS | Render-managed SSL |
-
----
-
-## References
-
-- Costa-jussà et al. (2022) — NLLB-200: No Language Left Behind
-- Papineni et al. (2002) — BLEU metric
-- Popović (2017) — chrF++ metric
-- Snover et al. (2006) — TER metric
-- Saunders (2022) — Domain adaptation in NMT
-- Brooke (1996) — System Usability Scale
-- Nekoto et al. (2020) — Participatory African language MT
-- Liu et al. (2020) — mBART multilingual pre-training
