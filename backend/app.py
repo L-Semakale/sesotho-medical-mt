@@ -72,6 +72,20 @@ def init_db():
         )
     """)
 
+    # FIX 1: Moved usability_feedback table creation here from submit_feedback()
+    # where it was unreachable dead code (placed after a return statement).
+    c.execute("""
+        CREATE TABLE IF NOT EXISTS usability_feedback (
+            id         INTEGER PRIMARY KEY AUTOINCREMENT,
+            username   TEXT    NOT NULL,
+            q1         INTEGER, q2  INTEGER, q3  INTEGER, q4  INTEGER, q5  INTEGER,
+            q6         INTEGER, q7  INTEGER, q8  INTEGER, q9  INTEGER, q10 INTEGER,
+            sus_score  REAL    NOT NULL,
+            comment    TEXT,
+            created_at TEXT    NOT NULL
+        )
+    """)
+
     # Seed admin — only once
     c.execute("SELECT id FROM users WHERE username = 'admin'")
     if not c.fetchone():
@@ -104,10 +118,6 @@ def save_corpus(df):
     df.to_csv(CSV_FILE, index=False, encoding="utf-8")
 
 
-# Load corpus once at startup for fast cache lookups.
-# NOTE: edits made via /api/corpus while the server is running will NOT be
-# reflected here until restart. If live updates matter, call load_corpus()
-# inside translate_text() instead (slightly slower).
 corpus_df = load_corpus()
 
 
@@ -241,10 +251,19 @@ def submit_feedback():
     rating   = data.get("rating", "5")
     comment  = data.get("comment", "").strip()
 
+    # FIX 2: Validate rating is a number in range 1–10 before inserting.
+    # Previously any value was accepted with no validation.
+    try:
+        rating_int = int(rating)
+        if not (1 <= rating_int <= 10):
+            raise ValueError
+    except (ValueError, TypeError):
+        return jsonify({"error": "Rating must be an integer between 1 and 10"}), 400
+
     conn = get_db()
     conn.execute(
         "INSERT INTO feedback (username, rating, comment, created_at) VALUES (?, ?, ?, ?)",
-        (username, rating, comment, datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+        (username, str(rating_int), comment, datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
     )
     conn.commit()
     conn.close()
@@ -284,6 +303,8 @@ def get_stats():
 
 @app.route("/api/corpus/<int:sentence_id>", methods=["PUT"])
 def update_sentence(sentence_id):
+    global corpus_df  # FIX 3: Declare global so the in-memory cache stays in sync after edits.
+
     df = load_corpus()
     if df.empty:
         return jsonify({"error": "Corpus is empty"}), 404
@@ -305,6 +326,7 @@ def update_sentence(sentence_id):
         df.at[idx, "reviewer_status"] = data["reviewer_status"]
 
     save_corpus(df)
+    corpus_df = df  # FIX 3: Keep in-memory cache in sync so translate hits updated data.
     return jsonify({"message": "Updated successfully", "sentence_id": sentence_id})
 
 
