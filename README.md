@@ -124,6 +124,21 @@ This approach is consistent with Saunders (2022) on lightweight domain adaptatio
 
 ---
 
+## Screenshots
+
+### 👤 User View — Translator
+> Medical disclaimer visible on load. Tabs for Translate, History, Usability, and Feedback.
+
+![User Dashboard — Translator](docs/screenshots/01_translator.png)
+
+---
+
+### 🔐 Admin View — Evaluation Metrics
+> Real BLEU, chrF++, and TER scores from NLLB-200 evaluated on the 100-pair held-out medical test set.
+> Corpus goal of 5,000 sentence pairs displayed in the header.
+
+![Admin Dashboard — Evaluation Metrics](docs/screenshots/02_evaluation.png)
+
 ## Environment Setup & Installation
 
 ### Prerequisites
