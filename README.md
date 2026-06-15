@@ -1,8 +1,7 @@
 # Sesotho Medical Machine Translation System
 
 A proof-of-concept web application that translates **medical text between English and Sesotho / Southern Sotho** to support clearer communication between healthcare workers and patients in Lesotho.
-
-**Track:** BSc. Software Engineering — Capstone Project  
+ 
 **Status:** Proof-of-Concept Prototype — NLLB-200 evaluated · SUS usability testing completed  
 
 ---
