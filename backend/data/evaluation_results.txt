@@ -1,0 +1,7 @@
+NLLB-200 Sesotho-English Medical Translation Evaluation
+Direction: English -> Sesotho
+Test set size: 100 sentence pairs
+
+BLEU   : 27.01
+chrF++ : 49.15
+TER    : 60.67

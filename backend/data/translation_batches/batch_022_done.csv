@@ -1,0 +1,201 @@
+sentence_id,domain_category,english_text,sesotho_text
+4201,Maternal and Child Health,My child has been vomiting and has diarrhoea.,Ngoana oa ka o ntse a hlatsa mme o na le sehudo.
+4202,Maternal and Child Health,I was told to give my child oral rehydration solution.,Ke boletsoe ho fa ngoana oa ka sesebelisoa sa ho noa sa ho khutlisa metsi.
+4203,Maternal and Child Health,I was shown how to prepare oral rehydration solution at home.,Ke bontšitsoe ho lokisa sesebelisoa sa ho noa sa ho khutlisa metsi lapeng.
+4204,Maternal and Child Health,My child has been admitted to hospital for severe dehydration.,Ngoana oa ka o kenngoe sepetleleng bakeng sa ho hloka metsi ho matla.
+4205,Maternal and Child Health,My child has been having a high fever for three days.,Ngoana oa ka o ntse a na le feberu e phahameng matsatsi a mararo.
+4206,Maternal and Child Health,My child was tested for malaria at the clinic.,Ngoana oa ka o hlahlojoe bakeng sa malaria klinikeng.
+4207,Maternal and Child Health,My child was diagnosed with malaria and given treatment.,Ngoana oa ka o hlahlojoe ka malaria mme o filoe phekolo.
+4208,Maternal and Child Health,My child has been coughing for more than two weeks.,Ngoana oa ka o ntse a kohoa ho fetang libeke tse peli.
+4209,Maternal and Child Health,My child was tested for TB at the clinic.,Ngoana oa ka o hlahlojoe bakeng sa TB klinikeng.
+4210,Maternal and Child Health,My child was diagnosed with TB and started on treatment.,Ngoana oa ka o hlahlojoe ka TB mme o qalisitsoe phekolo.
+4211,Maternal and Child Health,My child has been given TB preventive therapy.,Ngoana oa ka o filoe phekolo ea thibelo ea TB.
+4212,Maternal and Child Health,My child was tested for HIV at the clinic.,Ngoana oa ka o hlahlojoe bakeng sa HIV klinikeng.
+4213,Maternal and Child Health,My child tested positive for HIV and was started on ART.,Ngoana oa ka o hlahlojoe ke positive bakeng sa HIV mme o qalisitsoe ART.
+4214,Maternal and Child Health,My child has been on ART for six months and is doing well.,Ngoana oa ka o ntse a nka ART likhoeling tse tšeletseng mme o phela hantle.
+4215,Maternal and Child Health,I was told to give my child their ART medication every day.,Ke boletsoe ho fa ngoana oa ka moriana oa ART letsatsi le leng le le leng.
+4216,Maternal and Child Health,My child has been having difficulty breathing.,Ngoana oa ka o ntse a na le bothata ba ho hema.
+4217,Maternal and Child Health,My child was diagnosed with pneumonia at the clinic.,Ngoana oa ka o hlahlojoe ka pneumonia klinikeng.
+4218,Maternal and Child Health,My child was admitted to hospital for pneumonia treatment.,Ngoana oa ka o kenngoe sepetleleng bakeng sa phekolo ea pneumonia.
+4219,Maternal and Child Health,My child has been having ear pain and discharge.,Ngoana oa ka o ntse a na le mahloko a tsebe le seretse.
+4220,Maternal and Child Health,My child was diagnosed with an ear infection.,Ngoana oa ka o hlahlojoe ka ho hlohlona ha tsebe.
+4221,Maternal and Child Health,My child has been having eye discharge and redness.,Ngoana oa ka o ntse a na le seretse sa leihlo le bofubedu.
+4222,Maternal and Child Health,My child was diagnosed with conjunctivitis.,Ngoana oa ka o hlahlojoe ka conjunctivitis.
+4223,Maternal and Child Health,My child has a skin rash all over the body.,Ngoana oa ka o na le ho ruruha ha letlalo 'meleng oa hae ka bophara.
+4224,Maternal and Child Health,My child has been diagnosed with chickenpox.,Ngoana oa ka o hlahlojoe ka chickenpox.
+4225,Maternal and Child Health,My child has a rash and fever and was diagnosed with measles.,Ngoana oa ka o na le ho ruruha ha letlalo le feberu mme o hlahlojoe ka measles.
+4226,Maternal and Child Health,My child has not been vaccinated against measles.,Ngoana oa ka ha a so entisoe bakeng sa measles.
+4227,Maternal and Child Health,My child has been having convulsions with a high fever.,Ngoana oa ka o ntse a na le ho thothomela le feberu e phahameng.
+4228,Maternal and Child Health,My child was diagnosed with febrile convulsions.,Ngoana oa ka o hlahlojoe ka ho thothomela ha feberu.
+4229,Maternal and Child Health,My child has been having seizures and I am very worried.,Ngoana oa ka o ntse a na le ho thothomela mme ke na le khathello e kholo.
+4230,Maternal and Child Health,My child was referred to the hospital for further investigation.,Ngoana oa ka o romeloa sepetleleng bakeng sa lipatlisiso tse eketsehileng.
+4231,Maternal and Child Health,My child has been diagnosed with a heart condition.,Ngoana oa ka o hlahlojoe ka boemo ba pelo.
+4232,Maternal and Child Health,My child has been referred to a paediatric specialist.,Ngoana oa ka o romeloa ngakeng e khethehileng ea bana.
+4233,Maternal and Child Health,My child has been diagnosed with cerebral palsy.,Ngoana oa ka o hlahlojoe ka cerebral palsy.
+4234,Maternal and Child Health,My child has been referred to a physiotherapist.,Ngoana oa ka o romeloa ho physiotherapist.
+4235,Maternal and Child Health,My child has a developmental delay and needs assessment.,Ngoana oa ka o na le ho lieha ha kholo mme o hloka tlhahlobo.
+4236,Maternal and Child Health,My child has been referred to a speech therapist.,Ngoana oa ka o romeloa ho setsebi sa puo.
+4237,Maternal and Child Health,My child has been diagnosed with autism spectrum disorder.,Ngoana oa ka o hlahlojoe ka autism spectrum disorder.
+4238,Maternal and Child Health,My child has been struggling at school because of a learning disability.,Ngoana oa ka o ntse a na le bothata sekolong ka lebaka la ho hloka bokgoni ba ho ithuta.
+4239,Maternal and Child Health,My child has been referred to an occupational therapist.,Ngoana oa ka o romeloa ho occupational therapist.
+4240,Maternal and Child Health,I was told my child needs glasses for poor eyesight.,Ke boletsoe hore ngoana oa ka o hloka ligilase ka lebaka la pono e fokolang.
+4241,Maternal and Child Health,My child has been diagnosed with hearing loss.,Ngoana oa ka o hlahlojoe ka ho lahleheloa ke kutlo.
+4242,Maternal and Child Health,My child has been referred to an audiologist.,Ngoana oa ka o romeloa ho audiologist.
+4243,Maternal and Child Health,My child has been diagnosed with sickle cell disease.,Ngoana oa ka o hlahlojoe ka bolwetse ba lisele tse nang le sebopeho sa sekhele.
+4244,Maternal and Child Health,My child has been having frequent painful crises.,Ngoana oa ka o ntse a na le linako tsa mahloko a matla hangata.
+4245,Maternal and Child Health,My child has been admitted to hospital for a sickle cell crisis.,Ngoana oa ka o kenngoe sepetleleng bakeng sa crisis ea lisele tse nang le sebopeho sa sekhele.
+4246,Maternal and Child Health,My child has been diagnosed with asthma.,Ngoana oa ka o hlahlojoe ka asthma.
+4247,Maternal and Child Health,My child uses an inhaler for asthma.,Ngoana oa ka o sebelisa inhaler bakeng sa asthma.
+4248,Maternal and Child Health,My child has been having frequent asthma attacks.,Ngoana oa ka o ntse a na le litlhaselo tsa asthma hangata.
+4249,Maternal and Child Health,My child was given a nebuliser treatment at the clinic.,Ngoana oa ka o filoe phekolo ea nebuliser klinikeng.
+4250,Maternal and Child Health,My child has been diagnosed with eczema.,Ngoana oa ka o hlahlojoe ka eczema.
+4251,Maternal and Child Health,My child has been prescribed a cream for eczema.,Ngoana oa ka o filoe cream bakeng sa eczema.
+4252,Maternal and Child Health,My child has been diagnosed with a urinary tract infection.,Ngoana oa ka o hlahlojoe ka ho hlohlona ha meeling ea moroto.
+4253,Maternal and Child Health,My child has been given antibiotics for the infection.,Ngoana oa ka o filoe li-antibiotic bakeng sa ho hlohlona.
+4254,Maternal and Child Health,My child swallowed a foreign object and needs urgent care.,Ngoana oa ka o metse ntho e tsoang kantle mme o hloka tlhokomelo ea potlako.
+4255,Maternal and Child Health,My child burned their hand and needs treatment.,Ngoana oa ka o chesitse sepata sa hae mme o hloka phekolo.
+4256,Maternal and Child Health,My child fell and has a suspected broken arm.,Ngoana oa ka o wile mme ho nahanoa hore lephaka la hae le qhaqhiloe.
+4257,Maternal and Child Health,My child was bitten by a dog and needs a rabies injection.,Ngoana oa ka o lomiloe ke ntja mme o hloka ente ea rabies.
+4258,Maternal and Child Health,My child has been having night sweats and weight loss.,Ngoana oa ka o ntse a tsoa molapo bosiu le ho lahleheloa ke boima.
+4259,Maternal and Child Health,I would like advice on feeding my six-month-old baby.,Ke rata keletso ea ho fepa ngoana oa ka oa likhoeli tse tšeletseng.
+4260,Maternal and Child Health,I have started introducing solid foods to my baby.,Ke qalile ho kenya lijo tse thata ho ngoana oa ka.
+4261,Maternal and Child Health,I was told to start with soft porridge and mashed vegetables.,Ke boletsoe ho qala ka puthu e boleta le merogo e phatloselitsoeng.
+4262,Maternal and Child Health,I was advised to introduce one new food at a time.,Ke keletsoeng ho kenya lijo tse ncha e le ngoe ka nako.
+4263,Maternal and Child Health,I was told to avoid adding salt or sugar to my baby's food.,Ke boletsoe ho hana ho eketsa letsoai kapa tsoekere lijong tsa ngoana oa ka.
+4264,Maternal and Child Health,I was told to give my baby a variety of foods every day.,Ke boletsoe ho fa ngoana oa ka mefuta e fapaneng ea lijo letsatsi le leng le le leng.
+4265,Maternal and Child Health,I was advised to continue breastfeeding alongside solid foods.,Ke keletsoeng ho tsoela pele ho anyesa hammoho le lijo tse thata.
+4266,Maternal and Child Health,I was told to give my baby small frequent meals.,Ke boletsoe ho fa ngoana oa ka lijo tse nyenyane hangata.
+4267,Maternal and Child Health,I was told to give my baby foods rich in iron.,Ke boletsoe ho fa ngoana oa ka lijo tse nang le tšepe e ngata.
+4268,Maternal and Child Health,"I was advised to give my baby eggs, meat, and legumes.","Ke keletsoeng ho fa ngoana oa ka mae, nama, le linaoa."
+4269,Maternal and Child Health,I was told to give my baby fruits and vegetables every day.,Ke boletsoe ho fa ngoana oa ka lienyane le merogo letsatsi le leng le le leng.
+4270,Maternal and Child Health,I was advised to give my baby full-fat dairy products.,Ke keletsoeng ho fa ngoana oa ka lihlahisoa tsa lebese tse nang le mafura ka botlalo.
+4271,Maternal and Child Health,I was told to give my baby clean safe drinking water.,Ke boletsoe ho fa ngoana oa ka metsi a hloekileng a bolokehileng a ho noa.
+4272,Maternal and Child Health,I was told to wash my hands before preparing my baby's food.,Ke boletsoe ho hlatsoa matsoho pele ho lokisa lijo tsa ngoana oa ka.
+4273,Maternal and Child Health,I was advised to use clean utensils when feeding my baby.,Ke keletsoeng ho sebelisa lisebelisoa tse hloekileng ha ke fepa ngoana oa ka.
+4274,Maternal and Child Health,I was told to store my baby's food safely to prevent contamination.,Ke boletsoe ho boloka lijo tsa ngoana oa ka ka polokeho ho thibela tšoaetso.
+4275,Maternal and Child Health,I was told not to give my baby honey before one year of age.,Ke boletsoe ho se fe ngoana oa ka honi pele a fihla selomong se le seng.
+4276,Maternal and Child Health,I was told not to give my baby cow's milk before one year.,Ke boletsoe ho se fe ngoana oa ka lebese la khomo pele a fihla selomong se le seng.
+4277,Maternal and Child Health,I was told not to give my baby sugary drinks or juice.,Ke boletsoe ho se fe ngoana oa ka lino tse nang le tsoekere kapa juice.
+4278,Maternal and Child Health,I was told not to give my baby tea or coffee.,Ke boletsoe ho se fe ngoana oa ka tee kapa kofi.
+4279,Maternal and Child Health,I was told my baby should be walking by twelve months.,Ke boletsoe hore ngoana oa ka o lokela ho tsamaea likhoeling tse leshome le metso e mebeli.
+4280,Maternal and Child Health,My baby is fifteen months old and is not yet walking.,Ngoana oa ka o na le likhoeli tse leshome le metso e mehlano mme ha a tsamaee.
+4281,Maternal and Child Health,My baby is not yet talking at eighteen months.,Ngoana oa ka ha a bue likhoeling tse leshome le metso e robeli.
+4282,Maternal and Child Health,I was told my child's development is on track.,Ke boletsoe hore kholo ea ngoana oa ka e tsamaea hantle.
+4283,Maternal and Child Health,I was told my child has a developmental delay.,Ke boletsoe hore ngoana oa ka o na le ho lieha ha kholo.
+4284,Maternal and Child Health,I was referred to an early childhood development centre.,Ke romeloa sentheng sa kholo ea bana ba banyenyane.
+4285,Maternal and Child Health,I was told to stimulate my baby with play and talking.,Ke boletsoe ho khothaletsa ngoana oa ka ka ho bapala le ho bua.
+4286,Maternal and Child Health,I was advised to read to my child every day.,Ke keletsoeng ho balela ngoana oa ka letsatsi le leng le le leng.
+4287,Maternal and Child Health,I was told that play is important for my child's development.,Ke boletsoe hore ho bapala ho bohlokoa bakeng sa kholo ea ngoana oa ka.
+4288,Maternal and Child Health,I was advised to limit screen time for my young child.,Ke keletsoeng ho fokotsa nako ea ho sheba skrine bakeng sa ngoana oa ka ea monyenyane.
+4289,Maternal and Child Health,I was told to ensure my child gets enough sleep every night.,Ke boletsoe ho netefatsa hore ngoana oa ka o robala ka lekaneng bosiu bo bong le bo bong.
+4290,Maternal and Child Health,I was advised to create a safe play environment at home.,Ke keletsoeng ho theha sebaka sa ho bapala se bolokehileng lapeng.
+4291,Maternal and Child Health,I was told to take my child for regular dental check-ups.,Ke boletsoe ho nka ngoana oa ka litlhahlobong tsa meno tsa kamehla.
+4292,Maternal and Child Health,I was advised to start brushing my child's teeth early.,Ke keletsoeng ho qala ho hlatsoa meno a ngoana oa ka kapele.
+4293,Maternal and Child Health,I was told to avoid giving my child sugary snacks.,Ke boletsoe ho hana ho fa ngoana oa ka lijo tsa tsoekere.
+4294,Maternal and Child Health,I was told to protect my child from the sun.,Ke boletsoe ho sireletsa ngoana oa ka ho letsatsi.
+4295,Maternal and Child Health,I was advised to use sunscreen on my child's skin.,Ke keletsoeng ho sebelisa sunscreen letlalong la ngoana oa ka.
+4296,Maternal and Child Health,I was told to ensure my child drinks clean water.,Ke boletsoe ho netefatsa hore ngoana oa ka o noa metsi a hloekileng.
+4297,Maternal and Child Health,I was advised to use a mosquito net for my child at night.,Ke keletsoeng ho sebelisa nete ea likhoasane bakeng sa ngoana oa ka bosiu.
+4298,Maternal and Child Health,I was told to keep my home clean to prevent illness.,Ke boletsoe ho boloka ntlo ea ka e hloekileng ho thibela bolwetse.
+4299,Maternal and Child Health,I was told to wash my child's hands before meals.,Ke boletsoe ho hlatsoa matsoho a ngoana oa ka pele ho lijo.
+4300,Maternal and Child Health,I was advised to teach my child good hygiene habits.,Ke keletsoeng ho ruta ngoana oa ka mekhoa e ntle ea bohloekileng.
+4301,Maternal and Child Health,I was told to keep my child's immunisations up to date.,Ke boletsoe ho boloka liente tsa ngoana oa ka li ntlafetse.
+4302,Maternal and Child Health,I was advised to bring my child for regular growth monitoring.,Ke keletsoeng ho tlisa ngoana oa ka bakeng sa ho hlahloba kholo ka mehla.
+4303,Maternal and Child Health,I was told that early detection of problems leads to better outcomes.,Ke boletsoe hore ho fumana mathata kapele ho lebisa liphetho tse ntle.
+4304,Maternal and Child Health,I was advised to seek medical care early when my child is sick.,Ke keletsoeng ho batla tlhokomelo ea bongaka kapele ha ngoana oa ka a kula.
+4305,Maternal and Child Health,I was told not to give my child traditional medicines without advice.,Ke boletsoe ho se fe ngoana oa ka meriana ea setso ntle le keletso.
+4306,Maternal and Child Health,I was advised to always consult the clinic before giving any medication.,Ke keletsoeng ho buisana le kliniki kamehla pele ho fa moriana ofe kafe.
+4307,Maternal and Child Health,I was told to keep all medications out of reach of children.,Ke boletsoe ho boloka meriana yohle hole le bana.
+4308,Maternal and Child Health,I was advised to childproof my home to prevent accidents.,Ke keletsoeng ho boloka ntlo ea ka e bolokehileng bakeng sa bana ho thibela likotsi.
+4309,Maternal and Child Health,I was told to never leave my young child unsupervised near water.,Ke boletsoe ho se ke ke lahla ngoana oa ka ea monyenyane a sa lebelloa haufi le metsi.
+4310,Maternal and Child Health,I was advised to use a car seat for my child when travelling.,Ke keletsoeng ho sebelisa setulo sa koloi bakeng sa ngoana oa ka ha ke tsamaea.
+4311,Maternal and Child Health,I was told to ensure my child wears a helmet when cycling.,Ke boletsoe ho netefatsa hore ngoana oa ka o apara helmet ha a palama baesekele.
+4312,Maternal and Child Health,I was advised to teach my child about road safety.,Ke keletsoeng ho ruta ngoana oa ka ka polokeho ea tsela.
+4313,Maternal and Child Health,I was told to protect my child from abuse and neglect.,Ke boletsoe ho sireletsa ngoana oa ka ho tlhekefetso le ho lahleloa.
+4314,Maternal and Child Health,I was advised to report any suspected child abuse to the authorities.,Ke keletsoeng ho bua ka tlhekefetso efe kafe ea ngoana e nahanehang ho ba ba nang le matla.
+4315,Maternal and Child Health,I was told about the child protection services available.,Ke boletsoe ka litšebeletso tsa tšireletso ea bana tse fumanehang.
+4316,Maternal and Child Health,I was advised to enrol my child in an early childhood development programme.,Ke keletsoeng ho ngolisa ngoana oa ka lenanenong la kholo ea bana ba banyenyane.
+4317,Maternal and Child Health,I was told that school readiness starts from birth.,Ke boletsoe hore boitokisetso ba sekolo bo qala ho tsetsoa.
+4318,Maternal and Child Health,I was advised to ensure my child is ready for school by age five.,Ke keletsoeng ho netefatsa hore ngoana oa ka o lokela sekolo ha a fihla lilomong tse hlano.
+4319,Maternal and Child Health,I was told to support my child's emotional and social development.,Ke boletsoe ho tshehetsa kholo ea maikutlo le ea sechaba ea ngoana oa ka.
+4320,Maternal and Child Health,I would like information about family planning options.,Ke rata tlhahisoleseling ka likhetho tsa ho rererela lelapa.
+4321,Maternal and Child Health,I would like to start using a contraceptive method.,Ke rata ho qala ho sebelisa mokhoa oa thibelo ea ho mitsa.
+4322,Maternal and Child Health,I want to prevent pregnancy for the next two years.,Ke rata ho thibela ho mitsa lilomong tse peli tse tlang.
+4323,Maternal and Child Health,I would like a long-term contraceptive method.,Ke rata mokhoa oa thibelo ea ho mitsa oa nako e telele.
+4324,Maternal and Child Health,I would like to discuss family planning with the nurse.,Ke rata ho buisana le mooki ka ho rererela lelapa.
+4325,Maternal and Child Health,I have been using the contraceptive pill for one year.,Ke ntse ke sebelisa pilisi ea thibelo ea ho mitsa selomong se le seng.
+4326,Maternal and Child Health,I would like to change my contraceptive method.,Ke rata ho fetola mokhoa oa ka oa thibelo ea ho mitsa.
+4327,Maternal and Child Health,I have been having side effects from my contraceptive.,Ke ntse ke na le litlamorao ho tsoa thibelong ea ho mitsa ea ka.
+4328,Maternal and Child Health,I would like to stop using contraception and try for a baby.,Ke rata ho emisa ho sebelisa thibelo ea ho mitsa mme ke leke ho ba le ngoana.
+4329,Maternal and Child Health,I have been trying to fall pregnant for six months without success.,Ke ntse ke leka ho mitsa likhoeling tse tšeletseng ntle le katleho.
+4330,Maternal and Child Health,I was told I may have fertility problems.,Ke boletsoe hore mohlomong ke na le mathata a ho ba le bana.
+4331,Maternal and Child Health,I was referred to a specialist for fertility treatment.,Ke romeloa ngakeng e khethehileng bakeng sa phekolo ea ho ba le bana.
+4332,Maternal and Child Health,I would like information about the contraceptive injection.,Ke rata tlhahisoleseling ka ente ea thibelo ea ho mitsa.
+4333,Maternal and Child Health,I received the contraceptive injection three months ago.,Ke amohele ente ea thibelo ea ho mitsa likhoeling tse tharo tse fetileng.
+4334,Maternal and Child Health,I would like to know when my next injection is due.,Ke rata ho tseba nako eo ente ea ka e latelang e lokelang ho fihloa.
+4335,Maternal and Child Health,I would like information about the contraceptive implant.,Ke rata tlhahisoleseling ka implant ea thibelo ea ho mitsa.
+4336,Maternal and Child Health,I had the contraceptive implant inserted six months ago.,Ke kentsoe implant ea thibelo ea ho mitsa likhoeling tse tšeletseng tse fetileng.
+4337,Maternal and Child Health,I would like to have my contraceptive implant removed.,Ke rata ho ntšoa implant ea thibelo ea ho mitsa ea ka.
+4338,Maternal and Child Health,I would like information about the intrauterine device.,Ke rata tlhahisoleseling ka sesebelisoa sa ka hare ho mphe.
+4339,Maternal and Child Health,I had an IUD inserted at the clinic last year.,Ke kentsoe IUD klinikeng selomong se fetileng.
+4340,Maternal and Child Health,I would like to have my IUD removed.,Ke rata ho ntšoa IUD ea ka.
+4341,Maternal and Child Health,I have been experiencing pain since my IUD was inserted.,Ke ntse ke ikutloa mahloko ho tloha ha IUD ea ka e kentsoa.
+4342,Maternal and Child Health,I would like information about the contraceptive patch.,Ke rata tlhahisoleseling ka patch ea thibelo ea ho mitsa.
+4343,Maternal and Child Health,I would like information about the contraceptive ring.,Ke rata tlhahisoleseling ka mothalo oa thibelo ea ho mitsa.
+4344,Maternal and Child Health,I would like information about emergency contraception.,Ke rata tlhahisoleseling ka thibelo ea ho mitsa ea tšohanyetso.
+4345,Maternal and Child Health,I had unprotected intercourse last night and need emergency contraception.,Ke ile ka ba le thobalano e sa sireletstoa bosiu bo fetileng mme ke hloka thibelo ea ho mitsa ea tšohanyetso.
+4346,Maternal and Child Health,I was told emergency contraception must be taken within seventy-two hours.,Ke boletsoe hore thibelo ea ho mitsa ea tšohanyetso e tlameha ho nkoa ka hare ho lihora tse mashome a supileng le metso e mebeli.
+4347,Maternal and Child Health,I would like information about male condoms.,Ke rata tlhahisoleseling ka li-condom tsa banna.
+4348,Maternal and Child Health,I would like information about female condoms.,Ke rata tlhahisoleseling ka li-condom tsa basali.
+4349,Maternal and Child Health,I was told to use condoms to prevent both pregnancy and HIV.,Ke boletsoe ho sebelisa li-condom ho thibela ho mitsa le HIV.
+4350,Maternal and Child Health,I would like information about permanent sterilisation.,Ke rata tlhahisoleseling ka ho emisa ho ba le bana ka ho sa khutleng.
+4351,Maternal and Child Health,I would like to be referred for a tubal ligation.,Ke rata ho romeloa bakeng sa ho tlama li-tube.
+4352,Maternal and Child Health,My partner would like information about a vasectomy.,Molekane oa ka o rata tlhahisoleseling ka vasectomy.
+4353,Maternal and Child Health,I was told sterilisation is a permanent procedure.,Ke boletsoe hore ho emisa ho ba le bana ke ts'ebetso ea ho sa khutleng.
+4354,Maternal and Child Health,I would like to know the failure rate of different contraceptives.,Ke rata ho tseba sekhahla sa ho hloleha ha mekhoa e fapaneng ea thibelo ea ho mitsa.
+4355,Maternal and Child Health,I was told no contraceptive method is one hundred percent effective.,Ke boletsoe hore ha ho mokhoa oa thibelo ea ho mitsa o sebetsang lekholong la lekholong.
+4356,Maternal and Child Health,I was told to use two methods of contraception for better protection.,Ke boletsoe ho sebelisa mekhoa e mebeli ea thibelo ea ho mitsa bakeng sa tšireletso e ntle.
+4357,Maternal and Child Health,I was told to use condoms even if I am on another contraceptive.,Ke boletsoe ho sebelisa li-condom le ha ke ntse ke sebelisa mokhoa o mong oa thibelo ea ho mitsa.
+4358,Maternal and Child Health,I was told that some medications can reduce the effectiveness of the pill.,Ke boletsoe hore meriana e meng e ka fokotsa bokgoni ba pilisi.
+4359,Maternal and Child Health,I was told that antibiotics can affect my contraceptive pill.,Ke boletsoe hore li-antibiotic li ka angoa pilisi ea thibelo ea ho mitsa ea ka.
+4360,Maternal and Child Health,I was told to use a backup method when I am on antibiotics.,Ke boletsoe ho sebelisa mokhoa oa tšireletso ha ke ntse ke nka li-antibiotic.
+4361,Maternal and Child Health,I was told that vomiting can reduce the effectiveness of the pill.,Ke boletsoe hore ho hlatsa ho ka fokotsa bokgoni ba pilisi.
+4362,Maternal and Child Health,I was told to take a missed pill as soon as I remember.,Ke boletsoe ho nka pilisi e lahlehileng hang hang ha ke hopola.
+4363,Maternal and Child Health,I was told that the pill does not protect against sexually transmitted infections.,Ke boletsoe hore pilisi ha e sireletse ho tšoaetso tse fetisanang ka thobalano.
+4364,Maternal and Child Health,I was told that condoms are the only method that prevents STIs.,Ke boletsoe hore li-condom ke mokhoa o le mong feela o thibelang li-STI.
+4365,Maternal and Child Health,I was advised to get tested for STIs before starting a new contraceptive.,Ke keletsoeng ho hlahlojoa bakeng sa li-STI pele ho qala mokhoa o mocha oa thibelo ea ho mitsa.
+4366,Maternal and Child Health,I was told that family planning is available free of charge at the clinic.,Ke boletsoe hore ho rererela lelapa ho fumaneha mahala klinikeng.
+4367,Maternal and Child Health,I was told that I have the right to choose my own contraceptive method.,Ke boletsoe hore ke na le tokelo ea ho khetha mokhoa oa ka oa thibelo ea ho mitsa.
+4368,Maternal and Child Health,I was told that my partner's consent is not required for family planning.,Ke boletsoe hore tumelo ea molekane oa ka ha e hlokahaleng bakeng sa ho rererela lelapa.
+4369,Maternal and Child Health,I was told that family planning information is confidential.,Ke boletsoe hore tlhahisoleseling ea ho rererela lelapa ke sephiri.
+4370,Maternal and Child Health,I was told that teenagers can also access family planning services.,Ke boletsoe hore bacha le bona ba ka fihlela litšebeletso tsa ho rererela lelapa.
+4371,Maternal and Child Health,I was told that family planning helps space pregnancies for better health.,Ke boletsoe hore ho rererela lelapa ho thusa ho arohanya likhutsana bakeng sa bophelo bo botle.
+4372,Maternal and Child Health,I was told that spacing pregnancies improves maternal and child health.,Ke boletsoe hore ho arohanya likhutsana ho ntlafatsa bophelo ba mme le ngoana.
+4373,Maternal and Child Health,I was told that having too many pregnancies too close together is risky.,Ke boletsoe hore ho ba le likhutsana tse ngata haholo tse haufi haholo li le kotsi.
+4374,Maternal and Child Health,I was told that family planning reduces maternal and infant mortality.,Ke boletsoe hore ho rererela lelapa ho fokotsa lefu la bomme le la bana ba banyenyane.
+4375,Maternal and Child Health,I was told about the benefits of waiting at least two years between pregnancies.,Ke boletsoe ka melemo ea ho ema bonyane lilomo tse peli lipakeng tsa likhutsana.
+4376,Maternal and Child Health,I was told that family planning supports women's empowerment.,Ke boletsoe hore ho rererela lelapa ho tshehetsa matla a basali.
+4377,Maternal and Child Health,I was told that men should also be involved in family planning decisions.,Ke boletsoe hore le banna ba lokela ho kenyeletsoa liqetong tsa ho rererela lelapa.
+4378,Maternal and Child Health,I was advised to discuss family planning with my partner.,Ke keletsoeng ho buisana le molekane oa ka ka ho rererela lelapa.
+4379,Maternal and Child Health,I was told that family planning is not only for women.,Ke boletsoe hore ho rererela lelapa ha se bakeng sa basali feela.
+4380,Maternal and Child Health,I was told that family planning services are available at all public clinics.,Ke boletsoe hore litšebeletso tsa ho rererela lelapa li fumaneha likiliniking tsohle tsa sechaba.
+4381,Maternal and Child Health,I was told to come back to the clinic if I experience any problems.,Ke boletsoe ho khutla klinikeng haeba ke ikutloa mathata afe kafe.
+4382,Maternal and Child Health,I was told to report any unusual bleeding or pain after starting contraception.,Ke boletsoe ho bua ka ho tsoa mali kapa mahloko afe kafe a sa tloaelehang ka mor'a ho qala thibelo ea ho mitsa.
+4383,Maternal and Child Health,I was told to do a pregnancy test if I miss my period while on contraception.,Ke boletsoe ho etsa tlhahlobo ea ho mitsa haeba ke lahlehetsoe ke nako ea khoeli ha ke ntse ke sebelisa thibelo ea ho mitsa.
+4384,Maternal and Child Health,I was told to come to the clinic immediately if I think I am pregnant while on an IUD.,Ke boletsoe ho tla klinikeng hang hang haeba ke nahana hore ke mitsa ha ke ntse ke na le IUD.
+4385,Maternal and Child Health,I was told that some contraceptives can cause irregular periods.,Ke boletsoe hore lithibelo tse ling tsa ho mitsa li ka baka linako tsa khoeli tse sa tloaelehang.
+4386,Maternal and Child Health,I was told that the injection can cause my periods to stop completely.,Ke boletsoe hore ente e ka baka hore linako tsa khoeli ea ka li eme ka botlalo.
+4387,Maternal and Child Health,I was told that my periods will return after stopping the injection.,Ke boletsoe hore linako tsa khoeli ea ka li tla khutla ka mor'a ho emisa ente.
+4388,Maternal and Child Health,I was told that it may take time to fall pregnant after stopping the injection.,Ke boletsoe hore ho ka nka nako ho mitsa ka mor'a ho emisa ente.
+4389,Maternal and Child Health,I was told that fertility returns quickly after stopping the pill.,Ke boletsoe hore bokgoni ba ho ba le bana bo khutla kapele ka mor'a ho emisa pilisi.
+4390,Maternal and Child Health,I was told that the implant can be removed at any time.,Ke boletsoe hore implant e ka ntšoa nako efe kafe.
+4391,Maternal and Child Health,I was told that fertility returns immediately after implant removal.,Ke boletsoe hore bokgoni ba ho ba le bana bo khutla hang hang ka mor'a ho ntšoa ha implant.
+4392,Maternal and Child Health,I was told that the IUD can remain in place for up to five years.,Ke boletsoe hore IUD e ka lula sebakeng sa yona ho fihlela lilomo tse hlano.
+4393,Maternal and Child Health,I was told that the hormonal IUD can also help with painful periods.,Ke boletsoe hore IUD ea li-hormone le yona e ka thusa ka linako tsa khoeli tse bohlokang.
+4394,Maternal and Child Health,I was told that the copper IUD does not contain hormones.,Ke boletsoe hore IUD ea copper ha e na li-hormone.
+4395,Maternal and Child Health,I was told that the copper IUD can also be used as emergency contraception.,Ke boletsoe hore IUD ea copper le yona e ka sebelisoa joalo ka thibelo ea ho mitsa ea tšohanyetso.
+4396,Maternal and Child Health,I was told that emergency contraception does not cause an abortion.,Ke boletsoe hore thibelo ea ho mitsa ea tšohanyetso ha e baki ho lahla ngoana.
+4397,Maternal and Child Health,I was told that emergency contraception prevents fertilisation.,Ke boletsoe hore thibelo ea ho mitsa ea tšohanyetso e thibela ho hlopha ha peo.
+4398,Maternal and Child Health,I was told to use regular contraception after taking emergency contraception.,Ke boletsoe ho sebelisa thibelo ea ho mitsa ea kamehla ka mor'a ho nka thibelo ea ho mitsa ea tšohanyetso.
+4399,Maternal and Child Health,I was told that family planning helps me plan for my future.,Ke boletsoe hore ho rererela lelapa ho nthusa ho rererela bokamoso ba ka.
+4400,Maternal and Child Health,I was told that family planning empowers me to decide the size of my family.,Ke boletsoe hore ho rererela lelapa ho mpha matla a ho etsa qeto ka boholo ba lelapa la ka.

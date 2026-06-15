@@ -1,0 +1,201 @@
+sentence_id,domain_category,english_text,sesotho_text
+3001,Symptoms and Complaints,I have difficulty breathing during physical activity.,Ke na le bothata ba ho hema nakong ea mesebetsi ea 'mele.
+3002,Symptoms and Complaints,I feel a rattling sensation in my chest when I breathe.,Ke ikutloa maikutlo a ho thothomela sefubeng ha ke hema.
+3003,Symptoms and Complaints,I have a cough that produces a lot of phlegm.,Ke na le ho kohoa ho hlahisang phlegm e ngata.
+3004,Symptoms and Complaints,I am coughing up pink frothy sputum.,Ke kohoa sputum e tšoeu-khubelu e nang le liporo.
+3005,Symptoms and Complaints,I have difficulty breathing and my lips are turning blue.,Ke na le bothata ba ho hema mme molomo oa ka o fetoha botala.
+3006,Symptoms and Complaints,I feel a tightness in my chest when I breathe in.,Ke ikutloa ho tšoaroa ha sefuba ha ke hema ka hare.
+3007,Symptoms and Complaints,I have a cough that has been getting worse over time.,Ke na le ho kohoa ho ntse ho mpe nako e ntse e tsamaea.
+3008,Symptoms and Complaints,I am coughing up blood-stained mucus.,Ke kohoa mucus e nang le mabala a mali.
+3009,Symptoms and Complaints,I have difficulty breathing even when sitting still.,Ke na le bothata ba ho hema le ha ke lula ke sa tsamaee.
+3010,Symptoms and Complaints,I feel a sharp pain in my chest when I cough.,Ke ikutloa mahloko a bohale sefubeng ha ke kohoa.
+3011,Symptoms and Complaints,I have a cough that is triggered by cold air.,Ke na le ho kohoa ho qalisitsoeng ke moea o batang.
+3012,Symptoms and Complaints,I am coughing up clear watery phlegm.,Ke kohoa phlegm e hloekileng e nang le metsi.
+3013,Symptoms and Complaints,I have difficulty breathing and feel very anxious.,Ke na le bothata ba ho hema mme ke ikutloa ke tšohile haholo.
+3014,Symptoms and Complaints,I feel a heaviness in my chest when I breathe.,Ke ikutloa boima sefubeng ha ke hema.
+3015,Symptoms and Complaints,I have a cough that is triggered by exercise.,Ke na le ho kohoa ho qalisitsoeng ke ho itlama.
+3016,Symptoms and Complaints,I am coughing up thick white mucus.,Ke kohoa mucus e teteaneng e tšoeu.
+3017,Symptoms and Complaints,I have difficulty breathing and my chest is heaving.,Ke na le bothata ba ho hema mme sefuba sa ka se phahama.
+3018,Symptoms and Complaints,I feel a burning sensation in my airways when I breathe.,Ke ikutloa maikutlo a ho chesa meeling ea moea ha ke hema.
+3019,Symptoms and Complaints,I have a cough that is triggered by dust.,Ke na le ho kohoa ho qalisitsoeng ke lerole.
+3020,Symptoms and Complaints,I am coughing up dark brown mucus.,Ke kohoa mucus e lefifi e tšoeu-bosoeu.
+3021,Symptoms and Complaints,I have difficulty breathing and my neck veins are bulging.,Ke na le bothata ba ho hema mme mesela ea molala oa ka e phahama.
+3022,Symptoms and Complaints,I feel a pressure in my chest when I breathe.,Ke ikutloa khatello sefubeng ha ke hema.
+3023,Symptoms and Complaints,I have a cough that is triggered by smoke.,Ke na le ho kohoa ho qalisitsoeng ke mousi.
+3024,Symptoms and Complaints,I am coughing up rusty-coloured sputum.,Ke kohoa sputum e mmala oa tšepe e ruruhetse.
+3025,Symptoms and Complaints,I have difficulty breathing and my ankles are swollen.,Ke na le bothata ba ho hema mme li-ankele tsa ka li ruruhetse.
+3026,Symptoms and Complaints,I feel a squeezing sensation in my chest when I breathe.,Ke ikutloa maikutlo a ho kama sefubeng ha ke hema.
+3027,Symptoms and Complaints,I have a cough that is triggered by strong smells.,Ke na le ho kohoa ho qalisitsoeng ke limonko tse matla.
+3028,Symptoms and Complaints,I am coughing up green mucus with blood streaks.,Ke kohoa mucus e tala e nang le mela ea mali.
+3029,Symptoms and Complaints,I have difficulty breathing and feel very tired.,Ke na le bothata ba ho hema mme ke ikutloa ke lapetse haholo.
+3030,Symptoms and Complaints,I feel a stabbing pain in my chest when I breathe deeply.,Ke ikutloa mahloko a ho hlaba sefubeng ha ke hema ka botebo.
+3031,Symptoms and Complaints,I have a cough that is triggered by lying down.,Ke na le ho kohoa ho qalisitsoeng ke ho robala.
+3032,Symptoms and Complaints,I am coughing up thick yellow mucus.,Ke kohoa mucus e teteaneng e tšoeu-tala.
+3033,Symptoms and Complaints,I have difficulty breathing and feel very dizzy.,Ke na le bothata ba ho hema mme ke ikutloa ke potoloha haholo.
+3034,Symptoms and Complaints,I feel a tightness in my throat when I breathe.,Ke ikutloa ho tšoaroa ha molala ha ke hema.
+3035,Symptoms and Complaints,I have a cough that is triggered by eating.,Ke na le ho kohoa ho qalisitsoeng ke ho ja.
+3036,Symptoms and Complaints,I am coughing up white frothy sputum.,Ke kohoa sputum e tšoeu e nang le liporo.
+3037,Symptoms and Complaints,I have difficulty breathing and feel very weak.,Ke na le bothata ba ho hema mme ke ikutloa ke fokotsehela haholo.
+3038,Symptoms and Complaints,I feel a burning sensation in my chest when I breathe.,Ke ikutloa maikutlo a ho chesa sefubeng ha ke hema.
+3039,Symptoms and Complaints,I have a cough that is triggered by talking.,Ke na le ho kohoa ho qalisitsoeng ke ho bua.
+3040,Symptoms and Complaints,I am coughing up grey mucus.,Ke kohoa mucus e 'mala oa lesokoana.
+3041,Symptoms and Complaints,I have difficulty breathing and feel very confused.,Ke na le bothata ba ho hema mme ke ikutloa ke tsieleha haholo.
+3042,Symptoms and Complaints,I feel a heaviness in my throat when I breathe.,Ke ikutloa boima molaleng ha ke hema.
+3043,Symptoms and Complaints,I have a cough that is triggered by laughing.,Ke na le ho kohoa ho qalisitsoeng ke ho seka.
+3044,Symptoms and Complaints,I am coughing up black mucus.,Ke kohoa mucus e 'mala oa boso.
+3045,Symptoms and Complaints,I have difficulty breathing and feel very pale.,Ke na le bothata ba ho hema mme ke ikutloa ke pheela haholo.
+3046,Symptoms and Complaints,I feel a pressure in my throat when I breathe.,Ke ikutloa khatello molaleng ha ke hema.
+3047,Symptoms and Complaints,I have a cough that is triggered by crying.,Ke na le ho kohoa ho qalisitsoeng ke ho lla.
+3048,Symptoms and Complaints,I am coughing up blood clots.,Ke kohoa li-clot tsa mali.
+3049,Symptoms and Complaints,I have difficulty breathing and feel very hot.,Ke na le bothata ba ho hema mme ke ikutloa ke chesa haholo.
+3050,Symptoms and Complaints,I feel a squeezing sensation in my throat when I breathe.,Ke ikutloa maikutlo a ho kama molaleng ha ke hema.
+3051,Symptoms and Complaints,I have a cough that is triggered by stress.,Ke na le ho kohoa ho qalisitsoeng ke khatello ea maikutlo.
+3052,Symptoms and Complaints,I am coughing up thick mucus with a bad smell.,Ke kohoa mucus e teteaneng e nang le monko o mobe.
+3053,Symptoms and Complaints,I have difficulty breathing and feel very cold.,Ke na le bothata ba ho hema mme ke ikutloa ke batile haholo.
+3054,Symptoms and Complaints,I feel a stabbing pain in my throat when I breathe.,Ke ikutloa mahloko a ho hlaba molaleng ha ke hema.
+3055,Symptoms and Complaints,I have a cough that is triggered by changes in weather.,Ke na le ho kohoa ho qalisitsoeng ke liphetoho tsa boemo ba leholimo.
+3056,Symptoms and Complaints,I am coughing up mucus with a sweet smell.,Ke kohoa mucus e nang le monko o monate.
+3057,Symptoms and Complaints,I have difficulty breathing and feel very nauseous.,Ke na le bothata ba ho hema mme ke ikutloa ke nyakeloa haholo.
+3058,Symptoms and Complaints,I feel a tightness in my lungs when I breathe.,Ke ikutloa ho tšoaroa ha matšoafo ha ke hema.
+3059,Symptoms and Complaints,I have a cough that is triggered by humidity.,Ke na le ho kohoa ho qalisitsoeng ke boemo ba metsi moeeng.
+3060,Symptoms and Complaints,I am coughing up mucus with a salty taste.,Ke kohoa mucus e nang le tatso ea letsoai.
+3061,Symptoms and Complaints,I have difficulty breathing and feel very anxious and scared.,Ke na le bothata ba ho hema mme ke ikutloa ke tšohile le ho tšaba haholo.
+3062,Symptoms and Complaints,I feel a heaviness in my lungs when I breathe.,Ke ikutloa boima matšoafong ha ke hema.
+3063,Symptoms and Complaints,I have a cough that is triggered by dry air.,Ke na le ho kohoa ho qalisitsoeng ke moea o omileng.
+3064,Symptoms and Complaints,I am coughing up mucus with a bitter taste.,Ke kohoa mucus e nang le tatso e bohloela.
+3065,Symptoms and Complaints,I have difficulty breathing and my breathing is very noisy.,Ke na le bothata ba ho hema mme ho hema ha ka ho na le modumo o moholo.
+3066,Symptoms and Complaints,I feel a pressure in my lungs when I breathe.,Ke ikutloa khatello matšoafong ha ke hema.
+3067,Symptoms and Complaints,I have a cough that is triggered by pollen.,Ke na le ho kohoa ho qalisitsoeng ke pollen.
+3068,Symptoms and Complaints,I am coughing up mucus with a metallic taste.,Ke kohoa mucus e nang le tatso ea tšepe.
+3069,Symptoms and Complaints,I have difficulty breathing and my breathing is very shallow.,Ke na le bothata ba ho hema mme ho hema ha ka ho fokolang haholo.
+3070,Symptoms and Complaints,I feel a squeezing sensation in my lungs when I breathe.,Ke ikutloa maikutlo a ho kama matšoafong ha ke hema.
+3071,Symptoms and Complaints,I have a cough that is triggered by animal fur.,Ke na le ho kohoa ho qalisitsoeng ke moriri oa liphoofolo.
+3072,Symptoms and Complaints,I am coughing up mucus with a foul taste.,Ke kohoa mucus e nang le tatso e mobe.
+3073,Symptoms and Complaints,I have difficulty breathing and my breathing is very rapid.,Ke na le bothata ba ho hema mme ho hema ha ka ho potlakile haholo.
+3074,Symptoms and Complaints,I feel a stabbing pain in my lungs when I breathe.,Ke ikutloa mahloko a ho hlaba matšoafong ha ke hema.
+3075,Symptoms and Complaints,I have a cough that is triggered by mould.,Ke na le ho kohoa ho qalisitsoeng ke mould.
+3076,Symptoms and Complaints,I am coughing up mucus with a sweet and sour taste.,Ke kohoa mucus e nang le tatso e monate le e bohloela.
+3077,Symptoms and Complaints,I have difficulty breathing and my breathing is very laboured.,Ke na le bothata ba ho hema mme ho hema ha ka ho thata haholo.
+3078,Symptoms and Complaints,I feel a tightness in my diaphragm when I breathe.,Ke ikutloa ho tšoaroa ha diaphragm ha ke hema.
+3079,Symptoms and Complaints,I have a cough that is triggered by chemicals.,Ke na le ho kohoa ho qalisitsoeng ke likhemikale.
+3080,Symptoms and Complaints,I am coughing up mucus with a rotten smell.,Ke kohoa mucus e nang le monko oa ho bola.
+3081,Symptoms and Complaints,I have difficulty breathing and my breathing is very irregular.,Ke na le bothata ba ho hema mme ho hema ha ka ha tloaelehang haholo.
+3082,Symptoms and Complaints,I feel a heaviness in my diaphragm when I breathe.,Ke ikutloa boima diaphragmeng ha ke hema.
+3083,Symptoms and Complaints,I have a cough that is triggered by perfume.,Ke na le ho kohoa ho qalisitsoeng ke phahlo.
+3084,Symptoms and Complaints,I am coughing up mucus with a fishy smell.,Ke kohoa mucus e nang le monko oa tlhapi.
+3085,Symptoms and Complaints,I have difficulty breathing and my breathing is very noisy at night.,Ke na le bothata ba ho hema mme ho hema ha ka ho na le modumo o moholo bosiu.
+3086,Symptoms and Complaints,I feel a pressure in my diaphragm when I breathe.,Ke ikutloa khatello diaphragmeng ha ke hema.
+3087,Symptoms and Complaints,I have a cough that is triggered by cleaning products.,Ke na le ho kohoa ho qalisitsoeng ke lihlahisoa tsa ho hlotsa.
+3088,Symptoms and Complaints,I am coughing up mucus with a musty smell.,Ke kohoa mucus e nang le monko oa ho bola ha nako e telele.
+3089,Symptoms and Complaints,I have had diarrhoea for three days and feel very weak.,Ke na le sehudo matsatsi a mararo mme ke ikutloa ke fokotsehela haholo.
+3090,Symptoms and Complaints,I have been vomiting everything I eat.,Ke ntse ke hlatsa ntho tsohle eo ke e jang.
+3091,Symptoms and Complaints,I have severe stomach cramps that come and go.,Ke na le ho tšoaroa ha mala ho matla ho tlang le ho tsamaea.
+3092,Symptoms and Complaints,I have not had a bowel movement for five days.,Ha ke ea ntlong ea thokomelo matsatsi a hlano.
+3093,Symptoms and Complaints,I have blood in my stool and I am very worried.,Ke na le mali manyelong a ka mme ke na le khathello e kholo.
+3094,Symptoms and Complaints,I have a burning pain in my stomach after eating.,Ke na le mahloko a ho chesa maleng ka mor'a ho ja.
+3095,Symptoms and Complaints,I feel very bloated and my stomach is distended.,Ke ikutloa ke tletse moea haholo mme mpa ea ka e phahame.
+3096,Symptoms and Complaints,I have been passing black tarry stools.,Ke ntse ke fetisa manyelo a boso a joalo ka tar.
+3097,Symptoms and Complaints,I have a sharp pain in my right side that is getting worse.,Ke na le mahloko a bohale lehlakoreng la ka la le letona a mpe.
+3098,Symptoms and Complaints,I feel very nauseous and cannot eat anything.,Ke ikutloa ke nyakeloa haholo mme ha ke khone ho ja letho.
+3099,Symptoms and Complaints,I have been having watery diarrhoea with mucus.,Ke ntse ke na le sehudo sa metsi le mucus.
+3100,Symptoms and Complaints,I have a pain in my upper abdomen that radiates to my back.,Ke na le mahloko mpeng ea ka e holimo a isisoang mokokotlong oa ka.
+3101,Symptoms and Complaints,I feel very full after eating only a small amount.,Ke ikutloa ke khotsofetse haholo ka mor'a ho ja hanyane feela.
+3102,Symptoms and Complaints,I have been passing pale-coloured stools.,Ke ntse ke fetisa manyelo a mmala o pheelang.
+3103,Symptoms and Complaints,I have a cramping pain in my lower abdomen.,Ke na le mahloko a ho tšoaroa mpeng ea ka e tlase.
+3104,Symptoms and Complaints,I feel very sick after eating fatty foods.,Ke ikutloa ke kula haholo ka mor'a ho ja lijo tsa mafura.
+3105,Symptoms and Complaints,I have been having frequent loose stools.,Ke ntse ke na le manyelo a fokolang hangata.
+3106,Symptoms and Complaints,I have a pain in my lower right abdomen that is constant.,Ke na le mahloko mpeng ea ka e tlase ea le letona a tsoelang pele.
+3107,Symptoms and Complaints,I feel very uncomfortable and my stomach is making noises.,Ke ikutloa ke sa ikutloe hantle haholo mme mpa ea ka e etsa medumo.
+3108,Symptoms and Complaints,I have been passing stools with a very bad smell.,Ke ntse ke fetisa manyelo a nang le monko o mobe haholo.
+3109,Symptoms and Complaints,I have a burning sensation in my oesophagus.,Ke na le maikutlo a ho chesa oesophaguseng oa ka.
+3110,Symptoms and Complaints,I feel very sick and my stomach is very tender.,Ke ikutloa ke kula haholo mme mpa ea ka e bohloko haholo.
+3111,Symptoms and Complaints,I have been having episodes of vomiting blood.,Ke ntse ke na le linako tsa ho hlatsa mali.
+3112,Symptoms and Complaints,I have a pain in my stomach that is worse when I press on it.,Ke na le mahloko maleng a mpe ha ke a kama.
+3113,Symptoms and Complaints,I feel very bloated and have a lot of gas.,Ke ikutloa ke tletse moea haholo mme ke na le moea o mongata.
+3114,Symptoms and Complaints,I have been passing stools that float on the water.,Ke ntse ke fetisa manyelo a phaphametseng metsin.
+3115,Symptoms and Complaints,I have a sharp pain in my left side of the abdomen.,Ke na le mahloko a bohale lehlakoreng la molema la mpa ea ka.
+3116,Symptoms and Complaints,I feel very sick and cannot keep any food down.,Ke ikutloa ke kula haholo mme ha ke khone ho boloka lijo ka hare.
+3117,Symptoms and Complaints,I have been having episodes of severe diarrhoea.,Ke ntse ke na le linako tsa sehudo se matla.
+3118,Symptoms and Complaints,I have a pain in my upper right abdomen after eating.,Ke na le mahloko mpeng ea ka e holimo ea le letona ka mor'a ho ja.
+3119,Symptoms and Complaints,I feel very uncomfortable and my abdomen is rigid.,Ke ikutloa ke sa ikutloe hantle haholo mme mpa ea ka e thatafetse.
+3120,Symptoms and Complaints,I have been passing stools with blood and mucus.,Ke ntse ke fetisa manyelo a nang le mali le mucus.
+3121,Symptoms and Complaints,I have a burning pain in my lower abdomen.,Ke na le mahloko a ho chesa mpeng ea ka e tlase.
+3122,Symptoms and Complaints,I feel very sick and my abdomen is very swollen.,Ke ikutloa ke kula haholo mme mpa ea ka e ruruhetse haholo.
+3123,Symptoms and Complaints,I have been having episodes of vomiting bile.,Ke ntse ke na le linako tsa ho hlatsa bile.
+3124,Symptoms and Complaints,I have a pain in my stomach that wakes me up at night.,Ke na le mahloko maleng a ntsosang bosiu.
+3125,Symptoms and Complaints,I feel very bloated and my clothes feel tight.,Ke ikutloa ke tletse moea haholo mme liaparo tsa ka li ikutloa li tšoaroe.
+3126,Symptoms and Complaints,I have been passing stools that are very hard and dry.,Ke ntse ke fetisa manyelo a thata haholo le a omileng.
+3127,Symptoms and Complaints,I have a sharp pain in my abdomen that is constant.,Ke na le mahloko a bohale mpeng ea ka a tsoelang pele.
+3128,Symptoms and Complaints,I feel very sick and cannot drink any fluids.,Ke ikutloa ke kula haholo mme ha ke khone ho noa metsi afe kafe.
+3129,Symptoms and Complaints,I have been having episodes of severe stomach cramps.,Ke ntse ke na le linako tsa ho tšoaroa ha mala ho matla.
+3130,Symptoms and Complaints,I have a pain in my lower left abdomen that radiates to my back.,Ke na le mahloko mpeng ea ka e tlase ea molema a isisoang mokokotlong oa ka.
+3131,Symptoms and Complaints,I feel very uncomfortable and my stomach is very tender to touch.,Ke ikutloa ke sa ikutloe hantle haholo mme mpa ea ka e bohloko haholo ha e amioa.
+3132,Symptoms and Complaints,I have been passing stools with a lot of mucus.,Ke ntse ke fetisa manyelo a nang le mucus e ngata.
+3133,Symptoms and Complaints,I have a burning sensation in my stomach that is getting worse.,Ke na le maikutlo a ho chesa maleng a mpe.
+3134,Symptoms and Complaints,I feel very sick and my abdomen is very painful.,Ke ikutloa ke kula haholo mme mpa ea ka e bohloko haholo.
+3135,Symptoms and Complaints,I have been having episodes of explosive diarrhoea.,Ke ntse ke na le linako tsa sehudo se theohelang ka potlako.
+3136,Symptoms and Complaints,I have a pain in my upper abdomen that is constant.,Ke na le mahloko mpeng ea ka e holimo a tsoelang pele.
+3137,Symptoms and Complaints,I feel very bloated and have difficulty passing wind.,Ke ikutloa ke tletse moea haholo mme ke na le bothata ba ho fetisa moea.
+3138,Symptoms and Complaints,I have been passing stools that are very loose and watery.,Ke ntse ke fetisa manyelo a fokolang haholo le a metsi.
+3139,Symptoms and Complaints,I have a sharp pain in my lower abdomen that comes in waves.,Ke na le mahloko a bohale mpeng ea ka e tlase a tlang ka maqhubu.
+3140,Symptoms and Complaints,I feel very sick and my stomach is making loud noises.,Ke ikutloa ke kula haholo mme mpa ea ka e etsa medumo e meholo.
+3141,Symptoms and Complaints,I have been having episodes of nausea and vomiting.,Ke ntse ke na le linako tsa ho nyakeloa le ho hlatsa.
+3142,Symptoms and Complaints,I have a pain in my abdomen that is worse after eating.,Ke na le mahloko mpeng ea ka a mpe ka mor'a ho ja.
+3143,Symptoms and Complaints,I feel very uncomfortable and my abdomen is very distended.,Ke ikutloa ke sa ikutloe hantle haholo mme mpa ea ka e phahame haholo.
+3144,Symptoms and Complaints,I have been passing stools with a very strong smell.,Ke ntse ke fetisa manyelo a nang le monko o matla haholo.
+3145,Symptoms and Complaints,I have a burning pain in my upper abdomen.,Ke na le mahloko a ho chesa mpeng ea ka e holimo.
+3146,Symptoms and Complaints,I feel very sick and cannot tolerate any food.,Ke ikutloa ke kula haholo mme ha ke khone ho mamella lijo tse ling tsohle.
+3147,Symptoms and Complaints,I have been having episodes of severe abdominal pain.,Ke ntse ke na le linako tsa mahloko a matla a mpa.
+3148,Symptoms and Complaints,I have a pain in my lower abdomen that is worse when I press on it.,Ke na le mahloko mpeng ea ka e tlase a mpe ha ke e kama.
+3149,Symptoms and Complaints,I feel very bloated and my abdomen is very hard.,Ke ikutloa ke tletse moea haholo mme mpa ea ka e thata haholo.
+3150,Symptoms and Complaints,I have been passing stools that are very dark.,Ke ntse ke fetisa manyelo a lefifi haholo.
+3151,Symptoms and Complaints,I have a sharp pain in my upper right abdomen.,Ke na le mahloko a bohale mpeng ea ka e holimo ea le letona.
+3152,Symptoms and Complaints,I feel very sick and my abdomen is very tight.,Ke ikutloa ke kula haholo mme mpa ea ka e tšoaroe haholo.
+3153,Symptoms and Complaints,I have been having episodes of vomiting after every meal.,Ke ntse ke na le linako tsa ho hlatsa ka mor'a lijo tsohle.
+3154,Symptoms and Complaints,I have a pain in my abdomen that is worse at night.,Ke na le mahloko mpeng ea ka a mpe bosiu.
+3155,Symptoms and Complaints,I feel very uncomfortable and my abdomen is very sensitive.,Ke ikutloa ke sa ikutloe hantle haholo mme mpa ea ka e amehela haholo.
+3156,Symptoms and Complaints,I have been passing stools with blood.,Ke ntse ke fetisa manyelo a nang le mali.
+3157,Symptoms and Complaints,I have a burning sensation in my lower abdomen that is constant.,Ke na le maikutlo a ho chesa mpeng ea ka e tlase a tsoelang pele.
+3158,Symptoms and Complaints,I feel very sick and my abdomen is very sore.,Ke ikutloa ke kula haholo mme mpa ea ka e bohloko haholo.
+3159,Symptoms and Complaints,I have been having episodes of diarrhoea and vomiting together.,Ke ntse ke na le linako tsa sehudo le ho hlatsa hammoho.
+3160,Symptoms and Complaints,I have a pain in my upper left abdomen that radiates to my shoulder.,Ke na le mahloko mpeng ea ka e holimo ea molema a isisoang hetleng ea ka.
+3161,Symptoms and Complaints,I feel very bloated and have a lot of discomfort.,Ke ikutloa ke tletse moea haholo mme ke na le ho se ikutloe hantle ho hoholo.
+3162,Symptoms and Complaints,I have been passing stools that are very pale.,Ke ntse ke fetisa manyelo a pheelang haholo.
+3163,Symptoms and Complaints,I have a sharp pain in my lower right abdomen that is constant.,Ke na le mahloko a bohale mpeng ea ka e tlase ea le letona a tsoelang pele.
+3164,Symptoms and Complaints,I feel very sick and cannot pass any stool.,Ke ikutloa ke kula haholo mme ha ke khone ho fetisa manyeloa afe kafe.
+3165,Symptoms and Complaints,I have been having episodes of severe nausea.,Ke ntse ke na le linako tsa ho nyakeloa ho matla.
+3166,Symptoms and Complaints,I have a pain in my abdomen that is worse when I move.,Ke na le mahloko mpeng ea ka a mpe ha ke tsamaea.
+3167,Symptoms and Complaints,I feel very uncomfortable and my abdomen is very bloated.,Ke ikutloa ke sa ikutloe hantle haholo mme mpa ea ka e tletse moea haholo.
+3168,Symptoms and Complaints,I have been passing stools that are very greasy.,Ke ntse ke fetisa manyelo a nang le mafura haholo.
+3169,Symptoms and Complaints,I have a burning pain in my right side of the abdomen.,Ke na le mahloko a ho chesa lehlakoreng la le letona la mpa ea ka.
+3170,Symptoms and Complaints,I feel very sick and my abdomen is very inflamed.,Ke ikutloa ke kula haholo mme mpa ea ka e ruruhetse haholo.
+3171,Symptoms and Complaints,I have been having episodes of vomiting with blood.,Ke ntse ke na le linako tsa ho hlatsa le mali.
+3172,Symptoms and Complaints,I have a pain in my lower abdomen that is constant and severe.,Ke na le mahloko mpeng ea ka e tlase a tsoelang pele le a matla.
+3173,Symptoms and Complaints,I feel very bloated and my abdomen is very tender.,Ke ikutloa ke tletse moea haholo mme mpa ea ka e bohloko haholo.
+3174,Symptoms and Complaints,I have been passing stools with a lot of blood.,Ke ntse ke fetisa manyelo a nang le mali a mangata.
+3175,Symptoms and Complaints,I have a sharp pain in my upper left abdomen.,Ke na le mahloko a bohale mpeng ea ka e holimo ea molema.
+3176,Symptoms and Complaints,I feel very sick and my abdomen is very hard and rigid.,Ke ikutloa ke kula haholo mme mpa ea ka e thata haholo le ho thatafala.
+3177,Symptoms and Complaints,I have been having episodes of severe vomiting.,Ke ntse ke na le linako tsa ho hlatsa ho matla.
+3178,Symptoms and Complaints,I have a pain in my abdomen that is worse when I breathe.,Ke na le mahloko mpeng ea ka a mpe ha ke hema.
+3179,Symptoms and Complaints,I feel very uncomfortable and my abdomen is very swollen.,Ke ikutloa ke sa ikutloe hantle haholo mme mpa ea ka e ruruhetse haholo.
+3180,Symptoms and Complaints,I have been passing stools that are very thin.,Ke ntse ke fetisa manyelo a petšo haholo.
+3181,Symptoms and Complaints,I have a burning sensation in my upper abdomen that is constant.,Ke na le maikutlo a ho chesa mpeng ea ka e holimo a tsoelang pele.
+3182,Symptoms and Complaints,I feel very sick and my abdomen is very distended.,Ke ikutloa ke kula haholo mme mpa ea ka e phahame haholo.
+3183,Symptoms and Complaints,I have been having episodes of diarrhoea with blood.,Ke ntse ke na le linako tsa sehudo le mali.
+3184,Symptoms and Complaints,I have a pain in my lower right abdomen that radiates to my groin.,Ke na le mahloko mpeng ea ka e tlase ea le letona a isisoang groineng ea ka.
+3185,Symptoms and Complaints,I feel very bloated and my abdomen is very uncomfortable.,Ke ikutloa ke tletse moea haholo mme mpa ea ka ha e ikutloe hantle haholo.
+3186,Symptoms and Complaints,I have been passing stools that are very soft and mushy.,Ke ntse ke fetisa manyelo a boleta haholo le a nyametseng.
+3187,Symptoms and Complaints,I have a sharp pain in my right side that radiates to my back.,Ke na le mahloko a bohale lehlakoreng la ka la le letona a isisoang mokokotlong oa ka.
+3188,Symptoms and Complaints,I feel very sick and my abdomen is very painful to touch.,Ke ikutloa ke kula haholo mme mpa ea ka e bohloko haholo ha e amioa.
+3189,Symptoms and Complaints,I have been having severe headaches every day.,Ke ntse ke na le mahloko a matla a hlooho letsatsi le leng le le leng.
+3190,Symptoms and Complaints,I have numbness and tingling in my hands and feet.,Ke na le ho fofa le ho hlohlona matsoho le maoto a ka.
+3191,Symptoms and Complaints,I have been having episodes of dizziness and loss of balance.,Ke ntse ke na le linako tsa ho potoloha le ho lahleheloa ke tekanyo.
+3192,Symptoms and Complaints,I have difficulty remembering things and feel confused.,Ke na le bothata ba ho hopola lintho mme ke ikutloa ke tsieleha.
+3193,Symptoms and Complaints,I have been having episodes of blurred vision.,Ke ntse ke na le linako tsa pono e fifetseng.
+3194,Symptoms and Complaints,I have weakness in my right arm and leg.,Ke na le ho fokotsehela lephakeng la ka la le letona le leotong.
+3195,Symptoms and Complaints,I have been having episodes of sudden severe headache.,Ke ntse ke na le linako tsa mahloko a matla a hlooho ka tšohanyetso.
+3196,Symptoms and Complaints,I have difficulty speaking and finding the right words.,Ke na le bothata ba ho bua le ho fumana mantsoe a nepahetseng.
+3197,Symptoms and Complaints,I have been having episodes of double vision.,Ke ntse ke na le linako tsa ho bona ka habeli.
+3198,Symptoms and Complaints,I have weakness in my left arm and leg.,Ke na le ho fokotsehela lephakeng la ka la molema le leotong.
+3199,Symptoms and Complaints,I have been having episodes of loss of consciousness.,Ke ntse ke na le linako tsa ho lahleheloa ke tsoebing.
+3200,Symptoms and Complaints,I have difficulty walking and keeping my balance.,Ke na le bothata ba ho tsamaea le ho boloka tekanyo ea ka.

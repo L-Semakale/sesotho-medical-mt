@@ -1,0 +1,201 @@
+sentence_id,domain_category,english_text,sesotho_text
+3401,Symptoms and Complaints,I have pain in my testicles.,Ke na le mahloko li-testicle tsa ka.
+3402,Symptoms and Complaints,I have irregular menstrual periods.,Ke na le linako tsa khoeli tse sa tloaelehang.
+3403,Symptoms and Complaints,I have very heavy menstrual bleeding.,Ke na le ho tsoa mali ha nako ea khoeli ho matla haholo.
+3404,Symptoms and Complaints,I have not had a menstrual period for three months.,Ha ke so be le nako ea khoeli ka likhoeli tse tharo.
+3405,Symptoms and Complaints,I have severe menstrual cramps.,Ke na le ho tšoaroa ha nako ea khoeli ho matla.
+3406,Symptoms and Complaints,I have spotting between my periods.,Ke na le ho tsoa mali hanyane lipakeng tsa linako tsa khoeli.
+3407,Symptoms and Complaints,I have a lump in my breast.,Ke na le sekhulo letsoeleng la ka.
+3408,Symptoms and Complaints,I have pain in my breast.,Ke na le mahloko letsoeleng la ka.
+3409,Symptoms and Complaints,I have a discharge from my nipple.,Ke na le seretse se tsoang ntlheng ea letsoele la ka.
+3410,Symptoms and Complaints,I have swelling in my groin.,Ke na le ho ruruha groineng ea ka.
+3411,Symptoms and Complaints,I have pain in my groin.,Ke na le mahloko groineng ea ka.
+3412,Symptoms and Complaints,I have a lump in my groin.,Ke na le sekhulo groineng ea ka.
+3413,Symptoms and Complaints,I have difficulty controlling my urine.,Ke na le bothata ba ho laola moroto oa ka.
+3414,Symptoms and Complaints,I have been leaking urine when I cough.,Ke ntse ke tsoa moroto ha ke kohoa.
+3415,Symptoms and Complaints,I have been leaking urine when I sneeze.,Ke ntse ke tsoa moroto ha ke thiimela.
+3416,Symptoms and Complaints,I have been leaking urine when I exercise.,Ke ntse ke tsoa moroto ha ke itlama.
+3417,Symptoms and Complaints,I have a feeling that my bladder is never empty.,Ke na le maikutlo a hore seboco sa ka ha se se ke sa se phela.
+3418,Symptoms and Complaints,I have a sudden urge to urinate that I cannot control.,Ke na le takatso ea ho morota ka tšohanyetso eo ke ke keng ka e laola.
+3419,Symptoms and Complaints,I have pain in my kidneys.,Ke na le mahloko lipitsong tsa ka.
+3420,Symptoms and Complaints,I have swelling in my ankles and feet.,Ke na le ho ruruha li-ankele le maotong a ka.
+3421,Symptoms and Complaints,I have frothy urine.,Ke na le moroto o nang le liporo.
+3422,Symptoms and Complaints,I have dark brown urine.,Ke na le moroto o lefifi o tšoeu-bosoeu.
+3423,Symptoms and Complaints,I have cloudy urine.,Ke na le moroto o fifetseng.
+3424,Symptoms and Complaints,I have urine that smells very strongly.,Ke na le moroto o nang le monko o matla haholo.
+3425,Symptoms and Complaints,I have very little urine output.,Ke na le moroto o nyenyane haholo.
+3426,Symptoms and Complaints,I have no urine output at all.,Ha ke na moroto ho hang.
+3427,Symptoms and Complaints,I have pain in my lower back that radiates to my groin.,Ke na le mahloko mokokotlong oa ka o tlase a isisoang groineng ea ka.
+3428,Symptoms and Complaints,I have a feeling of pressure in my pelvis.,Ke na le maikutlo a khatello pelviseng ea ka.
+3429,Symptoms and Complaints,I have pain in my ovaries.,Ke na le mahloko li-ovary tsa ka.
+3430,Symptoms and Complaints,I have a lump in my abdomen.,Ke na le sekhulo mpeng ea ka.
+3431,Symptoms and Complaints,I have pain in my uterus.,Ke na le mahloko mpheng oa ka.
+3432,Symptoms and Complaints,I have a feeling of something falling out of my vagina.,Ke na le maikutlo a ntho e theohang vagineng ea ka.
+3433,Symptoms and Complaints,I have pain in my prostate.,Ke na le mahloko prostateng ea ka.
+3434,Symptoms and Complaints,I have difficulty achieving an erection.,Ke na le bothata ba ho fihlela erection.
+3435,Symptoms and Complaints,I have pain during ejaculation.,Ke na le mahloko nakong ea ejaculation.
+3436,Symptoms and Complaints,I have blood in my semen.,Ke na le mali semeneng ea ka.
+3437,Symptoms and Complaints,I have a lump in my prostate.,Ke na le sekhulo prostateng ea ka.
+3438,Symptoms and Complaints,I have difficulty with fertility.,Ke na le bothata ba ho ba le bana.
+3439,Symptoms and Complaints,I have pain in my fallopian tubes.,Ke na le mahloko li-fallopian tube tsa ka.
+3440,Symptoms and Complaints,I have a discharge from my urethra.,Ke na le seretse se tsoang urethrang ea ka.
+3441,Symptoms and Complaints,I have pain in my bladder.,Ke na le mahloko sebocong sa ka.
+3442,Symptoms and Complaints,I have a feeling of fullness in my bladder.,Ke na le maikutlo a ho tlala sebocong sa ka.
+3443,Symptoms and Complaints,I have a feeling of burning in my bladder.,Ke na le maikutlo a ho chesa sebocong sa ka.
+3444,Symptoms and Complaints,I have a feeling of pressure in my bladder.,Ke na le maikutlo a khatello sebocong sa ka.
+3445,Symptoms and Complaints,I have a feeling of urgency to urinate.,Ke na le maikutlo a ho hloka ho morota ka potlako.
+3446,Symptoms and Complaints,I have a feeling of incomplete emptying of my bladder.,Ke na le maikutlo a hore seboco sa ka ha se phele ka botlalo.
+3447,Symptoms and Complaints,I have a feeling of pain in my urethra.,Ke na le maikutlo a mahloko urethrang ea ka.
+3448,Symptoms and Complaints,I have a feeling of burning in my urethra.,Ke na le maikutlo a ho chesa urethrang ea ka.
+3449,Symptoms and Complaints,I have a feeling of pressure in my urethra.,Ke na le maikutlo a khatello urethrang ea ka.
+3450,Symptoms and Complaints,I have a feeling of urgency in my urethra.,Ke na le maikutlo a ho hloka ka potlako urethrang ea ka.
+3451,Symptoms and Complaints,I have a feeling of incomplete emptying of my urethra.,Ke na le maikutlo a hore urethra ea ka ha e phele ka botlalo.
+3452,Symptoms and Complaints,I have a feeling of pain in my kidneys.,Ke na le maikutlo a mahloko lipitsong tsa ka.
+3453,Symptoms and Complaints,I have a feeling of burning in my kidneys.,Ke na le maikutlo a ho chesa lipitsong tsa ka.
+3454,Symptoms and Complaints,I have a feeling of pressure in my kidneys.,Ke na le maikutlo a khatello lipitsong tsa ka.
+3455,Symptoms and Complaints,I have a feeling of urgency related to my kidneys.,Ke na le maikutlo a ho hloka ka potlako a amanang le lipitso tsa ka.
+3456,Symptoms and Complaints,I have a feeling of incomplete emptying related to my kidneys.,Ke na le maikutlo a ho se phele ka botlalo a amanang le lipitso tsa ka.
+3457,Symptoms and Complaints,I have a feeling of pain in my ureters.,Ke na le maikutlo a mahloko li-ureter tsa ka.
+3458,Symptoms and Complaints,I have a feeling of burning in my ureters.,Ke na le maikutlo a ho chesa li-ureter tsa ka.
+3459,Symptoms and Complaints,I have a feeling of pressure in my ureters.,Ke na le maikutlo a khatello li-ureter tsa ka.
+3460,Symptoms and Complaints,I have a feeling of urgency related to my ureters.,Ke na le maikutlo a ho hloka ka potlako a amanang le li-ureter tsa ka.
+3461,Symptoms and Complaints,I have a feeling of incomplete emptying related to my ureters.,Ke na le maikutlo a ho se phele ka botlalo a amanang le li-ureter tsa ka.
+3462,Symptoms and Complaints,I have a feeling of pain in my renal pelvis.,Ke na le maikutlo a mahloko renal pelviseng ea ka.
+3463,Symptoms and Complaints,I have a feeling of burning in my renal pelvis.,Ke na le maikutlo a ho chesa renal pelviseng ea ka.
+3464,Symptoms and Complaints,I have a feeling of pressure in my renal pelvis.,Ke na le maikutlo a khatello renal pelviseng ea ka.
+3465,Symptoms and Complaints,I have a feeling of urgency related to my renal pelvis.,Ke na le maikutlo a ho hloka ka potlako a amanang le renal pelvis ea ka.
+3466,Symptoms and Complaints,I have a feeling of pain in my renal cortex.,Ke na le maikutlo a mahloko renal cortexeng ea ka.
+3467,Symptoms and Complaints,I have a feeling of burning in my renal cortex.,Ke na le maikutlo a ho chesa renal cortexeng ea ka.
+3468,Symptoms and Complaints,I have a feeling of pressure in my renal cortex.,Ke na le maikutlo a khatello renal cortexeng ea ka.
+3469,Symptoms and Complaints,I have a feeling of urgency related to my renal cortex.,Ke na le maikutlo a ho hloka ka potlako a amanang le renal cortex ea ka.
+3470,Symptoms and Complaints,I have a feeling of pain in my renal medulla.,Ke na le maikutlo a mahloko renal medulleng ea ka.
+3471,Symptoms and Complaints,I have a feeling of burning in my renal medulla.,Ke na le maikutlo a ho chesa renal medulleng ea ka.
+3472,Symptoms and Complaints,I have a feeling of pressure in my renal medulla.,Ke na le maikutlo a khatello renal medulleng ea ka.
+3473,Symptoms and Complaints,I have a feeling of urgency related to my renal medulla.,Ke na le maikutlo a ho hloka ka potlako a amanang le renal medulla ea ka.
+3474,Symptoms and Complaints,I have a feeling of pain in my renal capsule.,Ke na le maikutlo a mahloko renal capsuleng ea ka.
+3475,Symptoms and Complaints,I have a feeling of burning in my renal capsule.,Ke na le maikutlo a ho chesa renal capsuleng ea ka.
+3476,Symptoms and Complaints,I have a feeling of pressure in my renal capsule.,Ke na le maikutlo a khatello renal capsuleng ea ka.
+3477,Symptoms and Complaints,I have a feeling of urgency related to my renal capsule.,Ke na le maikutlo a ho hloka ka potlako a amanang le renal capsule ea ka.
+3478,Symptoms and Complaints,I have a feeling of pain in my renal hilum.,Ke na le maikutlo a mahloko renal hilumeng ea ka.
+3479,Symptoms and Complaints,I have a feeling of burning in my renal hilum.,Ke na le maikutlo a ho chesa renal hilumeng ea ka.
+3480,Symptoms and Complaints,I have a feeling of pressure in my renal hilum.,Ke na le maikutlo a khatello renal hilumeng ea ka.
+3481,Symptoms and Complaints,I have a feeling of urgency related to my renal hilum.,Ke na le maikutlo a ho hloka ka potlako a amanang le renal hilum ea ka.
+3482,Symptoms and Complaints,I have a feeling of pain in my renal sinus.,Ke na le maikutlo a mahloko renal sinuseng ea ka.
+3483,Symptoms and Complaints,I have a feeling of burning in my renal sinus.,Ke na le maikutlo a ho chesa renal sinuseng ea ka.
+3484,Symptoms and Complaints,I have a feeling of pressure in my renal sinus.,Ke na le maikutlo a khatello renal sinuseng ea ka.
+3485,Symptoms and Complaints,I have a feeling of urgency related to my renal sinus.,Ke na le maikutlo a ho hloka ka potlako a amanang le renal sinus ea ka.
+3486,Symptoms and Complaints,I have a feeling of pain in my renal calyx.,Ke na le maikutlo a mahloko renal calyxeng ea ka.
+3487,Symptoms and Complaints,I have a feeling of burning in my renal calyx.,Ke na le maikutlo a ho chesa renal calyxeng ea ka.
+3488,Symptoms and Complaints,I have a feeling of pressure in my renal calyx.,Ke na le maikutlo a khatello renal calyxeng ea ka.
+3489,Symptoms and Complaints,I have a feeling of urgency related to my renal calyx.,Ke na le maikutlo a ho hloka ka potlako a amanang le renal calyx ea ka.
+3490,Symptoms and Complaints,I have a persistent itch all over my body with no visible rash.,Ke na le ho hlohlona ho tsoelang pele 'meleng oa ka ka bophara ntle le ho ruruha ha letlalo ho bonahalang.
+3491,Symptoms and Complaints,I have swollen lymph nodes in my neck that are painful.,Ke na le li-lymph node tse ruruhetse molaleng oa ka tse bohlokang.
+3492,Symptoms and Complaints,I have swollen lymph nodes in my armpits that are painless.,Ke na le li-lymph node tse ruruhetse mahetleng a ka tse sa bohlokeng.
+3493,Symptoms and Complaints,I have swollen lymph nodes in my groin that are tender.,Ke na le li-lymph node tse ruruhetse groineng ea ka tse bohlokang ha li amioa.
+3494,Symptoms and Complaints,I have been losing hair in patches on my scalp.,Ke ntse ke lahleheloa ke moriri ka libaka hloohong ea ka.
+3495,Symptoms and Complaints,I have sores in my mouth that are very painful.,Ke na le maqeba molomong oa ka a bohlokang haholo.
+3496,Symptoms and Complaints,I have a lump on my neck that has been growing slowly.,Ke na le sekhulo molaleng oa ka se holang butle.
+3497,Symptoms and Complaints,I have been having episodes of sudden cold sweats.,Ke ntse ke na le linako tsa ho tsoa molapo o batang ka tšohanyetso.
+3498,Symptoms and Complaints,I have been experiencing sharp pain in my lower abdomen for two days.,Ke ntse ke ikutloa mahloko a bohale mpeng ea ka e tlase matsatsi a mabeli.
+3499,Symptoms and Complaints,I feel a burning sensation when I pass urine.,Ke ikutloa maikutlo a ho chesa ha ke morota.
+3500,Symptoms and Complaints,I have noticed blood in my stool for the past three days.,Ke hona mali manyelong a ka matsatsing a mararo a fetileng.
+3501,Appointments and Follow-Up,I would like to book an appointment with the doctor.,Ke rata ho buka appointment le ngaka.
+3502,Appointments and Follow-Up,I need to schedule a follow-up appointment for next week.,Ke hloka ho rerela appointment ea ho latela bekeng e tlang.
+3503,Appointments and Follow-Up,Can I make an appointment for tomorrow morning?,Na nka etsa appointment bakeng sa hoseng ha maobane?
+3504,Appointments and Follow-Up,I would like to see the doctor as soon as possible.,Ke rata ho bona ngaka kamoo ho khonehang ka potlako.
+3505,Appointments and Follow-Up,I need to book an appointment for a routine check-up.,Ke hloka ho buka appointment bakeng sa tlhahlobo ea kamehla.
+3506,Appointments and Follow-Up,Can I schedule an appointment for my child?,Na nka rerela appointment bakeng sa ngoana oa ka?
+3507,Appointments and Follow-Up,I would like to make an appointment for a blood test.,Ke rata ho etsa appointment bakeng sa tlhahlobo ea mali.
+3508,Appointments and Follow-Up,I need to book an appointment for a TB test.,Ke hloka ho buka appointment bakeng sa tlhahlobo ea TB.
+3509,Appointments and Follow-Up,Can I schedule an appointment for an HIV test?,Na nka rerela appointment bakeng sa tlhahlobo ea HIV?
+3510,Appointments and Follow-Up,I would like to book an appointment for a chest X-ray.,Ke rata ho buka appointment bakeng sa X-ray ea sefuba.
+3511,Appointments and Follow-Up,I need to make an appointment for a follow-up on my medication.,Ke hloka ho etsa appointment bakeng sa ho latela moriana oa ka.
+3512,Appointments and Follow-Up,Can I book an appointment for a prenatal check-up?,Na nka buka appointment bakeng sa tlhahlobo ea ho mitsa?
+3513,Appointments and Follow-Up,I would like to schedule an appointment for a vaccination.,Ke rata ho rerela appointment bakeng sa ente.
+3514,Appointments and Follow-Up,I need to book an appointment for a wound dressing.,Ke hloka ho buka appointment bakeng sa ho koahela ntoa.
+3515,Appointments and Follow-Up,Can I make an appointment for a mental health consultation?,Na nka etsa appointment bakeng sa keletso ea bophelo ba kelello?
+3516,Appointments and Follow-Up,I would like to see a specialist as soon as possible.,Ke rata ho bona ngaka e khethehileng kamoo ho khonehang ka potlako.
+3517,Appointments and Follow-Up,I need to book an appointment for a nutrition consultation.,Ke hloka ho buka appointment bakeng sa keletso ea phepo.
+3518,Appointments and Follow-Up,Can I schedule an appointment for a diabetes check?,Na nka rerela appointment bakeng sa tlhahlobo ea tsoekere?
+3519,Appointments and Follow-Up,I would like to make an appointment for a blood pressure check.,Ke rata ho etsa appointment bakeng sa ho lekola khatello ea mali.
+3520,Appointments and Follow-Up,I need to book an appointment for an eye examination.,Ke hloka ho buka appointment bakeng sa tlhahlobo ea mahlo.
+3521,Appointments and Follow-Up,Can I schedule an appointment for a dental check-up?,Na nka rerela appointment bakeng sa tlhahlobo ea meno?
+3522,Appointments and Follow-Up,I would like to book an appointment for a kidney function test.,Ke rata ho buka appointment bakeng sa tlhahlobo ea tšebetso ea lipitso.
+3523,Appointments and Follow-Up,I need to make an appointment for a liver function test.,Ke hloka ho etsa appointment bakeng sa tlhahlobo ea tšebetso ea sebete.
+3524,Appointments and Follow-Up,Can I book an appointment for a cholesterol test?,Na nka buka appointment bakeng sa tlhahlobo ea cholesterol?
+3525,Appointments and Follow-Up,I would like to schedule an appointment for a urine test.,Ke rata ho rerela appointment bakeng sa tlhahlobo ea moroto.
+3526,Appointments and Follow-Up,I need to book an appointment for a stool test.,Ke hloka ho buka appointment bakeng sa tlhahlobo ea manyelo.
+3527,Appointments and Follow-Up,Can I make an appointment for an ultrasound scan?,Na nka etsa appointment bakeng sa tlhahlobo ea ultrasound?
+3528,Appointments and Follow-Up,I would like to book an appointment for a CD4 count test.,Ke rata ho buka appointment bakeng sa tlhahlobo ea palo ea CD4.
+3529,Appointments and Follow-Up,I need to schedule an appointment for a viral load test.,Ke hloka ho rerela appointment bakeng sa tlhahlobo ea viral load.
+3530,Appointments and Follow-Up,Can I book an appointment for a sputum test?,Na nka buka appointment bakeng sa tlhahlobo ea sputum?
+3531,Appointments and Follow-Up,I would like to make an appointment for a skin test.,Ke rata ho etsa appointment bakeng sa tlhahlobo ea letlalo.
+3532,Appointments and Follow-Up,I need to book an appointment for a hearing test.,Ke hloka ho buka appointment bakeng sa tlhahlobo ea kutlo.
+3533,Appointments and Follow-Up,Can I schedule an appointment for a physical examination?,Na nka rerela appointment bakeng sa tlhahlobo ea 'mele?
+3534,Appointments and Follow-Up,I would like to book an appointment for a cervical cancer screening.,Ke rata ho buka appointment bakeng sa ho hlahloba kankere ea molala oa mpheng.
+3535,Appointments and Follow-Up,I need to make an appointment for a breast examination.,Ke hloka ho etsa appointment bakeng sa tlhahlobo ea letsoele.
+3536,Appointments and Follow-Up,Can I book an appointment for a prostate check?,Na nka buka appointment bakeng sa tlhahlobo ea prostate?
+3537,Appointments and Follow-Up,I would like to schedule an appointment for a growth monitoring visit.,Ke rata ho rerela appointment bakeng sa ketelo ea ho hlahloba kholo.
+3538,Appointments and Follow-Up,I need to book an appointment for a post-surgery follow-up.,Ke hloka ho buka appointment bakeng sa ho latela ka mor'a opereishene.
+3539,Appointments and Follow-Up,Can I make an appointment for a discharge review?,Na nka etsa appointment bakeng sa ho hlahloba ho tloha sepetleleng?
+3540,Appointments and Follow-Up,I would like to book an appointment for a second opinion.,Ke rata ho buka appointment bakeng sa maikutlo a bobeli.
+3541,Appointments and Follow-Up,I need to schedule an appointment for a nutrition assessment.,Ke hloka ho rerela appointment bakeng sa tlhahlobo ea phepo.
+3542,Appointments and Follow-Up,Can I book an appointment for a physiotherapy session?,Na nka buka appointment bakeng sa session ea physiotherapy?
+3543,Appointments and Follow-Up,I would like to make an appointment for an occupational therapy session.,Ke rata ho etsa appointment bakeng sa session ea occupational therapy.
+3544,Appointments and Follow-Up,I need to book an appointment for a counselling session.,Ke hloka ho buka appointment bakeng sa session ea keletso.
+3545,Appointments and Follow-Up,Can I schedule an appointment for a social worker consultation?,Na nka rerela appointment bakeng sa keletso ea mosebetsi oa sechaba?
+3546,Appointments and Follow-Up,I would like to book an appointment for a pharmacy consultation.,Ke rata ho buka appointment bakeng sa keletso ea pharmacy.
+3547,Appointments and Follow-Up,I need to make an appointment for a health education session.,Ke hloka ho etsa appointment bakeng sa session ea thuto ea bophelo bo botle.
+3548,Appointments and Follow-Up,Can I book an appointment for a family planning consultation?,Na nka buka appointment bakeng sa keletso ea ho rererela lelapa?
+3549,Appointments and Follow-Up,I would like to schedule an appointment for a TB treatment review.,Ke rata ho rerela appointment bakeng sa ho hlahloba phekolo ea TB.
+3550,Appointments and Follow-Up,I need to book an appointment for an ART treatment review.,Ke hloka ho buka appointment bakeng sa ho hlahloba phekolo ea ART.
+3551,Appointments and Follow-Up,I would like to confirm my appointment for tomorrow.,Ke rata ho netefatsa appointment ea ka bakeng sa maobane.
+3552,Appointments and Follow-Up,I need to reschedule my appointment to a later date.,Ke hloka ho fetola appointment ea ka ho letsatsi le tlang.
+3553,Appointments and Follow-Up,Can I change my appointment to the afternoon?,Na nka fetola appointment ea ka ho motsheare?
+3554,Appointments and Follow-Up,I would like to move my appointment to next Monday.,Ke rata ho fetisa appointment ea ka ho Mantaha e tlang.
+3555,Appointments and Follow-Up,I need to cancel my appointment and book a new one.,Ke hloka ho hlakola appointment ea ka mme ke buke e ncha.
+3556,Appointments and Follow-Up,Can I confirm what time my appointment is?,Na nka netefatsa nako ea appointment ea ka?
+3557,Appointments and Follow-Up,I would like to know if my appointment is still available.,Ke rata ho tseba haeba appointment ea ka e ntse e teng.
+3558,Appointments and Follow-Up,I need to reschedule because I cannot come on that day.,Ke hloka ho fetola nako hobane ha ke khone ho tla letsatsing leo.
+3559,Appointments and Follow-Up,Can I change my appointment to an earlier time?,Na nka fetola appointment ea ka ho nako e pele?
+3560,Appointments and Follow-Up,I would like to book the earliest available appointment.,Ke rata ho buka appointment e fumanehang kapele ka ho fetisisa.
+3561,Appointments and Follow-Up,I need to know how long I will wait for an appointment.,Ke hloka ho tseba nako e kae eo ke tla ema ho fihlela appointment.
+3562,Appointments and Follow-Up,Can I get an urgent appointment today?,Na nka fumana appointment ea potlako kajeno?
+3563,Appointments and Follow-Up,I would like to be placed on the waiting list.,Ke rata ho beoa lethathaming la ho ema.
+3564,Appointments and Follow-Up,I need to know if there is a cancellation I can take.,Ke hloka ho tseba haeba ho na le ho hlakola appointment eo nka e nkang.
+3565,Appointments and Follow-Up,Can I book a same-day appointment?,Na nka buka appointment ea letsatsi le leng?
+3566,Appointments and Follow-Up,I would like to confirm my follow-up appointment date.,Ke rata ho netefatsa letsatsi la appointment ea ka ea ho latela.
+3567,Appointments and Follow-Up,I need to reschedule my follow-up to next week.,Ke hloka ho fetola appointment ea ka ea ho latela ho beke e tlang.
+3568,Appointments and Follow-Up,Can I change the time of my follow-up appointment?,Na nka fetola nako ea appointment ea ka ea ho latela?
+3569,Appointments and Follow-Up,I would like to know the date of my next appointment.,Ke rata ho tseba letsatsi la appointment ea ka e latelang.
+3570,Appointments and Follow-Up,I need to confirm the location of my appointment.,Ke hloka ho netefatsa sebaka sa appointment ea ka.
+3571,Appointments and Follow-Up,Can I have my appointment at a different clinic?,Na nka ba le appointment ea ka klinikeng e nngwe?
+3572,Appointments and Follow-Up,I would like to book an appointment at the nearest facility.,Ke rata ho buka appointment setheong se haufi le nna ka ho fetisisa.
+3573,Appointments and Follow-Up,I need to know which department my appointment is in.,Ke hloka ho tseba lefapheng lefe appointment ea ka e leng teng.
+3574,Appointments and Follow-Up,Can I get a reminder for my appointment?,Na nka fumana temoso bakeng sa appointment ea ka?
+3575,Appointments and Follow-Up,I would like to receive an SMS reminder for my appointment.,Ke rata ho amohela temoso ea SMS bakeng sa appointment ea ka.
+3576,Appointments and Follow-Up,I need to update my contact number for appointment reminders.,Ke hloka ho ntlafatsa nomoro ea ka ea ho ikopanya bakeng sa li-reminder tsa appointment.
+3577,Appointments and Follow-Up,Can I bring a family member to my appointment?,Na nka tlisa leloko la lelapa appointment ea ka?
+3578,Appointments and Follow-Up,I would like to bring an interpreter to my appointment.,Ke rata ho tlisa mofetoleli appointment ea ka.
+3579,Appointments and Follow-Up,I need to know what to bring to my appointment.,Ke hloka ho tseba se ke se tlisang appointment ea ka.
+3580,Appointments and Follow-Up,Can I bring my medical records to the appointment?,Na nka tlisa lirekoto tsa ka tsa bongaka appointment?
+3581,Appointments and Follow-Up,I would like to know if I need to fast before my appointment.,Ke rata ho tseba haeba ke hloka ho ikitima lijo pele ho appointment ea ka.
+3582,Appointments and Follow-Up,I need to know if I should stop my medication before the test.,Ke hloka ho tseba haeba ke lokela ho emisa moriana oa ka pele ho tlhahlobo.
+3583,Appointments and Follow-Up,Can I eat before my blood test appointment?,Na nka ja pele ho appointment ea tlhahlobo ea mali?
+3584,Appointments and Follow-Up,I would like to know how to prepare for my appointment.,Ke rata ho tseba ho itokisetsa joang bakeng sa appointment ea ka.
+3585,Appointments and Follow-Up,I need to know if my appointment will be long.,Ke hloka ho tseba haeba appointment ea ka e tla nka nako e telele.
+3586,Appointments and Follow-Up,Can I bring my child to my appointment?,Na nka tlisa ngoana oa ka appointment ea ka?
+3587,Appointments and Follow-Up,I would like to know if there is parking at the clinic.,Ke rata ho tseba haeba ho na le sebaka sa ho emisa koloi klinikeng.
+3588,Appointments and Follow-Up,I need directions to the clinic for my appointment.,Ke hloka litaelo tsa ho ea klinikeng bakeng sa appointment ea ka.
+3589,Appointments and Follow-Up,Can I attend my appointment via telephone?,Na nka tla appointment ea ka ka mohala?
+3590,Appointments and Follow-Up,I would like to know if telehealth appointments are available.,Ke rata ho tseba haeba li-appointment tsa telehealth li fumaneha.
+3591,Appointments and Follow-Up,I need to reschedule my appointment due to transport problems.,Ke hloka ho fetola appointment ea ka ka lebaka la mathata a lipalangoa.
+3592,Appointments and Follow-Up,Can I get a home visit instead of coming to the clinic?,Na nka fumana ketelo ea lapeng ho e-na le ho tla klinikeng?
+3593,Appointments and Follow-Up,I would like to know the cost of my appointment.,Ke rata ho tseba theko ea appointment ea ka.
+3594,Appointments and Follow-Up,I need to know if my appointment is covered by my medical aid.,Ke hloka ho tseba haeba appointment ea ka e koaheloa ke medical aid ea ka.
+3595,Appointments and Follow-Up,Can I get a free appointment at this clinic?,Na nka fumana appointment ea mahala klinikeng ena?
+3596,Appointments and Follow-Up,I would like to know if I need a referral for my appointment.,Ke rata ho tseba haeba ke hloka referral bakeng sa appointment ea ka.
+3597,Appointments and Follow-Up,I need to bring my referral letter to the appointment.,Ke hloka ho tlisa lengolo la referral appointment.
+3598,Appointments and Follow-Up,Can I book an appointment without a referral?,Na nka buka appointment ntle le referral?
+3599,Appointments and Follow-Up,I would like to know if I need an appointment or can walk in.,Ke rata ho tseba haeba ke hloka appointment kapa nka kena feela.
+3600,Appointments and Follow-Up,I need to know the clinic's appointment hours.,Ke hloka ho tseba linako tsa li-appointment tsa kliniki.

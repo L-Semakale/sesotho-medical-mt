@@ -1,0 +1,6 @@
+# NLLB model files � too large for GitHub
+backend/models/
+*.bin
+*.safetensors
+*.ot
+venv/

@@ -1,0 +1,80 @@
+sentence_id,domain_category,english_text,sesotho_text
+401,HIV,I have been having night sweats and losing weight for two months.,Ke bile le molapo oa bosiu le ho lahleheloa ke boima ka likhoeli tse peli.
+402,HIV,I am HIV-positive and I am seven months pregnant.,Ke na le HIV mme ke ima likhoeli tse supileng.
+403,HIV,My baby tested positive for HIV at six weeks and I need help.,Ngoana oa ka o hlahlobelitsoe HIV mme o fumane sephetho se molemo ka libeke tse tšeletseng mme ke hloka thuso.
+404,HIV,I have HIV and my eyes have been getting blurry over the past few weeks.,Ke na le HIV mme mahlo a ka a bile a fifala libeke tse fetileng tse itseng.
+405,HIV,I have difficulty swallowing and I think it is related to my HIV.,Ke na le bothata ba ho metsa mme ke nahana hore bo amana le HIV ea ka.
+406,HIV,Differentiated service delivery models reduce the burden on health facilities.,Mehlala ea fapaneng ea ho fana ka litshebeletso e fokotsa morwalo oa likamore tsa bophelo bo botle.
+407,HIV,Multi-month dispensing of ART reduces the number of clinic visits required.,Ho abela ART ka likhoeli tse ngata ka nako e le ngoe ho fokotsa palo ea litsela tsa kliniki tse hlokahalang.
+408,HIV,Community ART distribution points bring medicines closer to people who need them.,Libaka tsa phatlalatso ea ART sechabeng li tlisa meriana haufi le batho ba e hlokang.
+409,HIV,Fast-track ART refill services are available for stable patients at many clinics.,Litshebeletso tsa ho tlatsa ART ka potlako li fumaneha bakeng sa bakuli ba tsitsitseng likhlinikhing tse ngata.
+410,HIV,Stable HIV patients on ART can collect up to three months of medicine at a time.,Bakuli ba HIV ba tsitsitseng ba holim'a ART ba ka kgotha meriana ea likhoeli tse tharo ka nako e le ngoe.
+411,HIV,Patients who miss clinic appointments should be traced and supported to return to care.,Bakuli ba lahlehileng meeto ea kliniki ba lokela ho batlooa le ho tsheheltsoa ho khutlela tlhokomelong.
+412,HIV,Loss to follow-up from HIV care is a major challenge in many countries.,Ho lahlehela ho latela tlhokomelo ea HIV ke mathata a maholo linaheng tse ngata.
+413,HIV,Electronic health records improve the tracking and management of HIV patients.,Lirekhoto tsa bophelo bo botle tsa elektroniki li ntlafatsa ho latela le ho laola bakuli ba HIV.
+414,HIV,HIV programme data should be used to improve the quality of care.,Data ea lenaneo la HIV e lokela ho sebelisoa ho ntlafatsa boleng ba tlhokomelo.
+415,HIV,Integration of HIV services with other health services improves access and efficiency.,Ho kopanya litshebeletso tsa HIV le litshebeletso tse ling tsa bophelo bo botle ho ntlafatsa phihlello le bokgoni.
+416,HIV,Broadly neutralising antibodies are being studied as a potential HIV treatment and prevention tool.,Li-antibody tse phanyolang ka bophara li ithutoa e le sesebelisoa se ka khonehang sa phekolo le thibelo ea HIV.
+417,HIV,HIV cure research aims to eliminate the virus from the body completely.,Lipatlisiso tsa pholo ea HIV li ikemiseditse ho felisa vaerase 'meleng ka botlalo.
+418,HIV,The HIV reservoir consists of cells that harbour dormant HIV and are not eliminated by ART.,Polokelo ea HIV e bopiloe ke lisele tse bolokang HIV e robetseng mme e sa felisoe ke ART.
+419,HIV,Shock and kill strategies aim to activate latent HIV so it can be eliminated.,Maano a shock le kill a ikemiseditse ho vuseletsa HIV e patileng hore e tle e felisoe.
+420,HIV,Gene therapy approaches are being explored as a potential HIV cure strategy.,Mekhoa ea phekolo ea gene e hlahlojoa e le leano le ka khonehang la pholo ea HIV.
+421,HIV,An effective HIV vaccine would be the most powerful tool to end the epidemic.,Ente ea HIV e sebetsang e ka ba sesebelisoa se matla ka ho fetisisa sa ho felisa leruo la lefu.
+422,HIV,Several HIV vaccine candidates are currently in clinical trials.,Liente tse ling tse ling tsa HIV li se li le ho lekoa lihlahlobong tsa kliniki hona joale.
+423,HIV,Lenacapavir is a long-acting injectable HIV medicine given twice a year.,Lenacapavir ke moriana oa HIV o kenngoa ka mesipi o sebetsang nako e telele o neoang habeli ka selemo.
+424,HIV,Cabotegravir plus rilpivirine is a long-acting injectable ART regimen given every two months.,Cabotegravir hammoho le rilpivirine ke leano la ART la ho kenngoa ka mesipi le sebetsang nako e telele le neoang likhoeli tse peli le tse peli.
+425,HIV,Islatravir is a novel antiretroviral being studied as part of long-acting treatment regimens.,Islatravir ke antiretroviral e ncha e ithutoa e le karolo ea mananeo a phekolo a sebetsang nako e telele.
+426,HIV,Key populations are groups at higher risk of HIV due to specific behaviours or circumstances.,Sechaba se bohlokoa ke lihlopha tse leng kotsing e kholo ea HIV ka lebaka la maitshwaro kapa maemo a khethehileng.
+427,HIV,Key populations include sex workers men who have sex with men transgender people and people who inject drugs.,Sechaba se bohlokoa se kenyelletsa basebetsi ba thobalano banna ba robetsanang le banna batho ba fetohang bong le batho ba kenyang meriana ka mesipi.
+428,HIV,Key populations face stigma and discrimination that prevent them from accessing HIV services.,Sechaba se bohlokoa se tobana le kekello le khethollo tse se thibelang ho fihlella litshebeletso tsa HIV.
+429,HIV,HIV services for key populations must be non-judgmental and confidential.,Litshebeletso tsa HIV bakeng sa sechaba se bohlokoa li lokela ho se ahlole mme li boloke sephiri.
+430,HIV,Peer-led outreach programmes are effective at reaching key populations with HIV services.,Mananeo a phono a etelletsoe pele ke bahlankana a sebetsa hantle ho fihla sechaba se bohlokoa ka litshebeletso tsa HIV.
+431,HIV,Criminalisation of key populations increases HIV risk by driving them away from health services.,Ho etsoa molato ha sechaba se bohlokoa ho eketsa kotsi ea HIV ka ho se khahlela ho tsoa litshebeletso tsa bophelo bo botle.
+432,HIV,Sex workers have the right to access HIV prevention testing and treatment services.,Basebetsi ba thobalano ba na le tokelo ea ho fihlella litshebeletso tsa thibelo ea HIV liteko le phekolo.
+433,HIV,Condom distribution programmes for sex workers are an effective HIV prevention strategy.,Mananeo a phatlalatso ea likhohlopo bakeng sa basebetsi ba thobalano ke leano le sebetsang la thibelo ea HIV.
+434,HIV,Men who have sex with men are disproportionately affected by HIV in many regions.,Banna ba robetsanang le banna ba angoa ke HIV ka mokgwa o sa lekanang libakeng tse ngata.
+435,HIV,PrEP is highly recommended for men who have sex with men at high risk of HIV.,PrEP e khothalletsoa haholo bakeng sa banna ba robetsanang le banna ba leng kotsing e kholo ea HIV.
+436,HIV,Transgender women have one of the highest HIV prevalence rates of any population group.,Basali ba fetohileng bong ba na le e 'ngoe ea likhato tse phahameng ka ho fetisisa tsa HIV ho lihlopha tsohle tsa sechaba.
+437,HIV,HIV services for transgender people should be integrated with gender-affirming care.,Litshebeletso tsa HIV bakeng sa batho ba fetohang bong li lokela ho kopanyoa le tlhokomelo e netefatsang bong.
+438,HIV,Needle and syringe programmes reduce HIV transmission among people who inject drugs.,Mananeo a mesipi le li-syringe a fokotsa phetisetso ea HIV ho batho ba kenyang meriana ka mesipi.
+439,HIV,Opioid substitution therapy reduces HIV risk in people who inject drugs.,Phekolo ea ho nka sebaka sa opioid e fokotsa kotsi ea HIV ho batho ba kenyang meriana ka mesipi.
+440,HIV,People in prisons and closed settings have higher HIV prevalence than the general population.,Batho ba khotsofatsong le libakeng tse koalehileng ba na le palo e phahameng ea HIV ho feta sechaba ka kakaretso.
+441,HIV,HIV testing and ART must be available in all prisons and detention centres.,Ho hlahlobeloa HIV le ART li lokela ho fumaneha likotsofatsong tsohle le lisentareng tsa ho tshoareloa.
+442,HIV,Migrants and refugees may face barriers to accessing HIV services.,Baahi ba fetang le baphaphathehi ba ka tobana le meqoqo ea ho fihlella litshebeletso tsa HIV.
+443,HIV,HIV services should be accessible to all people regardless of nationality or immigration status.,Litshebeletso tsa HIV li lokela ho fumaneha ho batho bohle ntle le ho sheba bochaba kapa boemo ba ho fallela naheng.
+444,HIV,Homeless people living with HIV face particular challenges in maintaining ART adherence.,Batho ba hlokang ntlo ba phelang le HIV ba tobana le mathata a khethehileng ho boloka ho latela ART.
+445,HIV,Integrated social support is essential for homeless people living with HIV.,Tshehetso e kopaneng ea sechaba e bohlokoa bakeng sa batho ba hlokang ntlo ba phelang le HIV.
+446,HIV,Women and girls account for more than half of all people living with HIV in sub-Saharan Africa.,Basali le banana ba bua karolo e fetang halofo ea batho bohle ba phelang le HIV Afrika e ka tlase ho Sahara.
+447,HIV,Gender inequality and power imbalances increase women's vulnerability to HIV.,Ho se lekane ha bong le ho se lekane ha matla ho eketsa bokoa ba basali ho HIV.
+448,HIV,Women often have less power to negotiate condom use with their partners.,Basali hangata ba na le matla a fokolang a ho buisana ka tshebediso ea likhohlopo le balekane ba bona.
+449,HIV,Intimate partner violence is associated with increased HIV risk in women.,Tlhoriso ea molekane ea haufi e amahanngoa le kotsi e eketsehileng ea HIV ho basali.
+450,HIV,Women who experience violence are less likely to access HIV testing and treatment.,Basali ba bonang tlhoriso ba ka nna ba se fumane liteko tsa HIV le phekolo ka bonolo.
+451,HIV,HIV programmes must address gender-based violence as part of a comprehensive response.,Mananeo a HIV a lokela ho sebetsana le tlhoriso e thehiloeng holim'a bong e le karolo ea karabelo e pharalletseng.
+452,HIV,Economic empowerment of women reduces their vulnerability to HIV.,Ho matlafatsa basali ka moruo ho fokotsa bokoa ba bona ho HIV.
+453,HIV,Men are less likely than women to test for HIV and access treatment.,Banna ba ka nna ba se hlahlobeloe HIV le ho fumana phekolo ka bonolo ho feta basali.
+454,HIV,Engaging men in HIV prevention and treatment is essential for ending the epidemic.,Ho kenyelletsa banna thibelong ea HIV le phekolo ho bohlokoa bakeng sa ho felisa leruo la lefu.
+455,HIV,Harmful gender norms that discourage men from seeking healthcare increase HIV mortality.,Mekhoa ea bong e kotsi e thibelang banna ho batla tlhokomelo ea bophelo e eketsa lefu la HIV.
+456,HIV,Access to HIV prevention testing and treatment is a fundamental human right.,Ho fihlella thibelo ea HIV liteko le phekolo ke tokelo ea motheo ea botho.
+457,HIV,HIV-related discrimination in healthcare settings is a violation of human rights.,Khethollo e amanang le HIV libakeng tsa tlhokomelo ea bophelo ke tlolo ea litokelo tsa botho.
+458,HIV,People living with HIV have the right to privacy and confidentiality.,Batho ba phelang le HIV ba na le tokelo ea sephiri le ho bolokoa ha sephiri.
+459,HIV,Forced HIV testing is a violation of human rights and undermines public health.,Ho qobelloa ho hlahlobeloa HIV ke tlolo ea litokelo tsa botho mme ho senya bophelo bo botle ba sechaba.
+460,HIV,People living with HIV have the right to marry and have children.,Batho ba phelang le HIV ba na le tokelo ea ho nyalana le ho ba le bana.
+461,HIV,Travel restrictions based on HIV status are discriminatory and should be abolished.,Melaolelo ea ho tsamaea e thehiloeng holim'a boemo ba HIV ke khethollo mme e lokela ho fenyoa.
+462,HIV,People living with HIV should be involved in decisions about HIV policies and programmes.,Batho ba phelang le HIV ba lokela ho kenyelletsooa liqetong mabapi le maano le mananeo a HIV.
+463,HIV,The greater involvement of people living with HIV is a core principle of the HIV response.,Ho kenyelletsooa ho hoholo ha batho ba phelang le HIV ke molaotheo oa motheo oa karabelo ea HIV.
+464,HIV,Legal protections for people living with HIV must be enforced at all levels.,Tshireletso ea molao bakeng sa batho ba phelang le HIV e lokela ho phetha-phethoa maemong ohle.
+465,HIV,Stigma reduction laws and policies create an enabling environment for the HIV response.,Melao le maano a ho fokotsa kekello a theha tikoloho e khothaletsang karabelo ea HIV.
+466,HIV,The prevalence of depression in people living with HIV is two to three times higher than in the general population.,Palo ea ho nyamela ho batho ba phelang le HIV e phahame habeli ho isa ho makhetlo a mararo ho feta sechaba ka kakaretso.
+467,HIV,Untreated depression in people living with HIV leads to poor ART adherence and worse outcomes.,Ho nyamela ho sa phekoluoang ho batho ba phelang le HIV ho lebisa ho ho latela ART ho fokolang le liphetho tse mpe.
+468,HIV,Antidepressant medicines can be used safely in people living with HIV.,Meriana ea ho loa nyamela e ka sebelisoa ka polokeho ho batho ba phelang le HIV.
+469,HIV,Cognitive behavioural therapy is effective for depression and anxiety in people living with HIV.,Phekolo ea maitshwaro a mahutu e sebetsa hantle bakeng sa ho nyamela le ho tšaba ho batho ba phelang le HIV.
+470,HIV,HIV-associated neurocognitive disorder affects thinking memory and concentration.,Bolwetse ba neurocognitive bo amanang le HIV bo angoa ho nahana ho hopola le ho tsepamisa kelello.
+471,HIV,ART can slow the progression of HIV-associated neurocognitive disorder.,ART e ka khutsufatsa tsoelo-pele ea bolwetse ba neurocognitive bo amanang le HIV.
+472,HIV,Screening for cognitive impairment should be part of routine HIV care.,Ho hlahlobeloa ho fokoleng ha mahutu ho lokela ho ba karolo ea tlhokomelo ea kamehla ea HIV.
+473,HIV,Alcohol and substance use disorders are significantly more common in people living with HIV.,Mafu a tšebediso ea joala le lintho tse kotsi a atile haholo ho batho ba phelang le HIV.
+474,HIV,Integrated treatment for HIV and substance use disorders improves outcomes for both conditions.,Phekolo e kopaneng ea HIV le mafu a tšebediso ea lintho tse kotsi e ntlafatsa liphetho tsa maemo a mabeli.
+475,HIV,Mindfulness-based interventions can reduce stress and improve quality of life in people living with HIV.,Meketso e thehiloeng holim'a ho ela hloko e ka fokotsa khatello le ho ntlafatsa boleng ba bophelo ho batho ba phelang le HIV.
+476,HIV,Food insecurity is associated with poor ART adherence and worse HIV outcomes.,Ho hloka tšepo ea lijo ho amahanngoa le ho latela ART ho fokolang le liphetho tse mpe tsa HIV.
+477,HIV,Nutritional support programmes improve ART initiation and retention in care.,Mananeo a tshehetso ea phepo a ntlafatsa ho qala ART le ho lula tlhokomelong.
+478,HIV,Ready-to-use therapeutic food is used to treat severe acute malnutrition in HIV-positive children.,Lijo tsa phekolo tse loketse ho sebelisoa hang li sebelisoa ho phekola ho hloka phepo ho matla ho bana ba nang le HIV.
+479,HIV,People living with HIV should avoid consuming unpasteurised dairy products.,Batho ba phelang le HIV ba lokela ho hana ho ja lihlahisoa tsa lebese tse sa phethisoang.

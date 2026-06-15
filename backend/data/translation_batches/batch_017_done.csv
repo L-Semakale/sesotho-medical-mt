@@ -1,0 +1,201 @@
+sentence_id,domain_category,english_text,sesotho_text
+3201,Symptoms and Complaints,I have been having episodes of sudden numbness on one side.,Ke ntse ke na le linako tsa ho fofa ka tšohanyetso lehlakoreng le le leng.
+3202,Symptoms and Complaints,I have weakness in my face on one side.,Ke na le ho fokotsehela sefahlehong sa ka lehlakoreng le le leng.
+3203,Symptoms and Complaints,I have difficulty swallowing and feel like food is getting stuck.,Ke na le bothata ba ho metsa mme ke ikutloa joalo ka ha lijo li tšoaroe.
+3204,Symptoms and Complaints,I have been having episodes of sudden vision loss.,Ke ntse ke na le linako tsa ho lahleheloa ke pono ka tšohanyetso.
+3205,Symptoms and Complaints,I have weakness in both my legs.,Ke na le ho fokotsehela maotong a ka a mabeli.
+3206,Symptoms and Complaints,I have difficulty controlling my bladder.,Ke na le bothata ba ho laola seboco sa ka.
+3207,Symptoms and Complaints,I have been having episodes of sudden severe dizziness.,Ke ntse ke na le linako tsa ho potoloha ho matla ka tšohanyetso.
+3208,Symptoms and Complaints,I have weakness in both my arms.,Ke na le ho fokotsehela mapha a ka a mabeli.
+3209,Symptoms and Complaints,I have been having episodes of sudden loss of speech.,Ke ntse ke na le linako tsa ho lahleheloa ke ho bua ka tšohanyetso.
+3210,Symptoms and Complaints,I have difficulty controlling my bowels.,Ke na le bothata ba ho laola mala a ka.
+3211,Symptoms and Complaints,I have been having episodes of sudden severe headache with vomiting.,Ke ntse ke na le linako tsa mahloko a matla a hlooho le ho hlatsa ka tšohanyetso.
+3212,Symptoms and Complaints,I have weakness in my hands and cannot grip things.,Ke na le ho fokotsehela matsoho a ka mme ha ke khone ho tšoara lintho.
+3213,Symptoms and Complaints,I have been having episodes of sudden severe neck stiffness.,Ke ntse ke na le linako tsa ho thatafala ha molala ho matla ka tšohanyetso.
+3214,Symptoms and Complaints,I have difficulty with my memory and cannot remember recent events.,Ke na le bothata ba ho hopola mme ha ke khone ho hopola liketsahalo tsa morao tjena.
+3215,Symptoms and Complaints,I have been having episodes of sudden severe back pain with leg weakness.,Ke ntse ke na le linako tsa mahloko a matla a mokokotlo le ho fokotsehela ha leoto ka tšohanyetso.
+3216,Symptoms and Complaints,I have weakness in my feet and keep tripping.,Ke na le ho fokotsehela maotong a ka mme ke ntse ke khutla.
+3217,Symptoms and Complaints,I have been having episodes of sudden severe facial pain.,Ke ntse ke na le linako tsa mahloko a matla a sefahleho ka tšohanyetso.
+3218,Symptoms and Complaints,I have difficulty concentrating and feel very distracted.,Ke na le bothata ba ho tsepamela mme ke ikutloa ke tloaelehile haholo.
+3219,Symptoms and Complaints,I have been having episodes of sudden severe arm pain.,Ke ntse ke na le linako tsa mahloko a matla a lephaka ka tšohanyetso.
+3220,Symptoms and Complaints,I have weakness in my neck and cannot hold my head up.,Ke na le ho fokotsehela molaleng mme ha ke khone ho tšoara hlooho ea ka holimo.
+3221,Symptoms and Complaints,I have been having episodes of sudden severe leg pain.,Ke ntse ke na le linako tsa mahloko a matla a leoto ka tšohanyetso.
+3222,Symptoms and Complaints,I have difficulty with my coordination and keep dropping things.,Ke na le bothata ba ho hokela mme ke ntse ke lahla lintho.
+3223,Symptoms and Complaints,I have been having episodes of sudden severe chest pain with arm numbness.,Ke ntse ke na le linako tsa mahloko a matla a sefuba le ho fofa ha lephaka ka tšohanyetso.
+3224,Symptoms and Complaints,I have weakness in my tongue and difficulty speaking clearly.,Ke na le ho fokotsehela leleme mme ke na le bothata ba ho bua ka hlakiso.
+3225,Symptoms and Complaints,I have been having episodes of sudden severe abdominal pain with back pain.,Ke ntse ke na le linako tsa mahloko a matla a mpa le mahloko a mokokotlo ka tšohanyetso.
+3226,Symptoms and Complaints,I have difficulty with my vision and see flashing lights.,Ke na le bothata ba pono mme ke bona lesedi le phaphathang.
+3227,Symptoms and Complaints,I have been having episodes of sudden severe eye pain.,Ke ntse ke na le linako tsa mahloko a matla a leihlo ka tšohanyetso.
+3228,Symptoms and Complaints,I have weakness in my jaw and difficulty chewing.,Ke na le ho fokotsehela molaleng oa ka mme ke na le bothata ba ho hlafuna.
+3229,Symptoms and Complaints,I have been having episodes of sudden severe ear pain.,Ke ntse ke na le linako tsa mahloko a matla a tsebe ka tšohanyetso.
+3230,Symptoms and Complaints,I have difficulty with my hearing and everything sounds muffled.,Ke na le bothata ba ho utloa mme ntho tsohle li utloa li koahetse.
+3231,Symptoms and Complaints,I have been having episodes of sudden severe tooth pain.,Ke ntse ke na le linako tsa mahloko a matla a meno ka tšohanyetso.
+3232,Symptoms and Complaints,I have weakness in my eyelids and they keep drooping.,Ke na le ho fokotsehela lifahleho tsa mahlo mme li ntse li theohela.
+3233,Symptoms and Complaints,I have been having episodes of sudden severe shoulder pain.,Ke ntse ke na le linako tsa mahloko a matla a hetla ka tšohanyetso.
+3234,Symptoms and Complaints,I have difficulty with my smell and cannot smell anything.,Ke na le bothata ba ho nkha mme ha ke khone ho nkha letho.
+3235,Symptoms and Complaints,I have been having episodes of sudden severe hip pain.,Ke ntse ke na le linako tsa mahloko a matla a letheho ka tšohanyetso.
+3236,Symptoms and Complaints,I have weakness in my fingers and cannot button my clothes.,Ke na le ho fokotsehela menwaneng mme ha ke khone ho koala liaparo tsa ka.
+3237,Symptoms and Complaints,I have been having episodes of sudden severe knee pain.,Ke ntse ke na le linako tsa mahloko a matla a mangolo ka tšohanyetso.
+3238,Symptoms and Complaints,I have difficulty with my taste and everything tastes strange.,Ke na le bothata ba tatso mme ntho tsohle li noa li le moqo.
+3239,Symptoms and Complaints,I have been having episodes of sudden severe ankle pain.,Ke ntse ke na le linako tsa mahloko a matla a ankele ka tšohanyetso.
+3240,Symptoms and Complaints,I have weakness in my toes and cannot feel them.,Ke na le ho fokotsehela menwaneng ea maoto mme ha ke khone ho a ikutloa.
+3241,Symptoms and Complaints,I have been having episodes of sudden severe foot pain.,Ke ntse ke na le linako tsa mahloko a matla a leoto ka tšohanyetso.
+3242,Symptoms and Complaints,I have difficulty with my balance and keep falling.,Ke na le bothata ba tekanyo mme ke ntse ke wa.
+3243,Symptoms and Complaints,I have been having episodes of sudden severe wrist pain.,Ke ntse ke na le linako tsa mahloko a matla a liqhekelle ka tšohanyetso.
+3244,Symptoms and Complaints,I have weakness in my whole body and cannot move.,Ke na le ho fokotsehela 'meleng oa ka ka bophara mme ha ke khone ho tsamaea.
+3245,Symptoms and Complaints,I have been having episodes of sudden severe elbow pain.,Ke ntse ke na le linako tsa mahloko a matla a tsualikane ka tšohanyetso.
+3246,Symptoms and Complaints,I have difficulty with my speech and slur my words.,Ke na le bothata ba ho bua mme ke phaphalatsa mantsoe a ka.
+3247,Symptoms and Complaints,I have been having episodes of sudden severe finger pain.,Ke ntse ke na le linako tsa mahloko a matla a menwane ka tšohanyetso.
+3248,Symptoms and Complaints,I have weakness in my right side and cannot use my right hand.,Ke na le ho fokotsehela lehlakoreng la ka la le letona mme ha ke khone ho sebelisa sepata sa ka sa le letona.
+3249,Symptoms and Complaints,I have been having episodes of sudden severe toe pain.,Ke ntse ke na le linako tsa mahloko a matla a menwane ea maoto ka tšohanyetso.
+3250,Symptoms and Complaints,I have difficulty with my writing and my handwriting has changed.,Ke na le bothata ba ho ngola mme mongolo oa matsoho a ka o fetohile.
+3251,Symptoms and Complaints,I have been having episodes of sudden severe neck pain.,Ke ntse ke na le linako tsa mahloko a matla a molala ka tšohanyetso.
+3252,Symptoms and Complaints,I have weakness in my left side and cannot use my left hand.,Ke na le ho fokotsehela lehlakoreng la ka la molema mme ha ke khone ho sebelisa sepata sa ka sa molema.
+3253,Symptoms and Complaints,I have been having episodes of sudden severe upper back pain.,Ke ntse ke na le linako tsa mahloko a matla a mokokotlo o holimo ka tšohanyetso.
+3254,Symptoms and Complaints,I have difficulty with my reading and cannot focus on words.,Ke na le bothata ba ho bala mme ha ke khone ho tsepamela mantsoen.
+3255,Symptoms and Complaints,I have been having episodes of sudden severe lower back pain.,Ke ntse ke na le linako tsa mahloko a matla a mokokotlo o tlase ka tšohanyetso.
+3256,Symptoms and Complaints,I have weakness in my right leg and it drags when I walk.,Ke na le ho fokotsehela leotong la ka la le letona mme le ntse le khoromela ha ke tsamaea.
+3257,Symptoms and Complaints,I have been having episodes of sudden severe pelvic pain.,Ke ntse ke na le linako tsa mahloko a matla a pelvis ka tšohanyetso.
+3258,Symptoms and Complaints,I have difficulty with my thinking and cannot make decisions.,Ke na le bothata ba ho nahana mme ha ke khone ho etsa liqeto.
+3259,Symptoms and Complaints,I have been having episodes of sudden severe groin pain.,Ke ntse ke na le linako tsa mahloko a matla a groin ka tšohanyetso.
+3260,Symptoms and Complaints,I have weakness in my left leg and it gives way when I walk.,Ke na le ho fokotsehela leotong la ka la molema mme le ntse le theohela ha ke tsamaea.
+3261,Symptoms and Complaints,I have been having episodes of sudden severe thigh pain.,Ke ntse ke na le linako tsa mahloko a matla a serope ka tšohanyetso.
+3262,Symptoms and Complaints,I have difficulty with my emotions and feel very irritable.,Ke na le bothata ba maikutlo mme ke ikutloa ke halefile haholo.
+3263,Symptoms and Complaints,I have been having episodes of sudden severe calf pain.,Ke ntse ke na le linako tsa mahloko a matla a letsoalikane ka tšohanyetso.
+3264,Symptoms and Complaints,I have weakness in my right arm and cannot lift it above my head.,Ke na le ho fokotsehela lephakeng la ka la le letona mme ha ke khone ho le phahamisetsa holimo ho hlooho ea ka.
+3265,Symptoms and Complaints,I have been having episodes of sudden severe shin pain.,Ke ntse ke na le linako tsa mahloko a matla a leoto la pele ka tšohanyetso.
+3266,Symptoms and Complaints,I have difficulty with my sleep and cannot fall asleep.,Ke na le bothata ba boroko mme ha ke khone ho robala.
+3267,Symptoms and Complaints,I have been having episodes of sudden severe heel pain.,Ke ntse ke na le linako tsa mahloko a matla a serethe ka tšohanyetso.
+3268,Symptoms and Complaints,I have weakness in my left arm and cannot carry things.,Ke na le ho fokotsehela lephakeng la ka la molema mme ha ke khone ho tšoarisa lintho.
+3269,Symptoms and Complaints,I have been having episodes of sudden severe arch pain.,Ke ntse ke na le linako tsa mahloko a matla a arch ea leoto ka tšohanyetso.
+3270,Symptoms and Complaints,I have difficulty with my attention and cannot focus.,Ke na le bothata ba ho ela hloko mme ha ke khone ho tsepamela.
+3271,Symptoms and Complaints,I have been having episodes of sudden severe ball of foot pain.,Ke ntse ke na le linako tsa mahloko a matla a bolo ea leoto ka tšohanyetso.
+3272,Symptoms and Complaints,I have weakness in my right hand and my grip is very weak.,Ke na le ho fokotsehela sepateng sa ka sa le letona mme ho tšoara ha ka ho fokolang haholo.
+3273,Symptoms and Complaints,I have been having episodes of sudden severe big toe pain.,Ke ntse ke na le linako tsa mahloko a matla a monwana o moholo oa leoto ka tšohanyetso.
+3274,Symptoms and Complaints,I have difficulty with my language and cannot understand what people say.,Ke na le bothata ba puo mme ha ke khone ho utloisisa se batho ba se buang.
+3275,Symptoms and Complaints,I have been having episodes of sudden severe little toe pain.,Ke ntse ke na le linako tsa mahloko a matla a monwana o monyenyane oa leoto ka tšohanyetso.
+3276,Symptoms and Complaints,I have weakness in my left hand and cannot write.,Ke na le ho fokotsehela sepateng sa ka sa molema mme ha ke khone ho ngola.
+3277,Symptoms and Complaints,I have been having episodes of sudden severe thumb pain.,Ke ntse ke na le linako tsa mahloko a matla a monwana o moholo oa sepata ka tšohanyetso.
+3278,Symptoms and Complaints,I have difficulty with my perception and misjudge distances.,Ke na le bothata ba ho utloisisa mme ke fosa ho lekola likhato.
+3279,Symptoms and Complaints,I have been having episodes of sudden severe index finger pain.,Ke ntse ke na le linako tsa mahloko a matla a monwana oa ho supa ka tšohanyetso.
+3280,Symptoms and Complaints,I have weakness in my right foot and cannot point my toes.,Ke na le ho fokotsehela leotong la ka la le letona mme ha ke khone ho supa menwane ea maoto.
+3281,Symptoms and Complaints,I have been having episodes of sudden severe middle finger pain.,Ke ntse ke na le linako tsa mahloko a matla a monwana oa bohareng ka tšohanyetso.
+3282,Symptoms and Complaints,I have difficulty with my orientation and get lost easily.,Ke na le bothata ba ho tseba ke hokae mme ke lahlehela habonolo.
+3283,Symptoms and Complaints,I have been having episodes of sudden severe ring finger pain.,Ke ntse ke na le linako tsa mahloko a matla a monwana oa mothalo ka tšohanyetso.
+3284,Symptoms and Complaints,I have weakness in my left foot and cannot flex my ankle.,Ke na le ho fokotsehela leotong la ka la molema mme ha ke khone ho khoromela ankele ea ka.
+3285,Symptoms and Complaints,I have been having episodes of sudden severe little finger pain.,Ke ntse ke na le linako tsa mahloko a matla a monwana o monyenyane oa sepata ka tšohanyetso.
+3286,Symptoms and Complaints,I have difficulty with my judgment and make poor decisions.,Ke na le bothata ba ho etsa kahlolo mme ke etsa liqeto tse mpe.
+3287,Symptoms and Complaints,I have been having episodes of sudden severe palm pain.,Ke ntse ke na le linako tsa mahloko a matla a letsela la sepata ka tšohanyetso.
+3288,Symptoms and Complaints,I have a rash on my body that is very itchy.,Ke na le ho ruruha ha letlalo 'meleng oa ka ho hlohlonang haholo.
+3289,Symptoms and Complaints,"I have red, swollen eyes that are very painful.","Ke na le mahlo a bofubedu, a ruruhetse a bohlokang haholo."
+3290,Symptoms and Complaints,I have a rash on my face that is spreading.,Ke na le ho ruruha ha letlalo sefahlehong sa ka ho atatang.
+3291,Symptoms and Complaints,I have yellow eyes and yellow skin.,Ke na le mahlo a tšoeu-tala le letlalo le tšoeu-tala.
+3292,Symptoms and Complaints,I have a rash on my arms that is blistering.,Ke na le ho ruruha ha letlalo mapha a ka ho nang le li-blister.
+3293,Symptoms and Complaints,I have red eyes with a discharge.,Ke na le mahlo a bofubedu a nang le seretse.
+3294,Symptoms and Complaints,I have a rash on my legs that is very red.,Ke na le ho ruruha ha letlalo maotong a ka ho bofubedu haholo.
+3295,Symptoms and Complaints,I have swollen eyelids that are very itchy.,Ke na le lifahleho tsa mahlo tse ruruhetse tse hlohlonang haholo.
+3296,Symptoms and Complaints,I have a rash on my chest that is very painful.,Ke na le ho ruruha ha letlalo sefubeng sa ka ho bohlokang haholo.
+3297,Symptoms and Complaints,I have blurred vision in my right eye.,Ke na le pono e fifetseng leihlong la ka la le letona.
+3298,Symptoms and Complaints,I have a rash on my back that is very dry.,Ke na le ho ruruha ha letlalo mokokotlong oa ka ho omileng haholo.
+3299,Symptoms and Complaints,I have blurred vision in my left eye.,Ke na le pono e fifetseng leihlong la ka la molema.
+3300,Symptoms and Complaints,I have a rash on my hands that is peeling.,Ke na le ho ruruha ha letlalo matsoho a ka ho hlokohang.
+3301,Symptoms and Complaints,I have a sudden loss of vision in my right eye.,Ke na le ho lahleheloa ke pono ka tšohanyetso leihlong la ka la le letona.
+3302,Symptoms and Complaints,I have a rash on my feet that is very sore.,Ke na le ho ruruha ha letlalo maotong a ka ho bohlokang haholo.
+3303,Symptoms and Complaints,I have a sudden loss of vision in my left eye.,Ke na le ho lahleheloa ke pono ka tšohanyetso leihlong la ka la molema.
+3304,Symptoms and Complaints,I have a rash on my neck that is very itchy.,Ke na le ho ruruha ha letlalo molaleng oa ka ho hlohlonang haholo.
+3305,Symptoms and Complaints,I have flashing lights in my vision.,Ke na le lesedi le phaphathang ponong ea ka.
+3306,Symptoms and Complaints,I have a rash on my scalp that is very scaly.,Ke na le ho ruruha ha letlalo hloohong ea ka ho nang le likhase haholo.
+3307,Symptoms and Complaints,I have floaters in my vision.,Ke na le lintho tse phaphametseng ponong ea ka.
+3308,Symptoms and Complaints,I have a rash on my groin that is very red and moist.,Ke na le ho ruruha ha letlalo groineng ea ka ho bofubedu haholo le ho metsi.
+3309,Symptoms and Complaints,I have double vision that is getting worse.,Ke na le ho bona ka habeli ho mpe.
+3310,Symptoms and Complaints,I have a rash on my armpits that is very itchy.,Ke na le ho ruruha ha letlalo mahetleng a ka ho hlohlonang haholo.
+3311,Symptoms and Complaints,I have pain behind my right eye.,Ke na le mahloko morao ho leihlo la ka la le letona.
+3312,Symptoms and Complaints,I have a rash on my buttocks that is very sore.,Ke na le ho ruruha ha letlalo lethekeng la ka ho bohlokang haholo.
+3313,Symptoms and Complaints,I have pain behind my left eye.,Ke na le mahloko morao ho leihlo la ka la molema.
+3314,Symptoms and Complaints,I have a rash on my abdomen that is very itchy.,Ke na le ho ruruha ha letlalo mpeng ea ka ho hlohlonang haholo.
+3315,Symptoms and Complaints,I have a shadow in my vision.,Ke na le moriti ponong ea ka.
+3316,Symptoms and Complaints,I have a rash on my thighs that is very red.,Ke na le ho ruruha ha letlalo liropeng tsa ka ho bofubedu haholo.
+3317,Symptoms and Complaints,I have a curtain coming down over my vision.,Ke na le koahelo e theohang holim'a pono ea ka.
+3318,Symptoms and Complaints,I have a rash on my shins that is very dry.,Ke na le ho ruruha ha letlalo maotong a ka a pele ho omileng haholo.
+3319,Symptoms and Complaints,I have redness and irritation in both eyes.,Ke na le bofubedu le ho khathatseha mahlong a ka a mabeli.
+3320,Symptoms and Complaints,I have a rash on my forearms that is very itchy.,Ke na le ho ruruha ha letlalo mapha a ka a tlase ho hlohlonang haholo.
+3321,Symptoms and Complaints,I have a gritty feeling in my eyes.,Ke na le maikutlo a lerole mahlong a ka.
+3322,Symptoms and Complaints,I have a rash on my upper arms that is blistering.,Ke na le ho ruruha ha letlalo mapha a ka a holimo ho nang le li-blister.
+3323,Symptoms and Complaints,I have a watery discharge from my eyes.,Ke na le seretse sa metsi se tsoang mahlong a ka.
+3324,Symptoms and Complaints,I have a rash on my lower legs that is very sore.,Ke na le ho ruruha ha letlalo maotong a ka a tlase ho bohlokang haholo.
+3325,Symptoms and Complaints,I have a thick yellow discharge from my eyes.,Ke na le seretse se teteaneng se tšoeu-tala se tsoang mahlong a ka.
+3326,Symptoms and Complaints,I have a rash on my fingers that is peeling.,Ke na le ho ruruha ha letlalo menwaneng ea ka ho hlokohang.
+3327,Symptoms and Complaints,I have sensitivity to light in my eyes.,Ke na le ho amehela leseding mahlong a ka.
+3328,Symptoms and Complaints,I have a rash on my toes that is very itchy.,Ke na le ho ruruha ha letlalo menwaneng ea maoto a ka ho hlohlonang haholo.
+3329,Symptoms and Complaints,I have a burning sensation in my eyes.,Ke na le maikutlo a ho chesa mahlong a ka.
+3330,Symptoms and Complaints,I have a rash on my palms that is very red.,Ke na le ho ruruha ha letlalo letsela la matsoho a ka ho bofubedu haholo.
+3331,Symptoms and Complaints,I have itching in my eyes that is constant.,Ke na le ho hlohlona mahlong a ka ho tsoelang pele.
+3332,Symptoms and Complaints,I have a rash on the soles of my feet that is very sore.,Ke na le ho ruruha ha letlalo litlaaseng tsa maoto a ka ho bohlokang haholo.
+3333,Symptoms and Complaints,I have swelling around my eyes.,Ke na le ho ruruha ho potileng mahlo a ka.
+3334,Symptoms and Complaints,I have a rash on my face that is very scaly.,Ke na le ho ruruha ha letlalo sefahlehong sa ka ho nang le likhase haholo.
+3335,Symptoms and Complaints,I have redness in the whites of my eyes.,Ke na le bofubedu litšoeu tsa mahlo a ka.
+3336,Symptoms and Complaints,I have a rash on my ears that is very itchy.,Ke na le ho ruruha ha letlalo matsebeng a ka ho hlohlonang haholo.
+3337,Symptoms and Complaints,I have a cloudy appearance in my vision.,Ke na le pono e fifetseng joalo ka leru ponong ea ka.
+3338,Symptoms and Complaints,I have a rash on my lips that is very sore.,Ke na le ho ruruha ha letlalo molomomong oa ka ho bohlokang haholo.
+3339,Symptoms and Complaints,I have a ring of light around objects in my vision.,Ke na le molapo oa lesedi o potileng lintho ponong ea ka.
+3340,Symptoms and Complaints,I have a rash on my tongue that is very painful.,Ke na le ho ruruha ha letlalo leleme la ka ho bohlokang haholo.
+3341,Symptoms and Complaints,I have difficulty seeing in dim light.,Ke na le bothata ba ho bona leseding le fokolang.
+3342,Symptoms and Complaints,I have a rash on my gums that is very red.,Ke na le ho ruruha ha letlalo meno a ka ho bofubedu haholo.
+3343,Symptoms and Complaints,I have difficulty seeing in bright light.,Ke na le bothata ba ho bona leseding le chesang.
+3344,Symptoms and Complaints,I have a rash on my inner thighs that is very moist.,Ke na le ho ruruha ha letlalo liropeng tsa ka tsa ka hare ho metsi haholo.
+3345,Symptoms and Complaints,I have a loss of peripheral vision.,Ke na le ho lahleheloa ke pono ea maphethelo.
+3346,Symptoms and Complaints,I have a rash on my lower back that is very itchy.,Ke na le ho ruruha ha letlalo mokokotlong oa ka o tlase ho hlohlonang haholo.
+3347,Symptoms and Complaints,I have a loss of central vision.,Ke na le ho lahleheloa ke pono ea bohareng.
+3348,Symptoms and Complaints,I have a rash on my upper back that is very dry.,Ke na le ho ruruha ha letlalo mokokotlong oa ka o holimo ho omileng haholo.
+3349,Symptoms and Complaints,I have a distortion in my vision.,Ke na le ho phaphalatseha ha pono ea ka.
+3350,Symptoms and Complaints,I have a rash on my chest and back that is very painful.,Ke na le ho ruruha ha letlalo sefubeng le mokokotlong oa ka ho bohlokang haholo.
+3351,Symptoms and Complaints,I have a change in colour perception.,Ke na le phetoho ho utloisisa ha mebala.
+3352,Symptoms and Complaints,I have a rash on my whole body that is very itchy.,Ke na le ho ruruha ha letlalo 'meleng oa ka ka bophara ho hlohlonang haholo.
+3353,Symptoms and Complaints,I have a decrease in visual acuity.,Ke na le ho fokotseha ha bokgoni ba pono.
+3354,Symptoms and Complaints,I have a rash that started on my face and spread to my body.,Ke na le ho ruruha ha letlalo ho qalileng sefahlehong mme ho atatela 'meleng.
+3355,Symptoms and Complaints,I have an increase in eye pressure.,Ke na le ho eketseha ha khatello ea leihlo.
+3356,Symptoms and Complaints,I have a rash that is accompanied by fever.,Ke na le ho ruruha ha letlalo ho tsamaeang le feberu.
+3357,Symptoms and Complaints,I have a decrease in eye pressure.,Ke na le ho fokotseha ha khatello ea leihlo.
+3358,Symptoms and Complaints,I have a rash that is accompanied by joint pain.,Ke na le ho ruruha ha letlalo ho tsamaeang le mahloko a maqhoa.
+3359,Symptoms and Complaints,I have a change in the appearance of my iris.,Ke na le phetoho bonahaling ba iris ea ka.
+3360,Symptoms and Complaints,I have a rash that is accompanied by swollen lymph nodes.,Ke na le ho ruruha ha letlalo ho tsamaeang le ho ruruha ha li-lymph node.
+3361,Symptoms and Complaints,I have a change in the size of my pupil.,Ke na le phetoho bohlong ba pupil ea ka.
+3362,Symptoms and Complaints,I have a rash that is accompanied by mouth sores.,Ke na le ho ruruha ha letlalo ho tsamaeang le maqeba a molomo.
+3363,Symptoms and Complaints,I have a change in the shape of my pupil.,Ke na le phetoho sebopehing sa pupil ea ka.
+3364,Symptoms and Complaints,I have a rash that is accompanied by hair loss.,Ke na le ho ruruha ha letlalo ho tsamaeang le ho lahleheloa ke moriri.
+3365,Symptoms and Complaints,I have a change in the colour of my pupil.,Ke na le phetoho mmelaeng oa pupil ea ka.
+3366,Symptoms and Complaints,I have a rash that is accompanied by nail changes.,Ke na le ho ruruha ha letlalo ho tsamaeang le liphetoho tsa linonyana.
+3367,Symptoms and Complaints,I have a change in the position of my eye.,Ke na le phetoho sebakeng sa leihlo la ka.
+3368,Symptoms and Complaints,I have a rash that is accompanied by eye redness.,Ke na le ho ruruha ha letlalo ho tsamaeang le bofubedu ba leihlo.
+3369,Symptoms and Complaints,I have a change in the movement of my eye.,Ke na le phetoho mokhoaneng oa ho tsamaea ha leihlo la ka.
+3370,Symptoms and Complaints,I have a rash that is accompanied by swelling.,Ke na le ho ruruha ha letlalo ho tsamaeang le ho ruruha.
+3371,Symptoms and Complaints,I have a change in the alignment of my eyes.,Ke na le phetoho ho tekanyo ea mahlo a ka.
+3372,Symptoms and Complaints,I have a rash that is accompanied by blistering.,Ke na le ho ruruha ha letlalo ho tsamaeang le li-blister.
+3373,Symptoms and Complaints,I have a change in the appearance of my eyelid.,Ke na le phetoho bonahaling ba sefahleho sa leihlo la ka.
+3374,Symptoms and Complaints,I have a rash that is accompanied by peeling skin.,Ke na le ho ruruha ha letlalo ho tsamaeang le ho hlokohela ha letlalo.
+3375,Symptoms and Complaints,I have a change in the position of my eyelid.,Ke na le phetoho sebakeng sa sefahleho sa leihlo la ka.
+3376,Symptoms and Complaints,I have a rash that is accompanied by crusting.,Ke na le ho ruruha ha letlalo ho tsamaeang le ho oma ha seretse.
+3377,Symptoms and Complaints,I have a change in the movement of my eyelid.,Ke na le phetoho mokhoaneng oa ho tsamaea ha sefahleho sa leihlo la ka.
+3378,Symptoms and Complaints,I have a rash that is accompanied by weeping.,Ke na le ho ruruha ha letlalo ho tsamaeang le ho tsoa ha metsi.
+3379,Symptoms and Complaints,I have a change in the colour of my eyelid.,Ke na le phetoho mmelaeng oa sefahleho sa leihlo la ka.
+3380,Symptoms and Complaints,I have a rash that is accompanied by scaling.,Ke na le ho ruruha ha letlalo ho tsamaeang le likhase.
+3381,Symptoms and Complaints,I have a change in the texture of my eyelid.,Ke na le phetoho sebopehing sa letlalo la sefahleho sa leihlo la ka.
+3382,Symptoms and Complaints,I have a rash that is accompanied by thickening of the skin.,Ke na le ho ruruha ha letlalo ho tsamaeang le ho tetea ha letlalo.
+3383,Symptoms and Complaints,I have a change in the size of my eyelid.,Ke na le phetoho bohlong ba sefahleho sa leihlo la ka.
+3384,Symptoms and Complaints,I have a rash that is accompanied by darkening of the skin.,Ke na le ho ruruha ha letlalo ho tsamaeang le ho fifala ha letlalo.
+3385,Symptoms and Complaints,I have a change in the shape of my eyelid.,Ke na le phetoho sebopehing sa sefahleho sa leihlo la ka.
+3386,Symptoms and Complaints,I have a rash that is accompanied by lightening of the skin.,Ke na le ho ruruha ha letlalo ho tsamaeang le ho pheela ha letlalo.
+3387,Symptoms and Complaints,I have a change in the sensation of my eyelid.,Ke na le phetoho maikutlong a sefahleho sa leihlo la ka.
+3388,Symptoms and Complaints,I have a rash that is accompanied by scarring.,Ke na le ho ruruha ha letlalo ho tsamaeang le ho sala ha maqeba.
+3389,Symptoms and Complaints,I have a change in the temperature of my eyelid.,Ke na le phetoho mochesong oa sefahleho sa leihlo la ka.
+3390,Symptoms and Complaints,I have a rash that is accompanied by ulceration.,Ke na le ho ruruha ha letlalo ho tsamaeang le ho eba ha maqeba.
+3391,Symptoms and Complaints,I have been urinating very frequently.,Ke ntse ke morota hangata haholo.
+3392,Symptoms and Complaints,I have blood in my urine and I am very worried.,Ke na le mali morotong oa ka mme ke na le khathello e kholo.
+3393,Symptoms and Complaints,I have difficulty starting to urinate.,Ke na le bothata ba ho qala ho morota.
+3394,Symptoms and Complaints,I have a weak urine stream.,Ke na le molapo oa moroto o fokolang.
+3395,Symptoms and Complaints,I have been waking up at night to urinate.,Ke ntse ke tsoa boroko bosiu ho ea morota.
+3396,Symptoms and Complaints,I have pain in my lower abdomen when I urinate.,Ke na le mahloko mpeng ea ka e tlase ha ke morota.
+3397,Symptoms and Complaints,I have a discharge from my penis.,Ke na le seretse se tsoang peniseng ea ka.
+3398,Symptoms and Complaints,I have a discharge from my vagina that has a bad smell.,Ke na le seretse se tsoang vagineng ea ka se nang le monko o mobe.
+3399,Symptoms and Complaints,I have pain during sexual intercourse.,Ke na le mahloko nakong ea thobalano.
+3400,Symptoms and Complaints,I have swelling in my scrotum.,Ke na le ho ruruha scrotumeng ea ka.

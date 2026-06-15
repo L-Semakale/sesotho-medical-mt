@@ -1,0 +1,201 @@
+sentence_id,domain_category,english_text,sesotho_text
+1801,Medication Instructions,Take one tablet twice daily with food.,Nka pilisi e le ngoe habeli ka letsatsi le lijo.
+1802,Medication Instructions,Take two capsules every eight hours with a full glass of water.,Nka li-capsule tse peli ka maho a robeli le mohope o tletseng oa metsi.
+1803,Medication Instructions,Take one tablet in the morning and one at night.,Nka pilisi e le ngoe hoseng le e le ngoe bosiu.
+1804,Medication Instructions,Take this medicine three times a day after meals.,Nka moriana ona habeli ka letsatsi ka mor'a lijo.
+1805,Medication Instructions,Take one tablet every twelve hours.,Nka pilisi e le ngoe ka maho a leshome le metso e meli le metso e meli.
+1806,Medication Instructions,Take two tablets once daily in the morning.,Nka lipilisi tse peli ka nako e le ngoe letsatsi le leng le le leng hoseng.
+1807,Medication Instructions,Take one capsule four times a day at equal intervals.,Nka capsule e le ngoe habeli ka letsatsi ka linako tse lekanang.
+1808,Medication Instructions,Take half a tablet daily if you weigh less than 50kg.,Nka halofo ea pilisi letsatsi le leng le le leng haeba u boima bo tlase ho 50kg.
+1809,Medication Instructions,Take one tablet daily for seven days.,Nka pilisi e le ngoe letsatsi le leng le le leng ka matsatsi a supileng.
+1810,Medication Instructions,"Take two tablets on the first day, then one tablet daily for the remaining days.","Nka lipilisi tse peli letsatsing la pele, ebe o nka pilisi e le ngoe letsatsi le leng le le leng matsatsing a setseng."
+1811,Medication Instructions,Take one tablet every six hours as needed for pain.,Nka pilisi e le ngoe ka maho a tšeletseng ha ho hlokeha bakeng sa mahloko.
+1812,Medication Instructions,Take one tablet at bedtime to help you sleep.,Nka pilisi e le ngoe nako ea ho robala ho u thusa ho robala.
+1813,Medication Instructions,Take one tablet thirty minutes before meals.,Nka pilisi e le ngoe metsotso e mashome a mararo pele ho lijo.
+1814,Medication Instructions,"Take two tablets immediately, then one tablet every eight hours.","Nka lipilisi tse peli hang hang, ebe o nka pilisi e le ngoe ka maho a robeli."
+1815,Medication Instructions,Take one tablet with breakfast every morning.,Nka pilisi e le ngoe le dijo tsa hoseng hoseng hoa hoseng.
+1816,Medication Instructions,Take the full prescribed dose at the same time each day.,Nka dose yohle e laetsoeng ka nako e tšoanang letsatsi le leng le le leng.
+1817,Medication Instructions,Take one tablet daily without missing any doses.,Nka pilisi e le ngoe letsatsi le leng le le leng ntle le ho lahleheloa ke li-dose.
+1818,Medication Instructions,"Take one tablet every four hours, not exceeding six tablets in twenty-four hours.","Nka pilisi e le ngoe ka maho a mane, u sa fete lipilisi tse tšeletseng ka maho a mashome a mabeli le mane."
+1819,Medication Instructions,Take two tablets twice daily for ten days.,Nka lipilisi tse peli habeli ka letsatsi ka matsatsi a leshome.
+1820,Medication Instructions,Take one capsule with your evening meal.,Nka capsule e le ngoe le lijo tsa mantsiboa.
+1821,Medication Instructions,Take one tablet on an empty stomach first thing in the morning.,Nka pilisi e le ngoe ka mala a se nang lijo ntho ea pele hoseng.
+1822,Medication Instructions,Take three tablets once daily with food.,Nka lipilisi tse tharo ka nako e le ngoe letsatsi le leng le le leng le lijo.
+1823,Medication Instructions,Take one tablet every twenty-four hours.,Nka pilisi e le ngoe ka maho a mashome a mabeli le mane.
+1824,Medication Instructions,Take two capsules three times a day with meals.,Nka li-capsule tse peli habeli ka letsatsi le lijo.
+1825,Medication Instructions,"Take one tablet daily for fourteen days, then reassess.","Nka pilisi e le ngoe letsatsi le leng le le leng ka matsatsi a leshome le mane, ebe o lekola hape."
+1826,Medication Instructions,Take one tablet twice daily for five days.,Nka pilisi e le ngoe habeli ka letsatsi ka matsatsi a hlano.
+1827,Medication Instructions,Take one tablet every eight hours for seven days.,Nka pilisi e le ngoe ka maho a robeli ka matsatsi a supileng.
+1828,Medication Instructions,Take two tablets at night before sleeping.,Nka lipilisi tse peli bosiu pele ho robala.
+1829,Medication Instructions,Take one tablet in the morning on an empty stomach.,Nka pilisi e le ngoe hoseng ka mala a se nang lijo.
+1830,Medication Instructions,Take one capsule twice daily with plenty of water.,Nka capsule e le ngoe habeli ka letsatsi le metsi a mangata.
+1831,Medication Instructions,Take one tablet with a meal to reduce stomach upset.,Nka pilisi e le ngoe le lijo ho fokotsa ho nyakeloa ha mala.
+1832,Medication Instructions,"Take two tablets as a single dose, then one tablet daily.","Nka lipilisi tse peli e le dose e le ngoe, ebe o nka pilisi e le ngoe letsatsi le leng le le leng."
+1833,Medication Instructions,Take one tablet every day at the same time to maintain steady levels.,Nka pilisi e le ngoe letsatsi le leng le le leng ka nako e tšoanang ho boloka maemo a tsitsitseng.
+1834,Medication Instructions,"Take one tablet twice daily, morning and evening.","Nka pilisi e le ngoe habeli ka letsatsi, hoseng le mantsiboa."
+1835,Medication Instructions,Take one tablet three times daily after food.,Nka pilisi e le ngoe habeli ka letsatsi ka mor'a lijo.
+1836,Medication Instructions,Take two tablets once at night for the full treatment course.,Nka lipilisi tse peli ka nako e le ngoe bosiu khoroso yohle ea phekolo.
+1837,Medication Instructions,Take one tablet daily for thirty days.,Nka pilisi e le ngoe letsatsi le leng le le leng ka matsatsi a mashome a mararo.
+1838,Medication Instructions,Take one capsule every twelve hours with food.,Nka capsule e le ngoe ka maho a leshome le metso e meli le metso e meli le lijo.
+1839,Medication Instructions,Take one tablet four times daily for three days.,Nka pilisi e le ngoe habeli ka letsatsi ka matsatsi a mararo.
+1840,Medication Instructions,"Take two tablets on day one, then one tablet on days two through five.","Nka lipilisi tse peli letsatsing la pele, ebe o nka pilisi e le ngoe matsatsing a mabeli ho isa ho a hlano."
+1841,Medication Instructions,Take one tablet at noon and one at bedtime.,Nka pilisi e le ngoe motsheare le e le ngoe nako ea ho robala.
+1842,Medication Instructions,Take the medication at evenly spaced intervals throughout the day.,Nka moriana ka linako tse lekanang ho pholletsa le letsatsi.
+1843,Medication Instructions,Take one tablet with a large glass of water and remain upright for thirty minutes.,Nka pilisi e le ngoe le mohope o moholo oa metsi mme u lule o otlolohile ka metsotso e mashome a mararo.
+1844,Medication Instructions,Take two tablets twice daily until the prescription is finished.,Nka lipilisi tse peli habeli ka letsatsi ho fihlela prescription e phela.
+1845,Medication Instructions,Take one tablet every morning with or without food.,Nka pilisi e le ngoe hoseng hoa hoseng le lijo kapa ntle le tsona.
+1846,Medication Instructions,Take one tablet three times a day for fourteen days.,Nka pilisi e le ngoe habeli ka letsatsi ka matsatsi a leshome le mane.
+1847,Medication Instructions,Take two capsules at bedtime with a glass of water.,Nka li-capsule tse peli nako ea ho robala le mohope oa metsi.
+1848,Medication Instructions,"Take one tablet daily, preferably at the same time each day.","Nka pilisi e le ngoe letsatsi le leng le le leng, haholo-holo ka nako e tšoanang letsatsi le leng le le leng."
+1849,Medication Instructions,Take one tablet every eight hours for ten days.,Nka pilisi e le ngoe ka maho a robeli ka matsatsi a leshome.
+1850,Medication Instructions,"Take two tablets on the first day, then one tablet daily for six days.","Nka lipilisi tse peli letsatsing la pele, ebe o nka pilisi e le ngoe letsatsi le leng le le leng ka matsatsi a tšeletseng."
+1851,Medication Instructions,Take one tablet twice daily for three months.,Nka pilisi e le ngoe habeli ka letsatsi ka likhoeli tse tharo.
+1852,Medication Instructions,Take one tablet in the morning and two at night.,Nka pilisi e le ngoe hoseng le tse peli bosiu.
+1853,Medication Instructions,Take one capsule once daily with the main meal.,Nka capsule e le ngoe ka nako e le ngoe letsatsi le leng le le leng le lijo tsa bohlokoa.
+1854,Medication Instructions,Take two tablets three times a day for five days.,Nka lipilisi tse peli habeli ka letsatsi ka matsatsi a hlano.
+1855,Medication Instructions,Take one tablet every day for six months without interruption.,Nka pilisi e le ngoe letsatsi le leng le le leng ka likhoeli tse tšeletseng ntle le ho emisa.
+1856,Medication Instructions,"Take one tablet twice daily, swallowed whole with water.","Nka pilisi e le ngoe habeli ka letsatsi, e metsooa ka botlalo le metsi."
+1857,Medication Instructions,Take one tablet every night at bedtime for two weeks.,Nka pilisi e le ngoe bosiu bo bong le bo bong nako ea ho robala ka libeke tse peli.
+1858,Medication Instructions,"Take two tablets as a loading dose, then one tablet daily.","Nka lipilisi tse peli e le loading dose, ebe o nka pilisi e le ngoe letsatsi le leng le le leng."
+1859,Medication Instructions,Take one tablet four times daily until symptoms resolve.,Nka pilisi e le ngoe habeli ka letsatsi ho fihlela matšoao a fela.
+1860,Medication Instructions,"Take one capsule twice a day, morning and evening, with food.","Nka capsule e le ngoe habeli ka letsatsi, hoseng le mantsiboa, le lijo."
+1861,Medication Instructions,Take one tablet daily for the entire duration prescribed by your doctor.,Nka pilisi e le ngoe letsatsi le leng le le leng nako yohle e laetsoeng ke ngaka ea hau.
+1862,Medication Instructions,Take two tablets at the same time once a day.,Nka lipilisi tse peli ka nako e tšoanang ka nako e le ngoe ka letsatsi.
+1863,Medication Instructions,Take one tablet every six hours for forty-eight hours.,Nka pilisi e le ngoe ka maho a tšeletseng ka maho a mashome a mane le robeli.
+1864,Medication Instructions,Take one tablet with food to minimise nausea.,Nka pilisi e le ngoe le lijo ho fokotsa ho nyakeloa.
+1865,Medication Instructions,Take two capsules once daily in the morning.,Nka li-capsule tse peli ka nako e le ngoe letsatsi le leng le le leng hoseng.
+1866,Medication Instructions,Take one tablet three times daily at eight-hour intervals.,Nka pilisi e le ngoe habeli ka letsatsi ka linako tse arohaneng ka maho a robeli.
+1867,Medication Instructions,"Take one tablet every day, even when you feel well.","Nka pilisi e le ngoe letsatsi le leng le le leng, le ha u ikutloa u phela hantle."
+1868,Medication Instructions,"Take two tablets twice daily for the first week, then one tablet twice daily.","Nka lipilisi tse peli habeli ka letsatsi bekeng ea pele, ebe o nka pilisi e le ngoe habeli ka letsatsi."
+1869,Medication Instructions,Take one tablet at night for insomnia as directed.,Nka pilisi e le ngoe bosiu bakeng sa ho hloka boroko joalo ka ha ho laetsoe.
+1870,Medication Instructions,Take one tablet every morning with a full glass of water.,Nka pilisi e le ngoe hoseng hoa hoseng le mohope o tletseng oa metsi.
+1871,Medication Instructions,"Take two tablets on day one, one tablet on day two, and one tablet on day three.","Nka lipilisi tse peli letsatsing la pele, pilisi e le ngoe letsatsing la bobeli, le pilisi e le ngoe letsatsing la boraro."
+1872,Medication Instructions,Take one capsule three times daily after meals.,Nka capsule e le ngoe habeli ka letsatsi ka mor'a lijo.
+1873,Medication Instructions,Take one tablet daily for twelve months.,Nka pilisi e le ngoe letsatsi le leng le le leng ka likhoeli tse leshome le metso e meli.
+1874,Medication Instructions,Take two tablets immediately after diagnosis is confirmed.,Nka lipilisi tse peli hang hang ka mor'a ho netefatsoa ha tlhahlobo.
+1875,Medication Instructions,Take one tablet every twelve hours for fourteen days.,Nka pilisi e le ngoe ka maho a leshome le metso e meli le metso e meli ka matsatsi a leshome le mane.
+1876,Medication Instructions,Take one tablet with the first meal of the day.,Nka pilisi e le ngoe le lijo tsa pele tsa letsatsi.
+1877,Medication Instructions,Take two tablets once daily for three days only.,Nka lipilisi tse peli ka nako e le ngoe letsatsi le leng le le leng ka matsatsi a mararo feela.
+1878,Medication Instructions,"Take one tablet every eight hours, not exceeding three tablets per day.","Nka pilisi e le ngoe ka maho a robeli, u sa fete lipilisi tse tharo ka letsatsi."
+1879,Medication Instructions,"Take one tablet twice daily for the first month, then once daily thereafter.","Nka pilisi e le ngoe habeli ka letsatsi khoeling ea pele, ebe o nka ka nako e le ngoe letsatsi le leng le le leng ka mor'a moo."
+1880,Medication Instructions,Take two capsules twice daily with food.,Nka li-capsule tse peli habeli ka letsatsi le lijo.
+1881,Medication Instructions,"Take one tablet daily, increasing to two tablets after one week if tolerated.","Nka pilisi e le ngoe letsatsi le leng le le leng, o eketse ho lipilisi tse peli ka mor'a beke e le ngoe haeba ho mamelloa."
+1882,Medication Instructions,Take one tablet every morning and every evening.,Nka pilisi e le ngoe hoseng hoa hoseng le mantsiboa a mangata.
+1883,Medication Instructions,Take two tablets as a single dose with food.,Nka lipilisi tse peli e le dose e le ngoe le lijo.
+1884,Medication Instructions,Take one tablet three times a day for seven days.,Nka pilisi e le ngoe habeli ka letsatsi ka matsatsi a supileng.
+1885,Medication Instructions,Take one tablet at the same time every day to maintain drug levels.,Nka pilisi e le ngoe ka nako e tšoanang letsatsi le leng le le leng ho boloka maemo a moriana.
+1886,Medication Instructions,Take two tablets once daily for five days.,Nka lipilisi tse peli ka nako e le ngoe letsatsi le leng le le leng ka matsatsi a hlano.
+1887,Medication Instructions,Take one capsule every morning before breakfast.,Nka capsule e le ngoe hoseng hoa hoseng pele ho dijo tsa hoseng.
+1888,Medication Instructions,Take one tablet twice daily for two weeks.,Nka pilisi e le ngoe habeli ka letsatsi ka libeke tse peli.
+1889,Medication Instructions,"Take two tablets on the first day only, then one tablet daily.","Nka lipilisi tse peli letsatsing la pele feela, ebe o nka pilisi e le ngoe letsatsi le leng le le leng."
+1890,Medication Instructions,Take one tablet every day for the rest of your life as prescribed.,Nka pilisi e le ngoe letsatsi le leng le le leng bophelong ba hau bohle joalo ka ha ho laetsoe.
+1891,Medication Instructions,Take two tablets three times daily for three days.,Nka lipilisi tse peli habeli ka letsatsi ka matsatsi a mararo.
+1892,Medication Instructions,"Take one tablet daily, starting on the first day of treatment.","Nka pilisi e le ngoe letsatsi le leng le le leng, u qale letsatsing la pele la phekolo."
+1893,Medication Instructions,"Take one capsule twice daily, morning and night.","Nka capsule e le ngoe habeli ka letsatsi, hoseng le bosiu."
+1894,Medication Instructions,Take two tablets once daily with a meal.,Nka lipilisi tse peli ka nako e le ngoe letsatsi le leng le le leng le lijo.
+1895,Medication Instructions,Take one tablet every four hours while awake.,Nka pilisi e le ngoe ka maho a mane ha u tsohetse.
+1896,Medication Instructions,Take one tablet twice daily for four weeks.,Nka pilisi e le ngoe habeli ka letsatsi ka libeke tse nne.
+1897,Medication Instructions,"Take two tablets as a single dose, repeated after twelve hours if needed.","Nka lipilisi tse peli e le dose e le ngoe, e phindoe ka mor'a maho a leshome le metso e meli le metso e meli haeba ho hlokeha."
+1898,Medication Instructions,Take one tablet every night before bed for chronic management.,Nka pilisi e le ngoe bosiu bo bong le bo bong pele ho robala bakeng sa taolo ea bolwetse ba nako e telele.
+1899,Medication Instructions,Take two capsules once daily for seven days.,Nka li-capsule tse peli ka nako e le ngoe letsatsi le leng le le leng ka matsatsi a supileng.
+1900,Medication Instructions,Take one tablet three times daily until the course is complete.,Nka pilisi e le ngoe habeli ka letsatsi ho fihlela khoroso e phela.
+1901,Medication Instructions,"Take one tablet every morning, increasing the dose as directed by your doctor.","Nka pilisi e le ngoe hoseng hoa hoseng, o eketse dose joalo ka ha ngaka ea hau e laetsa."
+1902,Medication Instructions,Take two tablets twice daily for the duration of the treatment.,Nka lipilisi tse peli habeli ka letsatsi nako yohle ea phekolo.
+1903,Medication Instructions,Take one capsule daily for the entire prescribed period.,Nka capsule e le ngoe letsatsi le leng le le leng nako yohle e laetsoeng.
+1904,Medication Instructions,"Take one tablet every eight hours, ensuring equal spacing between doses.","Nka pilisi e le ngoe ka maho a robeli, u netefatse hore linako tse lekanang li le lipakeng tsa li-dose."
+1905,Medication Instructions,"Take two tablets once daily, preferably in the morning.","Nka lipilisi tse peli ka nako e le ngoe letsatsi le leng le le leng, haholo-holo hoseng."
+1906,Medication Instructions,"Take one tablet twice daily, swallowing it whole without crushing.","Nka pilisi e le ngoe habeli ka letsatsi, u e metse ka botlalo ntle le ho e hlohlela."
+1907,Medication Instructions,"Take one tablet every day for twenty-eight days, then take a seven-day break.","Nka pilisi e le ngoe letsatsi le leng le le leng ka matsatsi a mashome a mabeli le robeli, ebe o khutsa matsatsi a supileng."
+1908,Medication Instructions,Take two tablets at bedtime only.,Nka lipilisi tse peli nako ea ho robala feela.
+1909,Medication Instructions,Take one tablet three times daily with plenty of fluids.,Nka pilisi e le ngoe habeli ka letsatsi le metsi a mangata.
+1910,Medication Instructions,Take one capsule once daily at the same time each day.,Nka capsule e le ngoe ka nako e le ngoe letsatsi le leng le le leng ka nako e tšoanang letsatsi le leng le le leng.
+1911,Medication Instructions,Take two tablets twice daily for two weeks.,Nka lipilisi tse peli habeli ka letsatsi ka libeke tse peli.
+1912,Medication Instructions,Take one tablet every six hours until fever subsides.,Nka pilisi e le ngoe ka maho a tšeletseng ho fihlela feberu e theohela.
+1913,Medication Instructions,"Take one tablet daily for the first week, then twice daily thereafter.","Nka pilisi e le ngoe letsatsi le leng le le leng bekeng ea pele, ebe o nka habeli ka letsatsi ka mor'a moo."
+1914,Medication Instructions,"Take two tablets as a single dose, not to be repeated within twenty-four hours.","Nka lipilisi tse peli e le dose e le ngoe, e sa phindoe ka hare ho maho a mashome a mabeli le mane."
+1915,Medication Instructions,Take one tablet every morning with food for long-term management.,Nka pilisi e le ngoe hoseng hoa hoseng le lijo bakeng sa taolo ea nako e telele.
+1916,Medication Instructions,Take two capsules three times daily for five days.,Nka li-capsule tse peli habeli ka letsatsi ka matsatsi a hlano.
+1917,Medication Instructions,Take one tablet twice daily for six months.,Nka pilisi e le ngoe habeli ka letsatsi ka likhoeli tse tšeletseng.
+1918,Medication Instructions,"Take one tablet every twelve hours, ensuring you do not miss a dose.","Nka pilisi e le ngoe ka maho a leshome le metso e meli le metso e meli, u netefatse hore ha u lahleheloe ke dose."
+1919,Medication Instructions,Take two tablets once daily at bedtime.,Nka lipilisi tse peli ka nako e le ngoe letsatsi le leng le le leng nako ea ho robala.
+1920,Medication Instructions,Take one tablet three times daily for the full course of treatment.,Nka pilisi e le ngoe habeli ka letsatsi khoroso yohle ea phekolo.
+1921,Medication Instructions,Take one capsule every morning and evening with food.,Nka capsule e le ngoe hoseng hoa hoseng le mantsiboa le lijo.
+1922,Medication Instructions,Take two tablets twice daily until your doctor advises otherwise.,Nka lipilisi tse peli habeli ka letsatsi ho fihlela ngaka ea hau e laela ngoana.
+1923,Medication Instructions,"Take one tablet daily, taken at the same time to improve adherence.","Nka pilisi e le ngoe letsatsi le leng le le leng, e nkoa ka nako e tšoanang ho ntlafatsa ho latela."
+1924,Medication Instructions,"Take two tablets on the first day, then one tablet daily for nine days.","Nka lipilisi tse peli letsatsing la pele, ebe o nka pilisi e le ngoe letsatsi le leng le le leng ka matsatsi a robong."
+1925,Medication Instructions,Take one tablet every eight hours for five days.,Nka pilisi e le ngoe ka maho a robeli ka matsatsi a hlano.
+1926,Medication Instructions,"Take one capsule once daily, swallowed whole with water.","Nka capsule e le ngoe ka nako e le ngoe letsatsi le leng le le leng, e metsooa ka botlalo le metsi."
+1927,Medication Instructions,Take two tablets twice daily for one week.,Nka lipilisi tse peli habeli ka letsatsi ka beke e le ngoe.
+1928,Medication Instructions,"Take one tablet every morning, noon, and night.","Nka pilisi e le ngoe hoseng, motsheare, le bosiu."
+1929,Medication Instructions,Take two tablets as directed by your healthcare provider.,Nka lipilisi tse peli joalo ka ha mofani oa hau oa tlhokomelo ea bophelo bo botle a laetsa.
+1930,Medication Instructions,Take one tablet daily for the entire duration of your prescription.,Nka pilisi e le ngoe letsatsi le leng le le leng nako yohle ea prescription ea hau.
+1931,Medication Instructions,Take one capsule twice daily for fourteen days.,Nka capsule e le ngoe habeli ka letsatsi ka matsatsi a leshome le mane.
+1932,Medication Instructions,Take two tablets three times daily for seven days.,Nka lipilisi tse peli habeli ka letsatsi ka matsatsi a supileng.
+1933,Medication Instructions,"Take one tablet every four to six hours as needed, not exceeding four doses per day.","Nka pilisi e le ngoe ka maho a mane ho isa ho a tšeletseng ha ho hlokeha, u sa fete li-dose tse nne ka letsatsi."
+1934,Medication Instructions,"Take one tablet twice daily, morning and evening, with or without food.","Nka pilisi e le ngoe habeli ka letsatsi, hoseng le mantsiboa, le lijo kapa ntle le tsona."
+1935,Medication Instructions,Take two capsules once daily for the full treatment period.,Nka li-capsule tse peli ka nako e le ngoe letsatsi le leng le le leng nako yohle ea phekolo.
+1936,Medication Instructions,Take one tablet every day at bedtime for chronic conditions.,Nka pilisi e le ngoe letsatsi le leng le le leng nako ea ho robala bakeng sa maemo a nako e telele.
+1937,Medication Instructions,"Take two tablets once daily, swallowed whole with a full glass of water.","Nka lipilisi tse peli ka nako e le ngoe letsatsi le leng le le leng, li metsooa ka botlalo le mohope o tletseng oa metsi."
+1938,Medication Instructions,Take one tablet three times daily for ten days.,Nka pilisi e le ngoe habeli ka letsatsi ka matsatsi a leshome.
+1939,Medication Instructions,Take one capsule every twelve hours for seven days.,Nka capsule e le ngoe ka maho a leshome le metso e meli le metso e meli ka matsatsi a supileng.
+1940,Medication Instructions,Take two tablets twice daily for three days.,Nka lipilisi tse peli habeli ka letsatsi ka matsatsi a mararo.
+1941,Medication Instructions,Take one tablet daily for the prescribed number of weeks.,Nka pilisi e le ngoe letsatsi le leng le le leng bakeng sa palo ea libeke tse laetsoeng.
+1942,Medication Instructions,Take two tablets once daily in the evening with food.,Nka lipilisi tse peli ka nako e le ngoe letsatsi le leng le le leng mantsiboa le lijo.
+1943,Medication Instructions,Take one tablet every eight hours for three days.,Nka pilisi e le ngoe ka maho a robeli ka matsatsi a mararo.
+1944,Medication Instructions,Take one capsule three times daily for seven days.,Nka capsule e le ngoe habeli ka letsatsi ka matsatsi a supileng.
+1945,Medication Instructions,Swallow the tablet whole with a full glass of water.,Metsa pilisi ka botlalo le mohope o tletseng oa metsi.
+1946,Medication Instructions,Do not crush or chew this tablet; swallow it whole.,U se ke ua hlohlela kapa ua hlafuna pilisi ena; e metse ka botlalo.
+1947,Medication Instructions,Place the tablet under your tongue and let it dissolve.,Beha pilisi tlase ho leleme la hau mme u e lumelle ho nyamela.
+1948,Medication Instructions,Apply the cream thinly to the affected area twice daily.,Sebelisa cream butle sebakeng se angoa habeli ka letsatsi.
+1949,Medication Instructions,Insert the suppository gently into the rectum.,Kenya suppository butle ka hare ho rectum.
+1950,Medication Instructions,Inhale one puff from the inhaler and hold your breath for ten seconds.,Hema phelo e le ngoe ho tsoa ho inhaler mme u tšoare moya oa hau ka metsotso e leshome.
+1951,Medication Instructions,Inject the solution subcutaneously into the abdomen or thigh.,Kenya setšoelo ka tlase ho letlalo mpeng kapa serope.
+1952,Medication Instructions,Administer the injection into the upper outer quadrant of the buttock.,Fana ka ente karolo ea holimo ea kantle ea letheka.
+1953,Medication Instructions,"Apply the patch to clean, dry, hairless skin on the upper arm.","Beha patch letlalong le hloekileng, le omileng, le se nang moriri lephakeng le holimo."
+1954,Medication Instructions,Place the drops directly into the affected ear.,Beha litšoelelo ka kotloloho tsebeng e angoa.
+1955,Medication Instructions,Instil two drops into each eye four times daily.,Kenya litšoelelo tse peli leihlong le leng le le leng habeli ka letsatsi.
+1956,Medication Instructions,Apply the gel to the affected joint and rub in gently.,Sebelisa gel maqhoeng a angoa mme u phehe butle.
+1957,Medication Instructions,Dissolve the tablet in a glass of water before drinking.,Nyamesa pilisi mohopeng oa metsi pele ho noa.
+1958,Medication Instructions,Shake the suspension well before measuring the dose.,Nyenyetsa suspension hantle pele ho lekola dose.
+1959,Medication Instructions,Use the measuring spoon provided to ensure the correct dose.,Sebelisa sekhoro sa ho lekola se fanoeng ho netefatsa dose e nepahetseng.
+1960,Medication Instructions,Administer the injection slowly into the muscle.,Fana ka ente butle ka hare ho mochine.
+1961,Medication Instructions,Apply the ointment to the affected skin area and cover with a dressing.,Sebelisa ointment sebakeng sa letlalo se angoa mme u koahele ka dressing.
+1962,Medication Instructions,Inhale the powder deeply into the lungs using the inhaler device.,Hema phutholoho ka botebo matšoafong o sebelisa sesebelisoa sa inhaler.
+1963,Medication Instructions,Place the lozenge in the mouth and let it dissolve slowly.,Beha lozenge molomong mme u e lumelle ho nyamela butle.
+1964,Medication Instructions,Administer the nasal spray by inserting the tip into one nostril.,Fana ka nasal spray ka ho kenya ntlha sefubeng se le seng sa nko.
+1965,Medication Instructions,Apply the eye drops by pulling down the lower eyelid to form a pocket.,Sebelisa litšoelelo tsa leihlo ka ho hohela tlase sefahleho sa tlase sa leihlo ho theha saka.
+1966,Medication Instructions,Inject the insulin subcutaneously and rotate injection sites regularly.,Kenya insulin ka tlase ho letlalo mme u potolohe libaka tsa ho kenya ka mehla.
+1967,Medication Instructions,Administer the intravenous infusion over sixty minutes.,Fana ka infusion ea madi ka hare ho metsotso e mashome a tšeletseng.
+1968,Medication Instructions,Apply the transdermal patch and replace it every seventy-two hours.,Beha transdermal patch mme u e ntshe ka maho a mashome a supileng le metso e meli.
+1969,Medication Instructions,Dissolve the powder in 200ml of water and drink immediately.,Nyamesa phutholoho ho 200ml ea metsi mme u noe hang hang.
+1970,Medication Instructions,Insert the vaginal tablet as high as possible using the applicator provided.,Kenya pilisi ea vaginal ho phahama kamoo ho khonehang ka ho sebelisa applicator e fanoeng.
+1971,Medication Instructions,Administer the nebulised solution using a mask or mouthpiece.,Fana ka setšoelo sa nebulised ka ho sebelisa mask kapa mouthpiece.
+1972,Medication Instructions,Apply the lotion to the scalp and leave for ten minutes before rinsing.,Sebelisa lotion hloohong mme u e siee ka metsotso e leshome pele ho hlatsoa.
+1973,Medication Instructions,Swallow the capsule whole; do not open or chew it.,Metsa capsule ka botlalo; u se ke ua e bula kapa ua e hlafuna.
+1974,Medication Instructions,Administer the injection at a ninety-degree angle for intramuscular injection.,Fana ka ente ka konokono ea masome a robong bakeng sa ente ea ka hare ho mochine.
+1975,Medication Instructions,Apply the cream to the skin and avoid contact with eyes and mucous membranes.,Sebelisa cream letlalong mme u hane ho kopana le mahlo le li-mucous membrane.
+1976,Medication Instructions,Use the oral syringe to measure the correct dose for children.,Sebelisa syringe ea molomo ho lekola dose e nepahetseng bakeng sa bana.
+1977,Medication Instructions,Administer the eye ointment along the inner lower eyelid.,Fana ka eye ointment ka hare ho sefahleho sa tlase sa leihlo.
+1978,Medication Instructions,Place the sublingual film under the tongue and allow it to dissolve.,Beha sublingual film tlase ho leleme mme u e lumelle ho nyamela.
+1979,Medication Instructions,Inject the solution at a forty-five-degree angle for subcutaneous injection.,Kenya setšoelo ka konokono ea mashome a mane le metso e mehlano bakeng sa ente ea ka tlase ho letlalo.
+1980,Medication Instructions,Apply the spray to the affected area from a distance of fifteen centimetres.,Sebelisa spray sebakeng se angoa ho tsoa sebakeng sa lisenitimetara tse leshome le metso e mehlano.
+1981,Medication Instructions,Administer the rectal enema by lying on your left side.,Fana ka rectal enema ka ho robala lehlakoreng la hau la molema.
+1982,Medication Instructions,Inhale slowly and deeply when using the pressurised metered-dose inhaler.,Hema butle le ka botebo ha u sebelisa pressurised metered-dose inhaler.
+1983,Medication Instructions,Apply the medicated shampoo to wet hair and leave for five minutes.,Sebelisa shampoo ea moriana moriring o metsi mme u e siee ka metsotso e mehlano.
+1984,Medication Instructions,Administer the injection into the deltoid muscle of the upper arm.,Fana ka ente mochineng oa deltoid oa lephaka le holimo.
+1985,Medication Instructions,Place the effervescent tablet in water and wait until fully dissolved.,Beha pilisi ea effervescent metsin mme u eme ho fihlela e nyamela ka botlalo.
+1986,Medication Instructions,Apply the topical solution using the applicator provided.,Sebelisa setšoelo sa letlalo ka ho sebelisa applicator e fanoeng.
+1987,Medication Instructions,Administer the intramuscular injection into the vastus lateralis in infants.,Fana ka ente ea ka hare ho mochine ka hare ho vastus lateralis ho bana ba banyenyane.
+1988,Medication Instructions,Inhale through the mouthpiece of the dry powder inhaler in one steady breath.,Hema ka mouthpiece ea dry powder inhaler ka moya o le mong o tsitsitseng.
+1989,Medication Instructions,Apply the nasal ointment inside each nostril using a cotton swab.,Sebelisa nasal ointment ka hare ho sefuba se seng le se seng sa nko ka ho sebelisa cotton swab.
+1990,Medication Instructions,Administer the subcutaneous injection by pinching the skin before inserting the needle.,Fana ka ente ea ka tlase ho letlalo ka ho kama letlalo pele ho kenya inaliti.
+1991,Medication Instructions,"Apply the medicated patch to the chest or back, not over broken skin.","Beha patch ea moriana sefubeng kapa mokokotlong, eseng holim'a letlalo le senyehileng."
+1992,Medication Instructions,Instil the ear drops by tilting the head to one side and pulling the ear upward.,Kenya litšoelelo tsa tsebe ka ho kekela hlooho lehlakoreng le le leng mme u hohele tsebe holimo.
+1993,Medication Instructions,Administer the oral rehydration solution in small sips over several hours.,Fana ka setšoelo sa ho noa sa ho busa metsi ka meno a manyenyane ka maho a mang.
+1994,Medication Instructions,Apply the antifungal cream between the toes and to the surrounding skin.,Sebelisa cream ea antifungal lipakeng tsa menwana ea maoto le letlalong le potileng.
+1995,Medication Instructions,Administer the injection using a pre-filled syringe as instructed.,Fana ka ente ka ho sebelisa syringe e tletseng pele joalo ka ha ho laetsoe.
+1996,Medication Instructions,Inhale the bronchodilator before the corticosteroid inhaler.,Hema bronchodilator pele ho inhaler ea corticosteroid.
+1997,Medication Instructions,Apply the wound gel directly to the wound bed before covering.,Sebelisa wound gel ka kotloloho sebakeng sa ntoa pele ho koahela.
+1998,Medication Instructions,Administer the intravitreal injection only by a trained ophthalmologist.,Fana ka ente ea intravitreal ke ngaka ea mahlo e koetlisitsoeng feela.
+1999,Medication Instructions,Place the buccal tablet between the cheek and gum and allow it to dissolve.,Beha pilisi ea buccal lipakeng tsa lerama le seno mme u e lumelle ho nyamela.
+2000,Medication Instructions,Administer the intravenous bolus slowly over two minutes.,Fana ka intravenous bolus butle ka hare ho metsotso e mebeli.

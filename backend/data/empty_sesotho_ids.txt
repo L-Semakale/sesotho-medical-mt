@@ -1,0 +1,459 @@
+263,HIV,Investing in HIV prevention saves lives and reduces healthcare costs.
+264,HIV,Community-led HIV responses are essential for reaching the most vulnerable populations.
+265,HIV,HIV research continues to advance towards a cure and an effective vaccine.
+266,HIV,Workplace HIV programmes can support employees living with HIV.
+267,HIV,Employee assistance programmes can provide confidential support for workers with HIV.
+268,HIV,HIV-positive employees should not be required to disclose their status at work.
+269,HIV,Community health workers can support people living with HIV to stay on treatment.
+270,HIV,Home-based care programmes support people with advanced HIV who cannot travel to clinics.
+271,HIV,Faith-based organisations play an important role in HIV prevention and support.
+272,HIV,Traditional healers should be engaged as partners in HIV prevention and care.
+273,HIV,HIV-positive people can lead productive and fulfilling lives with proper treatment and support.
+274,HIV,Social protection programmes help people living with HIV meet their basic needs.
+275,HIV,Legal aid services can help people living with HIV defend their rights.
+276,HIV,I do not want to take medicine every day for the rest of my life.
+277,HIV,I am worried that people will find out I have HIV if they see my medicine.
+278,HIV,I feel ashamed about having HIV.
+279,HIV,My partner does not know I have HIV and I am afraid to tell them.
+280,HIV,I want to have children but I am worried about passing HIV to my baby.
+281,HIV,I have been on ART for two years and my CD4 count has gone up.
+282,HIV,I tested positive for HIV today and I feel very scared and alone.
+283,HIV,I have been living with HIV for ten years and I am still healthy.
+284,HIV,My child was born HIV-positive and I need to know how to care for them.
+285,HIV,I am a healthcare worker and I had a needlestick injury and need PEP.
+286,HIV,HIV counselling helps people understand their diagnosis and make informed decisions.
+287,HIV,Adherence counselling supports people on ART to take their medicines correctly.
+288,HIV,Couples counselling can help partners discuss HIV status and prevention strategies.
+289,HIV,Grief counselling is important for people who have lost loved ones to HIV.
+290,HIV,Disclosure counselling helps people decide how and when to share their HIV status.
+291,HIV,Nutritional counselling helps people living with HIV maintain a healthy diet.
+292,HIV,Psychosocial support addresses the emotional and social needs of people living with HIV.
+293,HIV,Support groups provide a safe space for people living with HIV to share experiences.
+294,HIV,Palliative care improves the quality of life for people with advanced HIV disease.
+295,HIV,Spiritual and religious support can be important for people living with HIV.
+296,HIV,Children living with HIV need regular monitoring of their growth and development.
+297,HIV,ART for children is available in liquid formulations for those who cannot swallow tablets.
+298,HIV,Children on ART should have their doses adjusted as they grow and gain weight.
+299,HIV,HIV-positive children should receive all routine vaccinations.
+300,HIV,HIV-positive children are at higher risk of malnutrition and need nutritional support.
+301,HIV,Caregivers of HIV-positive children need education and support to manage treatment.
+302,HIV,HIV-positive children may experience developmental delays that require early intervention.
+303,HIV,Cotrimoxazole prophylaxis should be given to all HIV-exposed infants from six weeks of age.
+304,HIV,Early infant diagnosis of HIV allows treatment to be started as soon as possible.
+305,HIV,HIV-positive children who are well on ART can participate fully in school and social activities.
+306,HIV,Option B+ means all HIV-positive pregnant women start ART regardless of CD4 count.
+307,HIV,ART started during pregnancy should be continued for life.
+308,HIV,HIV-positive women should plan their pregnancies with the help of their healthcare provider.
+309,HIV,Viral load suppression during pregnancy greatly reduces the risk of transmitting HIV to the baby.
+310,HIV,Caesarean section may be recommended for HIV-positive women with high viral loads.
+311,HIV,Newborns of HIV-positive mothers should receive cotrimoxazole prophylaxis from six weeks.
+312,HIV,HIV-exposed infants should be tested using a PCR test at six weeks of age.
+313,HIV,A negative PCR test at six weeks does not rule out HIV if the baby is still breastfeeding.
+314,HIV,HIV-exposed infants who test negative should be retested at nine months and again after breastfeeding stops.
+315,HIV,HIV-positive mothers who choose to breastfeed should do so exclusively for six months.
+316,HIV,Breastfeeding while on ART with a suppressed viral load is safe for the baby.
+317,HIV,Mixed feeding increases the risk of HIV transmission through the gut of the baby.
+318,HIV,Mothers should be supported to make informed choices about infant feeding.
+319,HIV,Postnatal follow-up for HIV-positive mothers and their babies is essential.
+320,HIV,Father involvement in PMTCT programmes improves outcomes for mothers and babies.
+321,HIV,Community health workers play a vital role in supporting PMTCT programmes.
+322,HIV,Antenatal care visits are an opportunity to screen and support HIV-positive mothers.
+323,HIV,HIV-positive women should attend at least eight antenatal care visits during pregnancy.
+324,HIV,Syphilis testing should be done alongside HIV testing at the first antenatal visit.
+325,HIV,Untreated syphilis in pregnancy can cause stillbirth and serious illness in the newborn.
+326,HIV,Pneumocystis jirovecii pneumonia is prevented by cotrimoxazole in people with low CD4 counts.
+327,HIV,Symptoms of PCP include shortness of breath, dry cough, and fever.
+328,HIV,Cryptococcal meningitis presents with severe headache, fever, and neck stiffness.
+329,HIV,Cryptococcal antigen testing should be done in people with CD4 counts below 100.
+330,HIV,Fluconazole is used to treat and prevent cryptococcal meningitis.
+331,HIV,Toxoplasma gondii causes brain abscesses in people with advanced HIV.
+332,HIV,Symptoms of toxoplasmosis include headache, confusion, fever, and seizures.
+333,HIV,Cotrimoxazole also prevents toxoplasmosis in people with low CD4 counts.
+334,HIV,Oral candidiasis presents as white patches in the mouth that can be wiped off.
+335,HIV,Oesophageal candidiasis causes difficulty and pain when swallowing.
+336,HIV,Fluconazole is used to treat candidiasis in people living with HIV.
+337,HIV,Cytomegalovirus retinitis causes progressive vision loss and can lead to blindness.
+338,HIV,People with CD4 counts below 50 are at highest risk for CMV disease.
+339,HIV,Mycobacterium avium complex causes fever, weight loss, and diarrhoea in advanced HIV.
+340,HIV,Azithromycin is used to prevent MAC disease in people with very low CD4 counts.
+341,HIV,Kaposi sarcoma presents as purple or brown skin lesions.
+342,HIV,Kaposi sarcoma can also affect the lungs, gut, and lymph nodes.
+343,HIV,ART is the most important treatment for HIV-related Kaposi sarcoma.
+344,HIV,Progressive multifocal leukoencephalopathy is a brain infection caused by the JC virus.
+345,HIV,Immune reconstitution inflammatory syndrome can cause worsening of opportunistic infections after starting ART.
+346,HIV,TB screening at every HIV clinic visit should include asking about cough, fever, weight loss, and night sweats.
+347,HIV,The four-symptom TB screen is a simple and effective tool for HIV-positive people.
+348,HIV,Isoniazid preventive therapy reduces the risk of TB in people living with HIV.
+349,HIV,Isoniazid preventive therapy should be given for at least six months.
+350,HIV,Pyridoxine should be given alongside isoniazid to prevent nerve damage.
+351,HIV,People with HIV and active TB should start TB treatment before ART.
+352,HIV,ART should be started within two to eight weeks of starting TB treatment.
+353,HIV,Efavirenz-based ART is preferred in people receiving rifampicin-based TB treatment.
+354,HIV,Dolutegravir dose adjustment may be needed when taken with rifampicin.
+355,HIV,TB-IRIS can present as worsening TB symptoms after ART is started.
+356,HIV,Extrapulmonary TB is more common in people living with HIV.
+357,HIV,TB meningitis is a severe form of extrapulmonary TB that requires urgent treatment.
+358,HIV,People with HIV who have been treated for TB remain at high risk of TB recurrence.
+359,HIV,Drug-resistant TB in HIV-positive people requires specialised treatment regimens.
+360,HIV,Bedaquiline is a key medicine used in the treatment of drug-resistant TB in people with HIV.
+361,HIV,Hepatitis B virus co-infection affects approximately 10 percent of people living with HIV globally.
+362,HIV,Tenofovir-based ART treats both HIV and hepatitis B at the same time.
+363,HIV,Stopping tenofovir in people with hepatitis B co-infection can cause a hepatitis flare.
+364,HIV,Liver function tests should be monitored regularly in people with HIV and hepatitis B.
+365,HIV,Hepatitis C co-infection accelerates liver disease in people living with HIV.
+366,HIV,Direct-acting antivirals can cure hepatitis C in people living with HIV.
+367,HIV,Alcohol use significantly worsens liver disease in people with HIV and hepatitis co-infection.
+368,HIV,Liver cirrhosis is a serious complication of untreated hepatitis co-infection in people with HIV.
+369,HIV,Hepatocellular carcinoma risk is increased in people with HIV and hepatitis B or C co-infection.
+370,HIV,All people living with HIV should be tested for hepatitis B and C.
+371,HIV,Malaria is more severe and more frequent in people living with HIV.
+372,HIV,HIV-positive pregnant women are at particularly high risk of severe malaria.
+373,HIV,Insecticide-treated bed nets should be provided to all HIV-positive people in malaria-endemic areas.
+374,HIV,Cotrimoxazole prophylaxis also provides some protection against malaria.
+375,HIV,Drug interactions between antimalarials and ART must be carefully considered.
+376,HIV,Advanced HIV disease is defined as a CD4 count below 200 or the presence of an AIDS-defining illness.
+377,HIV,People with advanced HIV disease need urgent initiation of ART and OI prophylaxis.
+378,HIV,A rapid CD4 count test should be done for all people presenting with advanced HIV disease.
+379,HIV,Cryptococcal antigen screening is recommended for all people with CD4 counts below 100.
+380,HIV,People with advanced HIV disease are at high risk of death within the first three months of ART.
+381,HIV,A differentiated care package for advanced HIV disease includes OI screening, prophylaxis, and ART.
+382,HIV,Wasting syndrome is characterised by significant unintentional weight loss in people with HIV.
+383,HIV,HIV encephalopathy causes cognitive impairment and neurological symptoms.
+384,HIV,Palliative care should be integrated into HIV care for people with advanced disease.
+385,HIV,Pain management is an important component of care for people with advanced HIV disease.
+386,HIV,Dolutegravir is a preferred first-line ART medicine due to its high efficacy and tolerability.
+387,HIV,Tenofovir disoproxil fumarate is a nucleoside reverse transcriptase inhibitor used in first-line ART.
+388,HIV,Lamivudine is a well-tolerated nucleoside reverse transcriptase inhibitor used in ART.
+389,HIV,Efavirenz can cause neuropsychiatric side effects including vivid dreams and dizziness.
+390,HIV,Nevirapine should not be started in women with CD4 counts above 250.
+391,HIV,Lopinavir/ritonavir is a protease inhibitor used in second-line ART regimens.
+392,HIV,Atazanavir can cause yellowing of the skin and eyes which is harmless.
+393,HIV,Abacavir should not be given to people who test positive for the HLA-B*5701 gene variant.
+394,HIV,Fixed-dose combination tablets make it easier to take ART by combining multiple medicines in one pill.
+395,HIV,Long-acting injectable ART is a new option for people who have difficulty taking daily pills.
+396,HIV,I have a very bad headache and stiff neck and I have HIV.
+397,HIV,I have white patches in my mouth and it is painful to eat.
+398,HIV,I have been losing weight even though I am eating well.
+399,HIV,I have purple spots on my skin that are not going away.
+400,HIV,I have HIV and I am also coughing with blood.
+480,HIV,Wash all fruits and vegetables thoroughly before eating to reduce infection risk.
+481,HIV,Cook meat and fish thoroughly to reduce the risk of foodborne infections.
+482,HIV,People living with HIV should avoid drinking untreated water from rivers or wells.
+483,HIV,Boiling water or using a water filter can protect people living with HIV from waterborne infections.
+484,HIV,Selenium deficiency has been associated with faster HIV disease progression.
+485,HIV,Multivitamin supplementation may benefit people living with HIV who have nutritional deficiencies.
+486,HIV,Healthcare workers are at risk of occupational HIV exposure through needlestick injuries.
+487,HIV,Standard precautions must be followed by all healthcare workers to prevent HIV exposure.
+488,HIV,Gloves, masks, and protective eyewear reduce the risk of occupational HIV exposure.
+489,HIV,All needlestick injuries must be reported immediately and PEP started within two hours.
+490,HIV,Healthcare workers who take PEP after needlestick injury should be monitored for HIV for three months.
+491,HIV,Safe disposal of sharps is a critical infection control measure in all healthcare settings.
+492,HIV,Recapping needles after use increases the risk of needlestick injury and should be avoided.
+493,HIV,Healthcare workers living with HIV have the same rights as all other employees.
+494,HIV,HIV-positive healthcare workers can continue to work in most clinical roles with appropriate precautions.
+495,HIV,Workplace wellness programmes should include HIV testing and support for healthcare workers.
+496,HIV,I am a sex worker and I want to start PrEP.
+497,HIV,I use drugs and I share needles and I want to be tested for HIV.
+498,HIV,I am a man who has sex with men and I need HIV prevention services.
+499,HIV,I was raped last night and I need PEP as soon as possible.
+500,HIV,I am transgender and I need HIV treatment that works with my hormone therapy.
+501,HIV,I feel very depressed since I found out I have HIV.
+502,HIV,I have been thinking about ending my life since my HIV diagnosis.
+503,HIV,I drink alcohol every day and I find it hard to remember to take my HIV medicine.
+504,HIV,I lost my job when my employer found out I have HIV.
+505,HIV,My husband left me when I told him I have HIV.
+506,HIV,Community-based organisations are essential partners in the HIV response.
+507,HIV,People living with HIV networks advocate for the rights and needs of their members.
+508,HIV,HIV awareness campaigns should use culturally appropriate messages.
+509,HIV,Social media can be used to reach young people with HIV prevention messages.
+510,HIV,Religious leaders can help reduce HIV stigma and promote testing in their communities.
+511,HIV,Traditional leaders play an important role in shaping community attitudes towards HIV.
+512,HIV,HIV education in schools should start before young people become sexually active.
+513,HIV,Parents and caregivers should be supported to talk to their children about HIV.
+514,HIV,HIV-positive role models can inspire others to test and start treatment.
+515,HIV,Celebrating World AIDS Day on December 1st raises awareness and shows solidarity.
+516,HIV,ART is provided free of charge at public health facilities in many countries.
+517,HIV,Out-of-pocket costs for HIV care can prevent people from accessing treatment.
+518,HIV,Universal health coverage ensures that everyone can access HIV services without financial hardship.
+519,HIV,Global Fund grants support HIV programmes in low and middle income countries.
+520,HIV,PEPFAR is the largest bilateral HIV programme in the world.
+521,HIV,Domestic financing for HIV programmes must increase to ensure sustainability.
+522,HIV,Generic antiretroviral medicines have dramatically reduced the cost of HIV treatment.
+523,HIV,Patent barriers can prevent access to affordable HIV medicines in low-income countries.
+524,HIV,Compulsory licensing allows countries to produce or import generic HIV medicines.
+525,HIV,Investing in HIV prevention is more cost-effective than treating advanced HIV disease.
+526,HIV,Cardiovascular disease is a leading cause of death in people living with HIV on long-term ART.
+527,HIV,HIV and chronic inflammation increase the risk of heart attack and stroke.
+528,HIV,Cholesterol levels should be monitored regularly in people on long-term ART.
+529,HIV,Blood pressure should be checked at every HIV clinic visit.
+530,HIV,Smoking cessation is especially important for people living with HIV.
+531,HIV,People living with HIV who smoke have a significantly higher risk of lung cancer.
+532,HIV,Osteoporosis is more common in people living with HIV and should be monitored.
+533,HIV,Calcium and vitamin D supplements may be recommended for people with low bone density on ART.
+534,HIV,Frailty and premature ageing are increasingly recognised in older people living with HIV.
+535,HIV,People living with HIV are living longer and now face age-related health conditions.
+536,HIV,Polypharmacy is a concern for older people living with HIV who take multiple medicines.
+537,HIV,Drug interactions between ART and medicines for other conditions must be carefully managed.
+538,HIV,Diabetes is more common in people living with HIV on long-term ART.
+539,HIV,Blood glucose should be monitored in people on ART regimens associated with metabolic changes.
+540,HIV,Chronic kidney disease is more common in people living with HIV.
+541,HIV,Kidney function should be assessed before starting tenofovir-based ART.
+542,HIV,Non-alcoholic fatty liver disease is increasingly common in people living with HIV.
+543,HIV,Liver function tests should be done regularly in people on ART.
+544,HIV,Anal cancer risk is significantly elevated in people living with HIV.
+545,HIV,Regular anal cancer screening is recommended for HIV-positive men who have sex with men.
+546,HIV,Living well with HIV requires taking medicines, attending clinic appointments, and maintaining a healthy lifestyle.
+547,HIV,Many people living with HIV lead active, fulfilling, and productive lives.
+548,HIV,Physical activity improves cardiovascular health and mental wellbeing in people living with HIV.
+549,HIV,Yoga and meditation can help reduce stress and improve quality of life for people living with HIV.
+550,HIV,Maintaining social connections and relationships is important for mental health in people living with HIV.
+551,HIV,People living with HIV can travel internationally but should plan ahead for medicine supplies.
+552,HIV,Carry enough ART medicine for the entire trip plus extra in case of delays.
+553,HIV,Keep ART medicines in your hand luggage when travelling by air.
+554,HIV,People living with HIV should inform their doctor before receiving any live vaccines.
+555,HIV,Annual influenza vaccination is recommended for all people living with HIV.
+556,HIV,Pneumococcal vaccination is recommended for people living with HIV.
+557,HIV,COVID-19 vaccination is recommended for people living with HIV especially those with low CD4 counts.
+558,HIV,People living with HIV should avoid contact with people who have active chickenpox or shingles.
+559,HIV,Pets can be kept by people living with HIV but hygiene precautions should be followed.
+560,HIV,Cat litter boxes should be cleaned by someone else if you are HIV-positive with a low CD4 count.
+561,HIV,A serodiscordant couple is one where one partner has HIV and the other does not.
+562,HIV,The HIV-negative partner in a serodiscordant couple can be protected by PrEP.
+563,HIV,An HIV-positive partner with an undetectable viral load cannot transmit HIV sexually.
+564,HIV,Undetectable equals untransmittable is a scientifically proven concept.
+565,HIV,Serodiscordant couples can have children safely with the right medical support.
+566,HIV,Assisted reproduction techniques can help serodiscordant couples conceive without HIV transmission.
+567,HIV,Regular HIV testing for the HIV-negative partner in a serodiscordant couple is important.
+568,HIV,Open communication between partners about HIV status and prevention is essential.
+569,HIV,Counselling for serodiscordant couples helps them navigate the emotional and practical challenges.
+570,HIV,Serodiscordant couples should discuss their prevention strategy with their healthcare provider.
+571,HIV,Tell your doctor about all the medicines you are taking including vitamins and herbal remedies.
+572,HIV,Write down your questions before your clinic appointment so you do not forget them.
+573,HIV,Ask your healthcare provider to explain your test results in simple language.
+574,HIV,Bring a trusted friend or family member to your clinic appointment for support.
+575,HIV,Tell your healthcare provider if you are struggling to afford your medicines.
+576,HIV,Report any new symptoms to your healthcare provider even if you think they are minor.
+577,HIV,Ask about community support services that can help you manage your HIV.
+578,HIV,Your healthcare provider should treat you with respect and without judgment.
+579,HIV,You have the right to a second opinion about your HIV treatment.
+580,HIV,Keep a record of your CD4 count and viral load results over time.
+581,HIV,Traditional beliefs about HIV must be addressed sensitively in HIV education.
+582,HIV,Some communities believe HIV is caused by witchcraft which can delay treatment seeking.
+583,HIV,Engaging traditional healers in HIV education can help bridge cultural gaps.
+584,HIV,Culturally appropriate HIV counselling improves acceptance of testing and treatment.
+585,HIV,HIV messaging should be available in local languages to reach all communities.
+586,HIV,Community dialogues about HIV can change harmful attitudes and behaviours.
+587,HIV,Involving community elders in HIV programmes increases community acceptance.
+588,HIV,HIV programmes should respect and incorporate local cultural practices where appropriate.
+589,HIV,Cultural norms around masculinity can prevent men from seeking HIV testing and treatment.
+590,HIV,Lobola and other cultural practices can sometimes increase HIV risk and need to be discussed openly.
+591,HIV,I have been on HIV treatment for three months and I feel much stronger.
+592,HIV,I want to know if I can take traditional medicine alongside my HIV treatment.
+593,HIV,I am HIV-positive and I want to get pregnant next year.
+594,HIV,My partner does not have HIV and we want to know how to stay safe.
+595,HIV,I have been taking my HIV medicine but I am still losing weight.
+596,HIV,I have been on the same HIV medicine for seven years and I want to know if there are better options.
+597,HIV,I feel embarrassed to collect my HIV medicine at the clinic near my home.
+598,HIV,I travel for work and I need to know how to manage my HIV medicine while away.
+599,HIV,My CD4 count has dropped and my doctor wants to change my treatment.
+600,HIV,I have been having chest pain and shortness of breath and I am HIV-positive.
+4001,Maternal and Child Health,I think I am pregnant and would like to confirm.
+4002,Maternal and Child Health,I have missed my period for two months.
+4003,Maternal and Child Health,I did a home pregnancy test and it was positive.
+4004,Maternal and Child Health,I would like to book my first antenatal appointment.
+4005,Maternal and Child Health,I am eight weeks pregnant and have not yet seen a doctor.
+4006,Maternal and Child Health,I am attending my first antenatal visit today.
+4007,Maternal and Child Health,I would like to know how many antenatal visits I need.
+4008,Maternal and Child Health,I have been told to come for antenatal care every month.
+4009,Maternal and Child Health,I am in my first trimester and feeling very nauseous.
+4010,Maternal and Child Health,I have been vomiting every morning since I became pregnant.
+4011,Maternal and Child Health,I feel dizzy and weak during my pregnancy.
+4012,Maternal and Child Health,I have been experiencing lower back pain during my pregnancy.
+4013,Maternal and Child Health,I have swollen feet and ankles during my pregnancy.
+4014,Maternal and Child Health,I have been having headaches throughout my pregnancy.
+4015,Maternal and Child Health,I noticed my hands and face are swollen this morning.
+4016,Maternal and Child Health,I have been feeling very tired during my pregnancy.
+4017,Maternal and Child Health,I have been experiencing heartburn during my pregnancy.
+4018,Maternal and Child Health,I have difficulty sleeping because of my pregnancy.
+4019,Maternal and Child Health,I have been having leg cramps at night during my pregnancy.
+4020,Maternal and Child Health,I feel short of breath when I walk during my pregnancy.
+4021,Maternal and Child Health,I have been told my blood pressure is high during pregnancy.
+4022,Maternal and Child Health,I was diagnosed with gestational diabetes during my pregnancy.
+4023,Maternal and Child Health,I have been told I have anaemia during my pregnancy.
+4024,Maternal and Child Health,I was given iron tablets at my antenatal visit.
+4025,Maternal and Child Health,I was given folic acid supplements at my first antenatal visit.
+4026,Maternal and Child Health,I was told to take calcium supplements during my pregnancy.
+4027,Maternal and Child Health,I received a tetanus injection at my antenatal visit.
+4028,Maternal and Child Health,I was screened for HIV at my first antenatal appointment.
+4029,Maternal and Child Health,I tested positive for HIV during my antenatal visit.
+4030,Maternal and Child Health,I was started on ART to protect my baby from HIV.
+4031,Maternal and Child Health,I was told to take my ART medication every day during pregnancy.
+4032,Maternal and Child Health,I was screened for syphilis at my antenatal visit.
+4033,Maternal and Child Health,I was told I have syphilis and need treatment immediately.
+4034,Maternal and Child Health,I was screened for TB during my antenatal visit.
+4035,Maternal and Child Health,I was told my baby is growing well at my antenatal check.
+4036,Maternal and Child Health,The nurse measured my abdomen to check my baby's growth.
+4037,Maternal and Child Health,I heard my baby's heartbeat for the first time at the clinic.
+4038,Maternal and Child Health,I was told my baby is in the correct position for delivery.
+4039,Maternal and Child Health,I was told my baby is in a breech position.
+4040,Maternal and Child Health,I was referred to the hospital because of a high-risk pregnancy.
+4041,Maternal and Child Health,I was told I need a caesarean section.
+4042,Maternal and Child Health,I was told I can deliver normally at the clinic.
+4043,Maternal and Child Health,I was given a birth plan at my antenatal visit.
+4044,Maternal and Child Health,I was told the danger signs to watch for during pregnancy.
+4045,Maternal and Child Health,I was told to go to the hospital immediately if I experience bleeding.
+4046,Maternal and Child Health,I was told to go to the hospital if my waters break.
+4047,Maternal and Child Health,I was told to go to the hospital if I have severe headaches.
+4048,Maternal and Child Health,I was told to go to the hospital if I have blurred vision.
+4049,Maternal and Child Health,I was told to go to the hospital if my baby stops moving.
+4050,Maternal and Child Health,I have not felt my baby move for several hours.
+4051,Maternal and Child Health,I am worried because my baby is not moving as much as before.
+4052,Maternal and Child Health,I felt my baby move for the first time today.
+4053,Maternal and Child Health,I was told to count my baby's movements every day.
+4054,Maternal and Child Health,I was given a referral to the hospital for an ultrasound scan.
+4055,Maternal and Child Health,My ultrasound showed that I am expecting twins.
+4056,Maternal and Child Health,I was told my placenta is low and I need to be monitored.
+4057,Maternal and Child Health,I was told I have too much fluid around my baby.
+4058,Maternal and Child Health,I was told I have too little fluid around my baby.
+4059,Maternal and Child Health,I was advised to rest and avoid heavy work during my pregnancy.
+4060,Maternal and Child Health,I was told to avoid alcohol and smoking during my pregnancy.
+4061,Maternal and Child Health,I was told to eat a balanced diet during my pregnancy.
+4062,Maternal and Child Health,I was advised to drink plenty of water during my pregnancy.
+4063,Maternal and Child Health,I was told to sleep on my left side during the last months.
+4064,Maternal and Child Health,I was given information about breastfeeding at my antenatal visit.
+4065,Maternal and Child Health,I was told about the benefits of exclusive breastfeeding.
+4066,Maternal and Child Health,I attended an antenatal education class at the clinic.
+4067,Maternal and Child Health,I was told what to expect during labour and delivery.
+4068,Maternal and Child Health,I was advised to prepare a hospital bag before my due date.
+4069,Maternal and Child Health,I was told my due date is in three weeks.
+4070,Maternal and Child Health,I think I am in labour and need to go to the hospital.
+4071,Maternal and Child Health,My contractions are coming every five minutes.
+4072,Maternal and Child Health,My waters have broken and I need help immediately.
+4073,Maternal and Child Health,I am experiencing heavy bleeding and need urgent care.
+4074,Maternal and Child Health,I arrived at the hospital and was admitted to the labour ward.
+4075,Maternal and Child Health,The nurse checked how far I am dilated.
+4076,Maternal and Child Health,I was told I am fully dilated and ready to push.
+4077,Maternal and Child Health,I delivered my baby safely at the clinic.
+4078,Maternal and Child Health,I had a normal vaginal delivery.
+4079,Maternal and Child Health,I had a caesarean section at the hospital.
+4080,Maternal and Child Health,My baby was born healthy and crying.
+4081,Maternal and Child Health,My baby needed oxygen after delivery.
+4082,Maternal and Child Health,My baby was taken to the neonatal unit after birth.
+4083,Maternal and Child Health,I was told my baby has a low birth weight.
+4084,Maternal and Child Health,My baby was born prematurely at thirty-two weeks.
+4085,Maternal and Child Health,I was given an injection after delivery to prevent bleeding.
+4086,Maternal and Child Health,I was stitched after my delivery.
+4087,Maternal and Child Health,I was told to keep my stitches clean and dry.
+4088,Maternal and Child Health,I experienced heavy bleeding after delivery.
+4089,Maternal and Child Health,I was given a blood transfusion after delivery.
+4090,Maternal and Child Health,I was told to rest for at least six weeks after delivery.
+4091,Maternal and Child Health,I was discharged from the hospital two days after delivery.
+4092,Maternal and Child Health,I was given postnatal care instructions before leaving the hospital.
+4093,Maternal and Child Health,I was told to come back to the clinic six weeks after delivery.
+4094,Maternal and Child Health,I was encouraged to breastfeed my baby immediately after birth.
+4095,Maternal and Child Health,My baby was put on my chest immediately after birth.
+4096,Maternal and Child Health,I was shown how to breastfeed correctly by the nurse.
+4097,Maternal and Child Health,I was told to breastfeed my baby every two to three hours.
+4098,Maternal and Child Health,I was told not to give my baby water or formula.
+4099,Maternal and Child Health,I was given a vitamin K injection for my baby after birth.
+4100,Maternal and Child Health,My baby received eye drops after delivery.
+4101,Maternal and Child Health,My baby was given the BCG vaccine at birth.
+4102,Maternal and Child Health,My baby was given the polio vaccine at birth.
+4103,Maternal and Child Health,My baby's birth was registered at the hospital.
+4104,Maternal and Child Health,I was given a road-to-health booklet for my baby.
+4105,Maternal and Child Health,I was told to bring the road-to-health booklet to every visit.
+4106,Maternal and Child Health,I was given my baby's birth certificate before leaving the hospital.
+4107,Maternal and Child Health,I was told about family planning options after delivery.
+4108,Maternal and Child Health,I was given a contraceptive injection six weeks after delivery.
+4109,Maternal and Child Health,I was advised to use condoms to protect against HIV after delivery.
+4110,Maternal and Child Health,I am here for my six-week postnatal check-up.
+4111,Maternal and Child Health,I have been experiencing pain at my caesarean scar.
+4112,Maternal and Child Health,My stitches have not healed properly after delivery.
+4113,Maternal and Child Health,I have been having heavy bleeding two weeks after delivery.
+4114,Maternal and Child Health,I have been experiencing fever and chills after delivery.
+4115,Maternal and Child Health,I have a painful and swollen breast since I started breastfeeding.
+4116,Maternal and Child Health,I have cracked and sore nipples from breastfeeding.
+4117,Maternal and Child Health,I am struggling to produce enough breast milk.
+4118,Maternal and Child Health,I have been feeling very sad and tearful since my baby was born.
+4119,Maternal and Child Health,I have been feeling overwhelmed and anxious since delivery.
+4120,Maternal and Child Health,I have not been sleeping since my baby was born.
+4121,Maternal and Child Health,I have been feeling disconnected from my baby.
+4122,Maternal and Child Health,I was told I may have postnatal depression.
+4123,Maternal and Child Health,I was referred to a counsellor for postnatal support.
+4124,Maternal and Child Health,I have been experiencing pain during intercourse after delivery.
+4125,Maternal and Child Health,I have been having urinary incontinence since delivery.
+4126,Maternal and Child Health,I was told my uterus has not contracted properly after delivery.
+4127,Maternal and Child Health,I was given medication to help my uterus contract after delivery.
+4128,Maternal and Child Health,I have been told my haemoglobin is low after delivery.
+4129,Maternal and Child Health,I was given iron supplements at my postnatal visit.
+4130,Maternal and Child Health,I was told to continue taking my ART medication after delivery.
+4131,Maternal and Child Health,I was told my baby needs to be tested for HIV at six weeks.
+4132,Maternal and Child Health,My baby tested positive for HIV and was started on treatment.
+4133,Maternal and Child Health,My baby tested negative for HIV at the six-week test.
+4134,Maternal and Child Health,I was told to exclusively breastfeed for six months.
+4135,Maternal and Child Health,I was told to continue breastfeeding while on ART.
+4136,Maternal and Child Health,I was advised to introduce solid foods at six months.
+4137,Maternal and Child Health,I was told to continue breastfeeding alongside solid foods.
+4138,Maternal and Child Health,I was told to wean my baby at twelve months.
+4139,Maternal and Child Health,I was given family planning advice at my postnatal visit.
+4140,Maternal and Child Health,I was told about the different contraceptive options available.
+4141,Maternal and Child Health,I chose to use the contraceptive implant after delivery.
+4142,Maternal and Child Health,I was given the contraceptive pill at my postnatal visit.
+4143,Maternal and Child Health,I was told to use condoms consistently to prevent HIV.
+4144,Maternal and Child Health,I was referred to the family planning clinic for further advice.
+4145,Maternal and Child Health,I was told my postnatal check-up results are normal.
+4146,Maternal and Child Health,I was told I can resume normal activities after six weeks.
+4147,Maternal and Child Health,I was told to return to the clinic if I develop any complications.
+4148,Maternal and Child Health,I was given the contact number of the postnatal support line.
+4149,Maternal and Child Health,I was discharged from postnatal care after my six-week check.
+4150,Maternal and Child Health,I was told to bring my baby for immunisations at six weeks.
+4151,Maternal and Child Health,I was told to attend the child health clinic every month.
+4152,Maternal and Child Health,I was given information about the road-to-health programme.
+4153,Maternal and Child Health,I was told to weigh my baby at the clinic every month.
+4154,Maternal and Child Health,I was told to watch for danger signs in my newborn.
+4155,Maternal and Child Health,I was told to go to the clinic immediately if my baby has a fever.
+4156,Maternal and Child Health,I was told to go to the clinic if my baby is not feeding well.
+4157,Maternal and Child Health,I was told to go to the clinic if my baby has difficulty breathing.
+4158,Maternal and Child Health,I was told to go to the clinic if my baby has a rash.
+4159,Maternal and Child Health,I was told to go to the clinic if my baby is very pale or yellow.
+4160,Maternal and Child Health,I have brought my baby for the six-week immunisation.
+4161,Maternal and Child Health,My baby is due for the ten-week vaccines today.
+4162,Maternal and Child Health,I have come for my baby's fourteen-week immunisation.
+4163,Maternal and Child Health,My child is due for the nine-month vaccines.
+4164,Maternal and Child Health,I have brought my child for the twelve-month immunisation.
+4165,Maternal and Child Health,My child is due for the eighteen-month booster vaccines.
+4166,Maternal and Child Health,I have come for my child's five-year school entry vaccines.
+4167,Maternal and Child Health,I would like to know which vaccines my baby needs today.
+4168,Maternal and Child Health,I would like to know the vaccination schedule for my baby.
+4169,Maternal and Child Health,My baby cried a lot after the last vaccination.
+4170,Maternal and Child Health,My baby developed a fever after the vaccination.
+4171,Maternal and Child Health,My baby has a swollen arm after the injection.
+4172,Maternal and Child Health,I was told a mild fever after vaccination is normal.
+4173,Maternal and Child Health,I was told to give my baby paracetamol if they develop a fever.
+4174,Maternal and Child Health,My baby has not received all the required vaccinations.
+4175,Maternal and Child Health,I lost my child's road-to-health booklet and need a new one.
+4176,Maternal and Child Health,I would like to know if my child's vaccinations are up to date.
+4177,Maternal and Child Health,My child missed a vaccination and I need to catch up.
+4178,Maternal and Child Health,I was told my child needs a catch-up vaccination schedule.
+4179,Maternal and Child Health,I have brought my child for a growth monitoring visit.
+4180,Maternal and Child Health,My child's weight has not increased since the last visit.
+4181,Maternal and Child Health,My child is losing weight and I am worried.
+4182,Maternal and Child Health,My child is not growing as expected for their age.
+4183,Maternal and Child Health,I was told my child is underweight and needs nutritional support.
+4184,Maternal and Child Health,My child was referred to the nutrition programme at the clinic.
+4185,Maternal and Child Health,I was given therapeutic food for my malnourished child.
+4186,Maternal and Child Health,My child has been diagnosed with severe acute malnutrition.
+4187,Maternal and Child Health,My child was admitted to hospital for malnutrition treatment.
+4188,Maternal and Child Health,I was told to give my child ready-to-use therapeutic food.
+4189,Maternal and Child Health,I was given advice on how to prepare nutritious meals for my child.
+4190,Maternal and Child Health,My child has been refusing to eat for the past few days.
+4191,Maternal and Child Health,My child is very thin and I am concerned about their health.
+4192,Maternal and Child Health,My child has a swollen abdomen and swollen feet.
+4193,Maternal and Child Health,I was told my child has kwashiorkor.
+4194,Maternal and Child Health,My child has been diagnosed with marasmus.
+4195,Maternal and Child Health,I was given a vitamin A supplement for my child.
+4196,Maternal and Child Health,My child was given deworming medication at the clinic.
+4197,Maternal and Child Health,I was told to give my child deworming tablets every six months.
+4198,Maternal and Child Health,My child has been diagnosed with anaemia.
+4199,Maternal and Child Health,My child was given iron syrup for anaemia.
+4200,Maternal and Child Health,My child has been having frequent diarrhoea.

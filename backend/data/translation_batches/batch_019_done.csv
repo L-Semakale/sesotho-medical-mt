@@ -1,0 +1,201 @@
+sentence_id,domain_category,english_text,sesotho_text
+3601,Appointments and Follow-Up,I have arrived for my appointment.,Ke fihlile bakeng sa appointment ea ka.
+3602,Appointments and Follow-Up,I am here for my scheduled check-up.,Ke teng bakeng sa tlhahlobo ea ka e reretseng.
+3603,Appointments and Follow-Up,I have an appointment at ten o'clock this morning.,Ke na le appointment ka hora ea leshome hoseng hona.
+3604,Appointments and Follow-Up,I am checking in for my follow-up appointment.,Ke kena bakeng sa appointment ea ka ea ho latela.
+3605,Appointments and Follow-Up,I arrived early for my appointment.,Ke fihlile kapele bakeng sa appointment ea ka.
+3606,Appointments and Follow-Up,I am a bit late for my appointment.,Ke tsohile hanyane bakeng sa appointment ea ka.
+3607,Appointments and Follow-Up,I missed my appointment and would like to rebook.,Ke lahlehetsoe ke appointment ea ka mme ke rata ho e buka hape.
+3608,Appointments and Follow-Up,I could not make it to my appointment yesterday.,Ha ke a khona ho tla appointment ea ka maobane.
+3609,Appointments and Follow-Up,I am here for my TB treatment appointment.,Ke teng bakeng sa appointment ea phekolo ea TB.
+3610,Appointments and Follow-Up,I am here for my ART clinic appointment.,Ke teng bakeng sa appointment ea kliniki ea ART.
+3611,Appointments and Follow-Up,I have come for my antenatal appointment.,Ke tlile bakeng sa appointment ea ho mitsa.
+3612,Appointments and Follow-Up,I am here for my child's immunisation appointment.,Ke teng bakeng sa appointment ea liente tsa ngoana oa ka.
+3613,Appointments and Follow-Up,I have an appointment with the nurse today.,Ke na le appointment le mooki kajeno.
+3614,Appointments and Follow-Up,I am here to see the doctor for my follow-up.,Ke teng ho bona ngaka bakeng sa ho latela ha ka.
+3615,Appointments and Follow-Up,I have a referral appointment at this clinic.,Ke na le appointment ea referral klinikeng ena.
+3616,Appointments and Follow-Up,I am here for my blood test appointment.,Ke teng bakeng sa appointment ea tlhahlobo ea mali.
+3617,Appointments and Follow-Up,I have come for my X-ray appointment.,Ke tlile bakeng sa appointment ea X-ray ea ka.
+3618,Appointments and Follow-Up,I am here for my ultrasound appointment.,Ke teng bakeng sa appointment ea ultrasound ea ka.
+3619,Appointments and Follow-Up,I have an appointment for my CD4 count test.,Ke na le appointment bakeng sa tlhahlobo ea palo ea CD4 ea ka.
+3620,Appointments and Follow-Up,I am here for my viral load test appointment.,Ke teng bakeng sa appointment ea tlhahlobo ea viral load ea ka.
+3621,Appointments and Follow-Up,I have come for my counselling appointment.,Ke tlile bakeng sa appointment ea keletso ea ka.
+3622,Appointments and Follow-Up,I am here for my physiotherapy appointment.,Ke teng bakeng sa appointment ea physiotherapy ea ka.
+3623,Appointments and Follow-Up,I have an appointment for a wound dressing.,Ke na le appointment bakeng sa ho koahela ntoa.
+3624,Appointments and Follow-Up,I am here for my post-operative follow-up.,Ke teng bakeng sa ho latela ka mor'a opereishene ea ka.
+3625,Appointments and Follow-Up,I have come for my discharge review appointment.,Ke tlile bakeng sa appointment ea ho hlahloba ho tloha sepetleleng.
+3626,Appointments and Follow-Up,I am here for my nutrition assessment appointment.,Ke teng bakeng sa appointment ea tlhahlobo ea phepo ea ka.
+3627,Appointments and Follow-Up,I have an appointment for a family planning consultation.,Ke na le appointment bakeng sa keletso ea ho rererela lelapa.
+3628,Appointments and Follow-Up,I am here for my cervical screening appointment.,Ke teng bakeng sa appointment ea ho hlahloba molala oa mpheng oa ka.
+3629,Appointments and Follow-Up,I have come for my mental health follow-up.,Ke tlile bakeng sa ho latela bophelo ba kelello ea ka.
+3630,Appointments and Follow-Up,I am here for my diabetes management appointment.,Ke teng bakeng sa appointment ea taolo ea tsoekere ea ka.
+3631,Appointments and Follow-Up,I have an appointment for a blood pressure review.,Ke na le appointment bakeng sa ho hlahloba khatello ea mali.
+3632,Appointments and Follow-Up,I am here for my cholesterol results appointment.,Ke teng bakeng sa appointment ea liphetho tsa cholesterol ea ka.
+3633,Appointments and Follow-Up,I have come for my kidney function results.,Ke tlile bakeng sa liphetho tsa tšebetso ea lipitso tsa ka.
+3634,Appointments and Follow-Up,I am here for my liver function test results.,Ke teng bakeng sa liphetho tsa tlhahlobo ea tšebetso ea sebete sa ka.
+3635,Appointments and Follow-Up,I have an appointment to collect my medication.,Ke na le appointment ho kga moriana oa ka.
+3636,Appointments and Follow-Up,I am here to pick up my repeat prescription.,Ke teng ho kga prescription ea ka ea ho phindoa.
+3637,Appointments and Follow-Up,I have come to get my test results.,Ke tlile ho fumana liphetho tsa tlhahlobo ea ka.
+3638,Appointments and Follow-Up,I am here to discuss my scan results with the doctor.,Ke teng ho buisana le ngaka ka liphetho tsa scan ea ka.
+3639,Appointments and Follow-Up,I have an appointment to review my treatment plan.,Ke na le appointment ho hlahloba leano la phekolo ea ka.
+3640,Appointments and Follow-Up,I am here for my routine six-month check-up.,Ke teng bakeng sa tlhahlobo ea ka ea kamehla ea likhoeli tse tšeletseng.
+3641,Appointments and Follow-Up,I have come for my annual health review.,Ke tlile bakeng sa ho hlahloba bophelo ba ka ba selemo.
+3642,Appointments and Follow-Up,I am here for my three-month ART review.,Ke teng bakeng sa ho hlahloba ART ea ka ea likhoeli tse tharo.
+3643,Appointments and Follow-Up,I have an appointment for my two-week post-discharge check.,Ke na le appointment bakeng sa tlhahlobo ea libeke tse peli ka mor'a ho tloha sepetleleng.
+3644,Appointments and Follow-Up,I am here for my one-month follow-up after starting treatment.,Ke teng bakeng sa ho latela ha khoeli e le ngoe ka mor'a ho qala phekolo.
+3645,Appointments and Follow-Up,I have come for my end-of-treatment review.,Ke tlile bakeng sa ho hlahloba qetellong ea phekolo ea ka.
+3646,Appointments and Follow-Up,I am here for my pre-operative assessment appointment.,Ke teng bakeng sa appointment ea tlhahlobo pele ho opereishene.
+3647,Appointments and Follow-Up,I have an appointment for a second opinion consultation.,Ke na le appointment bakeng sa keletso ea maikutlo a bobeli.
+3648,Appointments and Follow-Up,I am here for my specialist referral appointment.,Ke teng bakeng sa appointment ea referral ea ngaka e khethehileng.
+3649,Appointments and Follow-Up,I have come for my social worker appointment.,Ke tlile bakeng sa appointment ea mosebetsi oa sechaba.
+3650,Appointments and Follow-Up,I am here for my health education group session.,Ke teng bakeng sa session ea sehlopha sa thuto ea bophelo bo botle.
+3651,Appointments and Follow-Up,The doctor asked me how I have been feeling since my last visit.,Ngaka e nkotse hore na ke ikutloa joang ho tloha tsebelisong ea ka ea ho qetela.
+3652,Appointments and Follow-Up,The nurse checked my weight and height at the appointment.,Mooki o hlahlobile boima le bolelele ba ka appointment.
+3653,Appointments and Follow-Up,My blood pressure was measured at the appointment.,Khatello ea mali ea ka e lekotse appointment.
+3654,Appointments and Follow-Up,The doctor reviewed my medication at the follow-up.,Ngaka e hlahlobile moriana oa ka ho latela.
+3655,Appointments and Follow-Up,The nurse took a blood sample at my appointment.,Mooki o nkile sampole ea mali appointment ea ka.
+3656,Appointments and Follow-Up,The doctor ordered a chest X-ray at my follow-up.,Ngaka e laetse X-ray ea sefuba ho latela ha ka.
+3657,Appointments and Follow-Up,The nurse explained my test results at the appointment.,Mooki o hlalositše liphetho tsa tlhahlobo ea ka appointment.
+3658,Appointments and Follow-Up,The doctor changed my medication dose at the follow-up.,Ngaka e fetotsoe dose ea moriana oa ka ho latela.
+3659,Appointments and Follow-Up,The nurse gave me a new prescription at my appointment.,Mooki o mphe prescription e ncha appointment ea ka.
+3660,Appointments and Follow-Up,The doctor referred me to a specialist at my follow-up.,Ngaka e nkisitse ngakeng e khethehileng ho latela ha ka.
+3661,Appointments and Follow-Up,The nurse counselled me about my treatment at the appointment.,Mooki o nkeletse ka phekolo ea ka appointment.
+3662,Appointments and Follow-Up,The doctor asked about any side effects I have experienced.,Ngaka e botšitse ka litlamorao tse ling tsohle tse nkiloeng.
+3663,Appointments and Follow-Up,The nurse checked my CD4 count results at the appointment.,Mooki o hlahlobile liphetho tsa palo ea CD4 ea ka appointment.
+3664,Appointments and Follow-Up,The doctor discussed my viral load results with me.,Ngaka e buisane le nna ka liphetho tsa viral load ea ka.
+3665,Appointments and Follow-Up,The nurse reminded me to take my medication every day.,Mooki o nkhumamisitse ho nka moriana oa ka letsatsi le leng le le leng.
+3666,Appointments and Follow-Up,The doctor told me my TB treatment is going well.,Ngaka e mpoleletse hore phekolo ea TB ea ka e tsamaea hantle.
+3667,Appointments and Follow-Up,The nurse weighed my baby at the appointment.,Mooki o lekotse boima ba ngoana oa ka appointment.
+3668,Appointments and Follow-Up,The doctor measured my child's growth at the follow-up.,Ngaka e lekotse kholo ea ngoana oa ka ho latela.
+3669,Appointments and Follow-Up,The nurse gave my child a vaccination at the appointment.,Mooki o file ngoana oa ka ente appointment.
+3670,Appointments and Follow-Up,The doctor examined my wound at the follow-up.,Ngaka e hlahlobile ntoa ea ka ho latela.
+3671,Appointments and Follow-Up,The nurse changed my wound dressing at the appointment.,Mooki o fetotsoe koahelo ea ntoa ea ka appointment.
+3672,Appointments and Follow-Up,The doctor asked if I have been experiencing any pain.,Ngaka e botšitse haeba ke na le mahloko afe kafe.
+3673,Appointments and Follow-Up,The nurse checked my temperature at the appointment.,Mooki o hlahlobile mocheso oa ka appointment.
+3674,Appointments and Follow-Up,The doctor listened to my chest at the follow-up.,Ngaka e utloile sefuba sa ka ho latela.
+3675,Appointments and Follow-Up,The nurse checked my oxygen levels at the appointment.,Mooki o hlahlobile maemo a oxygen ea ka appointment.
+3676,Appointments and Follow-Up,The doctor asked about my diet and exercise habits.,Ngaka e botšitse ka mekhoa ea ka ea lijo le ho itlama.
+3677,Appointments and Follow-Up,The nurse gave me advice on healthy eating at the appointment.,Mooki o mphe keletso ea ho ja hantle appointment.
+3678,Appointments and Follow-Up,The doctor told me to reduce my salt intake.,Ngaka e mpoleletse ho fokotsa ho nka letsoai.
+3679,Appointments and Follow-Up,The nurse advised me to drink more water every day.,Mooki o nkeletse ho noa metsi a mangata letsatsi le leng le le leng.
+3680,Appointments and Follow-Up,The doctor told me to come back in three months.,Ngaka e mpoleletse ho khutla ka mor'a likhoeli tse tharo.
+3681,Appointments and Follow-Up,The nurse booked my next appointment before I left.,Mooki o bukile appointment ea ka e latelang pele ke tsamaea.
+3682,Appointments and Follow-Up,The doctor gave me a sick note at the appointment.,Ngaka e mphe lengolo la bolwetse appointment.
+3683,Appointments and Follow-Up,The nurse printed my results for me to take home.,Mooki o hatisitse liphetho tsa ka bakeng sa ho li nka lapeng.
+3684,Appointments and Follow-Up,The doctor explained the next steps in my treatment.,Ngaka e hlalositše mehato e latelang phekolo ea ka.
+3685,Appointments and Follow-Up,The nurse gave me a pamphlet about my condition.,Mooki o mphe pampiri ea boemo ba ka.
+3686,Appointments and Follow-Up,The doctor asked if I have any questions.,Ngaka e botšitse haeba ke na le lipotso tse ling.
+3687,Appointments and Follow-Up,The nurse answered all my questions at the appointment.,Mooki o arabile lipotso tsohle tsa ka appointment.
+3688,Appointments and Follow-Up,The doctor told me to monitor my symptoms at home.,Ngaka e mpoleletse ho hlahloba matšoao a ka lapeng.
+3689,Appointments and Follow-Up,The nurse showed me how to check my blood pressure at home.,Mooki o mpontšitse ho lekola khatello ea mali lapeng.
+3690,Appointments and Follow-Up,The doctor advised me to rest and avoid heavy work.,Ngaka e nkeletse ho khutsa le ho hana mesebetsi e boima.
+3691,Appointments and Follow-Up,The nurse reminded me of the importance of keeping appointments.,Mooki o nkhumamisitse bohlokoa ba ho boloka li-appointment.
+3692,Appointments and Follow-Up,The doctor told me to call if my symptoms get worse.,Ngaka e mpoleletse ho letsetsa haeba matšoao a ka a mpe.
+3693,Appointments and Follow-Up,The nurse gave me the clinic's emergency contact number.,Mooki o mphe nomoro ea ho ikopanya ea tšohanyetso ea kliniki.
+3694,Appointments and Follow-Up,The doctor told me my condition is improving.,Ngaka e mpoleletse hore boemo ba ka bo ntlafala.
+3695,Appointments and Follow-Up,The nurse confirmed my next appointment date and time.,Mooki o netefatse letsatsi le nako ea appointment ea ka e latelang.
+3696,Appointments and Follow-Up,The doctor said I can stop one of my medications.,Ngaka e itse nka emisa e le ngoe ea meriana ea ka.
+3697,Appointments and Follow-Up,The nurse updated my patient file at the appointment.,Mooki o ntlafatse faele ea ka ea mokuloi appointment.
+3698,Appointments and Follow-Up,The doctor asked about my mental health and stress levels.,Ngaka e botšitse ka bophelo ba kelello ea ka le maemo a khatello.
+3699,Appointments and Follow-Up,The nurse referred me to the social worker for support.,Mooki o nkisitse mosebetsing oa sechaba bakeng sa tshehetso.
+3700,Appointments and Follow-Up,The doctor told me to bring a family member to the next visit.,Ngaka e mpoleletse ho tlisa leloko la lelapa tsebelisong e latelang.
+3701,Appointments and Follow-Up,The nurse explained the purpose of my next follow-up.,Mooki o hlalositše sepheo sa ho latela ha ka ho tlang.
+3702,Appointments and Follow-Up,The doctor said my blood results are within normal range.,Ngaka e itse liphetho tsa mali ea ka li le maemong a tloaelehileng.
+3703,Appointments and Follow-Up,The nurse told me my viral load is undetectable.,Mooki o mpoleletse hore viral load ea ka ha e fumanehe.
+3704,Appointments and Follow-Up,The doctor confirmed my TB treatment is complete.,Ngaka e netefatse hore phekolo ea TB ea ka e phethahetsoe.
+3705,Appointments and Follow-Up,The nurse congratulated me on completing my treatment.,Mooki o nkelebitse ka ho phetela phekolo ea ka.
+3706,Appointments and Follow-Up,The doctor advised me to continue with my current medication.,Ngaka e nkeletse ho tsoela pele le moriana oa ka oa joale.
+3707,Appointments and Follow-Up,The nurse reminded me not to share my medication with anyone.,Mooki o nkhumamisitse ho se arolelane moriana oa ka le motho ofe kafe.
+3708,Appointments and Follow-Up,The doctor told me to avoid alcohol while on this medication.,Ngaka e mpoleletse ho hana joala ha ke nka moriana ona.
+3709,Appointments and Follow-Up,The nurse advised me to store my medication in a cool dry place.,Mooki o nkeletse ho boloka moriana oa ka sebakeng se batang se omileng.
+3710,Appointments and Follow-Up,The doctor told me to take my medication with food.,Ngaka e mpoleletse ho nka moriana oa ka le lijo.
+3711,Appointments and Follow-Up,The nurse reminded me to attend all my scheduled appointments.,Mooki o nkhumamisitse ho tla li-appointment tsohle tse reretseng.
+3712,Appointments and Follow-Up,The doctor said I need to have a repeat blood test in one month.,Ngaka e itse ke hloka ho ba le tlhahlobo ea mali e phindoang khoeling e le ngoe.
+3713,Appointments and Follow-Up,The nurse explained what the blood test will check for.,Mooki o hlalositše se tlhahlobo ea mali e tla hlahloba sona.
+3714,Appointments and Follow-Up,The doctor told me the results will be ready in three days.,Ngaka e mpoleletse hore liphetho li tla lula li lokile matsatsing a mararo.
+3715,Appointments and Follow-Up,The nurse told me I can call for my results after two days.,Mooki o mpoleletse hore nka letsetsa bakeng sa liphetho tsa ka ka mor'a matsatsi a mabeli.
+3716,Appointments and Follow-Up,The doctor asked if I have been taking my medication correctly.,Ngaka e botšitse haeba ke ntse ke nka moriana oa ka ka nepo.
+3717,Appointments and Follow-Up,The nurse asked if I have missed any doses recently.,Mooki o botšitse haeba ke lahlehetsoe ke li-dose tse ling morao tjena.
+3718,Appointments and Follow-Up,The doctor explained the consequences of missing medication doses.,Ngaka e hlalositše liphetho tsa ho lahlehela ke li-dose tsa moriana.
+3719,Appointments and Follow-Up,The nurse gave me a pill organiser to help me remember.,Mooki o mphe pill organiser ho nthusa ho hopola.
+3720,Appointments and Follow-Up,The doctor told me to take my medication at the same time every day.,Ngaka e mpoleletse ho nka moriana oa ka ka nako e tšoanang letsatsi le leng le le leng.
+3721,Appointments and Follow-Up,The nurse asked if I have anyone at home to support me.,Mooki o botšitse haeba ke na le motho lapeng ho ntshehetsa.
+3722,Appointments and Follow-Up,I received a reminder to attend my follow-up appointment.,Ke amohele temoso ho tla appointment ea ka ea ho latela.
+3723,Appointments and Follow-Up,I was reminded to come back for my results next week.,Ke khumamisitsoe ho khutla bakeng sa liphetho tsa ka bekeng e tlang.
+3724,Appointments and Follow-Up,The clinic sent me a message about my upcoming appointment.,Kliniki e nthumele molaetsa ka appointment ea ka e tlang.
+3725,Appointments and Follow-Up,I was told to return to the clinic if my symptoms worsen.,Ke boletsoe ho khutla klinikeng haeba matšoao a ka a mpe.
+3726,Appointments and Follow-Up,I need to remember to attend my follow-up appointment.,Ke hloka ho hopola ho tla appointment ea ka ea ho latela.
+3727,Appointments and Follow-Up,I have been reminded to take my medication every day.,Ke khumamisitsoe ho nka moriana oa ka letsatsi le leng le le leng.
+3728,Appointments and Follow-Up,I was told not to miss my next appointment.,Ke boletsoe ho se lahlehele appointment ea ka e latelang.
+3729,Appointments and Follow-Up,I received a call from the clinic about my missed appointment.,Ke amohele mohala ho tsoa klinikeng ka appointment ea ka e lahlehileng.
+3730,Appointments and Follow-Up,I was asked why I missed my last appointment.,Ke botšitsoe hore na ke lahlehetsoe bakeng sa eng appointment ea ka ea ho qetela.
+3731,Appointments and Follow-Up,I explained that I could not afford transport to the clinic.,Ke hlalositše hore ha ke a khona ho reka lipalangoa tsa ho ea klinikeng.
+3732,Appointments and Follow-Up,I told the nurse I forgot about my appointment.,Ke boleletse mooki hore ke lebetse appointment ea ka.
+3733,Appointments and Follow-Up,I was reminded that missing appointments affects my treatment.,Ke khumamisitsoe hore ho lahlehela li-appointment ho angoa phekolo ea ka.
+3734,Appointments and Follow-Up,I was told that consistent follow-up improves my health outcomes.,Ke boletsoe hore ho latela ho tsitsitseng ho ntlafatsa liphetho tsa bophelo ba ka.
+3735,Appointments and Follow-Up,I was encouraged to bring a treatment supporter to my appointments.,Ke khothaletsoeng ho tlisa motho ea ntshehetsa phekolo li-appointment tsa ka.
+3736,Appointments and Follow-Up,I was reminded to bring my clinic card to every appointment.,Ke khumamisitsoe ho tlisa karete ea ka ea kliniki appointment le 'ngoe le e 'ngoe.
+3737,Appointments and Follow-Up,I was told to bring all my medications to the follow-up.,Ke boletsoe ho tlisa meriana ea ka yohle ho latela.
+3738,Appointments and Follow-Up,I was reminded to fast before my blood test appointment.,Ke khumamisitsoe ho ikitima lijo pele ho appointment ea tlhahlobo ea mali.
+3739,Appointments and Follow-Up,I was told to drink plenty of water before my urine test.,Ke boletsoe ho noa metsi a mangata pele ho tlhahlobo ea moroto.
+3740,Appointments and Follow-Up,I was reminded to wear comfortable clothing for my examination.,Ke khumamisitsoe ho apara liaparo tse lokelang tlhahlobong ea ka.
+3741,Appointments and Follow-Up,I was told to arrive fifteen minutes before my appointment.,Ke boletsoe ho fihla metsotso e leshome le metso e mehlano pele ho appointment ea ka.
+3742,Appointments and Follow-Up,I was reminded that the clinic opens at seven thirty in the morning.,Ke khumamisitsoe hore kliniki e bula ka hora ea supileng le halofo hoseng.
+3743,Appointments and Follow-Up,I was told that the last appointment is at four in the afternoon.,Ke boletsoe hore appointment ea ho qetela ke ka hora ea mane motsheare.
+3744,Appointments and Follow-Up,I was reminded that the clinic is closed on public holidays.,Ke khumamisitsoe hore kliniki e koetsoe maholide a sechaba.
+3745,Appointments and Follow-Up,I was told to call ahead if I cannot make my appointment.,Ke boletsoe ho letsetsa pele haeba ha ke khone ho tla appointment ea ka.
+3746,Appointments and Follow-Up,I was reminded to update my contact details at the clinic.,Ke khumamisitsoe ho ntlafatsa lintlha tsa ho ikopanya klinikeng.
+3747,Appointments and Follow-Up,I was told that my next appointment is very important.,Ke boletsoe hore appointment ea ka e latelang e bohlokoa haholo.
+3748,Appointments and Follow-Up,I was reminded that my treatment depends on regular follow-up.,Ke khumamisitsoe hore phekolo ea ka e itšetlehile ho latela ka mehla.
+3749,Appointments and Follow-Up,I was told that skipping appointments can lead to drug resistance.,Ke boletsoe hore ho tlohela li-appointment ho ka baka ho hana ha moriana.
+3750,Appointments and Follow-Up,I was reminded that my viral load test must be done every six months.,Ke khumamisitsoe hore tlhahlobo ea viral load ea ka e tlameha ho etsoa ka likhoeli tse tšeletseng.
+3751,Appointments and Follow-Up,I was told that my CD4 count will be checked at every visit.,Ke boletsoe hore palo ea CD4 ea ka e tla hlahlojoa tsebeliso le 'ngoe le e 'ngoe.
+3752,Appointments and Follow-Up,I was reminded to report any new symptoms at my next appointment.,Ke khumamisitsoe ho bua matšoao afe kafe a mocha appointment ea ka e latelang.
+3753,Appointments and Follow-Up,I was told to keep a diary of my symptoms between appointments.,Ke boletsoe ho boloka buka ea letsatsi ea matšoao a ka lipakeng tsa li-appointment.
+3754,Appointments and Follow-Up,I was reminded to note any side effects and report them.,Ke khumamisitsoe ho hona litlamorao tse ling tsohle mme ke li bue.
+3755,Appointments and Follow-Up,I was told that the doctor needs to know about all my medications.,Ke boletsoe hore ngaka e hloka ho tseba meriana ea ka yohle.
+3756,Appointments and Follow-Up,I was reminded to tell the doctor about any traditional medicines I use.,Ke khumamisitsoe ho bolella ngaka ka meriana efe kafe ea setso eo ke e sebelisang.
+3757,Appointments and Follow-Up,I was told that alcohol can interfere with my medication.,Ke boletsoe hore joala le ka khathatsa moriana oa ka.
+3758,Appointments and Follow-Up,I was reminded that smoking affects my TB treatment.,Ke khumamisitsoe hore ho tsuba ho angoa phekolo ea TB ea ka.
+3759,Appointments and Follow-Up,I was told that a healthy diet supports my recovery.,Ke boletsoe hore phepo e ntle e tshehetsa ho fola ha ka.
+3760,Appointments and Follow-Up,I was reminded that exercise helps manage my condition.,Ke khumamisitsoe hore ho itlama ho thusa ho laola boemo ba ka.
+3761,Appointments and Follow-Up,I was told that stress can affect my immune system.,Ke boletsoe hore khatello ea maikutlo e ka angoa tšireletso ea 'mele oa ka.
+3762,Appointments and Follow-Up,I was reminded to get enough sleep every night.,Ke khumamisitsoe ho robala ka lekaneng bosiu bo bong le bo bong.
+3763,Appointments and Follow-Up,I was told that mental health is as important as physical health.,Ke boletsoe hore bophelo ba kelello bo bohlokoa joalo ka bophelo ba 'mele.
+3764,Appointments and Follow-Up,I was reminded to attend my counselling sessions regularly.,Ke khumamisitsoe ho tla li-session tsa keletso ka mehla.
+3765,Appointments and Follow-Up,I was told that support groups are available at the clinic.,Ke boletsoe hore lisehlopha tsa tshehetso li fumaneha klinikeng.
+3766,Appointments and Follow-Up,I was reminded that I can bring a family member for support.,Ke khumamisitsoe hore nka tlisa leloko la lelapa bakeng sa tshehetso.
+3767,Appointments and Follow-Up,I was told that my treatment is confidential.,Ke boletsoe hore phekolo ea ka ke sephiri.
+3768,Appointments and Follow-Up,I was reminded that I have the right to ask questions.,Ke khumamisitsoe hore ke na le tokelo ea ho botsa lipotso.
+3769,Appointments and Follow-Up,I was told that I can request a different healthcare provider.,Ke boletsoe hore nka kopa mofani o mocha oa tlhokomelo ea bophelo bo botle.
+3770,Appointments and Follow-Up,I was reminded that I can complain if I am not treated well.,Ke khumamisitsoe hore nka ngongorehela haeba ha ke phethoe hantle.
+3771,Appointments and Follow-Up,I was told that my feedback helps improve the clinic's services.,Ke boletsoe hore maikutlo a ka a thusa ho ntlafatsa litšebeletso tsa kliniki.
+3772,Appointments and Follow-Up,I need to attend my follow-up appointment next Monday.,Ke hloka ho tla appointment ea ka ea ho latela Mantaheng e tlang.
+3773,Appointments and Follow-Up,I must not miss my three-month ART review.,Ha ke tlameha ho lahlehela ho hlahloba ART ea ka ea likhoeli tse tharo.
+3774,Appointments and Follow-Up,I have to go back to the clinic for my test results.,Ke tlameha ho khutla klinikeng bakeng sa liphetho tsa tlhahlobo ea ka.
+3775,Appointments and Follow-Up,I should not skip my TB treatment follow-up.,Ha ke lokela ho tlohela ho latela phekolo ea TB ea ka.
+3776,Appointments and Follow-Up,I must remember to take my medication before the appointment.,Ke tlameha ho hopola ho nka moriana oa ka pele ho appointment.
+3777,Appointments and Follow-Up,I have to bring my clinic card to every visit.,Ke tlameha ho tlisa karete ea ka ea kliniki tsebeliso le 'ngoe le e 'ngoe.
+3778,Appointments and Follow-Up,I should keep a record of my symptoms before the appointment.,Ke lokela ho boloka rekoto ea matšoao a ka pele ho appointment.
+3779,Appointments and Follow-Up,I must inform the clinic if I change my phone number.,Ke tlameha ho tsebisa kliniki haeba ke fetola nomoro ea ka ea mohala.
+3780,Appointments and Follow-Up,I have to let the clinic know if I move to a different area.,Ke tlameha ho tsebisa kliniki haeba ke fetohela sebakeng se seng.
+3781,Appointments and Follow-Up,I should transfer my file if I move to another clinic.,Ke lokela ho fetisa faele ea ka haeba ke fetohela klinikeng e nngwe.
+3782,Appointments and Follow-Up,I must collect my medication before it runs out.,Ke tlameha ho kga moriana oa ka pele ho fela.
+3783,Appointments and Follow-Up,I have to request a repeat prescription at my follow-up.,Ke tlameha ho kopa prescription e phindoang ho latela ha ka.
+3784,Appointments and Follow-Up,I should ask the doctor about any concerns at my next visit.,Ke lokela ho botsa ngaka ka mathata afe kafe tsebelisong ea ka e latelang.
+3785,Appointments and Follow-Up,I must tell the nurse if I experience any new side effects.,Ke tlameha ho bolella mooki haeba ke ikutloa litlamorao tse ncha tse ling.
+3786,Appointments and Follow-Up,I have to complete my full course of treatment.,Ke tlameha ho phetela khoroso yohle ea phekolo ea ka.
+3787,Appointments and Follow-Up,I should not stop my medication without consulting the doctor.,Ha ke lokela ho emisa moriana oa ka ntle le ho buisana le ngaka.
+3788,Appointments and Follow-Up,I must attend all my scheduled appointments without fail.,Ke tlameha ho tla li-appointment tsohle tse reretseng ntle le ho hloleha.
+3789,Appointments and Follow-Up,I have to follow the treatment plan given by my doctor.,Ke tlameha ho latela leano la phekolo le fanoeng ke ngaka ea ka.
+3790,Appointments and Follow-Up,I should report to the clinic immediately if I feel very unwell.,Ke lokela ho tsebisa kliniki hang hang haeba ke ikutloa ke sa phela hantle haholo.
+3791,Appointments and Follow-Up,I must go to the emergency room if my condition worsens at night.,Ke tlameha ho ea kamoreng ea tšohanyetso haeba boemo ba ka bo mpe bosiu.
+3792,Appointments and Follow-Up,I have to call the clinic helpline if I have urgent questions.,Ke tlameha ho letsetsa mohala oa thuso ea kliniki haeba ke na le lipotso tsa potlako.
+3793,Appointments and Follow-Up,I should keep the clinic's contact number saved on my phone.,Ke lokela ho boloka nomoro ea ho ikopanya ea kliniki mohaling oa ka.
+3794,Appointments and Follow-Up,I must not share my medication with other people.,Ha ke tlameha ho arolelana moriana oa ka le batho ba bang.
+3795,Appointments and Follow-Up,I have to store my medication safely away from children.,Ke tlameha ho boloka moriana oa ka ka polokeho hole le bana.
+3796,Appointments and Follow-Up,I should take my medication at the same time every day.,Ke lokela ho nka moriana oa ka ka nako e tšoanang letsatsi le leng le le leng.
+3797,Appointments and Follow-Up,I must not take double doses if I miss one.,Ha ke tlameha ho nka li-dose tse habeli haeba ke lahlehetsoe ke e le ngoe.
+3798,Appointments and Follow-Up,I have to tell the doctor if I vomit after taking my medication.,Ke tlameha ho bolella ngaka haeba ke hlatsa ka mor'a ho nka moriana oa ka.
+3799,Appointments and Follow-Up,I should drink enough water when taking my medication.,Ke lokela ho noa metsi a lekaneng ha ke nka moriana oa ka.
+3800,Appointments and Follow-Up,I must avoid certain foods that interact with my medication.,Ke tlameha ho hana lijo tse ling tse kopanang le moriana oa ka.

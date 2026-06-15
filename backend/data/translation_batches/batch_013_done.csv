@@ -1,0 +1,201 @@
+sentence_id,domain_category,english_text,sesotho_text
+2401,Medication Instructions,Do not adjust your dose schedule without consulting your doctor.,U se ke ua fetola lenaneo la hau la dose ntle le ho buisana le ngaka ea hau.
+2402,Medication Instructions,"If you miss a dose, set a reminder to help you remember future doses.","Haeba u lahlehetsoe ke dose, beha temoso ho u thusa ho hopola li-dose tsa kamoso."
+2403,Medication Instructions,Contact your pharmacist if you are unsure what to do after missing a dose.,Ikopanye le pharmacist ea hau haeba u sa tsebe ho etsa eng ka mor'a ho lahlehela ke dose.
+2404,Medication Instructions,"If you miss a dose, take it as soon as you remember and then continue as before.","Haeba u lahlehetsoe ke dose, e nke hang hang ha u hopola ebe u tsoele pele joalo ka pele."
+2405,Medication Instructions,Do not take a missed dose if it is almost time for your next scheduled dose.,U se ke ua nka dose e lahlehileng haeba e se e le haufinyane le nako ea dose ea hau e latelang e reretseng.
+2406,Medication Instructions,"If you miss a dose of an antibiotic, take it as soon as possible to maintain drug levels.","Haeba u lahlehetsoe ke dose ea antibiotic, e nke kamoo ho khonehang ka potlako ho boloka maemo a moriana."
+2407,Medication Instructions,Do not stop taking your medicine because you missed a dose; continue the course.,U se ke ua emisa ho nka moriana oa hau hobane u lahlehetsoe ke dose; tsoela pele le khoroso.
+2408,Medication Instructions,"If you miss a dose, write it down and inform your doctor at the next visit.","Haeba u lahlehetsoe ke dose, e ngola mme u tsebise ngaka ea hau tsebelisong e latelang."
+2409,Medication Instructions,"Take the missed dose as soon as you remember, even if it is late at night.","Nka dose e lahlehileng hang hang ha u hopola, le ha e le bosiu bo bofubelu."
+2410,Medication Instructions,"If you miss a dose by only a few hours, take it immediately.","Haeba u lahlehetsoe ke dose ka maho a mang feela, e nke hang hang."
+2411,Medication Instructions,Do not take a double dose of a blood thinner if you miss one; contact your doctor.,U se ke ua nka dose e habeli ea moriana o fokohisang mali haeba u lahlehetsoe ke e le ngoe; ikopanye le ngaka ea hau.
+2412,Medication Instructions,"If you miss a dose of insulin, check your blood sugar and follow your doctor's advice.","Haeba u lahlehetsoe ke dose ea insulin, hlahloba tsoekere ea hau ea mali mme u latele keletso ea ngaka ea hau."
+2413,Medication Instructions,Do not take a missed dose of a sedative if you are about to drive.,U se ke ua nka dose e lahlehileng ea sedative haeba u se u le haufi le ho khanna.
+2414,Medication Instructions,"If you miss a dose, use a pill organiser to help you remember in the future.","Haeba u lahlehetsoe ke dose, sebelisa pill organiser ho u thusa ho hopola nakong e tlang."
+2415,Medication Instructions,"Take the missed dose as soon as you remember, unless your next dose is due soon.","Nka dose e lahlehileng hang hang ha u hopola, ntle le haeba dose ea hau e latelang e se e le haufinyane."
+2416,Medication Instructions,"If you miss a dose of a contraceptive pill, follow the instructions in the package leaflet.","Haeba u lahlehetsoe ke dose ea pilisi ea contraceptive, latela litaelo tse phupung ea moriana."
+2417,Medication Instructions,Do not take a double dose of a heart medicine if you miss one; contact your doctor.,U se ke ua nka dose e habeli ea moriana oa pelo haeba u lahlehetsoe ke e le ngoe; ikopanye le ngaka ea hau.
+2418,Medication Instructions,"If you miss a dose, take it at the next convenient time and adjust the schedule.","Haeba u lahlehetsoe ke dose, e nke nako e latelang e lokelang mme u fetole lenaneo."
+2419,Medication Instructions,"Do not skip doses intentionally, as this may reduce the effectiveness of treatment.","U se ke ua tlohela li-dose ka boomo, hobane sena se ka fokotsa bokgoni ba phekolo."
+2420,Medication Instructions,"If you miss a dose of an antiepileptic drug, take it as soon as possible.","Haeba u lahlehetsoe ke dose ea moriana oa antiepileptic, e nke kamoo ho khonehang ka potlako."
+2421,Medication Instructions,"Take the missed dose as soon as you remember, but do not take two doses at once.","Nka dose e lahlehileng hang hang ha u hopola, empa u se ke ua nka li-dose tse peli ka nako e le ngoe."
+2422,Medication Instructions,"If you miss a dose of a thyroid medicine, take it the same day if possible.","Haeba u lahlehetsoe ke dose ea moriana oa thyroid, e nke letsatsing le leng leo haeba ho khoneha."
+2423,Medication Instructions,Do not take a double dose of a diabetes medicine if you miss one.,U se ke ua nka dose e habeli ea moriana oa tsoekere haeba u lahlehetsoe ke e le ngoe.
+2424,Medication Instructions,"If you miss a dose, resume your normal schedule the next day.","Haeba u lahlehetsoe ke dose, khutlela lenaneo la hau la kamehla letsatsing le latelang."
+2425,Medication Instructions,"Take the missed dose as soon as you remember, then continue your regular dosing schedule.","Nka dose e lahlehileng hang hang ha u hopola, ebe u tsoele pele le lenaneo la hau la kamehla la ho nka moriana."
+2426,Medication Instructions,"If you miss a dose of an antihypertensive, take it as soon as you remember.","Haeba u lahlehetsoe ke dose ea antihypertensive, e nke hang hang ha u hopola."
+2427,Medication Instructions,Do not take a double dose of an anticoagulant if you miss one; contact your doctor.,U se ke ua nka dose e habeli ea anticoagulant haeba u lahlehetsoe ke e le ngoe; ikopanye le ngaka ea hau.
+2428,Medication Instructions,"If you miss a dose of an antidepressant, take it as soon as you remember.","Haeba u lahlehetsoe ke dose ea antidepressant, e nke hang hang ha u hopola."
+2429,Medication Instructions,"Take the missed dose as soon as possible, but skip it if it is almost time for the next dose.","Nka dose e lahlehileng kamoo ho khonehang ka potlako, empa e tlohele haeba e se e le haufinyane le nako ea dose e latelang."
+2430,Medication Instructions,"If you miss a dose of an antiviral, take it as soon as you remember.","Haeba u lahlehetsoe ke dose ea antiviral, e nke hang hang ha u hopola."
+2431,Medication Instructions,Do not take a double dose of a diuretic if you miss one.,U se ke ua nka dose e habeli ea diuretic haeba u lahlehetsoe ke e le ngoe.
+2432,Medication Instructions,"If you miss a dose of an antifungal, take it as soon as you remember.","Haeba u lahlehetsoe ke dose ea antifungal, e nke hang hang ha u hopola."
+2433,Medication Instructions,"Take the missed dose as soon as you remember, unless advised otherwise by your doctor.","Nka dose e lahlehileng hang hang ha u hopola, ntle le haeba ngaka ea hau e laetsa ngoana."
+2434,Medication Instructions,"If you miss a dose of an antiparasitic, take it as soon as you remember.","Haeba u lahlehetsoe ke dose ea antiparasitic, e nke hang hang ha u hopola."
+2435,Medication Instructions,Do not take a double dose of a corticosteroid if you miss one.,U se ke ua nka dose e habeli ea corticosteroid haeba u lahlehetsoe ke e le ngoe.
+2436,Medication Instructions,"If you miss a dose of an antiretroviral, take it as soon as you remember.","Haeba u lahlehetsoe ke dose ea antiretroviral, e nke hang hang ha u hopola."
+2437,Medication Instructions,"Take the missed dose as soon as possible, then resume your normal schedule.","Nka dose e lahlehileng kamoo ho khonehang ka potlako, ebe u khutlele lenaneo la hau la kamehla."
+2438,Medication Instructions,"If you miss a dose of an antituberculosis drug, take it as soon as you remember.","Haeba u lahlehetsoe ke dose ea moriana oa ho loa TB, e nke hang hang ha u hopola."
+2439,Medication Instructions,Do not take a double dose of an immunosuppressant if you miss one.,U se ke ua nka dose e habeli ea immunosuppressant haeba u lahlehetsoe ke e le ngoe.
+2440,Medication Instructions,"If you miss a dose of a bronchodilator, take it as soon as you remember.","Haeba u lahlehetsoe ke dose ea bronchodilator, e nke hang hang ha u hopola."
+2441,Medication Instructions,"Take the missed dose as soon as you remember, and continue the course.","Nka dose e lahlehileng hang hang ha u hopola, mme u tsoele pele le khoroso."
+2442,Medication Instructions,"If you miss a dose of a proton pump inhibitor, take it as soon as you remember.","Haeba u lahlehetsoe ke dose ea proton pump inhibitor, e nke hang hang ha u hopola."
+2443,Medication Instructions,Do not take a double dose of an antipsychotic if you miss one.,U se ke ua nka dose e habeli ea antipsychotic haeba u lahlehetsoe ke e le ngoe.
+2444,Medication Instructions,"If you miss a dose of a statin, take it as soon as you remember.","Haeba u lahlehetsoe ke dose ea statin, e nke hang hang ha u hopola."
+2445,Medication Instructions,"Take the missed dose as soon as possible, unless it is nearly time for the next dose.","Nka dose e lahlehileng kamoo ho khonehang ka potlako, ntle le haeba e se e le haufinyane le nako ea dose e latelang."
+2446,Medication Instructions,"If you miss a dose of an antihistamine, take it as soon as you remember.","Haeba u lahlehetsoe ke dose ea antihistamine, e nke hang hang ha u hopola."
+2447,Medication Instructions,Do not take a double dose of an antiepileptic if you miss one.,U se ke ua nka dose e habeli ea antiepileptic haeba u lahlehetsoe ke e le ngoe.
+2448,Medication Instructions,"If you miss a dose of a muscle relaxant, take it as soon as you remember.","Haeba u lahlehetsoe ke dose ea muscle relaxant, e nke hang hang ha u hopola."
+2449,Medication Instructions,"Take the missed dose as soon as you remember, then continue as directed.","Nka dose e lahlehileng hang hang ha u hopola, ebe u tsoele pele joalo ka ha ho laetsoe."
+2450,Medication Instructions,"If you miss a dose of a pain reliever, take it as soon as you remember.","Haeba u lahlehetsoe ke dose ea moriana oa mahloko, e nke hang hang ha u hopola."
+2451,Medication Instructions,Do not take a double dose of a thyroid medicine if you miss one.,U se ke ua nka dose e habeli ea moriana oa thyroid haeba u lahlehetsoe ke e le ngoe.
+2452,Medication Instructions,"If you miss a dose of a vitamin supplement, take it as soon as you remember.","Haeba u lahlehetsoe ke dose ea sesebelisoa sa vitamin, e nke hang hang ha u hopola."
+2453,Medication Instructions,"Take the missed dose as soon as possible, and do not double up.","Nka dose e lahlehileng kamoo ho khonehang ka potlako, mme u se ke ua phindolla."
+2454,Medication Instructions,"If you miss a dose of a mineral supplement, take it as soon as you remember.","Haeba u lahlehetsoe ke dose ea sesebelisoa sa mineral, e nke hang hang ha u hopola."
+2455,Medication Instructions,Do not take a double dose of a contraceptive pill if you miss one.,U se ke ua nka dose e habeli ea pilisi ea contraceptive haeba u lahlehetsoe ke e le ngoe.
+2456,Medication Instructions,"If you miss a dose of an eye drop, instil it as soon as you remember.","Haeba u lahlehetsoe ke dose ea litšoelelo tsa leihlo, li kenya hang hang ha u hopola."
+2457,Medication Instructions,"Take the missed dose as soon as you remember, unless otherwise instructed.","Nka dose e lahlehileng hang hang ha u hopola, ntle le haeba ho laetsoe ngoana."
+2458,Medication Instructions,"If you miss a dose of a nasal spray, use it as soon as you remember.","Haeba u lahlehetsoe ke dose ea nasal spray, e sebelise hang hang ha u hopola."
+2459,Medication Instructions,Do not take a double dose of an inhaler if you miss one.,U se ke ua nka dose e habeli ea inhaler haeba u lahlehetsoe ke e le ngoe.
+2460,Medication Instructions,"If you miss a dose of a skin cream, apply it as soon as you remember.","Haeba u lahlehetsoe ke dose ea cream ea letlalo, e sebelise hang hang ha u hopola."
+2461,Medication Instructions,"Take the missed dose as soon as possible, then continue your treatment.","Nka dose e lahlehileng kamoo ho khonehang ka potlako, ebe u tsoele pele le phekolo ea hau."
+2462,Medication Instructions,"If you miss a dose of a patch, apply it as soon as you remember.","Haeba u lahlehetsoe ke dose ea patch, e beha hang hang ha u hopola."
+2463,Medication Instructions,Do not take a double dose of a suppository if you miss one.,U se ke ua nka dose e habeli ea suppository haeba u lahlehetsoe ke e le ngoe.
+2464,Medication Instructions,"If you miss a dose of an oral rehydration solution, take it as soon as you remember.","Haeba u lahlehetsoe ke dose ea setšoelo sa ho busa metsi ka molomo, e nke hang hang ha u hopola."
+2465,Medication Instructions,"Take the missed dose as soon as you remember, and continue the prescribed course.","Nka dose e lahlehileng hang hang ha u hopola, mme u tsoele pele le khoroso e laetsoeng."
+2466,Medication Instructions,"If you miss a dose of a cough syrup, take it as soon as you remember.","Haeba u lahlehetsoe ke dose ea syrup ea ho kohoa, e nke hang hang ha u hopola."
+2467,Medication Instructions,Do not take a double dose of a laxative if you miss one.,U se ke ua nka dose e habeli ea laxative haeba u lahlehetsoe ke e le ngoe.
+2468,Medication Instructions,"If you miss a dose of an antacid, take it as soon as you remember.","Haeba u lahlehetsoe ke dose ea antacid, e nke hang hang ha u hopola."
+2469,Medication Instructions,"Take the missed dose as soon as possible, and continue as directed by your doctor.","Nka dose e lahlehileng kamoo ho khonehang ka potlako, mme u tsoele pele joalo ka ha ngaka ea hau e laetsa."
+2470,Medication Instructions,"If you miss a dose of a decongestant, take it as soon as you remember.","Haeba u lahlehetsoe ke dose ea decongestant, e nke hang hang ha u hopola."
+2471,Medication Instructions,Do not take a double dose of an antiemetic if you miss one.,U se ke ua nka dose e habeli ea antiemetic haeba u lahlehetsoe ke e le ngoe.
+2472,Medication Instructions,"If you miss a dose of a sleep aid, take it as soon as you remember if it is still night.","Haeba u lahlehetsoe ke dose ea moriana oa boroko, e nke hang hang ha u hopola haeba e ntse e le bosiu."
+2473,Medication Instructions,"Take the missed dose as soon as you remember, but never take two doses at once.","Nka dose e lahlehileng hang hang ha u hopola, empa u se ke oa nka li-dose tse peli ka nako e le ngoe."
+2474,Medication Instructions,"If you miss a dose of an antispasmodic, take it as soon as you remember.","Haeba u lahlehetsoe ke dose ea antispasmodic, e nke hang hang ha u hopola."
+2475,Medication Instructions,Do not take a double dose of an analgesic if you miss one.,U se ke ua nka dose e habeli ea analgesic haeba u lahlehetsoe ke e le ngoe.
+2476,Medication Instructions,"If you miss a dose of a fever reducer, take it as soon as you remember.","Haeba u lahlehetsoe ke dose ea moriana oa ho theohisa feberu, e nke hang hang ha u hopola."
+2477,Medication Instructions,"Take the missed dose as soon as possible, then resume your normal dosing.","Nka dose e lahlehileng kamoo ho khonehang ka potlako, ebe u khutlele ho nka moriana ha hau ha kamehla."
+2478,Medication Instructions,"If you miss a dose of an anti-inflammatory, take it as soon as you remember.","Haeba u lahlehetsoe ke dose ea anti-inflammatory, e nke hang hang ha u hopola."
+2479,Medication Instructions,Do not take a double dose of an antibiotic if you miss one.,U se ke ua nka dose e habeli ea antibiotic haeba u lahlehetsoe ke e le ngoe.
+2480,Medication Instructions,"If you miss a dose of a topical medicine, apply it as soon as you remember.","Haeba u lahlehetsoe ke dose ea moriana oa letlalo, e sebelise hang hang ha u hopola."
+2481,Medication Instructions,"Take the missed dose as soon as you remember, and do not alter the schedule.","Nka dose e lahlehileng hang hang ha u hopola, mme u se ke ua fetola lenaneo."
+2482,Medication Instructions,Give 5ml of syrup per 10kg of body weight.,Fana ka 5ml ea syrup ka 10kg ea boima ba 'mele.
+2483,Medication Instructions,Do not give aspirin to children under twelve years of age.,U se ke ua fana ka aspirin ho bana ba tlase ho lilemo tse leshome le metso e meli.
+2484,Medication Instructions,Use the oral syringe provided to measure the correct dose for your child.,Sebelisa syringe ea molomo e fanoeng ho lekola dose e nepahetseng bakeng sa ngoana oa hau.
+2485,Medication Instructions,Give the medicine with food or milk to reduce stomach upset in children.,Fana ka moriana le lijo kapa lebese ho fokotsa ho nyakeloa ha mala ho bana.
+2486,Medication Instructions,Do not give adult tablets to children; use the paediatric formulation.,U se ke ua fana ka lipilisi tsa batho ba baholo ho bana; sebelisa sebopeho sa bana.
+2487,Medication Instructions,Shake the suspension well before measuring the dose for your child.,Nyenyetsa suspension hantle pele ho lekola dose bakeng sa ngoana oa hau.
+2488,Medication Instructions,Give the medicine at evenly spaced intervals throughout the day.,Fana ka moriana ka linako tse lekanang ho pholletsa le letsatsi.
+2489,Medication Instructions,Do not crush enteric-coated tablets for children; use the liquid form.,U se ke ua hlohlela lipilisi tse koahetsoeng ka hare ho bana; sebelisa sebopeho sa metsi.
+2490,Medication Instructions,"Give the correct dose based on your child's weight, not age.","Fana ka dose e nepahetseng ho latela boima ba ngoana oa hau, eseng lilemo."
+2491,Medication Instructions,Do not give more than the recommended dose to a child.,U se ke ua fana ka dose e fetang e khothallitsoeng ho ngoana.
+2492,Medication Instructions,Give the medicine with a small amount of food if your child refuses to take it.,Fana ka moriana le lijo tse nyenyane haeba ngoana oa hau a hana ho o nka.
+2493,Medication Instructions,Do not mix the medicine with a full bottle of milk in case the child does not finish it.,U se ke ua kopanya moriana le botlolo e tletseng ea lebese haeba ngoana a ka se phete.
+2494,Medication Instructions,"Give the medicine using a calibrated measuring device, not a household spoon.","Fana ka moriana ka ho sebelisa sesebelisoa sa ho lekola se lekotsoeng, eseng sekhoro sa lapeng."
+2495,Medication Instructions,Do not give the medicine to a child who is vomiting; contact your doctor.,U se ke ua fana ka moriana ho ngoana ea hlatsoang; ikopanye le ngaka ea hau.
+2496,Medication Instructions,Give the medicine at the same time each day to help your child remember.,Fana ka moriana ka nako e tšoanang letsatsi le leng le le leng ho thusa ngoana oa hau ho hopola.
+2497,Medication Instructions,Do not give the medicine to a child who is allergic to any of its ingredients.,U se ke ua fana ka moriana ho ngoana ea amehang ke sesebelisoa sefe kafe sa ona.
+2498,Medication Instructions,Give the medicine with water unless the instructions say otherwise.,Fana ka moriana le metsi ntle le haeba litaelo li re ngoana.
+2499,Medication Instructions,Do not give the medicine to a child without first consulting a doctor.,U se ke ua fana ka moriana ho ngoana ntle le ho buisana le ngaka pele.
+2500,Medication Instructions,"Give the medicine for the full prescribed course, even if the child feels better.","Fana ka moriana khoroso yohle e laetsoeng, le ha ngoana a ikutloa a ntlafetse."
+2501,Medication Instructions,Do not give the medicine to a child who is unconscious.,U se ke ua fana ka moriana ho ngoana ea sa tsoebing.
+2502,Medication Instructions,Give the medicine to the child in a calm and reassuring manner.,Fana ka moriana ho ngoana ka tsela e khutsitseng le e tšepisang.
+2503,Medication Instructions,Do not give the medicine to a child who has a known contraindication.,U se ke ua fana ka moriana ho ngoana ea nang le contraindication e tsebahalang.
+2504,Medication Instructions,Give the medicine to the child at the prescribed intervals without skipping doses.,Fana ka moriana ho ngoana ka linako tse laetsoeng ntle le ho tlohela li-dose.
+2505,Medication Instructions,Do not give the medicine to a child who is taking other medicines without advice.,U se ke ua fana ka moriana ho ngoana ea nkang meriana e meng ntle le keletso.
+2506,Medication Instructions,Give the medicine to the child with a favourite drink to mask the taste if needed.,Fana ka moriana ho ngoana le seno sa hae se ratehang ho pata tatso haeba ho hlokeha.
+2507,Medication Instructions,Do not give the medicine to a child who is dehydrated without medical advice.,U se ke ua fana ka moriana ho ngoana ea hlokang metsi ntle le keletso ea ngaka.
+2508,Medication Instructions,Give the medicine to the child using a dropper for very small doses.,Fana ka moriana ho ngoana ka ho sebelisa dropper bakeng sa li-dose tse nyenyane haholo.
+2509,Medication Instructions,Do not give the medicine to a child who is underweight without dose adjustment.,U se ke ua fana ka moriana ho ngoana ea boima bo tlase ntle le ho fetola dose.
+2510,Medication Instructions,Give the medicine to the child after a meal to reduce nausea.,Fana ka moriana ho ngoana ka mor'a lijo ho fokotsa ho nyakeloa.
+2511,Medication Instructions,Do not give the medicine to a child who is overweight without dose adjustment.,U se ke ua fana ka moriana ho ngoana ea boima bo phahameng ntle le ho fetola dose.
+2512,Medication Instructions,Give the medicine to the child in a well-lit area to ensure the correct dose.,Fana ka moriana ho ngoana sebakeng se nang le lesedi le lekaneng ho netefatsa dose e nepahetseng.
+2513,Medication Instructions,Do not give the medicine to a child who is sleeping unless instructed.,U se ke ua fana ka moriana ho ngoana ea robetseng ntle le haeba ho laetsoe.
+2514,Medication Instructions,Give the medicine to the child with a small snack if it causes stomach upset.,Fana ka moriana ho ngoana le sejo se senyenyane haeba se baka ho nyakeloa ha mala.
+2515,Medication Instructions,Do not give the medicine to a child who is breastfeeding without medical advice.,U se ke ua fana ka moriana ho ngoana ea anyesang ntle le keletso ea ngaka.
+2516,Medication Instructions,Give the medicine to the child using a spoon if the child refuses the syringe.,Fana ka moriana ho ngoana ka sekhoro haeba ngoana a hana syringe.
+2517,Medication Instructions,Do not give the medicine to a child who is premature without dose adjustment.,U se ke ua fana ka moriana ho ngoana ea tsoetsoeng pele ho nako ntle le ho fetola dose.
+2518,Medication Instructions,Give the medicine to the child at the correct temperature; do not give cold medicine.,Fana ka moriana ho ngoana ka mocheso o nepahetseng; u se ke ua fana ka moriana o batang.
+2519,Medication Instructions,Do not give the medicine to a child who is on a restricted diet without advice.,U se ke ua fana ka moriana ho ngoana ea lijo tse laolwang ntle le keletso.
+2520,Medication Instructions,Give the medicine to the child with a reward to encourage compliance.,Fana ka moriana ho ngoana le mpho ho khothaletsa ho latela.
+2521,Medication Instructions,Do not give the medicine to a child who is having a seizure without medical advice.,U se ke ua fana ka moriana ho ngoana ea nang le seizure ntle le keletso ea ngaka.
+2522,Medication Instructions,Give the medicine to the child in the correct formulation for their age.,Fana ka moriana ho ngoana ka sebopeho se nepahetseng bakeng sa lilemo tsa hae.
+2523,Medication Instructions,Do not give the medicine to a child who is in pain without first assessing the cause.,U se ke ua fana ka moriana ho ngoana ea mahlokong ntle le ho hlahloba lebaka pele.
+2524,Medication Instructions,Give the medicine to the child with a small amount of juice to improve palatability.,Fana ka moriana ho ngoana le moerane o monyenyane ho ntlafatsa tatso.
+2525,Medication Instructions,Do not give the medicine to a child who is febrile without first measuring the temperature.,U se ke ua fana ka moriana ho ngoana ea nang le feberu ntle le ho lekola mocheso pele.
+2526,Medication Instructions,Give the medicine to the child using a medicine cup for accurate measurement.,Fana ka moriana ho ngoana ka ho sebelisa mohope oa moriana bakeng sa ho lekola ka nepo.
+2527,Medication Instructions,Do not give the medicine to a child who is unwell without consulting a doctor.,U se ke ua fana ka moriana ho ngoana ea kulang ntle le ho buisana le ngaka.
+2528,Medication Instructions,Give the medicine to the child in a consistent manner to build a routine.,Fana ka moriana ho ngoana ka tsela e tsitsitseng ho theha mokhoa.
+2529,Medication Instructions,Do not give the medicine to a child who is taking herbal remedies without advice.,U se ke ua fana ka moriana ho ngoana ea nkang meriana ea semela ntle le keletso.
+2530,Medication Instructions,Give the medicine to the child with a small amount of applesauce if needed.,Fana ka moriana ho ngoana le applesauce e nyenyane haeba ho hlokeha.
+2531,Medication Instructions,Do not give the medicine to a child who is immunocompromised without advice.,U se ke ua fana ka moriana ho ngoana ea nang le tšireletso ea 'mele e fokolang ntle le keletso.
+2532,Medication Instructions,Give the medicine to the child using a pacifier dipped in the medicine for infants.,Fana ka moriana ho ngoana ka ho sebelisa pacifier e entseng ka moriana bakeng sa bana ba banyenyane.
+2533,Medication Instructions,Do not give the medicine to a child who is malnourished without dose adjustment.,U se ke ua fana ka moriana ho ngoana ea hlokang phepo ntle le ho fetola dose.
+2534,Medication Instructions,Give the medicine to the child with a small amount of honey for children over one year.,Fana ka moriana ho ngoana le joets'e e nyenyane bakeng sa bana ba fetang selemo se le seng.
+2535,Medication Instructions,Do not give the medicine to a child who is on a ketogenic diet without advice.,U se ke ua fana ka moriana ho ngoana ea lijo tsa ketogenic ntle le keletso.
+2536,Medication Instructions,Give the medicine to the child using a medicine dropper for precise dosing.,Fana ka moriana ho ngoana ka ho sebelisa medicine dropper bakeng sa ho nka dose ka nepo.
+2537,Medication Instructions,Do not give the medicine to a child who is on dialysis without medical advice.,U se ke ua fana ka moriana ho ngoana ea dialysis ntle le keletso ea ngaka.
+2538,Medication Instructions,Give the medicine to the child with a small amount of formula for infants.,Fana ka moriana ho ngoana le formula e nyenyane bakeng sa bana ba banyenyane.
+2539,Medication Instructions,Do not give the medicine to a child who is on a low-sodium diet without advice.,U se ke ua fana ka moriana ho ngoana ea lijo tse tlase tsa sodium ntle le keletso.
+2540,Medication Instructions,Give the medicine to the child using a syringe for accurate dosing in infants.,Fana ka moriana ho ngoana ka ho sebelisa syringe bakeng sa ho nka dose ka nepo ho bana ba banyenyane.
+2541,Medication Instructions,Do not give the medicine to a child who is on a low-potassium diet without advice.,U se ke ua fana ka moriana ho ngoana ea lijo tse tlase tsa potassium ntle le keletso.
+2542,Medication Instructions,Give the medicine to the child with a small amount of yoghurt if needed.,Fana ka moriana ho ngoana le yoghurt e nyenyane haeba ho hlokeha.
+2543,Medication Instructions,Do not give the medicine to a child who is on a low-protein diet without advice.,U se ke ua fana ka moriana ho ngoana ea lijo tse tlase tsa protein ntle le keletso.
+2544,Medication Instructions,Give the medicine to the child using a medicine spoon for older children.,Fana ka moriana ho ngoana ka ho sebelisa sekhoro sa moriana bakeng sa bana ba baholo.
+2545,Medication Instructions,Do not give the medicine to a child who is on a low-fat diet without advice.,U se ke ua fana ka moriana ho ngoana ea lijo tse tlase tsa mafura ntle le keletso.
+2546,Medication Instructions,Give the medicine to the child with a small amount of pudding if needed.,Fana ka moriana ho ngoana le pudding e nyenyane haeba ho hlokeha.
+2547,Medication Instructions,Do not give the medicine to a child who is on a low-carbohydrate diet without advice.,U se ke ua fana ka moriana ho ngoana ea lijo tse tlase tsa carbohydrate ntle le keletso.
+2548,Medication Instructions,Give the medicine to the child using a medicine cup for school-age children.,Fana ka moriana ho ngoana ka ho sebelisa mohope oa moriana bakeng sa bana ba lilemo tsa sekolo.
+2549,Medication Instructions,Do not give the medicine to a child who is on a gluten-free diet without checking ingredients.,U se ke ua fana ka moriana ho ngoana ea lijo tse se nang gluten ntle le ho hlahloba lihlahisoa.
+2550,Medication Instructions,Give the medicine to the child with a small amount of ice cream if needed.,Fana ka moriana ho ngoana le ice cream e nyenyane haeba ho hlokeha.
+2551,Medication Instructions,Do not give the medicine to a child who is on a lactose-free diet without checking ingredients.,U se ke ua fana ka moriana ho ngoana ea lijo tse se nang lactose ntle le ho hlahloba lihlahisoa.
+2552,Medication Instructions,Give the medicine to the child using a calibrated syringe for infants under two years.,Fana ka moriana ho ngoana ka ho sebelisa syringe e lekotsoeng bakeng sa bana ba tlase ho lilemo tse peli.
+2553,Medication Instructions,Do not give the medicine to a child who is on a nut-free diet without checking ingredients.,U se ke ua fana ka moriana ho ngoana ea lijo tse se nang manamune ntle le ho hlahloba lihlahisoa.
+2554,Medication Instructions,Give the medicine to the child with a small amount of fruit puree if needed.,Fana ka moriana ho ngoana le puree ea lienyane e nyenyane haeba ho hlokeha.
+2555,Medication Instructions,Do not give the medicine to a child who is on a soy-free diet without checking ingredients.,U se ke ua fana ka moriana ho ngoana ea lijo tse se nang soy ntle le ho hlahloba lihlahisoa.
+2556,Medication Instructions,Give the medicine to the child using a medicine dropper for newborns.,Fana ka moriana ho ngoana ka ho sebelisa medicine dropper bakeng sa bana ba sa tsoa tsoaloa.
+2557,Medication Instructions,Do not give the medicine to a child who is on an egg-free diet without checking ingredients.,U se ke ua fana ka moriana ho ngoana ea lijo tse se nang mae ntle le ho hlahloba lihlahisoa.
+2558,Medication Instructions,Give the medicine to the child with a small amount of water to wash it down.,Fana ka moriana ho ngoana le metsi a manyenyane ho o hlatsoa.
+2559,Medication Instructions,Do not give the medicine to a child who is on a fish-free diet without checking ingredients.,U se ke ua fana ka moriana ho ngoana ea lijo tse se nang tlhapi ntle le ho hlahloba lihlahisoa.
+2560,Medication Instructions,Give the medicine to the child using a medicine syringe for toddlers.,Fana ka moriana ho ngoana ka ho sebelisa medicine syringe bakeng sa bana ba qalang ho tsamaea.
+2561,Medication Instructions,Do not give the medicine to a child who is on a shellfish-free diet without checking ingredients.,U se ke ua fana ka moriana ho ngoana ea lijo tse se nang shellfish ntle le ho hlahloba lihlahisoa.
+2562,Medication Instructions,Give the medicine to the child with a small amount of breast milk if needed.,Fana ka moriana ho ngoana le lebese la letsoele le lenyenyane haeba ho hlokeha.
+2563,Medication Instructions,Do not give the medicine to a child who is on a wheat-free diet without checking ingredients.,U se ke ua fana ka moriana ho ngoana ea lijo tse se nang korong ntle le ho hlahloba lihlahisoa.
+2564,Medication Instructions,Give the medicine to the child using a medicine cup for children over five years.,Fana ka moriana ho ngoana ka ho sebelisa mohope oa moriana bakeng sa bana ba fetang lilemo tse hlano.
+2565,Medication Instructions,Do not give the medicine to a child who is on a corn-free diet without checking ingredients.,U se ke ua fana ka moriana ho ngoana ea lijo tse se nang poone ntle le ho hlahloba lihlahisoa.
+2566,Medication Instructions,Give the medicine to the child with a small amount of diluted juice if needed.,Fana ka moriana ho ngoana le moerane o fokotsoeng o monyenyane haeba ho hlokeha.
+2567,Medication Instructions,Do not give the medicine to a child who is on a yeast-free diet without checking ingredients.,U se ke ua fana ka moriana ho ngoana ea lijo tse se nang yeast ntle le ho hlahloba lihlahisoa.
+2568,Medication Instructions,Give the medicine to the child using a calibrated dropper for premature infants.,Fana ka moriana ho ngoana ka ho sebelisa dropper e lekotsoeng bakeng sa bana ba tsoetsoeng pele ho nako.
+2569,Medication Instructions,Do not give the medicine to a child who is on a sugar-free diet without checking ingredients.,U se ke ua fana ka moriana ho ngoana ea lijo tse se nang tsoekere ntle le ho hlahloba lihlahisoa.
+2570,Medication Instructions,Give the medicine to the child with a small amount of warm water if needed.,Fana ka moriana ho ngoana le metsi a futhumetseng a manyenyane haeba ho hlokeha.
+2571,Medication Instructions,Do not give the medicine to a child who is on a preservative-free diet without checking.,U se ke ua fana ka moriana ho ngoana ea lijo tse se nang li-preservative ntle le ho hlahloba.
+2572,Medication Instructions,Give the medicine to the child using a medicine spoon for children over three years.,Fana ka moriana ho ngoana ka ho sebelisa sekhoro sa moriana bakeng sa bana ba fetang lilemo tse tharo.
+2573,Medication Instructions,Do not give the medicine to a child who is on a dye-free diet without checking ingredients.,U se ke ua fana ka moriana ho ngoana ea lijo tse se nang mebala ea ho hatisa ntle le ho hlahloba lihlahisoa.
+2574,Medication Instructions,Give the medicine to the child with a small amount of cooled boiled water if needed.,Fana ka moriana ho ngoana le metsi a beilioeng a phetseng a manyenyane haeba ho hlokeha.
+2575,Medication Instructions,Do not give the medicine to a child who is on a flavour-free diet without checking.,U se ke ua fana ka moriana ho ngoana ea lijo tse se nang tatso ntle le ho hlahloba.
+2576,Medication Instructions,Give the medicine to the child using a calibrated measuring cup for older children.,Fana ka moriana ho ngoana ka ho sebelisa mohope oa ho lekola o lekotsoeng bakeng sa bana ba baholo.
+2577,Medication Instructions,Do not give the medicine to a child who is on a caffeine-free diet without checking.,U se ke ua fana ka moriana ho ngoana ea lijo tse se nang caffeine ntle le ho hlahloba.
+2578,Medication Instructions,Give the medicine to the child with a small amount of non-dairy milk if needed.,Fana ka moriana ho ngoana le lebese le se nang lebese la likhomo le lenyenyane haeba ho hlokeha.
+2579,Medication Instructions,Do not give the medicine to a child who is on an alcohol-free diet without checking.,U se ke ua fana ka moriana ho ngoana ea lijo tse se nang joala ntle le ho hlahloba.
+2580,Medication Instructions,Give the medicine to the child using a medicine dropper for children under one year.,Fana ka moriana ho ngoana ka ho sebelisa medicine dropper bakeng sa bana ba tlase ho selemo se le seng.
+2581,Medication Instructions,Do not give the medicine to a child who is on a sulphite-free diet without checking.,U se ke ua fana ka moriana ho ngoana ea lijo tse se nang li-sulphite ntle le ho hlahloba.
+2582,Medication Instructions,Complete the full course of treatment even if you feel better.,Pheta khoroso yohle ea phekolo le ha u ikutloa u ntlafetse.
+2583,Medication Instructions,Do not stop taking the medicine without consulting your doctor.,U se ke ua emisa ho nka moriana ntle le ho buisana le ngaka ea hau.
+2584,Medication Instructions,Stopping treatment early may cause the infection to return.,Ho emisa phekolo kapele ho ka baka hore tšoaetso e khutlele.
+2585,Medication Instructions,Take your medicine at the same time every day to build a habit.,Nka moriana oa hau ka nako e tšoanang letsatsi le leng le le leng ho theha mokhoa.
+2586,Medication Instructions,Use a pill organiser to help you remember to take your medicine.,Sebelisa pill organiser ho u thusa ho hopola ho nka moriana oa hau.
+2587,Medication Instructions,Set a daily alarm on your phone to remind you to take your medicine.,Beha alarm ea letsatsi le leng le le leng mohaling oa hau ho u khumamisa ho nka moriana oa hau.
+2588,Medication Instructions,Ask a family member to remind you to take your medicine each day.,Kopa leloko la lelapa ho u khumamisa ho nka moriana oa hau letsatsi le leng le le leng.
+2589,Medication Instructions,"Do not share your medicine with others, even if they have the same symptoms.","U se ke ua arolelana moriana oa hau le ba bang, le ha ba na le matšoao a tšoanang."
+2590,Medication Instructions,Keep a record of when you take your medicine to track your adherence.,Boloka rekoto ea nako eo u nkang moriana oa hau ho latela ho latela ha hau.
+2591,Medication Instructions,Do not stop taking your medicine because of mild side effects without advice.,U se ke ua emisa ho nka moriana oa hau ka lebaka la litlamorao tse bonolo ntle le keletso.
+2592,Medication Instructions,Inform your doctor if you are having difficulty taking your medicine as prescribed.,Tsebisa ngaka ea hau haeba u na le bothata ba ho nka moriana oa hau joalo ka ha ho laetsoe.
+2593,Medication Instructions,Do not adjust the dose of your medicine without consulting your doctor.,U se ke ua fetola dose ea moriana oa hau ntle le ho buisana le ngaka ea hau.
+2594,Medication Instructions,Take your medicine even on days when you feel well.,Nka moriana oa hau le matsatsing ao u ikutloang u phela hantle.
+2595,Medication Instructions,Do not stop taking your medicine because you feel better; complete the course.,U se ke ua emisa ho nka moriana oa hau hobane u ikutloa u ntlafetse; pheta khoroso.
+2596,Medication Instructions,Inform your pharmacist if you are running low on medicine to avoid gaps in treatment.,Tsebisa pharmacist ea hau haeba moriana oa hau o se o fihla qetellong ho hana maqeba phekolo.
+2597,Medication Instructions,Do not take more medicine than prescribed to make up for missed doses.,U se ke ua nka moriana o fetang o laetsoeng ho ntšetsa pele li-dose tse lahlehileng.
+2598,Medication Instructions,"Take your medicine with a routine activity to help you remember, such as brushing teeth.","Nka moriana oa hau le mosebetsi oa kamehla ho u thusa ho hopola, joalo ka ho hlatsoa meno."
+2599,Medication Instructions,Do not stop taking your medicine because of cost; ask your doctor about alternatives.,U se ke ua emisa ho nka moriana oa hau ka lebaka la theko; botsa ngaka ea hau ka likhetho tse ling.
+2600,Medication Instructions,Inform your doctor if you cannot afford your medicine so they can help.,Tsebisa ngaka ea hau haeba u ke ke ua reka moriana oa hau e le hore ba ka thusa.

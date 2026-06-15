@@ -1,0 +1,2756 @@
+[
+  {
+    "sentence_id": "263",
+    "domain_category": "HIV",
+    "english_text": "Investing in HIV prevention saves lives and reduces healthcare costs.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "264",
+    "domain_category": "HIV",
+    "english_text": "Community-led HIV responses are essential for reaching the most vulnerable populations.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "265",
+    "domain_category": "HIV",
+    "english_text": "HIV research continues to advance towards a cure and an effective vaccine.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "266",
+    "domain_category": "HIV",
+    "english_text": "Workplace HIV programmes can support employees living with HIV.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "267",
+    "domain_category": "HIV",
+    "english_text": "Employee assistance programmes can provide confidential support for workers with HIV.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "268",
+    "domain_category": "HIV",
+    "english_text": "HIV-positive employees should not be required to disclose their status at work.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "269",
+    "domain_category": "HIV",
+    "english_text": "Community health workers can support people living with HIV to stay on treatment.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "270",
+    "domain_category": "HIV",
+    "english_text": "Home-based care programmes support people with advanced HIV who cannot travel to clinics.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "271",
+    "domain_category": "HIV",
+    "english_text": "Faith-based organisations play an important role in HIV prevention and support.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "272",
+    "domain_category": "HIV",
+    "english_text": "Traditional healers should be engaged as partners in HIV prevention and care.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "273",
+    "domain_category": "HIV",
+    "english_text": "HIV-positive people can lead productive and fulfilling lives with proper treatment and support.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "274",
+    "domain_category": "HIV",
+    "english_text": "Social protection programmes help people living with HIV meet their basic needs.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "275",
+    "domain_category": "HIV",
+    "english_text": "Legal aid services can help people living with HIV defend their rights.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "276",
+    "domain_category": "HIV",
+    "english_text": "I do not want to take medicine every day for the rest of my life.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "277",
+    "domain_category": "HIV",
+    "english_text": "I am worried that people will find out I have HIV if they see my medicine.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "278",
+    "domain_category": "HIV",
+    "english_text": "I feel ashamed about having HIV.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "279",
+    "domain_category": "HIV",
+    "english_text": "My partner does not know I have HIV and I am afraid to tell them.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "280",
+    "domain_category": "HIV",
+    "english_text": "I want to have children but I am worried about passing HIV to my baby.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "281",
+    "domain_category": "HIV",
+    "english_text": "I have been on ART for two years and my CD4 count has gone up.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "282",
+    "domain_category": "HIV",
+    "english_text": "I tested positive for HIV today and I feel very scared and alone.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "283",
+    "domain_category": "HIV",
+    "english_text": "I have been living with HIV for ten years and I am still healthy.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "284",
+    "domain_category": "HIV",
+    "english_text": "My child was born HIV-positive and I need to know how to care for them.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "285",
+    "domain_category": "HIV",
+    "english_text": "I am a healthcare worker and I had a needlestick injury and need PEP.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "286",
+    "domain_category": "HIV",
+    "english_text": "HIV counselling helps people understand their diagnosis and make informed decisions.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "287",
+    "domain_category": "HIV",
+    "english_text": "Adherence counselling supports people on ART to take their medicines correctly.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "288",
+    "domain_category": "HIV",
+    "english_text": "Couples counselling can help partners discuss HIV status and prevention strategies.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "289",
+    "domain_category": "HIV",
+    "english_text": "Grief counselling is important for people who have lost loved ones to HIV.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "290",
+    "domain_category": "HIV",
+    "english_text": "Disclosure counselling helps people decide how and when to share their HIV status.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "291",
+    "domain_category": "HIV",
+    "english_text": "Nutritional counselling helps people living with HIV maintain a healthy diet.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "292",
+    "domain_category": "HIV",
+    "english_text": "Psychosocial support addresses the emotional and social needs of people living with HIV.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "293",
+    "domain_category": "HIV",
+    "english_text": "Support groups provide a safe space for people living with HIV to share experiences.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "294",
+    "domain_category": "HIV",
+    "english_text": "Palliative care improves the quality of life for people with advanced HIV disease.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "295",
+    "domain_category": "HIV",
+    "english_text": "Spiritual and religious support can be important for people living with HIV.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "296",
+    "domain_category": "HIV",
+    "english_text": "Children living with HIV need regular monitoring of their growth and development.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "297",
+    "domain_category": "HIV",
+    "english_text": "ART for children is available in liquid formulations for those who cannot swallow tablets.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "298",
+    "domain_category": "HIV",
+    "english_text": "Children on ART should have their doses adjusted as they grow and gain weight.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "299",
+    "domain_category": "HIV",
+    "english_text": "HIV-positive children should receive all routine vaccinations.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "300",
+    "domain_category": "HIV",
+    "english_text": "HIV-positive children are at higher risk of malnutrition and need nutritional support.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "301",
+    "domain_category": "HIV",
+    "english_text": "Caregivers of HIV-positive children need education and support to manage treatment.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "302",
+    "domain_category": "HIV",
+    "english_text": "HIV-positive children may experience developmental delays that require early intervention.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "303",
+    "domain_category": "HIV",
+    "english_text": "Cotrimoxazole prophylaxis should be given to all HIV-exposed infants from six weeks of age.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "304",
+    "domain_category": "HIV",
+    "english_text": "Early infant diagnosis of HIV allows treatment to be started as soon as possible.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "305",
+    "domain_category": "HIV",
+    "english_text": "HIV-positive children who are well on ART can participate fully in school and social activities.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "306",
+    "domain_category": "HIV",
+    "english_text": "Option B+ means all HIV-positive pregnant women start ART regardless of CD4 count.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "307",
+    "domain_category": "HIV",
+    "english_text": "ART started during pregnancy should be continued for life.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "308",
+    "domain_category": "HIV",
+    "english_text": "HIV-positive women should plan their pregnancies with the help of their healthcare provider.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "309",
+    "domain_category": "HIV",
+    "english_text": "Viral load suppression during pregnancy greatly reduces the risk of transmitting HIV to the baby.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "310",
+    "domain_category": "HIV",
+    "english_text": "Caesarean section may be recommended for HIV-positive women with high viral loads.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "311",
+    "domain_category": "HIV",
+    "english_text": "Newborns of HIV-positive mothers should receive cotrimoxazole prophylaxis from six weeks.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "312",
+    "domain_category": "HIV",
+    "english_text": "HIV-exposed infants should be tested using a PCR test at six weeks of age.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "313",
+    "domain_category": "HIV",
+    "english_text": "A negative PCR test at six weeks does not rule out HIV if the baby is still breastfeeding.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "314",
+    "domain_category": "HIV",
+    "english_text": "HIV-exposed infants who test negative should be retested at nine months and again after breastfeeding stops.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "315",
+    "domain_category": "HIV",
+    "english_text": "HIV-positive mothers who choose to breastfeed should do so exclusively for six months.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "316",
+    "domain_category": "HIV",
+    "english_text": "Breastfeeding while on ART with a suppressed viral load is safe for the baby.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "317",
+    "domain_category": "HIV",
+    "english_text": "Mixed feeding increases the risk of HIV transmission through the gut of the baby.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "318",
+    "domain_category": "HIV",
+    "english_text": "Mothers should be supported to make informed choices about infant feeding.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "319",
+    "domain_category": "HIV",
+    "english_text": "Postnatal follow-up for HIV-positive mothers and their babies is essential.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "320",
+    "domain_category": "HIV",
+    "english_text": "Father involvement in PMTCT programmes improves outcomes for mothers and babies.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "321",
+    "domain_category": "HIV",
+    "english_text": "Community health workers play a vital role in supporting PMTCT programmes.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "322",
+    "domain_category": "HIV",
+    "english_text": "Antenatal care visits are an opportunity to screen and support HIV-positive mothers.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "323",
+    "domain_category": "HIV",
+    "english_text": "HIV-positive women should attend at least eight antenatal care visits during pregnancy.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "324",
+    "domain_category": "HIV",
+    "english_text": "Syphilis testing should be done alongside HIV testing at the first antenatal visit.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "325",
+    "domain_category": "HIV",
+    "english_text": "Untreated syphilis in pregnancy can cause stillbirth and serious illness in the newborn.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "326",
+    "domain_category": "HIV",
+    "english_text": "Pneumocystis jirovecii pneumonia is prevented by cotrimoxazole in people with low CD4 counts.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "327",
+    "domain_category": "HIV",
+    "english_text": "Symptoms of PCP include shortness of breath, dry cough, and fever.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "328",
+    "domain_category": "HIV",
+    "english_text": "Cryptococcal meningitis presents with severe headache, fever, and neck stiffness.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "329",
+    "domain_category": "HIV",
+    "english_text": "Cryptococcal antigen testing should be done in people with CD4 counts below 100.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "330",
+    "domain_category": "HIV",
+    "english_text": "Fluconazole is used to treat and prevent cryptococcal meningitis.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "331",
+    "domain_category": "HIV",
+    "english_text": "Toxoplasma gondii causes brain abscesses in people with advanced HIV.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "332",
+    "domain_category": "HIV",
+    "english_text": "Symptoms of toxoplasmosis include headache, confusion, fever, and seizures.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "333",
+    "domain_category": "HIV",
+    "english_text": "Cotrimoxazole also prevents toxoplasmosis in people with low CD4 counts.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "334",
+    "domain_category": "HIV",
+    "english_text": "Oral candidiasis presents as white patches in the mouth that can be wiped off.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "335",
+    "domain_category": "HIV",
+    "english_text": "Oesophageal candidiasis causes difficulty and pain when swallowing.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "336",
+    "domain_category": "HIV",
+    "english_text": "Fluconazole is used to treat candidiasis in people living with HIV.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "337",
+    "domain_category": "HIV",
+    "english_text": "Cytomegalovirus retinitis causes progressive vision loss and can lead to blindness.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "338",
+    "domain_category": "HIV",
+    "english_text": "People with CD4 counts below 50 are at highest risk for CMV disease.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "339",
+    "domain_category": "HIV",
+    "english_text": "Mycobacterium avium complex causes fever, weight loss, and diarrhoea in advanced HIV.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "340",
+    "domain_category": "HIV",
+    "english_text": "Azithromycin is used to prevent MAC disease in people with very low CD4 counts.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "341",
+    "domain_category": "HIV",
+    "english_text": "Kaposi sarcoma presents as purple or brown skin lesions.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "342",
+    "domain_category": "HIV",
+    "english_text": "Kaposi sarcoma can also affect the lungs, gut, and lymph nodes.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "343",
+    "domain_category": "HIV",
+    "english_text": "ART is the most important treatment for HIV-related Kaposi sarcoma.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "344",
+    "domain_category": "HIV",
+    "english_text": "Progressive multifocal leukoencephalopathy is a brain infection caused by the JC virus.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "345",
+    "domain_category": "HIV",
+    "english_text": "Immune reconstitution inflammatory syndrome can cause worsening of opportunistic infections after starting ART.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "346",
+    "domain_category": "HIV",
+    "english_text": "TB screening at every HIV clinic visit should include asking about cough, fever, weight loss, and night sweats.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "347",
+    "domain_category": "HIV",
+    "english_text": "The four-symptom TB screen is a simple and effective tool for HIV-positive people.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "348",
+    "domain_category": "HIV",
+    "english_text": "Isoniazid preventive therapy reduces the risk of TB in people living with HIV.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "349",
+    "domain_category": "HIV",
+    "english_text": "Isoniazid preventive therapy should be given for at least six months.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "350",
+    "domain_category": "HIV",
+    "english_text": "Pyridoxine should be given alongside isoniazid to prevent nerve damage.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "351",
+    "domain_category": "HIV",
+    "english_text": "People with HIV and active TB should start TB treatment before ART.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "352",
+    "domain_category": "HIV",
+    "english_text": "ART should be started within two to eight weeks of starting TB treatment.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "353",
+    "domain_category": "HIV",
+    "english_text": "Efavirenz-based ART is preferred in people receiving rifampicin-based TB treatment.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "354",
+    "domain_category": "HIV",
+    "english_text": "Dolutegravir dose adjustment may be needed when taken with rifampicin.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "355",
+    "domain_category": "HIV",
+    "english_text": "TB-IRIS can present as worsening TB symptoms after ART is started.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "356",
+    "domain_category": "HIV",
+    "english_text": "Extrapulmonary TB is more common in people living with HIV.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "357",
+    "domain_category": "HIV",
+    "english_text": "TB meningitis is a severe form of extrapulmonary TB that requires urgent treatment.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "358",
+    "domain_category": "HIV",
+    "english_text": "People with HIV who have been treated for TB remain at high risk of TB recurrence.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "359",
+    "domain_category": "HIV",
+    "english_text": "Drug-resistant TB in HIV-positive people requires specialised treatment regimens.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "360",
+    "domain_category": "HIV",
+    "english_text": "Bedaquiline is a key medicine used in the treatment of drug-resistant TB in people with HIV.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "361",
+    "domain_category": "HIV",
+    "english_text": "Hepatitis B virus co-infection affects approximately 10 percent of people living with HIV globally.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "362",
+    "domain_category": "HIV",
+    "english_text": "Tenofovir-based ART treats both HIV and hepatitis B at the same time.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "363",
+    "domain_category": "HIV",
+    "english_text": "Stopping tenofovir in people with hepatitis B co-infection can cause a hepatitis flare.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "364",
+    "domain_category": "HIV",
+    "english_text": "Liver function tests should be monitored regularly in people with HIV and hepatitis B.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "365",
+    "domain_category": "HIV",
+    "english_text": "Hepatitis C co-infection accelerates liver disease in people living with HIV.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "366",
+    "domain_category": "HIV",
+    "english_text": "Direct-acting antivirals can cure hepatitis C in people living with HIV.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "367",
+    "domain_category": "HIV",
+    "english_text": "Alcohol use significantly worsens liver disease in people with HIV and hepatitis co-infection.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "368",
+    "domain_category": "HIV",
+    "english_text": "Liver cirrhosis is a serious complication of untreated hepatitis co-infection in people with HIV.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "369",
+    "domain_category": "HIV",
+    "english_text": "Hepatocellular carcinoma risk is increased in people with HIV and hepatitis B or C co-infection.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "370",
+    "domain_category": "HIV",
+    "english_text": "All people living with HIV should be tested for hepatitis B and C.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "371",
+    "domain_category": "HIV",
+    "english_text": "Malaria is more severe and more frequent in people living with HIV.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "372",
+    "domain_category": "HIV",
+    "english_text": "HIV-positive pregnant women are at particularly high risk of severe malaria.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "373",
+    "domain_category": "HIV",
+    "english_text": "Insecticide-treated bed nets should be provided to all HIV-positive people in malaria-endemic areas.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "374",
+    "domain_category": "HIV",
+    "english_text": "Cotrimoxazole prophylaxis also provides some protection against malaria.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "375",
+    "domain_category": "HIV",
+    "english_text": "Drug interactions between antimalarials and ART must be carefully considered.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "376",
+    "domain_category": "HIV",
+    "english_text": "Advanced HIV disease is defined as a CD4 count below 200 or the presence of an AIDS-defining illness.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "377",
+    "domain_category": "HIV",
+    "english_text": "People with advanced HIV disease need urgent initiation of ART and OI prophylaxis.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "378",
+    "domain_category": "HIV",
+    "english_text": "A rapid CD4 count test should be done for all people presenting with advanced HIV disease.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "379",
+    "domain_category": "HIV",
+    "english_text": "Cryptococcal antigen screening is recommended for all people with CD4 counts below 100.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "380",
+    "domain_category": "HIV",
+    "english_text": "People with advanced HIV disease are at high risk of death within the first three months of ART.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "381",
+    "domain_category": "HIV",
+    "english_text": "A differentiated care package for advanced HIV disease includes OI screening, prophylaxis, and ART.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "382",
+    "domain_category": "HIV",
+    "english_text": "Wasting syndrome is characterised by significant unintentional weight loss in people with HIV.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "383",
+    "domain_category": "HIV",
+    "english_text": "HIV encephalopathy causes cognitive impairment and neurological symptoms.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "384",
+    "domain_category": "HIV",
+    "english_text": "Palliative care should be integrated into HIV care for people with advanced disease.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "385",
+    "domain_category": "HIV",
+    "english_text": "Pain management is an important component of care for people with advanced HIV disease.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "386",
+    "domain_category": "HIV",
+    "english_text": "Dolutegravir is a preferred first-line ART medicine due to its high efficacy and tolerability.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "387",
+    "domain_category": "HIV",
+    "english_text": "Tenofovir disoproxil fumarate is a nucleoside reverse transcriptase inhibitor used in first-line ART.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "388",
+    "domain_category": "HIV",
+    "english_text": "Lamivudine is a well-tolerated nucleoside reverse transcriptase inhibitor used in ART.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "389",
+    "domain_category": "HIV",
+    "english_text": "Efavirenz can cause neuropsychiatric side effects including vivid dreams and dizziness.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "390",
+    "domain_category": "HIV",
+    "english_text": "Nevirapine should not be started in women with CD4 counts above 250.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "391",
+    "domain_category": "HIV",
+    "english_text": "Lopinavir/ritonavir is a protease inhibitor used in second-line ART regimens.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "392",
+    "domain_category": "HIV",
+    "english_text": "Atazanavir can cause yellowing of the skin and eyes which is harmless.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "393",
+    "domain_category": "HIV",
+    "english_text": "Abacavir should not be given to people who test positive for the HLA-B*5701 gene variant.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "394",
+    "domain_category": "HIV",
+    "english_text": "Fixed-dose combination tablets make it easier to take ART by combining multiple medicines in one pill.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "395",
+    "domain_category": "HIV",
+    "english_text": "Long-acting injectable ART is a new option for people who have difficulty taking daily pills.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "396",
+    "domain_category": "HIV",
+    "english_text": "I have a very bad headache and stiff neck and I have HIV.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "397",
+    "domain_category": "HIV",
+    "english_text": "I have white patches in my mouth and it is painful to eat.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "398",
+    "domain_category": "HIV",
+    "english_text": "I have been losing weight even though I am eating well.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "399",
+    "domain_category": "HIV",
+    "english_text": "I have purple spots on my skin that are not going away.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "400",
+    "domain_category": "HIV",
+    "english_text": "I have HIV and I am also coughing with blood.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "480",
+    "domain_category": "HIV",
+    "english_text": "Wash all fruits and vegetables thoroughly before eating to reduce infection risk.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "481",
+    "domain_category": "HIV",
+    "english_text": "Cook meat and fish thoroughly to reduce the risk of foodborne infections.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "482",
+    "domain_category": "HIV",
+    "english_text": "People living with HIV should avoid drinking untreated water from rivers or wells.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "483",
+    "domain_category": "HIV",
+    "english_text": "Boiling water or using a water filter can protect people living with HIV from waterborne infections.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "484",
+    "domain_category": "HIV",
+    "english_text": "Selenium deficiency has been associated with faster HIV disease progression.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "485",
+    "domain_category": "HIV",
+    "english_text": "Multivitamin supplementation may benefit people living with HIV who have nutritional deficiencies.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "486",
+    "domain_category": "HIV",
+    "english_text": "Healthcare workers are at risk of occupational HIV exposure through needlestick injuries.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "487",
+    "domain_category": "HIV",
+    "english_text": "Standard precautions must be followed by all healthcare workers to prevent HIV exposure.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "488",
+    "domain_category": "HIV",
+    "english_text": "Gloves, masks, and protective eyewear reduce the risk of occupational HIV exposure.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "489",
+    "domain_category": "HIV",
+    "english_text": "All needlestick injuries must be reported immediately and PEP started within two hours.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "490",
+    "domain_category": "HIV",
+    "english_text": "Healthcare workers who take PEP after needlestick injury should be monitored for HIV for three months.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "491",
+    "domain_category": "HIV",
+    "english_text": "Safe disposal of sharps is a critical infection control measure in all healthcare settings.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "492",
+    "domain_category": "HIV",
+    "english_text": "Recapping needles after use increases the risk of needlestick injury and should be avoided.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "493",
+    "domain_category": "HIV",
+    "english_text": "Healthcare workers living with HIV have the same rights as all other employees.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "494",
+    "domain_category": "HIV",
+    "english_text": "HIV-positive healthcare workers can continue to work in most clinical roles with appropriate precautions.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "495",
+    "domain_category": "HIV",
+    "english_text": "Workplace wellness programmes should include HIV testing and support for healthcare workers.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "496",
+    "domain_category": "HIV",
+    "english_text": "I am a sex worker and I want to start PrEP.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "497",
+    "domain_category": "HIV",
+    "english_text": "I use drugs and I share needles and I want to be tested for HIV.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "498",
+    "domain_category": "HIV",
+    "english_text": "I am a man who has sex with men and I need HIV prevention services.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "499",
+    "domain_category": "HIV",
+    "english_text": "I was raped last night and I need PEP as soon as possible.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "500",
+    "domain_category": "HIV",
+    "english_text": "I am transgender and I need HIV treatment that works with my hormone therapy.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "501",
+    "domain_category": "HIV",
+    "english_text": "I feel very depressed since I found out I have HIV.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "502",
+    "domain_category": "HIV",
+    "english_text": "I have been thinking about ending my life since my HIV diagnosis.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "503",
+    "domain_category": "HIV",
+    "english_text": "I drink alcohol every day and I find it hard to remember to take my HIV medicine.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "504",
+    "domain_category": "HIV",
+    "english_text": "I lost my job when my employer found out I have HIV.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "505",
+    "domain_category": "HIV",
+    "english_text": "My husband left me when I told him I have HIV.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "506",
+    "domain_category": "HIV",
+    "english_text": "Community-based organisations are essential partners in the HIV response.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "507",
+    "domain_category": "HIV",
+    "english_text": "People living with HIV networks advocate for the rights and needs of their members.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "508",
+    "domain_category": "HIV",
+    "english_text": "HIV awareness campaigns should use culturally appropriate messages.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "509",
+    "domain_category": "HIV",
+    "english_text": "Social media can be used to reach young people with HIV prevention messages.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "510",
+    "domain_category": "HIV",
+    "english_text": "Religious leaders can help reduce HIV stigma and promote testing in their communities.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "511",
+    "domain_category": "HIV",
+    "english_text": "Traditional leaders play an important role in shaping community attitudes towards HIV.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "512",
+    "domain_category": "HIV",
+    "english_text": "HIV education in schools should start before young people become sexually active.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "513",
+    "domain_category": "HIV",
+    "english_text": "Parents and caregivers should be supported to talk to their children about HIV.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "514",
+    "domain_category": "HIV",
+    "english_text": "HIV-positive role models can inspire others to test and start treatment.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "515",
+    "domain_category": "HIV",
+    "english_text": "Celebrating World AIDS Day on December 1st raises awareness and shows solidarity.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "516",
+    "domain_category": "HIV",
+    "english_text": "ART is provided free of charge at public health facilities in many countries.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "517",
+    "domain_category": "HIV",
+    "english_text": "Out-of-pocket costs for HIV care can prevent people from accessing treatment.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "518",
+    "domain_category": "HIV",
+    "english_text": "Universal health coverage ensures that everyone can access HIV services without financial hardship.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "519",
+    "domain_category": "HIV",
+    "english_text": "Global Fund grants support HIV programmes in low and middle income countries.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "520",
+    "domain_category": "HIV",
+    "english_text": "PEPFAR is the largest bilateral HIV programme in the world.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "521",
+    "domain_category": "HIV",
+    "english_text": "Domestic financing for HIV programmes must increase to ensure sustainability.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "522",
+    "domain_category": "HIV",
+    "english_text": "Generic antiretroviral medicines have dramatically reduced the cost of HIV treatment.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "523",
+    "domain_category": "HIV",
+    "english_text": "Patent barriers can prevent access to affordable HIV medicines in low-income countries.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "524",
+    "domain_category": "HIV",
+    "english_text": "Compulsory licensing allows countries to produce or import generic HIV medicines.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "525",
+    "domain_category": "HIV",
+    "english_text": "Investing in HIV prevention is more cost-effective than treating advanced HIV disease.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "526",
+    "domain_category": "HIV",
+    "english_text": "Cardiovascular disease is a leading cause of death in people living with HIV on long-term ART.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "527",
+    "domain_category": "HIV",
+    "english_text": "HIV and chronic inflammation increase the risk of heart attack and stroke.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "528",
+    "domain_category": "HIV",
+    "english_text": "Cholesterol levels should be monitored regularly in people on long-term ART.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "529",
+    "domain_category": "HIV",
+    "english_text": "Blood pressure should be checked at every HIV clinic visit.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "530",
+    "domain_category": "HIV",
+    "english_text": "Smoking cessation is especially important for people living with HIV.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "531",
+    "domain_category": "HIV",
+    "english_text": "People living with HIV who smoke have a significantly higher risk of lung cancer.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "532",
+    "domain_category": "HIV",
+    "english_text": "Osteoporosis is more common in people living with HIV and should be monitored.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "533",
+    "domain_category": "HIV",
+    "english_text": "Calcium and vitamin D supplements may be recommended for people with low bone density on ART.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "534",
+    "domain_category": "HIV",
+    "english_text": "Frailty and premature ageing are increasingly recognised in older people living with HIV.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "535",
+    "domain_category": "HIV",
+    "english_text": "People living with HIV are living longer and now face age-related health conditions.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "536",
+    "domain_category": "HIV",
+    "english_text": "Polypharmacy is a concern for older people living with HIV who take multiple medicines.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "537",
+    "domain_category": "HIV",
+    "english_text": "Drug interactions between ART and medicines for other conditions must be carefully managed.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "538",
+    "domain_category": "HIV",
+    "english_text": "Diabetes is more common in people living with HIV on long-term ART.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "539",
+    "domain_category": "HIV",
+    "english_text": "Blood glucose should be monitored in people on ART regimens associated with metabolic changes.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "540",
+    "domain_category": "HIV",
+    "english_text": "Chronic kidney disease is more common in people living with HIV.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "541",
+    "domain_category": "HIV",
+    "english_text": "Kidney function should be assessed before starting tenofovir-based ART.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "542",
+    "domain_category": "HIV",
+    "english_text": "Non-alcoholic fatty liver disease is increasingly common in people living with HIV.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "543",
+    "domain_category": "HIV",
+    "english_text": "Liver function tests should be done regularly in people on ART.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "544",
+    "domain_category": "HIV",
+    "english_text": "Anal cancer risk is significantly elevated in people living with HIV.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "545",
+    "domain_category": "HIV",
+    "english_text": "Regular anal cancer screening is recommended for HIV-positive men who have sex with men.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "546",
+    "domain_category": "HIV",
+    "english_text": "Living well with HIV requires taking medicines, attending clinic appointments, and maintaining a healthy lifestyle.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "547",
+    "domain_category": "HIV",
+    "english_text": "Many people living with HIV lead active, fulfilling, and productive lives.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "548",
+    "domain_category": "HIV",
+    "english_text": "Physical activity improves cardiovascular health and mental wellbeing in people living with HIV.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "549",
+    "domain_category": "HIV",
+    "english_text": "Yoga and meditation can help reduce stress and improve quality of life for people living with HIV.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "550",
+    "domain_category": "HIV",
+    "english_text": "Maintaining social connections and relationships is important for mental health in people living with HIV.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "551",
+    "domain_category": "HIV",
+    "english_text": "People living with HIV can travel internationally but should plan ahead for medicine supplies.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "552",
+    "domain_category": "HIV",
+    "english_text": "Carry enough ART medicine for the entire trip plus extra in case of delays.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "553",
+    "domain_category": "HIV",
+    "english_text": "Keep ART medicines in your hand luggage when travelling by air.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "554",
+    "domain_category": "HIV",
+    "english_text": "People living with HIV should inform their doctor before receiving any live vaccines.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "555",
+    "domain_category": "HIV",
+    "english_text": "Annual influenza vaccination is recommended for all people living with HIV.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "556",
+    "domain_category": "HIV",
+    "english_text": "Pneumococcal vaccination is recommended for people living with HIV.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "557",
+    "domain_category": "HIV",
+    "english_text": "COVID-19 vaccination is recommended for people living with HIV especially those with low CD4 counts.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "558",
+    "domain_category": "HIV",
+    "english_text": "People living with HIV should avoid contact with people who have active chickenpox or shingles.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "559",
+    "domain_category": "HIV",
+    "english_text": "Pets can be kept by people living with HIV but hygiene precautions should be followed.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "560",
+    "domain_category": "HIV",
+    "english_text": "Cat litter boxes should be cleaned by someone else if you are HIV-positive with a low CD4 count.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "561",
+    "domain_category": "HIV",
+    "english_text": "A serodiscordant couple is one where one partner has HIV and the other does not.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "562",
+    "domain_category": "HIV",
+    "english_text": "The HIV-negative partner in a serodiscordant couple can be protected by PrEP.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "563",
+    "domain_category": "HIV",
+    "english_text": "An HIV-positive partner with an undetectable viral load cannot transmit HIV sexually.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "564",
+    "domain_category": "HIV",
+    "english_text": "Undetectable equals untransmittable is a scientifically proven concept.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "565",
+    "domain_category": "HIV",
+    "english_text": "Serodiscordant couples can have children safely with the right medical support.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "566",
+    "domain_category": "HIV",
+    "english_text": "Assisted reproduction techniques can help serodiscordant couples conceive without HIV transmission.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "567",
+    "domain_category": "HIV",
+    "english_text": "Regular HIV testing for the HIV-negative partner in a serodiscordant couple is important.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "568",
+    "domain_category": "HIV",
+    "english_text": "Open communication between partners about HIV status and prevention is essential.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "569",
+    "domain_category": "HIV",
+    "english_text": "Counselling for serodiscordant couples helps them navigate the emotional and practical challenges.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "570",
+    "domain_category": "HIV",
+    "english_text": "Serodiscordant couples should discuss their prevention strategy with their healthcare provider.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "571",
+    "domain_category": "HIV",
+    "english_text": "Tell your doctor about all the medicines you are taking including vitamins and herbal remedies.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "572",
+    "domain_category": "HIV",
+    "english_text": "Write down your questions before your clinic appointment so you do not forget them.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "573",
+    "domain_category": "HIV",
+    "english_text": "Ask your healthcare provider to explain your test results in simple language.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "574",
+    "domain_category": "HIV",
+    "english_text": "Bring a trusted friend or family member to your clinic appointment for support.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "575",
+    "domain_category": "HIV",
+    "english_text": "Tell your healthcare provider if you are struggling to afford your medicines.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "576",
+    "domain_category": "HIV",
+    "english_text": "Report any new symptoms to your healthcare provider even if you think they are minor.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "577",
+    "domain_category": "HIV",
+    "english_text": "Ask about community support services that can help you manage your HIV.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "578",
+    "domain_category": "HIV",
+    "english_text": "Your healthcare provider should treat you with respect and without judgment.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "579",
+    "domain_category": "HIV",
+    "english_text": "You have the right to a second opinion about your HIV treatment.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "580",
+    "domain_category": "HIV",
+    "english_text": "Keep a record of your CD4 count and viral load results over time.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "581",
+    "domain_category": "HIV",
+    "english_text": "Traditional beliefs about HIV must be addressed sensitively in HIV education.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "582",
+    "domain_category": "HIV",
+    "english_text": "Some communities believe HIV is caused by witchcraft which can delay treatment seeking.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "583",
+    "domain_category": "HIV",
+    "english_text": "Engaging traditional healers in HIV education can help bridge cultural gaps.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "584",
+    "domain_category": "HIV",
+    "english_text": "Culturally appropriate HIV counselling improves acceptance of testing and treatment.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "585",
+    "domain_category": "HIV",
+    "english_text": "HIV messaging should be available in local languages to reach all communities.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "586",
+    "domain_category": "HIV",
+    "english_text": "Community dialogues about HIV can change harmful attitudes and behaviours.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "587",
+    "domain_category": "HIV",
+    "english_text": "Involving community elders in HIV programmes increases community acceptance.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "588",
+    "domain_category": "HIV",
+    "english_text": "HIV programmes should respect and incorporate local cultural practices where appropriate.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "589",
+    "domain_category": "HIV",
+    "english_text": "Cultural norms around masculinity can prevent men from seeking HIV testing and treatment.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "590",
+    "domain_category": "HIV",
+    "english_text": "Lobola and other cultural practices can sometimes increase HIV risk and need to be discussed openly.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "591",
+    "domain_category": "HIV",
+    "english_text": "I have been on HIV treatment for three months and I feel much stronger.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "592",
+    "domain_category": "HIV",
+    "english_text": "I want to know if I can take traditional medicine alongside my HIV treatment.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "593",
+    "domain_category": "HIV",
+    "english_text": "I am HIV-positive and I want to get pregnant next year.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "594",
+    "domain_category": "HIV",
+    "english_text": "My partner does not have HIV and we want to know how to stay safe.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "595",
+    "domain_category": "HIV",
+    "english_text": "I have been taking my HIV medicine but I am still losing weight.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "596",
+    "domain_category": "HIV",
+    "english_text": "I have been on the same HIV medicine for seven years and I want to know if there are better options.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "597",
+    "domain_category": "HIV",
+    "english_text": "I feel embarrassed to collect my HIV medicine at the clinic near my home.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "598",
+    "domain_category": "HIV",
+    "english_text": "I travel for work and I need to know how to manage my HIV medicine while away.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "599",
+    "domain_category": "HIV",
+    "english_text": "My CD4 count has dropped and my doctor wants to change my treatment.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "600",
+    "domain_category": "HIV",
+    "english_text": "I have been having chest pain and shortness of breath and I am HIV-positive.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4001",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I think I am pregnant and would like to confirm.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4002",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I have missed my period for two months.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4003",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I did a home pregnancy test and it was positive.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4004",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I would like to book my first antenatal appointment.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4005",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I am eight weeks pregnant and have not yet seen a doctor.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4006",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I am attending my first antenatal visit today.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4007",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I would like to know how many antenatal visits I need.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4008",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I have been told to come for antenatal care every month.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4009",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I am in my first trimester and feeling very nauseous.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4010",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I have been vomiting every morning since I became pregnant.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4011",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I feel dizzy and weak during my pregnancy.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4012",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I have been experiencing lower back pain during my pregnancy.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4013",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I have swollen feet and ankles during my pregnancy.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4014",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I have been having headaches throughout my pregnancy.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4015",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I noticed my hands and face are swollen this morning.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4016",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I have been feeling very tired during my pregnancy.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4017",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I have been experiencing heartburn during my pregnancy.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4018",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I have difficulty sleeping because of my pregnancy.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4019",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I have been having leg cramps at night during my pregnancy.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4020",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I feel short of breath when I walk during my pregnancy.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4021",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I have been told my blood pressure is high during pregnancy.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4022",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was diagnosed with gestational diabetes during my pregnancy.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4023",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I have been told I have anaemia during my pregnancy.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4024",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was given iron tablets at my antenatal visit.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4025",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was given folic acid supplements at my first antenatal visit.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4026",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told to take calcium supplements during my pregnancy.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4027",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I received a tetanus injection at my antenatal visit.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4028",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was screened for HIV at my first antenatal appointment.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4029",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I tested positive for HIV during my antenatal visit.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4030",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was started on ART to protect my baby from HIV.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4031",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told to take my ART medication every day during pregnancy.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4032",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was screened for syphilis at my antenatal visit.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4033",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told I have syphilis and need treatment immediately.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4034",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was screened for TB during my antenatal visit.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4035",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told my baby is growing well at my antenatal check.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4036",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "The nurse measured my abdomen to check my baby's growth.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4037",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I heard my baby's heartbeat for the first time at the clinic.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4038",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told my baby is in the correct position for delivery.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4039",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told my baby is in a breech position.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4040",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was referred to the hospital because of a high-risk pregnancy.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4041",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told I need a caesarean section.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4042",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told I can deliver normally at the clinic.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4043",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was given a birth plan at my antenatal visit.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4044",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told the danger signs to watch for during pregnancy.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4045",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told to go to the hospital immediately if I experience bleeding.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4046",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told to go to the hospital if my waters break.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4047",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told to go to the hospital if I have severe headaches.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4048",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told to go to the hospital if I have blurred vision.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4049",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told to go to the hospital if my baby stops moving.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4050",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I have not felt my baby move for several hours.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4051",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I am worried because my baby is not moving as much as before.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4052",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I felt my baby move for the first time today.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4053",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told to count my baby's movements every day.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4054",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was given a referral to the hospital for an ultrasound scan.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4055",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "My ultrasound showed that I am expecting twins.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4056",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told my placenta is low and I need to be monitored.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4057",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told I have too much fluid around my baby.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4058",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told I have too little fluid around my baby.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4059",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was advised to rest and avoid heavy work during my pregnancy.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4060",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told to avoid alcohol and smoking during my pregnancy.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4061",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told to eat a balanced diet during my pregnancy.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4062",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was advised to drink plenty of water during my pregnancy.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4063",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told to sleep on my left side during the last months.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4064",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was given information about breastfeeding at my antenatal visit.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4065",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told about the benefits of exclusive breastfeeding.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4066",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I attended an antenatal education class at the clinic.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4067",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told what to expect during labour and delivery.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4068",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was advised to prepare a hospital bag before my due date.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4069",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told my due date is in three weeks.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4070",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I think I am in labour and need to go to the hospital.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4071",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "My contractions are coming every five minutes.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4072",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "My waters have broken and I need help immediately.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4073",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I am experiencing heavy bleeding and need urgent care.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4074",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I arrived at the hospital and was admitted to the labour ward.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4075",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "The nurse checked how far I am dilated.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4076",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told I am fully dilated and ready to push.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4077",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I delivered my baby safely at the clinic.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4078",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I had a normal vaginal delivery.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4079",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I had a caesarean section at the hospital.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4080",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "My baby was born healthy and crying.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4081",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "My baby needed oxygen after delivery.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4082",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "My baby was taken to the neonatal unit after birth.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4083",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told my baby has a low birth weight.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4084",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "My baby was born prematurely at thirty-two weeks.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4085",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was given an injection after delivery to prevent bleeding.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4086",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was stitched after my delivery.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4087",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told to keep my stitches clean and dry.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4088",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I experienced heavy bleeding after delivery.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4089",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was given a blood transfusion after delivery.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4090",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told to rest for at least six weeks after delivery.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4091",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was discharged from the hospital two days after delivery.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4092",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was given postnatal care instructions before leaving the hospital.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4093",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told to come back to the clinic six weeks after delivery.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4094",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was encouraged to breastfeed my baby immediately after birth.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4095",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "My baby was put on my chest immediately after birth.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4096",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was shown how to breastfeed correctly by the nurse.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4097",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told to breastfeed my baby every two to three hours.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4098",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told not to give my baby water or formula.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4099",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was given a vitamin K injection for my baby after birth.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4100",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "My baby received eye drops after delivery.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4101",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "My baby was given the BCG vaccine at birth.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4102",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "My baby was given the polio vaccine at birth.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4103",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "My baby's birth was registered at the hospital.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4104",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was given a road-to-health booklet for my baby.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4105",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told to bring the road-to-health booklet to every visit.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4106",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was given my baby's birth certificate before leaving the hospital.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4107",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told about family planning options after delivery.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4108",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was given a contraceptive injection six weeks after delivery.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4109",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was advised to use condoms to protect against HIV after delivery.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4110",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I am here for my six-week postnatal check-up.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4111",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I have been experiencing pain at my caesarean scar.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4112",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "My stitches have not healed properly after delivery.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4113",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I have been having heavy bleeding two weeks after delivery.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4114",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I have been experiencing fever and chills after delivery.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4115",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I have a painful and swollen breast since I started breastfeeding.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4116",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I have cracked and sore nipples from breastfeeding.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4117",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I am struggling to produce enough breast milk.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4118",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I have been feeling very sad and tearful since my baby was born.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4119",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I have been feeling overwhelmed and anxious since delivery.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4120",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I have not been sleeping since my baby was born.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4121",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I have been feeling disconnected from my baby.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4122",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told I may have postnatal depression.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4123",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was referred to a counsellor for postnatal support.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4124",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I have been experiencing pain during intercourse after delivery.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4125",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I have been having urinary incontinence since delivery.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4126",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told my uterus has not contracted properly after delivery.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4127",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was given medication to help my uterus contract after delivery.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4128",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I have been told my haemoglobin is low after delivery.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4129",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was given iron supplements at my postnatal visit.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4130",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told to continue taking my ART medication after delivery.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4131",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told my baby needs to be tested for HIV at six weeks.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4132",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "My baby tested positive for HIV and was started on treatment.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4133",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "My baby tested negative for HIV at the six-week test.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4134",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told to exclusively breastfeed for six months.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4135",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told to continue breastfeeding while on ART.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4136",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was advised to introduce solid foods at six months.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4137",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told to continue breastfeeding alongside solid foods.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4138",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told to wean my baby at twelve months.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4139",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was given family planning advice at my postnatal visit.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4140",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told about the different contraceptive options available.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4141",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I chose to use the contraceptive implant after delivery.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4142",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was given the contraceptive pill at my postnatal visit.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4143",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told to use condoms consistently to prevent HIV.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4144",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was referred to the family planning clinic for further advice.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4145",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told my postnatal check-up results are normal.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4146",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told I can resume normal activities after six weeks.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4147",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told to return to the clinic if I develop any complications.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4148",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was given the contact number of the postnatal support line.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4149",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was discharged from postnatal care after my six-week check.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4150",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told to bring my baby for immunisations at six weeks.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4151",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told to attend the child health clinic every month.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4152",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was given information about the road-to-health programme.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4153",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told to weigh my baby at the clinic every month.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4154",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told to watch for danger signs in my newborn.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4155",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told to go to the clinic immediately if my baby has a fever.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4156",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told to go to the clinic if my baby is not feeding well.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4157",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told to go to the clinic if my baby has difficulty breathing.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4158",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told to go to the clinic if my baby has a rash.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4159",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told to go to the clinic if my baby is very pale or yellow.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4160",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I have brought my baby for the six-week immunisation.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4161",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "My baby is due for the ten-week vaccines today.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4162",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I have come for my baby's fourteen-week immunisation.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4163",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "My child is due for the nine-month vaccines.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4164",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I have brought my child for the twelve-month immunisation.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4165",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "My child is due for the eighteen-month booster vaccines.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4166",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I have come for my child's five-year school entry vaccines.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4167",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I would like to know which vaccines my baby needs today.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4168",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I would like to know the vaccination schedule for my baby.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4169",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "My baby cried a lot after the last vaccination.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4170",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "My baby developed a fever after the vaccination.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4171",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "My baby has a swollen arm after the injection.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4172",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told a mild fever after vaccination is normal.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4173",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told to give my baby paracetamol if they develop a fever.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4174",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "My baby has not received all the required vaccinations.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4175",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I lost my child's road-to-health booklet and need a new one.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4176",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I would like to know if my child's vaccinations are up to date.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4177",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "My child missed a vaccination and I need to catch up.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4178",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told my child needs a catch-up vaccination schedule.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4179",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I have brought my child for a growth monitoring visit.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4180",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "My child's weight has not increased since the last visit.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4181",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "My child is losing weight and I am worried.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4182",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "My child is not growing as expected for their age.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4183",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told my child is underweight and needs nutritional support.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4184",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "My child was referred to the nutrition programme at the clinic.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4185",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was given therapeutic food for my malnourished child.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4186",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "My child has been diagnosed with severe acute malnutrition.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4187",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "My child was admitted to hospital for malnutrition treatment.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4188",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told to give my child ready-to-use therapeutic food.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4189",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was given advice on how to prepare nutritious meals for my child.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4190",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "My child has been refusing to eat for the past few days.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4191",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "My child is very thin and I am concerned about their health.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4192",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "My child has a swollen abdomen and swollen feet.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4193",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told my child has kwashiorkor.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4194",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "My child has been diagnosed with marasmus.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4195",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was given a vitamin A supplement for my child.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4196",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "My child was given deworming medication at the clinic.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4197",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "I was told to give my child deworming tablets every six months.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4198",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "My child has been diagnosed with anaemia.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4199",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "My child was given iron syrup for anaemia.",
+    "sesotho_text": ""
+  },
+  {
+    "sentence_id": "4200",
+    "domain_category": "Maternal and Child Health",
+    "english_text": "My child has been having frequent diarrhoea.",
+    "sesotho_text": ""
+  }
+]

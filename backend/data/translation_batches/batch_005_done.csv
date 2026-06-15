@@ -1,0 +1,201 @@
+sentence_id,domain_category,english_text,sesotho_text
+801,HIV,My doctor changed my HIV medicine and I want to know why.,Ngaka ea ka e fetohile meriana ea HIV ea ka mme ke batla ho tseba hobaneng.
+802,HIV,I have been on HIV treatment for one year and I feel completely normal.,Ke holim'a phekolo ea HIV ka selemo se le seng mme ke ikutloa ke le molapo ka botlalo.
+803,HIV,I want to know if my HIV medicine will affect my contraceptive pill.,Ke batla ho tseba hore na meriana ea HIV ea ka e tla angoa ke pilisi ea thibelo ea ho ima.
+804,HIV,I am breastfeeding my baby and I want to know if my HIV medicine is safe for the baby.,Ke anyesa ngoana oa ka mme ke batla ho tseba hore na meriana ea HIV ea ka e bolokehile bakeng sa ngoana.
+805,HIV,I have been told my CD4 count is 45 and I am very scared.,Ke boletsoe hore palo ea CD4 ea ka ke 45 mme ke tšaba haholo.
+806,HIV,I have been feeling much better since I started cotrimoxazole.,Ke ikutloa ke ntlafetse haholo ho tloha ha ke qala cotrimoxazole.
+807,HIV,I do not understand why I need to take cotrimoxazole if I am already on HIV medicine.,Ha ke utloisise hobaneng ke hloka ho nka cotrimoxazole haeba ke se ke le holim'a meriana ea HIV.
+808,HIV,I was told I have TB and HIV and I do not know which medicine to take first.,Ke boletsoe hore ke na le TB le HIV mme ha ke tsebe hore na ke nke moriana ofe pele.
+809,HIV,I completed my TB treatment six months ago but I am still coughing.,Ke phethetse phekolo ea TB likhoeli tse tšeletseng tse fetileng empa ke ntse ke kohoa.
+810,HIV,I have sores around my mouth and I think it is related to my HIV.,Ke na le matšoao a ho ruruha haufi le molomo oa ka mme ke nahana hore a amana le HIV ea ka.
+811,HIV,I have been having severe headaches and I am HIV-positive with a low CD4 count.,Ke bile le mahloko a matla a hlooho mme ke na le HIV ka palo e tlase ea CD4.
+812,HIV,I am a mother of three children and I just found out I have HIV.,Ke mme oa bana ba bararo mme ke sa tsoa fumana hore ke na le HIV.
+813,HIV,I want to protect my husband from getting HIV from me.,Ke batla ho sireletsa monna oa ka hore a se tšoaetsoe HIV ke nna.
+814,HIV,I am HIV-positive and I want to know if I can still have a healthy baby.,Ke na le HIV mme ke batla ho tseba hore na ke ka ntse ke ba le ngoana ea phelang hantle.
+815,HIV,I have been living positively with HIV for fifteen years and I am proud of how far I have come.,Ke phela hantle le HIV ka lilemo tse leshome le metso e mehlano mme ke ikantse ka bokgoni ba ka.
+816,HIV,Your HIV medicine is working very well and your viral load is undetectable.,Meriana ea HIV ea hau e sebetsa hantle haholo mme viral load ea hau ha e fumanehe.
+817,HIV,You need to come back to the clinic in three months for your next viral load test.,U hloka ho khutlela klinikhing ka mor'a likhoeli tse tharo bakeng sa tlhahlobo ea hau ea viral load e tlang.
+818,HIV,It is very important that you take your HIV medicine every day without missing a dose.,Ho bohlokoa haholo hore u nke meriana ea HIV ea hau letsatsi le leng le le leng ntle le ho lahleheloa ke dose.
+819,HIV,Your CD4 count has improved significantly since you started treatment.,Palo ea CD4 ea hau e ntlafetse haholo ho tloha ha u qala phekolo.
+820,HIV,We need to change your HIV medicine because your viral load is still high.,Re hloka ho fetola meriana ea HIV ea hau hobane viral load ea hau e ntse e phahame.
+821,HIV,I am going to refer you to a specialist because of your low CD4 count.,Ke tla u romela ho setsebi ka lebaka la palo ea hau e tlase ea CD4.
+822,HIV,You should bring your medicine to every clinic visit so we can check that you are taking it correctly.,U lokela ho tlisa meriana ea hau letsetsong le leng le le leng la kliniki hore re tle re netefatse hore u e nka ka nepo.
+823,HIV,We are going to test you for TB today because you have been coughing for more than two weeks.,Re tla u hlahlobeloa TB kajeno hobane u kohile nako e fetang libeke tse peli.
+824,HIV,Your baby's HIV test has come back negative which is wonderful news.,Tlhahlobo ea HIV ea ngoana oa hau e khutlile e senyenyane e leng taba e monate haholo.
+825,HIV,You are doing very well on your HIV treatment and you should continue taking it every day.,U phetha hantle haholo holim'a phekolo ea HIV ea hau mme u lokela ho tsoela pele ho e nka letsatsi le leng le le leng.
+826,HIV,Provider-initiated testing and counselling normalises HIV testing in clinical settings.,Liteko le keletso tse qalilloeng ke mofani li etsa hore ho hlahlobeloa HIV ho be tloaelo libakeng tsa kliniki.
+827,HIV,Pre-test counselling explains the purpose of the HIV test and what the results mean.,Keletso e ntoeng pele ho tlhahlobo e hlalosa morero oa tlhahlobo ea HIV le hore na liphetho li bolela eng.
+828,HIV,Post-test counselling provides support and guidance regardless of the HIV test result.,Keletso e ntoeng ka mora tlhahlobo e fana ka tshehetso le tataiso ntle le ho sheba sephetho sa tlhahlobo ea HIV.
+829,HIV,A reactive HIV rapid test must be confirmed with a second different rapid test.,Tlhahlobo ea potlako ea HIV e nang le karabelo e lokela ho netefatsoa ka tlhahlobo ea bobeli e fapaneng ea potlako.
+830,HIV,HIV self-test kits are available at pharmacies and some clinics.,Lisebelisoa tsa ho itlhahlobeloa HIV li fumaneha likhemistong le likhlinikhing tse itseng.
+831,HIV,A positive HIV self-test result must always be confirmed at a health facility.,Sephetho se molemo sa ho itlhahlobeloa HIV se lokela kamehla ho netefatsoa kamoreng ea bophelo bo botle.
+832,HIV,HIV testing during pregnancy is offered at the first antenatal visit.,Ho hlahlobeloa HIV nakong ea ho ima ho fanoa letsetsong la pele la ho hlahloba pele ho tsoalo.
+833,HIV,Repeat HIV testing in the third trimester is recommended for HIV-negative pregnant women.,Ho phinda ho hlahlobeloa HIV nako ea boraro ea ho ima ho khothalletsoa bakeng sa basali ba mitsi ba se nang HIV.
+834,HIV,Index case testing offers HIV tests to sexual partners and children of newly diagnosed people.,Tlhahlobo ea index case e fana ka liteko tsa HIV ho balekane ba thobalano le bana ba batho ba sa tsoa fuoa HIV.
+835,HIV,Social network testing reaches people who would not otherwise test for HIV.,Tlhahlobo ea marang-rang a sechaba e fihlela batho ba ke ke ba hlahlobeloa HIV ka tsela e 'ngoe.
+836,HIV,Mobile HIV testing units bring testing services to communities and workplaces.,Liqenehelo tsa HIV tse tsamaelang li tlisa litshebeletso tsa liteko sechabeng le mafapheng a mosebetsi.
+837,HIV,HIV testing campaigns during public events increase testing uptake.,Mananeo a ho hlahlobeloa HIV nakong ea liketsahalo tsa sechaba a eketsa ho amoheloa ha liteko.
+838,HIV,Knowing your HIV status is the first step to protecting yourself and others.,Ho tseba boemo ba hau ba HIV ke mohato oa pele oa ho itšireletsa le ho sireletsa ba bang.
+839,HIV,HIV testing is confidential and your results will not be shared without your consent.,Ho hlahlobeloa HIV ho boloka sephiri mme liphetho tsa hau ha li na ho abeloa ntle le tumello ea hau.
+840,HIV,Disclosing your HIV status to a trusted person can reduce isolation and improve wellbeing.,Ho senola boemo ba hau ba HIV ho motho ea tšepahalang ho ka fokotsa ho ikhethela le ho ntlafatsa bophelo bo botle.
+841,HIV,HIV disclosure to a sexual partner is important to prevent transmission.,Ho senola boemo ba HIV ho molekane oa thobalano ho bohlokoa ho thibela phetisetso.
+842,HIV,"Disclosure counselling helps people decide when, how, and to whom to disclose their HIV status.","Keletso ea ho senola e thusa batho ho etsa liqeto mabapi le neng, joang, le ho mang ho senola boemo ba bona ba HIV."
+843,HIV,Children living with HIV should be told their status in an age-appropriate way.,Bana ba phelang le HIV ba lokela ho bolelloa boemo ba bona ka tsela e lokelang lilemo tsa bona.
+844,HIV,Disclosure of HIV status to children should be done gradually and with professional support.,Ho senola boemo ba HIV ho bana ho lokela ho etsoa butle butle le ka tshehetso ea boqhetseke.
+845,HIV,Fear of rejection and violence can make HIV disclosure very difficult.,Tšabo ea ho hanyetsoa le tlhoriso e ka etsa hore ho senola HIV ho be thata haholo.
+846,HIV,Healthcare providers should support patients through the disclosure process.,Bafani ba tlhokomelo ea bophelo bo botle ba lokela ho tshehetsa bakuli ka tseleng ea ho senola.
+847,HIV,Assisted disclosure involves a healthcare worker helping a patient tell their partner about their HIV status.,Ho senola ka thuso ho kenyelletsa mosebetsi oa bophelo bo botle ea thusang mokuloi ho bolella molekane oa hae ka boemo ba hae ba HIV.
+848,HIV,People should never be forced to disclose their HIV status against their will.,Batho ha ba lokela le ka mohla ho qobelloa ho senola boemo ba bona ba HIV khahlanong le thato ea bona.
+849,HIV,Workplace disclosure of HIV status is a personal decision and cannot be required by an employer.,Ho senola boemo ba HIV mafapheng a mosebetsi ke qeto ea motho ka bo eena mme ha e khone ho hlokeha ke mofani oa mosebetsi.
+850,HIV,"Adolescents living with HIV face unique challenges including stigma, disclosure, and transition to adult care.","Bacha ba phelang le HIV ba tobana le mathata a ikhethileng ho kenyelletsa kekello, ho senola, le ho fetela tlhokomelong ea batho ba baholo."
+851,HIV,Transition from paediatric to adult HIV care is a critical period that requires careful planning.,Ho fetela ho tsoa tlhokomelong ea HIV ea bana ho ea ho ea batho ba baholo ke nako ea bohlokoa e hlokang moralo o nang le hloko.
+852,HIV,Adolescents should be involved in decisions about their HIV care.,Bacha ba lokela ho kenyelletsooa liqetong mabapi le tlhokomelo ea bona ea HIV.
+853,HIV,Youth-friendly HIV services are designed to meet the specific needs of adolescents.,Litshebeletso tsa HIV tse amohelang bacha li bopiloe ho fihlela litlhoko tsa khethehileng tsa bacha.
+854,HIV,Peer support groups for HIV-positive adolescents improve adherence and mental health.,Lihlopha tsa tshehetso ea bahlankana bakeng sa bacha ba nang le HIV li ntlafatsa ho latela le bophelo ba kelello.
+855,HIV,School-based HIV education programmes reduce risky behaviour in adolescents.,Mananeo a thuto ea HIV a thehiloeng sekolong a fokotsa maitshwaro a kotsi ho bacha.
+856,HIV,Comprehensive sexuality education includes HIV prevention as a core component.,Thuto e pharalletseng ea thobalano e kenyelletsa thibelo ea HIV e le karolo ea motheo.
+857,HIV,Adolescents have the right to access HIV testing and treatment without parental consent in many countries.,Bacha ba na le tokelo ea ho fihlella liteko tsa HIV le phekolo ntle le tumello ea batsoali linaheng tse ngata.
+858,HIV,HIV-positive adolescents who are virally suppressed can live full and healthy lives.,Bacha ba nang le HIV ba laolehileng ke vaerase ba ka phela bophelo bo tletseng bo botle.
+859,HIV,Substance use among adolescents increases HIV risk and should be addressed in prevention programmes.,Tšebediso ea lintho tse kotsi ho bacha e eketsa kotsi ea HIV mme e lokela ho sebetsanoa le eona mananeo a thibelo.
+860,HIV,Older adults are often overlooked in HIV prevention and testing programmes.,Batho ba baholo hangata ba lebaloa mananeo a thibelo ea HIV le a liteko.
+861,HIV,HIV in older adults is frequently diagnosed late because clinicians do not consider it.,HIV ho batho ba baholo hangata e fumanoa nako e le ntle hobane lingaka ha li e nahane.
+862,HIV,Older adults living with HIV have higher rates of depression and social isolation.,Batho ba baholo ba phelang le HIV ba na le likhato tse phahameng tsa ho nyamela le ho ikhethela sechabeng.
+863,HIV,Cognitive decline is more common in older people living with HIV.,Ho fokotsehela ha mahutu ho atile haholo ho batho ba baholo ba phelang le HIV.
+864,HIV,ART dosing may need to be adjusted in older adults with kidney or liver impairment.,Ho abela ART ho ka hloka ho fetoloa ho batho ba baholo ba nang le bothata ba lipitso kapa sebete.
+865,HIV,Older adults living with HIV should be screened for frailty at every clinic visit.,Batho ba baholo ba phelang le HIV ba lokela ho hlahlobeloa ho fokolehela letsetsong le leng le le leng la kliniki.
+866,HIV,Comprehensive geriatric assessment is increasingly relevant for older people living with HIV.,Tlhahlobo e pharalletseng ea batho ba baholo e bohlokoa haholo ho batho ba baholo ba phelang le HIV.
+867,HIV,Retirement and bereavement can trigger depression in older people living with HIV.,Ho hlolohala mosebetsing le mahlomola a lefu li ka baka ho nyamela ho batho ba baholo ba phelang le HIV.
+868,HIV,Sexual health remains important for older adults living with HIV.,Bophelo bo botle ba thobalano bo ntse bo bohlokoa bakeng sa batho ba baholo ba phelang le HIV.
+869,HIV,Older adults should be included in HIV clinical trials to ensure treatments are appropriate for them.,Batho ba baholo ba lokela ho kenyelletsooa lihlahlobong tsa kliniki tsa HIV ho netefatsa hore diphekolo li loketse bona.
+870,HIV,HIV stigma is a violation of human rights and a barrier to ending the HIV epidemic.,Kekello ea HIV ke tlolo ea litokelo tsa botho le moqoqo oa ho felisa leruo la lefu la HIV.
+871,HIV,Contact-based education where people living with HIV share their stories reduces stigma.,Thuto e thehiloeng holim'a kopano moo batho ba phelang le HIV ba arolanang lipale tsa bona e fokotsa kekello.
+872,HIV,Healthcare worker stigma towards people living with HIV must be actively addressed.,Kekello ea basebetsi ba bophelo bo botle khahlanong le batho ba phelang le HIV e lokela ho sebetsanoa le eona ka boitelo.
+873,HIV,Stigma reduction training for healthcare workers improves quality of HIV care.,Koetliso ea ho fokotsa kekello bakeng sa basebetsi ba bophelo bo botle e ntlafatsa boleng ba tlhokomelo ea HIV.
+874,HIV,Self-stigma occurs when a person internalises negative beliefs about their HIV status.,Kekello ea motho ka bo eena e etsahala ha motho a amohela mehopolo e mebe ka boemo ba hae ba HIV.
+875,HIV,Community-level stigma reduction programmes create supportive environments for people living with HIV.,Mananeo a ho fokotsa kekello maemong a sechaba a theha tikoloho e tshehelang bakeng sa batho ba phelang le HIV.
+876,HIV,Media campaigns that show people living with HIV as healthy and productive reduce stigma.,Mananeo a media a bontšang batho ba phelang le HIV e le ba phelang hantle le ba sebetsang a fokotsa kekello.
+877,HIV,Language matters in HIV — avoid terms like AIDS victim or HIV sufferer.,Puo e bohlokoa ho HIV — hana mantsoe a joalo ka setšoaetsi sa AIDS kapa mohlokofatsuoa ke HIV.
+878,HIV,Use people-first language such as person living with HIV rather than HIV patient.,Sebelisa puo e beha motho pele joalo ka motho ea phelang le HIV ho feta mokuloi oa HIV.
+879,HIV,Stigma and discrimination against people living with HIV are illegal in many countries.,Kekello le khethollo khahlanong le batho ba phelang le HIV ke melato linaheng tse ngata.
+880,HIV,HIV-positive women have the same right to choose whether to have children as HIV-negative women.,Basali ba nang le HIV ba na le tokelo e tšoanang ea ho khetha hore na ba be le bana joalo ka basali ba se nang HIV.
+881,HIV,Contraceptive counselling should be offered to all HIV-positive women of reproductive age.,Keletso ea thibelo ea ho ima e lokela ho fanoa ho basali bohle ba nang le HIV ba lilemo tsa ho tsoa le bana.
+882,HIV,Dual protection using condoms and contraception prevents both HIV transmission and unintended pregnancy.,Tšireletso ea bobeli e sebelisang likhohlopo le thibelo ea ho ima e thibela phetisetso ea HIV le ho ima ho sa rerilloeng.
+883,HIV,Hormonal contraception does not increase the risk of HIV acquisition.,Thibelo ea ho ima ea li-hormone ha e eketse kotsi ea ho fumana HIV.
+884,HIV,Intrauterine devices are safe and effective for HIV-positive women.,Lisebelisoa tsa ka hare ho sebaka sa ngoana li bolokehile mme li sebetsa bakeng sa basali ba nang le HIV.
+885,HIV,Cervical cancer screening should be done annually for HIV-positive women.,Ho hlahlobeloa ha kankere ea molala oa sebaka sa ngoana ho lokela ho etsoa selemo le selemo bakeng sa basali ba nang le HIV.
+886,HIV,HPV vaccination is recommended for HIV-positive girls and young women.,Ente ea HPV e khothalletsoa bakeng sa banana le basali ba bacha ba nang le HIV.
+887,HIV,HIV-positive women have a higher risk of cervical cancer due to immune suppression.,Basali ba nang le HIV ba na le kotsi e phahameng ea kankere ea molala oa sebaka sa ngoana ka lebaka la ho laoloa ha tšireletso ea 'mele.
+888,HIV,Menopause may occur earlier in women living with HIV.,Menopause e ka etsahala kapele ho basali ba phelang le HIV.
+889,HIV,Hormone replacement therapy for menopause is generally safe for HIV-positive women on ART.,Phekolo ea ho nka sebaka sa li-hormone bakeng sa menopause ka kakaretso e bolokehile bakeng sa basali ba nang le HIV ba holim'a ART.
+890,HIV,People living with HIV have a higher risk of certain cancers including Kaposi sarcoma and lymphoma.,Batho ba phelang le HIV ba na le kotsi e phahameng ea mefuta e meng ea kankere ho kenyelletsa Kaposi sarcoma le lymphoma.
+891,HIV,Kaposi sarcoma is caused by human herpesvirus 8 and is more common in people with low CD4 counts.,Kaposi sarcoma e bakooa ke human herpesvirus 8 mme e atile ho batho ba nang le palo e tlase ea CD4.
+892,HIV,Non-Hodgkin lymphoma is an AIDS-defining cancer that occurs at low CD4 counts.,Non-Hodgkin lymphoma ke kankere e hlalositsoeng ke AIDS e etsahalang ha palo ea CD4 e tlase.
+893,HIV,ART reduces the risk of AIDS-defining cancers by restoring immune function.,ART e fokotsa kotsi ea likankere tse hlalositsoeng ke AIDS ka ho busa tšebetso ea tšireletso ea 'mele.
+894,HIV,Chronic pain is common in people living with HIV and requires assessment and management.,Mahloko a nako e telele a atile ho batho ba phelang le HIV mme a hloka tlhahlobo le taolo.
+895,HIV,Peripheral neuropathy causes burning and tingling in the feet and is common in people living with HIV.,Neuropathy ea maphethelo e baka ho chesa le ho hlohlona maotong mme e atile ho batho ba phelang le HIV.
+896,HIV,"HIV-associated neurocognitive disorder affects memory, concentration, and daily functioning.","Bolwetse ba neurocognitive bo amanang le HIV bo angoa ho hopola, ho tsepamisa kelello, le tšebetso ea letsatsi le leng le le leng."
+897,HIV,Sleep disturbances are more common in people living with HIV and affect quality of life.,Mathata a boroko a atile haholo ho batho ba phelang le HIV mme a angoa boleng ba bophelo.
+898,HIV,Fatigue is one of the most commonly reported symptoms in people living with HIV.,Ho lapala ke e 'ngoe ea matšoao a buelioang ka mehla ka ho fetisisa ho batho ba phelang le HIV.
+899,HIV,Sub-Saharan Africa accounts for more than two thirds of all people living with HIV globally.,Afrika e ka tlase ho Sahara e bua karolo e fetang boraro ba bobeli ba batho bohle ba phelang le HIV lefatšeng lohle.
+900,HIV,Eastern and southern Africa has the highest HIV burden of any region in the world.,Afrika Bochabela le Boroa e rwala morwalo o moholo ka ho fetisisa oa HIV ho feta sebaka sefe kapa sefe lefatšeng.
+901,HIV,South Africa has the largest HIV epidemic in the world with over seven million people living with HIV.,Afrika Boroa e na le leruo le leholo ka ho fetisisa la HIV lefatšeng ka batho ba fetang limilione tse supileng ba phelang le HIV.
+902,HIV,HIV incidence has declined significantly in sub-Saharan Africa over the past two decades.,Palo ea litšoaetso tse ncha tsa HIV e theohile haholo Afrika e ka tlase ho Sahara ka lilemo tse mashome a mabeli tse fetileng.
+903,HIV,AIDS-related deaths have declined by more than 60 percent since the peak in 2004.,Lifu tse amanang le AIDS li theohile ka ho feta pesente ea 60 ho tloha nako ea bongata ka 2004.
+904,HIV,The UNAIDS 95-95-95 targets aim to end AIDS as a public health threat by 2030.,Lipheo tsa UNAIDS tsa 95-95-95 li ikemiseditse ho felisa AIDS e le kotsi ea bophelo bo botle ba sechaba ka 2030.
+905,HIV,The first 95 means 95 percent of people living with HIV know their status.,95 ea pele e bolela hore batho ba 95 pesente ba phelang le HIV ba tseba boemo ba bona.
+906,HIV,The second 95 means 95 percent of people who know their status are on ART.,95 ea bobeli e bolela hore batho ba 95 pesente ba tsebang boemo ba bona ba holim'a ART.
+907,HIV,The third 95 means 95 percent of people on ART are virally suppressed.,95 ea boraro e bolela hore batho ba 95 pesente ba holim'a ART ba laolehile ke vaerase.
+908,HIV,Achieving the 95-95-95 targets would prevent millions of new HIV infections and deaths.,Ho fihlela lipheo tsa 95-95-95 ho tla thibela limilione tsa litšoaetso tse ncha tsa HIV le lifu.
+909,HIV,HIV does not affect a person's ability to work in most occupations.,HIV ha e angoe bokgoni ba motho ba ho sebetsa mesebetsing e mengata.
+910,HIV,Employers should provide HIV education and testing programmes for their workforce.,Bafani ba mosebetsi ba lokela ho fana ka mananeo a thuto ea HIV le a liteko bakeng sa basebetsi ba bona.
+911,HIV,Employee assistance programmes can support workers living with HIV.,Mananeo a thuso ea basebetsi a ka tshehetsa basebetsi ba phelang le HIV.
+912,HIV,HIV-positive employees are entitled to reasonable accommodation in the workplace.,Basebetsi ba nang le HIV ba na le tokelo ea ho amohela litokisetso tse utloahalang mafapheng a mosebetsi.
+913,HIV,Sick leave and flexible working arrangements support HIV-positive employees.,Likhoeli tsa ho hana mosebetsi ka lebaka la bolwetse le litokisetso tsa mosebetsi tse khonehang li tshehetsa basebetsi ba nang le HIV.
+914,HIV,Workplace HIV policies should be developed in consultation with employees and unions.,Maano a HIV a mafapha a mosebetsi a lokela ho etsoa ka ho buisana le basebetsi le li-union.
+915,HIV,"Mining, transport, and agricultural sectors have high HIV prevalence in sub-Saharan Africa.","Likarolo tsa merafo, lipalangoa, le temo li na le palo e phahameng ea HIV Afrika e ka tlase ho Sahara."
+916,HIV,Long-distance truck drivers are a key population for HIV prevention interventions.,Bashofori ba litraka tsa leeto le lelelele ke sechaba se bohlokoa bakeng sa meketso ea thibelo ea HIV.
+917,HIV,Migrant workers face increased HIV risk due to separation from families and social networks.,Basebetsi ba baahi ba fetang ba tobana le kotsi e eketsehileng ea HIV ka lebaka la ho arohana le malapa le marang-rang a sechaba.
+918,HIV,HIV programmes in the workplace reduce absenteeism and improve productivity.,Mananeo a HIV mafapheng a mosebetsi a fokotsa ho hloka mosebetsi le ho ntlafatsa tšebetso.
+919,HIV,I did not know that HIV medicine could make me gain weight and I am concerned.,Ha ke a tseba hore meriana ea HIV e ka etsa hore ke nehe boima mme ke na le khatello.
+920,HIV,I have been on HIV treatment for two years and I have never missed a dose.,Ke holim'a phekolo ea HIV ka lilemo tse peli mme ha ke eso lahleheloe ke dose le e le 'ngoe.
+921,HIV,I want to know if I can drink alcohol while taking my HIV medicine.,Ke batla ho tseba hore na ke ka noa joala ha ke nka meriana ea HIV ea ka.
+922,HIV,I have been feeling dizzy and having nightmares since I started my new HIV medicine.,Ke bile ke ikutloa ke potoloha le ho ba le liphupho tse mpe ho tloha ha ke qala meriana ea HIV e mocha.
+923,HIV,I am scared to start HIV treatment because I have heard it has bad side effects.,Ke tšaba ho qala phekolo ea HIV hobane ke utloile hore e na le litlamorao tse mpe.
+924,HIV,My sister told me that HIV medicine will damage my kidneys and I am worried.,Khaitseli ea ka e mpoleletse hore meriana ea HIV e tla senya lipitso tsa ka mme ke na le khatello.
+925,HIV,I have been taking my HIV medicine with traditional herbs and I want to know if that is safe.,Ke ntse ke nka meriana ea HIV ea ka le meriana ea setso mme ke batla ho tseba hore na ho bolokehile.
+926,HIV,I ran out of HIV medicine last week because the clinic was closed.,Meriana ea HIV ea ka e fele beke e fetileng hobane kliniki e ne e koetsoe.
+927,HIV,I am HIV-positive and I want to donate blood to help others.,Ke na le HIV mme ke batla ho fana ka mali ho thusa ba bang.
+928,HIV,I have been told my baby is HIV-negative and I am so relieved.,Ke boletsoe hore ngoana oa ka ha a na le HIV mme ke khotsofetse haholo.
+929,HIV,I want to know how long I will need to take HIV medicine.,Ke batla ho tseba hore na ke tla hloka ho nka meriana ea HIV nako e kae.
+930,HIV,I have been on HIV treatment for five years and my health has improved greatly.,Ke holim'a phekolo ea HIV ka lilemo tse hlano mme bophelo ba ka bo ntlafetse haholo.
+931,HIV,I am worried about what will happen to my children if I become very sick.,Ke na le khatello mabapi le seo se tla etsahalela bana ba ka haeba ke kula haholo.
+932,HIV,I have been told I need to start TB treatment as well as HIV treatment.,Ke boletsoe hore ke hloka ho qala phekolo ea TB hammoho le phekolo ea HIV.
+933,HIV,I feel embarrassed every time I go to collect my HIV medicine at the pharmacy.,Ke ikutloa ke hlajoa ke maswabi nako le nako ha ke ea ho kgotha meriana ea HIV ea ka khemistong.
+934,HIV,I would like to explain what HIV is and how the treatment works before we begin.,Ke rata ho hlalosa hore na HIV ke eng le hore na phekolo e sebetsa joang pele re qala.
+935,HIV,Your HIV test result today is positive and I want to support you through this.,Sephetho sa tlhahlobo ea HIV ea hau kajeno ke se molemo mme ke rata ho u tshehetsa ka nako ena.
+936,HIV,Starting treatment today will protect your health and prevent you from passing HIV to others.,Ho qala phekolo kajeno ho tla sireletsa bophelo ba hau le ho thibela hore u fetisele HIV ho ba bang.
+937,HIV,These are your HIV medicines and I will explain exactly how and when to take them.,Ena ke meriana ea HIV ea hau mme ke tla hlalosa ka nepo hore na u e nke joang le neng.
+938,HIV,If you experience any side effects please come back to the clinic or call us immediately.,Haeba u ikutloa litlamorao tse ling tse ling ka kopo khutlela klinikhing kapa re letsetse hang hang.
+939,HIV,Your next appointment is in one month and we will check your blood at that visit.,Moeto oa hau o tlang o tla ba ka khoeli e le ngoe mme re tla hlahloba mali a hau letsetsong leo.
+940,HIV,I can see that you have been taking your medicine regularly and your results show it.,Ke bona hore u ntse u nka meriana ea hau ka mehla mme liphetho tsa hau li a bontša.
+941,HIV,We need to discuss your viral load result because it is higher than we would like.,Re hloka ho buisana ka sephetho sa viral load ea hau hobane se phahame ho feta se ratang.
+942,HIV,I want to refer you to our social worker who can help with transport and food support.,Ke rata ho u romela ho mosebetsi oa rona oa sechaba ea ka thusang ka lipalangoa le tshehetso ea lijo.
+943,HIV,You have the right to ask questions about your treatment at any time.,U na le tokelo ea ho botsa lipotso mabapi le phekolo ea hau nako efe kapa efe.
+944,HIV,HIV is a manageable chronic condition and not a death sentence.,HIV ke boemo ba nako e telele bo ka laolehang eseng kahlolo ea lefu.
+945,HIV,With proper treatment people living with HIV can have a near-normal life expectancy.,Ka phekolo e nepahetseng batho ba phelang le HIV ba ka ba le nako ea ho phela e haufi le ea kamehla.
+946,HIV,Early diagnosis and treatment are the most important factors in HIV outcomes.,Ho fumanoa kapele le phekolo ke lintlha tse bohlokoa ka ho fetisisa liphetho tsa HIV.
+947,HIV,HIV treatment is free at public health facilities in South Africa.,Phekolo ea HIV ha e lefisoe likamoreng tsa bophelo bo botle tsa sechaba Afrika Boroa.
+948,HIV,You do not need to pay for HIV medicine at a government clinic in South Africa.,Ha u hloke ho lefa meriana ea HIV klinikhing ea mmuso Afrika Boroa.
+949,HIV,"HIV is not transmitted through sharing food, utensils, toilets, or swimming pools.","HIV ha e fetiseloe ka ho arolelana lijo, lisebelisoa tsa lijo, litoilete, kapa lipuleng tsa ho hlapa."
+950,HIV,"You cannot get HIV from hugging, shaking hands, or casual contact with an HIV-positive person.","Ha u khone ho fumana HIV ka ho kumbatsa, ho tobana ka matsoho, kapa ho kopana ka tsela ea kamehla le motho ea nang le HIV."
+951,HIV,Mosquitoes and other insects cannot transmit HIV.,Linoha le likhokahane tse ling ha li khone ho fetisela HIV.
+952,HIV,"HIV is not transmitted through saliva, tears, or sweat.","HIV ha e fetiseloe ka mathe, meokho, kapa molapo."
+953,HIV,Understanding how HIV is and is not transmitted helps reduce fear and stigma.,Ho utloisisa hore na HIV e fetiseloa joang le hore na ha e fetiseloe joang ho thusa ho fokotsa tšabo le kekello.
+954,HIV,HIV can be transmitted from a mother to her baby through breastfeeding if the mother is not on ART.,HIV e ka fetiseloa ho tsoa ho mme ho ea ho ngoana oa hae ka ho anyesa haeba mme a sa le holim'a ART.
+955,HIV,Pre-exposure prophylaxis (PrEP) reduces the risk of HIV infection in HIV-negative individuals.,Prophylaxis pele ho ho hlahisoa (PrEP) e fokotsa kotsi ea tšoaetso ea HIV ho batho ba se nang HIV.
+956,HIV,Post-exposure prophylaxis (PEP) must be started within 72 hours of a potential HIV exposure.,Prophylaxis ka mora ho hlahisoa (PEP) e lokela ho qaloa ka hare ho maho a 72 ka mor'a ho ba kotsing ea HIV.
+957,HIV,Voluntary medical male circumcision reduces the risk of female-to-male HIV transmission by up to 60%.,Ho ritoa ha banna ka boithatelo ho fokotsa kotsi ea phetisetso ea HIV ho tsoa ho basali ho ea ho banna ka ho fihla pesente ea 60.
+958,HIV,"HIV is not transmitted by sharing food, utensils, or toilet seats.","HIV ha e fetiseloe ka ho arolelana lijo, lisebelisoa tsa lijo, kapa litoilete."
+959,HIV,Consistent condom use during every sexual encounter significantly reduces HIV transmission risk.,Tšebediso ea kamehla ea khohlopo nakong ea kopano le kopano ea thobalano e fokotsa haholo kotsi ea phetisetso ea HIV.
+960,HIV,Harm reduction strategies such as needle exchange programmes reduce HIV risk among people who inject drugs.,Maano a ho fokotsa kotsi a joalo ka mananeo a phapano ea mesipi a fokotsa kotsi ea HIV ho batho ba kenyang meriana ka mesipi.
+961,HIV,Sexual violence survivors should access PEP services as soon as possible after an assault.,Baphonyohi ba tlhoriso ea thobalano ba lokela ho fihlella litshebeletso tsa PEP kapele kamoo ho khonehang ka mor'a tlhaselo.
+962,HIV,HIV-positive individuals on effective ART with an undetectable viral load cannot sexually transmit the virus.,Batho ba nang le HIV ba holim'a ART e sebetsang ba nang le viral load e sa fumaneheng ha ba khone ho fetisela vaerase ka thobalano.
+963,HIV,The U=U message — Undetectable equals Untransmittable — is a powerful tool against HIV stigma.,Molaetsa oa U=U — Ha e Fumanehe e lekana le Ho sa Fetiseloe — ke sesebelisoa se matla khahlanong le kekello ea HIV.
+964,HIV,HIV self-testing kits allow people to test privately at home and receive results within minutes.,Lisebelisoa tsa ho itlhahlobeloa HIV li lumella batho ho itlhahlobeloa ka sephiri lapeng le ho fumana liphetho ka metsotso e mefeng.
+965,HIV,Community-based HIV testing reaches populations who do not access facility-based services.,Ho hlahlobeloa ha HIV ho thehiloeng sechabeng ho fihlela sechaba se sa fihlelleng litshebeletso tse thehiloeng kamoreng.
+966,HIV,HIV testing during antenatal care is a critical entry point for PMTCT programmes.,Ho hlahlobeloa ha HIV nakong ea tlhokomelo pele ho tsoalo ke monyako oa bohlokoa oa mananeo a PMTCT.
+967,HIV,Index testing involves offering HIV tests to sexual partners and biological children of a known HIV-positive person.,Tlhahlobo ea index e kenyelletsa ho fana ka liteko tsa HIV ho balekane ba thobalano le bana ba sebele ba motho ea tsebahetseng ea nang le HIV.
+968,HIV,A negative HIV test result does not rule out recent infection if the test is taken during the window period.,Sephetho se senyenyane sa tlhahlobo ea HIV ha se felise tšoaetso ea morao tjena haeba tlhahlobo e nkoa nakong ea fensetere.
+969,HIV,Dolutegravir-based regimens are now the preferred first-line ART in most national guidelines.,Mananeo a thehiloeng holim'a dolutegravir joale ke ART e khahlehang ea mola oa pele litemaneng tsa naha tse ngata.
+970,HIV,Patients who experience side effects from ART should consult their healthcare provider before stopping treatment.,Bakuli ba bonang litlamorao ho tsoa ho ART ba lokela ho buisana le mofani oa bona oa tlhokomelo ea bophelo bo botle pele ho emisa phekolo.
+971,HIV,Drug resistance testing helps clinicians select the most effective ART regimen for each patient.,Ho lekoa ha khakanyo ea meriana ho thusa lingaka tsa kliniki ho khetha leano la ART le sebetsang ka ho fetisisa bakeng sa mokuloi e mong le e mong.
+972,HIV,Long-acting injectable ART formulations are an emerging option for patients who struggle with daily oral dosing.,Mefuta ea ART ea ho kenya ka mesipi e sebetsang nako e telele ke khetho e hlahang bakeng sa bakuli ba tobanang le mathata a ho nka meriana ea molomo letsatsi le leng le le leng.
+973,HIV,Switching ART regimens should be guided by viral load results and clinical assessment.,Ho fetohela mananeo a ART ho lokela ho eteletsoa pele ke liphetho tsa viral load le tlhahlobo ea kliniki.
+974,HIV,Patients on ART should have their kidney and liver function monitored regularly.,Bakuli ba holim'a ART ba lokela ho hlahlojoa tšebetso ea lipitso le ea sebete ka mehla.
+975,HIV,Lipid profiles should be monitored in patients on certain ART regimens due to cardiovascular risk.,Lipid profiles li lokela ho hlahlojoa ho bakuli ba holim'a mananeo a mang a ART ka lebaka la kotsi ea pelo le madi.
+976,HIV,Bone mineral density can decrease in some patients on long-term ART; calcium and vitamin D supplementation may help.,Bongata ba mineral ea masapo bo ka fokotsehela ho bakuli ba bang ba holim'a ART ea nako e telele; ho eketsa calcium le vitamin D ho ka thusa.
+977,HIV,ART reduces HIV-related inflammation that contributes to non-AIDS comorbidities.,ART e fokotsa ho ruruha ho amanang le HIV ho kenyelletsoang ho mafu a mang a sa amanoang le AIDS.
+978,HIV,Patients should bring all their medications to every clinic visit to support medication reconciliation.,Bakuli ba lokela ho tlisa meriana ea bona yohle letsetsong le leng le le leng la kliniki ho tshehetsa ho lekanya meriana.
+979,HIV,Cryptococcal meningitis is a life-threatening fungal infection common in people with advanced HIV disease.,Meningitis ea cryptococcal ke tšoaetso ea fungal e kotsi ea bophelo e atileng ho batho ba nang le bolwetse ba HIV bo tsoelang pele.
+980,HIV,Fluconazole prophylaxis is recommended for HIV-positive patients with low CD4 counts to prevent cryptococcal disease.,Prophylaxis ea fluconazole e khothalletsoa bakeng sa bakuli ba nang le HIV ba nang le palo e tlase ea CD4 ho thibela bolwetse ba cryptococcal.
+981,HIV,Toxoplasma encephalitis can occur in HIV-positive patients with CD4 counts below 100 cells/mm³.,Toxoplasma encephalitis e ka etsahala ho bakuli ba nang le HIV ba nang le palo ea CD4 e tlase ho lisele tse 100 ka mm³.
+982,HIV,Cytomegalovirus (CMV) retinitis can cause blindness in people with advanced HIV and requires urgent treatment.,Cytomegalovirus (CMV) retinitis e ka baka ho foufala ho batho ba nang le HIV e tsoelang pele mme e hloka phekolo ea potlako.
+983,HIV,Kaposi sarcoma is an AIDS-defining cancer caused by human herpesvirus 8 (HHV-8).,Kaposi sarcoma ke kankere e hlalositsoeng ke AIDS e bakoang ke human herpesvirus 8 (HHV-8).
+984,HIV,Anxiety and depression are significantly more common among people living with HIV than in the general population.,Ho tšaba le ho nyamela ho atile haholo ho batho ba phelang le HIV ho feta sechaba ka kakaretso.
+985,HIV,Integrating mental health services into HIV care improves both treatment adherence and quality of life.,Ho kopanya litshebeletso tsa bophelo ba kelello le tlhokomelo ea HIV ho ntlafatsa ho latela phekolo le boleng ba bophelo.
+986,HIV,"Cognitive impairment associated with HIV can affect memory, concentration, and daily functioning.","Ho fokolehela ha mahutu ho amanang le HIV ho ka angoa ho hopola, ho tsepamisa kelello, le tšebetso ea letsatsi le leng le leng."
+987,HIV,Substance use disorders increase HIV risk behaviours and complicate treatment adherence.,Mafu a tšebediso ea lintho tse kotsi a eketsa maitshwaro a kotsi ea HIV le ho noa ho latela phekolo.
+988,HIV,Trauma-informed care approaches are essential when supporting HIV-positive survivors of gender-based violence.,Mekhoa ea tlhokomelo e tsebang trauma e bohlokoa ha ho tshehetsa baphonyohi ba nang le HIV ba tlhoriso e thehiloeng holim'a bong.
+989,HIV,"Sex workers face elevated HIV risk due to multiple partners, limited negotiating power, and criminalisation.","Basebetsi ba thobalano ba tobana le kotsi e phahameng ea HIV ka lebaka la balekane ba bangata, matla a fokolang a ho buisana, le ho etsoa molato."
+990,HIV,Decriminalisation of same-sex relationships and sex work is associated with better HIV outcomes.,Ho tlosa molato likamanoeng tsa bong bo tšoanang le mosebetsi oa thobalano ho amahanngoa le liphetho tse ntle tsa HIV.
+991,HIV,Transgender women have a disproportionately high burden of HIV globally.,Basali ba fetohileng bong ba rwala morwalo o phahameng ka ho sa lekanang oa HIV lefatšeng lohle.
+992,HIV,Migrants and refugees may face legal and language barriers to accessing HIV testing and treatment.,Baahi ba fetang le baphaphathehi ba ka tobana le meqoqo ea molao le ea puo ho fihlella liteko tsa HIV le phekolo.
+993,HIV,Incarcerated individuals have higher HIV prevalence and require access to prevention and treatment services in prisons.,Batho ba khotsofatsoang ba na le palo e phahameng ea HIV mme ba hloka phihlello ea litshebeletso tsa thibelo le phekolo likotsofatsong.
+994,HIV,Adequate protein intake supports immune function and helps maintain muscle mass in people living with HIV.,Ho nka protein e lekaneng ho tshehetsa tšebetso ea tšireletso ea 'mele le ho thusa ho boloka bongata ba mochine ho batho ba phelang le HIV.
+995,HIV,"Micronutrient deficiencies, particularly zinc and selenium, are common in people living with HIV.","Ho hloka micronutrient, haholo-holo zinc le selenium, ho atile ho batho ba phelang le HIV."
+996,HIV,Smoking cessation is strongly recommended for people living with HIV due to elevated cardiovascular and lung cancer risk.,Ho emisa ho tsuba ho khothalletsoa ka matla bakeng sa batho ba phelang le HIV ka lebaka la kotsi e phahameng ea pelo le madi le kankere ea matšoafo.
+997,HIV,Regular physical activity improves physical and mental health outcomes in people living with HIV.,Tšebetso ea mmele ea kamehla e ntlafatsa liphetho tsa bophelo bo botle ba mmele le ba kelello ho batho ba phelang le HIV.
+998,HIV,Alcohol use can reduce ART adherence and accelerate liver disease in people living with HIV.,Tšebediso ea joala e ka fokotsa ho latela ART le ho potlakisa bolwetse ba sebete ho batho ba phelang le HIV.
+999,HIV,I tell my children about my HIV status so they understand why I take my medicine every day.,Ke bolella bana ba ka ka boemo ba ka ba HIV hore ba utloisise hobaneng ke nka meriana ea ka letsatsi le leng le le leng.
+1000,HIV,Knowing my viral load is undetectable gives me the confidence to live my life fully.,Ho tseba hore viral load ea ka ha e fumanehe ho nfa boitshepo ba ho phela bophelo ba ka ka botlalo.

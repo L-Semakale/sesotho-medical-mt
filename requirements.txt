@@ -1,0 +1,14 @@
+flask
+flask-cors
+transformers
+torch
+sentencepiece
+sacrebleu
+pandas
+matplotlib
+seaborn
+# NLLB model files — too large for GitHub, downloaded via HuggingFace
+models/
+*.bin
+*.safetensors
+*.ot

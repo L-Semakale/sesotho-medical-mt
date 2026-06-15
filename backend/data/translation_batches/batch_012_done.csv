@@ -1,0 +1,201 @@
+sentence_id,domain_category,english_text,sesotho_text
+2201,Medication Instructions,Seek medical attention if you develop signs of a blood clot such as leg swelling.,Batla tlhokomelo ea ngaka haeba u ba le lišoaetso tsa ho tšoaroa ha mali joalo ka ho ruruha ha leoto.
+2202,Medication Instructions,This medicine may cause a decrease in platelets; report unusual bleeding.,Moriana ona o ka baka ho fokotseha ha li-platelet; bua ho tsoa mali ho sa tloaelehang.
+2203,Medication Instructions,Contact your doctor if you develop eye pain or redness while taking this medicine.,Ikopanye le ngaka ea hau haeba u ba le mahloko a mahlo kapa ho bofubedu ha u nka moriana ona.
+2204,Medication Instructions,This medicine may cause hot flushes; inform your doctor if they are bothersome.,Moriana ona o ka baka ho chesa ha 'mele; tsebisa ngaka ea hau haeba e ba bothata.
+2205,Medication Instructions,Seek medical help if you develop a high fever with stiff neck and headache.,Batla thuso ea ngaka haeba u ba le feberu e phahameng le molala o thatafetseng le mahloko a hlooho.
+2206,Medication Instructions,This medicine may cause increased sensitivity to pain.,Moriana ona o ka baka ho amehela haholo mahlokong.
+2207,Medication Instructions,Contact your doctor if you develop tremors or shaking while taking this medicine.,Ikopanye le ngaka ea hau haeba u ba le ho thothomela kapa ho thothomela ha u nka moriana ona.
+2208,Medication Instructions,This medicine may cause a decrease in red blood cells; report fatigue or pallor.,Moriana ona o ka baka ho fokotseha ha lisele tsa mali tse khubelu; bua ho lapala kapa ho pheela.
+2209,Medication Instructions,Seek medical attention if you develop signs of pancreatitis such as severe abdominal pain.,Batla tlhokomelo ea ngaka haeba u ba le lišoaetso tsa pancreatitis joalo ka mahloko a matla a mpa.
+2210,Medication Instructions,This medicine may cause increased appetite; monitor your food intake.,Moriana ona o ka baka ho eketseha ha takatso ea lijo; hlahloja ho ja ha hau.
+2211,Medication Instructions,Contact your doctor if you develop difficulty urinating while taking this medicine.,Ikopanye le ngaka ea hau haeba u ba le bothata ba ho morota ha u nka moriana ona.
+2212,Medication Instructions,This medicine may cause a bitter taste in the mouth.,Moriana ona o ka baka tatso e bohloela molomong.
+2213,Medication Instructions,Seek medical help if you develop severe dizziness or loss of balance.,Batla thuso ea ngaka haeba u ba le ho potoloha ho matla kapa ho lahleheloa ke tekanyo.
+2214,Medication Instructions,This medicine may cause increased heart rate; inform your doctor if it is persistent.,Moriana ona o ka baka ho eketseha ha lebelo la pelo; tsebisa ngaka ea hau haeba ho tsoela pele.
+2215,Medication Instructions,Contact your doctor if you develop confusion or disorientation while taking this medicine.,Ikopanye le ngaka ea hau haeba u ba le tsieleho kapa ho lahlehela ha u nka moriana ona.
+2216,Medication Instructions,This medicine may cause a decrease in bone density with long-term use.,Moriana ona o ka baka ho fokotseha ha bongata ba masapo ka tšebediso ea nako e telele.
+2217,Medication Instructions,Seek medical attention if you develop signs of an electrolyte imbalance.,Batla tlhokomelo ea ngaka haeba u ba le lišoaetso tsa ho se lekane ha electrolyte.
+2218,Medication Instructions,This medicine may cause increased sensitivity of the skin to touch.,Moriana ona o ka baka ho amehela haholo ha letlalo ho ama.
+2219,Medication Instructions,Contact your doctor if you develop persistent hiccups while taking this medicine.,Ikopanye le ngaka ea hau haeba u ba le ho hekela ho tsoelang pele ha u nka moriana ona.
+2220,Medication Instructions,This medicine may cause a decrease in libido; inform your doctor.,Moriana ona o ka baka ho fokotseha ha takatso ea thobalano; tsebisa ngaka ea hau.
+2221,Medication Instructions,Seek medical help if you develop signs of a serious skin reaction.,Batla thuso ea ngaka haeba u ba le lišoaetso tsa karabelo e matla ea letlalo.
+2222,Medication Instructions,This medicine may cause increased production of saliva.,Moriana ona o ka baka ho eketseha ha tlhahiso ea mathe.
+2223,Medication Instructions,Contact your doctor if you develop a persistent fever while taking this medicine.,Ikopanye le ngaka ea hau haeba u ba le feberu e tsoelang pele ha u nka moriana ona.
+2224,Medication Instructions,This medicine may cause a decrease in blood sodium levels.,Moriana ona o ka baka ho fokotseha ha maemo a sodium ea mali.
+2225,Medication Instructions,Seek medical attention if you develop signs of thyroid problems.,Batla tlhokomelo ea ngaka haeba u ba le lišoaetso tsa mathata a thyroid.
+2226,Medication Instructions,This medicine may cause increased sensitivity to allergens.,Moriana ona o ka baka ho amehela haholo ho li-allergen.
+2227,Medication Instructions,Contact your doctor if you develop a persistent dry cough.,Ikopanye le ngaka ea hau haeba u ba le ho kohoa ho omileng ho tsoelang pele.
+2228,Medication Instructions,This medicine may cause a decrease in potassium levels; eat potassium-rich foods.,Moriana ona o ka baka ho fokotseha ha maemo a potassium; ja lijo tse nang le potassium e ngata.
+2229,Medication Instructions,Seek medical help if you develop signs of adrenal insufficiency.,Batla thuso ea ngaka haeba u ba le lišoaetso tsa ho hloka tšebetso ea li-adrenal.
+2230,Medication Instructions,This medicine may cause increased production of urine at night.,Moriana ona o ka baka ho eketseha ha tlhahiso ea moroto bosiu.
+2231,Medication Instructions,Contact your doctor if you develop a persistent skin rash.,Ikopanye le ngaka ea hau haeba u ba le ho ruruha ha letlalo ho tsoelang pele.
+2232,Medication Instructions,This medicine may cause a decrease in calcium levels with long-term use.,Moriana ona o ka baka ho fokotseha ha maemo a calcium ka tšebediso ea nako e telele.
+2233,Medication Instructions,Seek medical attention if you develop signs of a severe allergic reaction.,Batla tlhokomelo ea ngaka haeba u ba le lišoaetso tsa karabelo e matla ea ho amehela.
+2234,Medication Instructions,This medicine may cause increased sensitivity to sunlight on the skin.,Moriana ona o ka baka ho amehela haholo ha letlalo leseding la letsatsi.
+2235,Medication Instructions,Contact your doctor if you develop a persistent headache while taking this medicine.,Ikopanye le ngaka ea hau haeba u ba le mahloko a hlooho a tsoelang pele ha u nka moriana ona.
+2236,Medication Instructions,This medicine may cause a decrease in magnesium levels.,Moriana ona o ka baka ho fokotseha ha maemo a magnesium.
+2237,Medication Instructions,Seek medical help if you develop signs of a serious infection.,Batla thuso ea ngaka haeba u ba le lišoaetso tsa tšoaetso e matla.
+2238,Medication Instructions,This medicine may cause increased production of stomach acid.,Moriana ona o ka baka ho eketseha ha tlhahiso ea asiti ea mala.
+2239,Medication Instructions,Contact your doctor if you develop a persistent cough with blood.,Ikopanye le ngaka ea hau haeba u ba le ho kohoa ho tsoelang pele le mali.
+2240,Medication Instructions,This medicine may cause a decrease in zinc levels with long-term use.,Moriana ona o ka baka ho fokotseha ha maemo a zinc ka tšebediso ea nako e telele.
+2241,Medication Instructions,Seek medical attention if you develop signs of a serious liver reaction.,Batla tlhokomelo ea ngaka haeba u ba le lišoaetso tsa karabelo e matla ea sebete.
+2242,Medication Instructions,This medicine may cause increased sensitivity to cold and heat.,Moriana ona o ka baka ho amehela haholo mochesong o bata le o chesang.
+2243,Medication Instructions,Contact your doctor if you develop a persistent fever with rash.,Ikopanye le ngaka ea hau haeba u ba le feberu e tsoelang pele le ho ruruha ha letlalo.
+2244,Medication Instructions,This medicine may cause a decrease in folate levels; take a supplement if advised.,Moriana ona o ka baka ho fokotseha ha maemo a folate; nka sesebelisoa haeba ho laetsoe.
+2245,Medication Instructions,Seek medical help if you develop signs of a serious kidney reaction.,Batla thuso ea ngaka haeba u ba le lišoaetso tsa karabelo e matla ea lipitso.
+2246,Medication Instructions,This medicine may cause increased production of mucus in the airways.,Moriana ona o ka baka ho eketseha ha tlhahiso ea mucus meeling ea moea.
+2247,Medication Instructions,Contact your doctor if you develop a persistent pain in the abdomen.,Ikopanye le ngaka ea hau haeba u ba le mahloko a tsoelang pele mpeng.
+2248,Medication Instructions,This medicine may cause a decrease in vitamin B12 levels with long-term use.,Moriana ona o ka baka ho fokotseha ha maemo a vitamin B12 ka tšebediso ea nako e telele.
+2249,Medication Instructions,Seek medical attention if you develop signs of a serious heart reaction.,Batla tlhokomelo ea ngaka haeba u ba le lišoaetso tsa karabelo e matla ea pelo.
+2250,Medication Instructions,This medicine may cause increased sensitivity to medications.,Moriana ona o ka baka ho amehela haholo ho meriana.
+2251,Medication Instructions,Contact your doctor if you develop a persistent swelling in the body.,Ikopanye le ngaka ea hau haeba u ba le ho ruruha ho tsoelang pele 'meleng.
+2252,Medication Instructions,This medicine may cause a decrease in iron levels; take a supplement if advised.,Moriana ona o ka baka ho fokotseha ha maemo a tšepe; nka sesebelisoa haeba ho laetsoe.
+2253,Medication Instructions,Seek medical help if you develop signs of a serious lung reaction.,Batla thuso ea ngaka haeba u ba le lišoaetso tsa karabelo e matla ea matšoafo.
+2254,Medication Instructions,This medicine may cause increased production of bile.,Moriana ona o ka baka ho eketseha ha tlhahiso ea bile.
+2255,Medication Instructions,Contact your doctor if you develop a persistent numbness in the body.,Ikopanye le ngaka ea hau haeba u ba le ho fofa ho tsoelang pele 'meleng.
+2256,Medication Instructions,This medicine may cause a decrease in vitamin D levels with long-term use.,Moriana ona o ka baka ho fokotseha ha maemo a vitamin D ka tšebediso ea nako e telele.
+2257,Medication Instructions,Seek medical attention if you develop signs of a serious blood reaction.,Batla tlhokomelo ea ngaka haeba u ba le lišoaetso tsa karabelo e matla ea mali.
+2258,Medication Instructions,This medicine may cause increased sensitivity to light in the eyes.,Moriana ona o ka baka ho amehela haholo ha mahlo leseding.
+2259,Medication Instructions,Contact your doctor if you develop a persistent weakness in the body.,Ikopanye le ngaka ea hau haeba u ba le ho fokotsehela ho tsoelang pele 'meleng.
+2260,Medication Instructions,This medicine may cause a decrease in copper levels with long-term use.,Moriana ona o ka baka ho fokotseha ha maemo a copper ka tšebediso ea nako e telele.
+2261,Medication Instructions,Seek medical help if you develop signs of a serious skin infection.,Batla thuso ea ngaka haeba u ba le lišoaetso tsa tšoaetso e matla ea letlalo.
+2262,Medication Instructions,This medicine may cause increased production of hormones.,Moriana ona o ka baka ho eketseha ha tlhahiso ea li-hormone.
+2263,Medication Instructions,Contact your doctor if you develop a persistent tingling in the body.,Ikopanye le ngaka ea hau haeba u ba le ho hlohlona ho tsoelang pele 'meleng.
+2264,Medication Instructions,This medicine may cause a decrease in selenium levels with long-term use.,Moriana ona o ka baka ho fokotseha ha maemo a selenium ka tšebediso ea nako e telele.
+2265,Medication Instructions,Seek medical attention if you develop signs of a serious nerve reaction.,Batla tlhokomelo ea ngaka haeba u ba le lišoaetso tsa karabelo e matla ea methapo.
+2266,Medication Instructions,This medicine may cause increased sensitivity to medications taken together.,Moriana ona o ka baka ho amehela haholo ho meriana e nkuoang hammoho.
+2267,Medication Instructions,Contact your doctor if you develop a persistent burning sensation in the body.,Ikopanye le ngaka ea hau haeba u ba le maikutlo a ho chesa a tsoelang pele 'meleng.
+2268,Medication Instructions,This medicine may cause a decrease in chromium levels with long-term use.,Moriana ona o ka baka ho fokotseha ha maemo a chromium ka tšebediso ea nako e telele.
+2269,Medication Instructions,Seek medical help if you develop signs of a serious eye reaction.,Batla thuso ea ngaka haeba u ba le lišoaetso tsa karabelo e matla ea mahlo.
+2270,Medication Instructions,This medicine may cause increased production of enzymes in the liver.,Moriana ona o ka baka ho eketseha ha tlhahiso ea li-enzyme sebeteng.
+2271,Medication Instructions,Contact your doctor if you develop a persistent itching sensation in the body.,Ikopanye le ngaka ea hau haeba u ba le maikutlo a ho hlohlona a tsoelang pele 'meleng.
+2272,Medication Instructions,This medicine may cause a decrease in manganese levels with long-term use.,Moriana ona o ka baka ho fokotseha ha maemo a manganese ka tšebediso ea nako e telele.
+2273,Medication Instructions,Seek medical attention if you develop signs of a serious ear reaction.,Batla tlhokomelo ea ngaka haeba u ba le lišoaetso tsa karabelo e matla ea tsebe.
+2274,Medication Instructions,This medicine may cause increased sensitivity to environmental allergens.,Moriana ona o ka baka ho amehela haholo ho li-allergen tsa tikoloho.
+2275,Medication Instructions,Contact your doctor if you develop a persistent redness in the body.,Ikopanye le ngaka ea hau haeba u ba le ho bofubedu ho tsoelang pele 'meleng.
+2276,Medication Instructions,This medicine may cause a decrease in molybdenum levels with long-term use.,Moriana ona o ka baka ho fokotseha ha maemo a molybdenum ka tšebediso ea nako e telele.
+2277,Medication Instructions,Seek medical help if you develop signs of a serious joint reaction.,Batla thuso ea ngaka haeba u ba le lišoaetso tsa karabelo e matla ea maqhoa.
+2278,Medication Instructions,This medicine may cause increased production of white blood cells.,Moriana ona o ka baka ho eketseha ha tlhahiso ea lisele tsa mali tse tšoeu.
+2279,Medication Instructions,Contact your doctor if you develop a persistent swelling of the lymph nodes.,Ikopanye le ngaka ea hau haeba u ba le ho ruruha ho tsoelang pele ha li-lymph node.
+2280,Medication Instructions,This medicine may cause a decrease in iodine levels with long-term use.,Moriana ona o ka baka ho fokotseha ha maemo a iodine ka tšebediso ea nako e telele.
+2281,Medication Instructions,Seek medical attention if you develop signs of a serious muscle reaction.,Batla tlhokomelo ea ngaka haeba u ba le lišoaetso tsa karabelo e matla ea mochine.
+2282,Medication Instructions,This medicine may cause increased sensitivity to physical activity.,Moriana ona o ka baka ho amehela haholo mesebetsing ea 'mele.
+2283,Medication Instructions,Contact your doctor if you develop a persistent change in bowel habits.,Ikopanye le ngaka ea hau haeba u ba le phetoho e tsoelang pele mekhoaneng ea mala.
+2284,Medication Instructions,Do not take this medicine with alcohol as it may cause serious side effects.,U se ke ua nka moriana ona le joala hobane o ka baka litlamorao tse matla.
+2285,Medication Instructions,Avoid taking antacids within two hours of taking this medicine.,Hana ho nka li-antacid ka hare ho maho a mabeli oa ho nka moriana ona.
+2286,Medication Instructions,This medicine may interact with blood thinners; inform your doctor.,Moriana ona o ka kopana le meriana e fokohisang mali; tsebisa ngaka ea hau.
+2287,Medication Instructions,Do not take this medicine with grapefruit juice as it affects absorption.,U se ke ua nka moriana ona le moerane oa grapefruit hobane o angoa ho metsoa.
+2288,Medication Instructions,Inform your doctor of all medicines you are taking before starting this treatment.,Tsebisa ngaka ea hau meriana yohle eo u e nkang pele ho qala phekolo ena.
+2289,Medication Instructions,This medicine may reduce the effectiveness of oral contraceptives.,Moriana ona o ka fokotsa bokgoni ba li-contraceptive tsa molomo.
+2290,Medication Instructions,Do not take this medicine with other sedatives without medical advice.,U se ke ua nka moriana ona le li-sedative tse ling ntle le keletso ea ngaka.
+2291,Medication Instructions,This medicine may increase the effects of blood pressure medication.,Moriana ona o ka eketsa litlamorao tsa moriana oa khatello ea mali.
+2292,Medication Instructions,Avoid taking iron supplements within four hours of this medicine.,Hana ho nka lisebelisoa tsa tšepe ka hare ho maho a mane oa moriana ona.
+2293,Medication Instructions,This medicine may interact with diabetes medications; monitor your blood sugar.,Moriana ona o ka kopana le meriana ea tsoekere; hlahloja tsoekere ea hau ea mali.
+2294,Medication Instructions,Do not take this medicine with St John's Wort herbal supplement.,U se ke ua nka moriana ona le sesebelisoa sa semela sa St John's Wort.
+2295,Medication Instructions,This medicine may increase the risk of bleeding when taken with aspirin.,Moriana ona o ka eketsa kotsi ea ho tsoa mali ha o nkoa le aspirin.
+2296,Medication Instructions,Avoid taking calcium supplements at the same time as this medicine.,Hana ho nka lisebelisoa tsa calcium ka nako e tšoanang le moriana ona.
+2297,Medication Instructions,This medicine may interact with cholesterol-lowering drugs; inform your doctor.,Moriana ona o ka kopana le meriana e theohisang cholesterol; tsebisa ngaka ea hau.
+2298,Medication Instructions,Do not take this medicine with other antibiotics without medical advice.,U se ke ua nka moriana ona le li-antibiotic tse ling ntle le keletso ea ngaka.
+2299,Medication Instructions,This medicine may increase the toxicity of other medicines taken together.,Moriana ona o ka eketsa kotsi ea meriana e meng e nkuoang hammoho.
+2300,Medication Instructions,Avoid taking magnesium supplements within two hours of this medicine.,Hana ho nka lisebelisoa tsa magnesium ka hare ho maho a mabeli oa moriana ona.
+2301,Medication Instructions,This medicine may interact with antiepileptic drugs; monitor drug levels.,Moriana ona o ka kopana le meriana ea antiepileptic; hlahloja maemo a meriana.
+2302,Medication Instructions,Do not take this medicine with antifungal drugs without medical advice.,U se ke ua nka moriana ona le meriana ea antifungal ntle le keletso ea ngaka.
+2303,Medication Instructions,This medicine may increase the risk of muscle damage when taken with statins.,Moriana ona o ka eketsa kotsi ea kotsi ea mochine ha o nkoa le li-statin.
+2304,Medication Instructions,Avoid taking zinc supplements at the same time as this medicine.,Hana ho nka lisebelisoa tsa zinc ka nako e tšoanang le moriana ona.
+2305,Medication Instructions,This medicine may interact with immunosuppressant drugs; inform your doctor.,Moriana ona o ka kopana le meriana ea ho laola tšireletso ea 'mele; tsebisa ngaka ea hau.
+2306,Medication Instructions,Do not take this medicine with antiviral drugs without medical advice.,U se ke ua nka moriana ona le meriana ea antiviral ntle le keletso ea ngaka.
+2307,Medication Instructions,This medicine may increase the sedative effects of antihistamines.,Moriana ona o ka eketsa litlamorao tsa ho robatsa tsa li-antihistamine.
+2308,Medication Instructions,Avoid taking dairy products within two hours of this medicine.,Hana ho nka lihlahisoa tsa lebese ka hare ho maho a mabeli oa moriana ona.
+2309,Medication Instructions,This medicine may interact with thyroid medications; monitor thyroid levels.,Moriana ona o ka kopana le meriana ea thyroid; hlahloja maemo a thyroid.
+2310,Medication Instructions,Do not take this medicine with antidepressants without medical advice.,U se ke ua nka moriana ona le li-antidepressant ntle le keletso ea ngaka.
+2311,Medication Instructions,This medicine may increase the risk of kidney damage when taken with NSAIDs.,Moriana ona o ka eketsa kotsi ea kotsi ea lipitso ha o nkoa le li-NSAID.
+2312,Medication Instructions,Avoid taking vitamin C supplements at the same time as this medicine.,Hana ho nka lisebelisoa tsa vitamin C ka nako e tšoanang le moriana ona.
+2313,Medication Instructions,This medicine may interact with antipsychotic drugs; inform your doctor.,Moriana ona o ka kopana le meriana ea antipsychotic; tsebisa ngaka ea hau.
+2314,Medication Instructions,Do not take this medicine with antimalarial drugs without medical advice.,U se ke ua nka moriana ona le meriana ea ho loa malaria ntle le keletso ea ngaka.
+2315,Medication Instructions,This medicine may increase the effects of muscle relaxants.,Moriana ona o ka eketsa litlamorao tsa meriana e khumolisang mochine.
+2316,Medication Instructions,Avoid taking potassium supplements at the same time as this medicine.,Hana ho nka lisebelisoa tsa potassium ka nako e tšoanang le moriana ona.
+2317,Medication Instructions,This medicine may interact with anticoagulant drugs; monitor clotting time.,Moriana ona o ka kopana le meriana ea anticoagulant; hlahloja nako ea ho tšoaroa ha mali.
+2318,Medication Instructions,Do not take this medicine with corticosteroids without medical advice.,U se ke ua nka moriana ona le li-corticosteroid ntle le keletso ea ngaka.
+2319,Medication Instructions,This medicine may increase the risk of heart rhythm problems with other drugs.,Moriana ona o ka eketsa kotsi ea mathata a mokhoa oa ho otla ha pelo le meriana e meng.
+2320,Medication Instructions,Avoid taking sodium bicarbonate at the same time as this medicine.,Hana ho nka sodium bicarbonate ka nako e tšoanang le moriana ona.
+2321,Medication Instructions,This medicine may interact with diuretic drugs; monitor electrolyte levels.,Moriana ona o ka kopana le meriana ea diuretic; hlahloja maemo a electrolyte.
+2322,Medication Instructions,Do not take this medicine with antiretroviral drugs without medical advice.,U se ke ua nka moriana ona le meriana ea antiretroviral ntle le keletso ea ngaka.
+2323,Medication Instructions,This medicine may increase the risk of low blood sugar with insulin.,Moriana ona o ka eketsa kotsi ea ho fokotseha ha tsoekere ea mali le insulin.
+2324,Medication Instructions,Avoid taking herbal remedies at the same time as this medicine without advice.,Hana ho nka meriana ea semela ka nako e tšoanang le moriana ona ntle le keletso.
+2325,Medication Instructions,This medicine may interact with beta-blocker drugs; inform your doctor.,Moriana ona o ka kopana le meriana ea beta-blocker; tsebisa ngaka ea hau.
+2326,Medication Instructions,Do not take this medicine with antituberculosis drugs without medical advice.,U se ke ua nka moriana ona le meriana ea ho loa TB ntle le keletso ea ngaka.
+2327,Medication Instructions,This medicine may increase the risk of bleeding with antiplatelet drugs.,Moriana ona o ka eketsa kotsi ea ho tsoa mali le meriana ea antiplatelet.
+2328,Medication Instructions,Avoid taking high-dose vitamin E supplements at the same time as this medicine.,Hana ho nka lisebelisoa tsa vitamin E tsa dose e phahameng ka nako e tšoanang le moriana ona.
+2329,Medication Instructions,This medicine may interact with ACE inhibitor drugs; monitor blood pressure.,Moriana ona o ka kopana le meriana ea ACE inhibitor; hlahloja khatello ea mali.
+2330,Medication Instructions,Do not take this medicine with antihypertensive drugs without medical advice.,U se ke ua nka moriana ona le meriana ea antihypertensive ntle le keletso ea ngaka.
+2331,Medication Instructions,This medicine may increase the risk of toxicity with other nephrotoxic drugs.,Moriana ona o ka eketsa kotsi ea kotsi le meriana e meng ea nephrotoxic.
+2332,Medication Instructions,Avoid taking high-dose vitamin A supplements at the same time as this medicine.,Hana ho nka lisebelisoa tsa vitamin A tsa dose e phahameng ka nako e tšoanang le moriana ona.
+2333,Medication Instructions,This medicine may interact with calcium channel blocker drugs; inform your doctor.,Moriana ona o ka kopana le meriana ea calcium channel blocker; tsebisa ngaka ea hau.
+2334,Medication Instructions,Do not take this medicine with antidiabetic drugs without medical advice.,U se ke ua nka moriana ona le meriana ea antidiabetic ntle le keletso ea ngaka.
+2335,Medication Instructions,This medicine may increase the risk of serotonin syndrome with other serotonergic drugs.,Moriana ona o ka eketsa kotsi ea serotonin syndrome le meriana e meng ea serotonergic.
+2336,Medication Instructions,Avoid taking high-dose vitamin K supplements at the same time as this medicine.,Hana ho nka lisebelisoa tsa vitamin K tsa dose e phahameng ka nako e tšoanang le moriana ona.
+2337,Medication Instructions,This medicine may interact with proton pump inhibitor drugs; inform your doctor.,Moriana ona o ka kopana le meriana ea proton pump inhibitor; tsebisa ngaka ea hau.
+2338,Medication Instructions,Do not take this medicine with antianxiety drugs without medical advice.,U se ke ua nka moriana ona le meriana ea antianxiety ntle le keletso ea ngaka.
+2339,Medication Instructions,This medicine may increase the risk of QT prolongation with other drugs.,Moriana ona o ka eketsa kotsi ea ho atolosoa ha QT le meriana e meng.
+2340,Medication Instructions,Avoid taking high-dose omega-3 supplements at the same time as this medicine.,Hana ho nka lisebelisoa tsa omega-3 tsa dose e phahameng ka nako e tšoanang le moriana ona.
+2341,Medication Instructions,This medicine may interact with H2 blocker drugs; inform your doctor.,Moriana ona o ka kopana le meriana ea H2 blocker; tsebisa ngaka ea hau.
+2342,Medication Instructions,Do not take this medicine with anticonvulsant drugs without medical advice.,U se ke ua nka moriana ona le meriana ea anticonvulsant ntle le keletso ea ngaka.
+2343,Medication Instructions,This medicine may increase the risk of hypotension with other antihypertensives.,Moriana ona o ka eketsa kotsi ea ho fokotseha ha khatello ea mali le li-antihypertensive tse ling.
+2344,Medication Instructions,Avoid taking high-dose coenzyme Q10 supplements at the same time as this medicine.,Hana ho nka lisebelisoa tsa coenzyme Q10 tsa dose e phahameng ka nako e tšoanang le moriana ona.
+2345,Medication Instructions,This medicine may interact with nitrate drugs; inform your doctor.,Moriana ona o ka kopana le meriana ea nitrate; tsebisa ngaka ea hau.
+2346,Medication Instructions,Do not take this medicine with antiparkinson drugs without medical advice.,U se ke ua nka moriana ona le meriana ea antiparkinson ntle le keletso ea ngaka.
+2347,Medication Instructions,This medicine may increase the risk of hyperkalemia with potassium-sparing diuretics.,Moriana ona o ka eketsa kotsi ea hyperkalemia le li-diuretic tse bolokang potassium.
+2348,Medication Instructions,Avoid taking high-dose garlic supplements at the same time as this medicine.,Hana ho nka lisebelisoa tsa garlic tsa dose e phahameng ka nako e tšoanang le moriana ona.
+2349,Medication Instructions,This medicine may interact with alpha-blocker drugs; inform your doctor.,Moriana ona o ka kopana le meriana ea alpha-blocker; tsebisa ngaka ea hau.
+2350,Medication Instructions,Do not take this medicine with antihistamine drugs without medical advice.,U se ke ua nka moriana ona le meriana ea antihistamine ntle le keletso ea ngaka.
+2351,Medication Instructions,This medicine may increase the risk of hyponatremia with other drugs.,Moriana ona o ka eketsa kotsi ea hyponatremia le meriana e meng.
+2352,Medication Instructions,Avoid taking high-dose ginkgo biloba supplements at the same time as this medicine.,Hana ho nka lisebelisoa tsa ginkgo biloba tsa dose e phahameng ka nako e tšoanang le moriana ona.
+2353,Medication Instructions,This medicine may interact with beta-agonist drugs; inform your doctor.,Moriana ona o ka kopana le meriana ea beta-agonist; tsebisa ngaka ea hau.
+2354,Medication Instructions,Do not take this medicine with anticholinergic drugs without medical advice.,U se ke ua nka moriana ona le meriana ea anticholinergic ntle le keletso ea ngaka.
+2355,Medication Instructions,This medicine may increase the risk of hypoglycemia with other antidiabetic drugs.,Moriana ona o ka eketsa kotsi ea hypoglycemia le meriana e meng ea antidiabetic.
+2356,Medication Instructions,Avoid taking high-dose echinacea supplements at the same time as this medicine.,Hana ho nka lisebelisoa tsa echinacea tsa dose e phahameng ka nako e tšoanang le moriana ona.
+2357,Medication Instructions,This medicine may interact with dopamine agonist drugs; inform your doctor.,Moriana ona o ka kopana le meriana ea dopamine agonist; tsebisa ngaka ea hau.
+2358,Medication Instructions,Do not take this medicine with antiemetic drugs without medical advice.,U se ke ua nka moriana ona le meriana ea antiemetic ntle le keletso ea ngaka.
+2359,Medication Instructions,This medicine may increase the risk of peripheral neuropathy with other drugs.,Moriana ona o ka eketsa kotsi ea neuropathy ea maphethelo le meriana e meng.
+2360,Medication Instructions,Avoid taking high-dose valerian supplements at the same time as this medicine.,Hana ho nka lisebelisoa tsa valerian tsa dose e phahameng ka nako e tšoanang le moriana ona.
+2361,Medication Instructions,This medicine may interact with serotonin reuptake inhibitor drugs; inform your doctor.,Moriana ona o ka kopana le meriana ea serotonin reuptake inhibitor; tsebisa ngaka ea hau.
+2362,Medication Instructions,Do not take this medicine with antispasmodic drugs without medical advice.,U se ke ua nka moriana ona le meriana ea antispasmodic ntle le keletso ea ngaka.
+2363,Medication Instructions,This medicine may increase the risk of hepatotoxicity with other liver-toxic drugs.,Moriana ona o ka eketsa kotsi ea hepatotoxicity le meriana e meng e kotsi ea sebete.
+2364,Medication Instructions,Avoid taking high-dose kava supplements at the same time as this medicine.,Hana ho nka lisebelisoa tsa kava tsa dose e phahameng ka nako e tšoanang le moriana ona.
+2365,Medication Instructions,This medicine may interact with monoamine oxidase inhibitor drugs; inform your doctor.,Moriana ona o ka kopana le meriana ea monoamine oxidase inhibitor; tsebisa ngaka ea hau.
+2366,Medication Instructions,Do not take this medicine with antiulcer drugs without medical advice.,U se ke ua nka moriana ona le meriana ea antiulcer ntle le keletso ea ngaka.
+2367,Medication Instructions,This medicine may increase the risk of nephrotoxicity with other kidney-toxic drugs.,Moriana ona o ka eketsa kotsi ea nephrotoxicity le meriana e meng e kotsi ea lipitso.
+2368,Medication Instructions,Avoid taking high-dose black cohosh supplements at the same time as this medicine.,Hana ho nka lisebelisoa tsa black cohosh tsa dose e phahameng ka nako e tšoanang le moriana ona.
+2369,Medication Instructions,This medicine may interact with tricyclic antidepressant drugs; inform your doctor.,Moriana ona o ka kopana le meriana ea tricyclic antidepressant; tsebisa ngaka ea hau.
+2370,Medication Instructions,Do not take this medicine with antidiarrheal drugs without medical advice.,U se ke ua nka moriana ona le meriana ea antidiarrheal ntle le keletso ea ngaka.
+2371,Medication Instructions,This medicine may increase the risk of cardiotoxicity with other heart-toxic drugs.,Moriana ona o ka eketsa kotsi ea cardiotoxicity le meriana e meng e kotsi ea pelo.
+2372,Medication Instructions,Avoid taking high-dose dong quai supplements at the same time as this medicine.,Hana ho nka lisebelisoa tsa dong quai tsa dose e phahameng ka nako e tšoanang le moriana ona.
+2373,Medication Instructions,This medicine may interact with selective serotonin reuptake inhibitor drugs; inform your doctor.,Moriana ona o ka kopana le meriana ea selective serotonin reuptake inhibitor; tsebisa ngaka ea hau.
+2374,Medication Instructions,Do not take this medicine with antiflatulent drugs without medical advice.,U se ke ua nka moriana ona le meriana ea antiflatulent ntle le keletso ea ngaka.
+2375,Medication Instructions,This medicine may increase the risk of neurotoxicity with other nerve-toxic drugs.,Moriana ona o ka eketsa kotsi ea neurotoxicity le meriana e meng e kotsi ea methapo.
+2376,Medication Instructions,Avoid taking high-dose feverfew supplements at the same time as this medicine.,Hana ho nka lisebelisoa tsa feverfew tsa dose e phahameng ka nako e tšoanang le moriana ona.
+2377,Medication Instructions,This medicine may interact with norepinephrine reuptake inhibitor drugs; inform your doctor.,Moriana ona o ka kopana le meriana ea norepinephrine reuptake inhibitor; tsebisa ngaka ea hau.
+2378,Medication Instructions,Do not take this medicine with antacid drugs without medical advice.,U se ke ua nka moriana ona le meriana ea antacid ntle le keletso ea ngaka.
+2379,Medication Instructions,This medicine may increase the risk of pulmonary toxicity with other lung-toxic drugs.,Moriana ona o ka eketsa kotsi ea pulmonary toxicity le meriana e meng e kotsi ea matšoafo.
+2380,Medication Instructions,Avoid taking high-dose saw palmetto supplements at the same time as this medicine.,Hana ho nka lisebelisoa tsa saw palmetto tsa dose e phahameng ka nako e tšoanang le moriana ona.
+2381,Medication Instructions,This medicine may interact with phosphodiesterase inhibitor drugs; inform your doctor.,Moriana ona o ka kopana le meriana ea phosphodiesterase inhibitor; tsebisa ngaka ea hau.
+2382,Medication Instructions,Do not take this medicine with antiprotozoal drugs without medical advice.,U se ke ua nka moriana ona le meriana ea antiprotozoal ntle le keletso ea ngaka.
+2383,Medication Instructions,This medicine may increase the risk of ototoxicity with other ear-toxic drugs.,Moriana ona o ka eketsa kotsi ea ototoxicity le meriana e meng e kotsi ea tsebe.
+2384,Medication Instructions,"If you miss a dose, take it as soon as you remember.","Haeba u lahlehetsoe ke dose, e nke hang hang ha u hopola."
+2385,Medication Instructions,"If it is almost time for your next dose, skip the missed dose.","Haeba e se e le haufinyane le nako ea dose ea hau e latelang, tlohela dose e lahlehileng."
+2386,Medication Instructions,Do not take a double dose to make up for a missed one.,U se ke ua nka dose e habeli ho ntšetsa pele e lahlehileng.
+2387,Medication Instructions,"If you miss a dose, continue with the next dose at the usual time.","Haeba u lahlehetsoe ke dose, tsoela pele le dose e latelang ka nako ea kamehla."
+2388,Medication Instructions,"Take the missed dose as soon as you remember, unless it is within four hours of the next dose.","Nka dose e lahlehileng hang hang ha u hopola, ntle le haeba e le ka hare ho maho a mane oa dose e latelang."
+2389,Medication Instructions,"If you forget to take your medicine, take it immediately when you remember.","Haeba u lebetse ho nka moriana oa hau, o nke hang hang ha u hopola."
+2390,Medication Instructions,Do not take two doses at the same time to compensate for a missed dose.,U se ke ua nka li-dose tse peli ka nako e tšoanang ho ntšetsa pele dose e lahlehileng.
+2391,Medication Instructions,"If you miss more than one dose, contact your doctor for advice.","Haeba u lahlehetsoe ke li-dose tse fetang e le ngoe, ikopanye le ngaka ea hau bakeng sa keletso."
+2392,Medication Instructions,"Take the missed dose as soon as possible, then continue your regular schedule.","Nka dose e lahlehileng kamoo ho khonehang ka potlako, ebe u tsoele pele le lenaneo la hau la kamehla."
+2393,Medication Instructions,"If you miss a dose by more than twelve hours, skip it and take the next dose on time.","Haeba u lahlehetsoe ke dose ka ho feta maho a leshome le metso e meli, e tlohele mme u nke dose e latelang ka nako."
+2394,Medication Instructions,Do not double up on your dose if you miss one; just continue as normal.,U se ke ua phindolla dose ea hau haeba u lahlehetsoe ke e le ngoe; tsoela pele feela joalo ka kamehla.
+2395,Medication Instructions,"If you miss a dose, take it within two hours of the scheduled time.","Haeba u lahlehetsoe ke dose, e nke ka hare ho maho a mabeli oa nako e reretseng."
+2396,Medication Instructions,Contact your healthcare provider if you miss several doses in a row.,Ikopanye le mofani oa hau oa tlhokomelo ea bophelo bo botle haeba u lahlehetsoe ke li-dose tse ngata ka molapo.
+2397,Medication Instructions,"If you miss a dose, do not panic; just take it as soon as you remember.","Haeba u lahlehetsoe ke dose, u se ke ua tšoha; e nke feela hang hang ha u hopola."
+2398,Medication Instructions,Do not take extra medicine to make up for a forgotten dose.,U se ke ua nka moriana o eketsehileng ho ntšetsa pele dose e lebeletseng.
+2399,Medication Instructions,"If you miss a dose of a once-daily medicine, take it on the same day if you remember.","Haeba u lahlehetsoe ke dose ea moriana oa ka nako e le ngoe ka letsatsi, o nke letsatsing le leng leo haeba u hopola."
+2400,Medication Instructions,"If you miss a dose of a twice-daily medicine, take it if there are at least six hours until the next dose.","Haeba u lahlehetsoe ke dose ea moriana oa habeli ka letsatsi, o nke haeba ho na le bonyane maho a tšeletseng ho fihlela dose e latelang."

@@ -1,0 +1,201 @@
+sentence_id,domain_category,english_text,sesotho_text
+2601,Medication Instructions,Do not take your medicine less frequently than prescribed.,U se ke ua nka moriana oa hau hangata e tlase ho e laetsoeng.
+2602,Medication Instructions,"Take your medicine as directed, even during weekends and holidays.","Nka moriana oa hau joalo ka ha ho laetsoe, le nakong ea mafelelo a beke le maholide."
+2603,Medication Instructions,Do not stop taking your medicine because of travel; plan ahead.,U se ke ua emisa ho nka moriana oa hau ka lebaka la ho tsamaea; ikemisele pele.
+2604,Medication Instructions,"Inform your doctor if you are planning surgery, as you may need to stop some medicines.","Tsebisa ngaka ea hau haeba u rerela opereishene, hobane o ka hloka ho emisa meriana e meng."
+2605,Medication Instructions,Do not take your medicine in the dark; always check the label before taking.,U se ke ua nka moriana oa hau lefifing; hlahloba lebeleng kamehla pele ho nka.
+2606,Medication Instructions,Take your medicine in good lighting to ensure you take the correct tablet.,Nka moriana oa hau leseding le letle ho netefatsa hore u nka pilisi e nepahetseng.
+2607,Medication Instructions,Do not take your medicine if the packaging is damaged or the seal is broken.,U se ke ua nka moriana oa hau haeba phupu e senyehile kapa seal e senyehile.
+2608,Medication Instructions,Inform your doctor if you are pregnant or planning to become pregnant.,Tsebisa ngaka ea hau haeba u mitsi kapa u rerela ho mitsa.
+2609,Medication Instructions,Do not take your medicine if you are breastfeeding without medical advice.,U se ke ua nka moriana oa hau haeba u anyesa ntle le keletso ea ngaka.
+2610,Medication Instructions,Take your medicine with a full glass of water unless instructed otherwise.,Nka moriana oa hau le mohope o tletseng oa metsi ntle le haeba ho laetsoe ngoana.
+2611,Medication Instructions,Do not take your medicine with hot drinks as it may affect absorption.,U se ke ua nka moriana oa hau le lino tse chesang hobane e ka angoa ho metsoa.
+2612,Medication Instructions,Inform your doctor if you develop new symptoms while taking your medicine.,Tsebisa ngaka ea hau haeba u ba le matšoao a mocha ha u nka moriana oa hau.
+2613,Medication Instructions,Do not take your medicine with cold drinks unless instructed.,U se ke ua nka moriana oa hau le lino tse batang ntle le haeba ho laetsoe.
+2614,Medication Instructions,Take your medicine in the correct order if you are taking multiple medicines.,Nka moriana oa hau ka tatellano e nepahetseng haeba u nka meriana e mengata.
+2615,Medication Instructions,Do not take your medicine at irregular intervals; maintain a consistent schedule.,U se ke ua nka moriana oa hau ka linako tse sa tloaelehang; boloka lenaneo le tsitsitseng.
+2616,Medication Instructions,Inform your doctor if you are taking any over-the-counter medicines.,Tsebisa ngaka ea hau haeba u nka meriana efe kafe e rekisoang ntle le prescription.
+2617,Medication Instructions,Do not take your medicine with food if the instructions say to take it on an empty stomach.,U se ke ua nka moriana oa hau le lijo haeba litaelo li re o nke ka mala a se nang lijo.
+2618,Medication Instructions,Take your medicine with food if the instructions say to take it with meals.,Nka moriana oa hau le lijo haeba litaelo li re o nke le lijo.
+2619,Medication Instructions,Do not take your medicine if you are feeling nauseous; wait until the nausea passes.,U se ke ua nka moriana oa hau haeba u nyakeloa; ema ho fihlela ho nyakeloa ho fela.
+2620,Medication Instructions,Inform your doctor if you vomit within one hour of taking your medicine.,Tsebisa ngaka ea hau haeba u hlatsa ka hare ho hora e le ngoe oa ho nka moriana oa hau.
+2621,Medication Instructions,Do not take your medicine if you have diarrhoea; contact your doctor for advice.,U se ke ua nka moriana oa hau haeba u na le sehudo; ikopanye le ngaka ea hau bakeng sa keletso.
+2622,Medication Instructions,Take your medicine as prescribed to achieve the best treatment outcome.,Nka moriana oa hau joalo ka ha ho laetsoe ho fihlela sephetho se seholo sa phekolo.
+2623,Medication Instructions,Do not take your medicine in a hurry; take your time to ensure the correct dose.,U se ke ua nka moriana oa hau ka potlako; nka nako ea hau ho netefatsa dose e nepahetseng.
+2624,Medication Instructions,Inform your doctor if you are having difficulty swallowing your medicine.,Tsebisa ngaka ea hau haeba u na le bothata ba ho metsa moriana oa hau.
+2625,Medication Instructions,Do not take your medicine with juice unless instructed.,U se ke ua nka moriana oa hau le moerane ntle le haeba ho laetsoe.
+2626,Medication Instructions,Take your medicine with a snack if it causes stomach upset.,Nka moriana oa hau le sejo se senyenyane haeba se baka ho nyakeloa ha mala.
+2627,Medication Instructions,Do not take your medicine with milk unless instructed.,U se ke ua nka moriana oa hau le lebese ntle le haeba ho laetsoe.
+2628,Medication Instructions,Inform your doctor if you are having difficulty remembering to take your medicine.,Tsebisa ngaka ea hau haeba u na le bothata ba ho hopola ho nka moriana oa hau.
+2629,Medication Instructions,Do not take your medicine with tea or coffee unless instructed.,U se ke ua nka moriana oa hau le tee kapa kofi ntle le haeba ho laetsoe.
+2630,Medication Instructions,Take your medicine with a routine meal to help you remember.,Nka moriana oa hau le lijo tsa kamehla ho u thusa ho hopola.
+2631,Medication Instructions,Do not take your medicine with carbonated drinks unless instructed.,U se ke ua nka moriana oa hau le lino tse nang le moea ntle le haeba ho laetsoe.
+2632,Medication Instructions,Inform your doctor if you are having difficulty tolerating your medicine.,Tsebisa ngaka ea hau haeba u na le bothata ba ho mamella moriana oa hau.
+2633,Medication Instructions,Do not take your medicine with energy drinks unless instructed.,U se ke ua nka moriana oa hau le lino tsa matla ntle le haeba ho laetsoe.
+2634,Medication Instructions,Take your medicine with a glass of water to help it dissolve properly.,Nka moriana oa hau le mohope oa metsi ho o thusa ho nyamela hantle.
+2635,Medication Instructions,Do not take your medicine with sports drinks unless instructed.,U se ke ua nka moriana oa hau le lino tsa lipapali ntle le haeba ho laetsoe.
+2636,Medication Instructions,Inform your doctor if you are having difficulty affording your medicine.,Tsebisa ngaka ea hau haeba u na le bothata ba ho reka moriana oa hau.
+2637,Medication Instructions,Do not take your medicine with herbal teas unless instructed.,U se ke ua nka moriana oa hau le li-tee tsa semela ntle le haeba ho laetsoe.
+2638,Medication Instructions,Take your medicine with a consistent routine to improve adherence.,Nka moriana oa hau le mokhoa o tsitsitseng ho ntlafatsa ho latela.
+2639,Medication Instructions,Do not take your medicine with fruit juices unless instructed.,U se ke ua nka moriana oa hau le meoerane ea lienyane ntle le haeba ho laetsoe.
+2640,Medication Instructions,Inform your doctor if you are having difficulty accessing your medicine.,Tsebisa ngaka ea hau haeba u na le bothata ba ho fumana moriana oa hau.
+2641,Medication Instructions,Do not take your medicine with vegetable juices unless instructed.,U se ke ua nka moriana oa hau le meoerane ea merogo ntle le haeba ho laetsoe.
+2642,Medication Instructions,Take your medicine with a positive attitude to improve treatment outcomes.,Nka moriana oa hau ka maikutlo a molemo ho ntlafatsa liphetho tsa phekolo.
+2643,Medication Instructions,Do not take your medicine with protein shakes unless instructed.,U se ke ua nka moriana oa hau le li-shake tsa protein ntle le haeba ho laetsoe.
+2644,Medication Instructions,Inform your doctor if you are having difficulty understanding your medicine instructions.,Tsebisa ngaka ea hau haeba u na le bothata ba ho utloisisa litaelo tsa moriana oa hau.
+2645,Medication Instructions,Do not take your medicine with meal replacement drinks unless instructed.,U se ke ua nka moriana oa hau le lino tse ntsetsang pele lijo ntle le haeba ho laetsoe.
+2646,Medication Instructions,Take your medicine with a supportive network to improve adherence.,Nka moriana oa hau le marang-rang a tshehetso ho ntlafatsa ho latela.
+2647,Medication Instructions,Do not take your medicine with dietary supplements unless instructed.,U se ke ua nka moriana oa hau le lisebelisoa tsa lijo ntle le haeba ho laetsoe.
+2648,Medication Instructions,Inform your doctor if you are having difficulty with the side effects of your medicine.,Tsebisa ngaka ea hau haeba u na le bothata ba litlamorao tsa moriana oa hau.
+2649,Medication Instructions,Do not take your medicine with vitamins unless instructed.,U se ke ua nka moriana oa hau le li-vitamin ntle le haeba ho laetsoe.
+2650,Medication Instructions,Take your medicine with a clear understanding of why it is important.,Nka moriana oa hau le kutloisiso e hlakile ea hore na o bohlokoa bakeng sa eng.
+2651,Medication Instructions,Do not take your medicine with minerals unless instructed.,U se ke ua nka moriana oa hau le li-mineral ntle le haeba ho laetsoe.
+2652,Medication Instructions,Inform your doctor if you are having difficulty with the taste of your medicine.,Tsebisa ngaka ea hau haeba u na le bothata ba tatso ea moriana oa hau.
+2653,Medication Instructions,Do not take your medicine with probiotics unless instructed.,U se ke ua nka moriana oa hau le li-probiotic ntle le haeba ho laetsoe.
+2654,Medication Instructions,Take your medicine with a commitment to completing the full course.,Nka moriana oa hau le boikarabello ba ho phetela khoroso yohle.
+2655,Medication Instructions,Do not take your medicine with prebiotics unless instructed.,U se ke ua nka moriana oa hau le li-prebiotic ntle le haeba ho laetsoe.
+2656,Medication Instructions,Inform your doctor if you are having difficulty with the size of the tablet.,Tsebisa ngaka ea hau haeba u na le bothata ba boholo ba pilisi.
+2657,Medication Instructions,Do not take your medicine with antioxidants unless instructed.,U se ke ua nka moriana oa hau le li-antioxidant ntle le haeba ho laetsoe.
+2658,Medication Instructions,Take your medicine with a plan to manage any side effects.,Nka moriana oa hau le leano la ho laola litlamorao tse ling tsohle.
+2659,Medication Instructions,Do not take your medicine with omega-3 supplements unless instructed.,U se ke ua nka moriana oa hau le lisebelisoa tsa omega-3 ntle le haeba ho laetsoe.
+2660,Medication Instructions,Inform your doctor if you are having difficulty with the frequency of dosing.,Tsebisa ngaka ea hau haeba u na le bothata ba hangata ha ho nka dose.
+2661,Medication Instructions,Do not take your medicine with omega-6 supplements unless instructed.,U se ke ua nka moriana oa hau le lisebelisoa tsa omega-6 ntle le haeba ho laetsoe.
+2662,Medication Instructions,Take your medicine with a strategy to remember each dose.,Nka moriana oa hau le leano la ho hopola dose le 'ngoe le e 'ngoe.
+2663,Medication Instructions,Do not take your medicine with omega-9 supplements unless instructed.,U se ke ua nka moriana oa hau le lisebelisoa tsa omega-9 ntle le haeba ho laetsoe.
+2664,Medication Instructions,Inform your doctor if you are having difficulty with the route of administration.,Tsebisa ngaka ea hau haeba u na le bothata ba tsela ea ho fana ka moriana.
+2665,Medication Instructions,Do not take your medicine with amino acid supplements unless instructed.,U se ke ua nka moriana oa hau le lisebelisoa tsa amino acid ntle le haeba ho laetsoe.
+2666,Medication Instructions,Take your medicine with a focus on achieving the best possible health outcome.,Nka moriana oa hau o tsepame ho fihlela sephetho se seholo sa bophelo bo botle.
+2667,Medication Instructions,Do not take your medicine with enzyme supplements unless instructed.,U se ke ua nka moriana oa hau le lisebelisoa tsa enzyme ntle le haeba ho laetsoe.
+2668,Medication Instructions,Inform your doctor if you are having difficulty with the storage of your medicine.,Tsebisa ngaka ea hau haeba u na le bothata ba ho boloka moriana oa hau.
+2669,Medication Instructions,Do not take your medicine with fibre supplements unless instructed.,U se ke ua nka moriana oa hau le lisebelisoa tsa fibre ntle le haeba ho laetsoe.
+2670,Medication Instructions,Take your medicine with a determination to complete the full treatment course.,Nka moriana oa hau le boikemelo ba ho phetela khoroso yohle ea phekolo.
+2671,Medication Instructions,Do not take your medicine with collagen supplements unless instructed.,U se ke ua nka moriana oa hau le lisebelisoa tsa collagen ntle le haeba ho laetsoe.
+2672,Medication Instructions,Inform your doctor if you are having difficulty with the cost of your medicine.,Tsebisa ngaka ea hau haeba u na le bothata ba theko ea moriana oa hau.
+2673,Medication Instructions,Do not take your medicine with creatine supplements unless instructed.,U se ke ua nka moriana oa hau le lisebelisoa tsa creatine ntle le haeba ho laetsoe.
+2674,Medication Instructions,Take your medicine with a support system to help you stay on track.,Nka moriana oa hau le tsamaiso ea tshehetso ho u thusa ho lula tseleng e nepahetseng.
+2675,Medication Instructions,Do not take your medicine with glucosamine supplements unless instructed.,U se ke ua nka moriana oa hau le lisebelisoa tsa glucosamine ntle le haeba ho laetsoe.
+2676,Medication Instructions,Inform your doctor if you are having difficulty with the availability of your medicine.,Tsebisa ngaka ea hau haeba u na le bothata ba ho fumaneha ha moriana oa hau.
+2677,Medication Instructions,Do not take your medicine with chondroitin supplements unless instructed.,U se ke ua nka moriana oa hau le lisebelisoa tsa chondroitin ntle le haeba ho laetsoe.
+2678,Medication Instructions,Take your medicine with a reminder system to ensure you never miss a dose.,Nka moriana oa hau le tsamaiso ea temoso ho netefatsa hore ha u lahlehele ke dose.
+2679,Medication Instructions,Do not take your medicine with melatonin supplements unless instructed.,U se ke ua nka moriana oa hau le lisebelisoa tsa melatonin ntle le haeba ho laetsoe.
+2680,Medication Instructions,Inform your doctor if you are having difficulty with the packaging of your medicine.,Tsebisa ngaka ea hau haeba u na le bothata ba phupu ea moriana oa hau.
+2681,Medication Instructions,Do not take your medicine with magnesium supplements unless instructed.,U se ke ua nka moriana oa hau le lisebelisoa tsa magnesium ntle le haeba ho laetsoe.
+2682,Medication Instructions,Take your medicine with a diary to record each dose taken.,Nka moriana oa hau le buka ea letsatsi ho ngola dose le 'ngoe le e 'ngoe e nkiloeng.
+2683,Medication Instructions,Do not take your medicine with calcium supplements unless instructed.,U se ke ua nka moriana oa hau le lisebelisoa tsa calcium ntle le haeba ho laetsoe.
+2684,Medication Instructions,Inform your doctor if you are having difficulty with the colour of your medicine.,Tsebisa ngaka ea hau haeba u na le bothata ba mmala oa moriana oa hau.
+2685,Medication Instructions,Do not take your medicine with iron supplements unless instructed.,U se ke ua nka moriana oa hau le lisebelisoa tsa tšepe ntle le haeba ho laetsoe.
+2686,Medication Instructions,Take your medicine with a trusted person who can help you stay consistent.,Nka moriana oa hau le motho ea tšepahalang ea ka u thusa ho lula o tsitsitse.
+2687,Medication Instructions,Do not take your medicine with zinc supplements unless instructed.,U se ke ua nka moriana oa hau le lisebelisoa tsa zinc ntle le haeba ho laetsoe.
+2688,Medication Instructions,Inform your doctor if you are having difficulty with the smell of your medicine.,Tsebisa ngaka ea hau haeba u na le bothata ba monko oa moriana oa hau.
+2689,Medication Instructions,Do not take your medicine with selenium supplements unless instructed.,U se ke ua nka moriana oa hau le lisebelisoa tsa selenium ntle le haeba ho laetsoe.
+2690,Medication Instructions,Take your medicine with a written schedule to guide your daily routine.,Nka moriana oa hau le lenaneo le ngotsoeng ho etelela mokhoa oa hau oa letsatsi le leng le le leng.
+2691,Medication Instructions,Do not take your medicine with chromium supplements unless instructed.,U se ke ua nka moriana oa hau le lisebelisoa tsa chromium ntle le haeba ho laetsoe.
+2692,Medication Instructions,Inform your doctor if you are having difficulty with the texture of your medicine.,Tsebisa ngaka ea hau haeba u na le bothata ba sebopeho sa moriana oa hau.
+2693,Medication Instructions,Do not take your medicine with iodine supplements unless instructed.,U se ke ua nka moriana oa hau le lisebelisoa tsa iodine ntle le haeba ho laetsoe.
+2694,Medication Instructions,Take your medicine with confidence that completing the course will help your recovery.,Nka moriana oa hau ka boikholiso hore ho phetela khoroso ho tla thusa ho fola ha hau.
+2695,Medication Instructions,Do not take your medicine with copper supplements unless instructed.,U se ke ua nka moriana oa hau le lisebelisoa tsa copper ntle le haeba ho laetsoe.
+2696,Medication Instructions,Inform your doctor if you are having difficulty with the shape of your medicine.,Tsebisa ngaka ea hau haeba u na le bothata ba sebopeho sa moriana oa hau.
+2697,Medication Instructions,Always read the medication label carefully before taking any medicine.,Bala lebeleng la moriana ka hloko kamehla pele ho nka moriana ofe kafe.
+2698,Medication Instructions,Keep a list of all your current medicines and show it to every healthcare provider.,Boloka lethathamo la meriana yohle ea hau ea joale mme u e bontše mofani ofe kafe oa tlhokomelo ea bophelo bo botle.
+2699,Medication Instructions,Never lend your prescription medicine to another person.,U se ke oa adima moriana oa hau oa prescription ho motho e mong.
+2700,Medication Instructions,Return unused or expired medicines to the pharmacy for safe disposal.,Khutlisa meriana e sa sebelisitsoeng kapa e fetileng letsatsi la ho fela pharmacy bakeng sa ho lahlehisa ka polokeho.
+2701,Symptoms and Complaints,I have been feeling unwell for the past three days.,Ke ikutloa ke sa phela hantle matsatsing a mararo a fetileng.
+2702,Symptoms and Complaints,I feel very tired and weak all the time.,Ke ikutloa ke lapetse haholo le ho fokotsehela nako tsohle.
+2703,Symptoms and Complaints,I have a high fever that started yesterday.,Ke na le feberu e phahameng e qalileng maobane.
+2704,Symptoms and Complaints,I have been sweating a lot at night.,Ke ntse ke tsoa molapo o mongata bosiu.
+2705,Symptoms and Complaints,I feel dizzy when I stand up quickly.,Ke ikutloa ke potoloha ha ke ema ka potlako.
+2706,Symptoms and Complaints,I have lost my appetite and do not feel like eating.,Ke lahleheloe ke takatso ea lijo mme ha ke ikutloe ke rata ho ja.
+2707,Symptoms and Complaints,I have been losing weight without trying.,Ke ntse ke lahleheloa ke boima ntle le ho leka.
+2708,Symptoms and Complaints,I feel short of breath even when resting.,Ke ikutloa ke hloka moya le ha ke khutsa.
+2709,Symptoms and Complaints,I have a general feeling of being unwell.,Ke na le maikutlo a kakaretso a ho sa phela hantle.
+2710,Symptoms and Complaints,I feel cold and shivery even in warm weather.,Ke ikutloa ke batile le ho thothomela le ha boemo ba leholimo bo futhumele.
+2711,Symptoms and Complaints,I have been feeling faint and lightheaded.,Ke ntse ke ikutloa ke fokola le ho potoloha hloohong.
+2712,Symptoms and Complaints,I feel very hot and my skin is flushed.,Ke ikutloa ke chesa haholo mme letlalo la ka le bofubedu.
+2713,Symptoms and Complaints,I have been feeling weak and cannot do my usual activities.,Ke ntse ke ikutloa ke fokotsehela mme ha ke khone ho etsa mesebetsi ea ka ea kamehla.
+2714,Symptoms and Complaints,I feel nauseous most of the time.,Ke ikutloa ke nyakeloa nako e ngata.
+2715,Symptoms and Complaints,I have been vomiting since this morning.,Ke ntse ke hlatsa ho tloha hoseng hona.
+2716,Symptoms and Complaints,I feel very thirsty and keep drinking water.,Ke ikutloa ke nyoroa haholo mme ke ntse ke noa metsi.
+2717,Symptoms and Complaints,I have been urinating more than usual.,Ke ntse ke morota ho feta kamehla.
+2718,Symptoms and Complaints,I feel bloated and uncomfortable after eating.,Ke ikutloa ke tletse moea le ho se ikutloe hantle ka mor'a ho ja.
+2719,Symptoms and Complaints,I have been having hot flushes.,Ke ntse ke ikutloa ke chesa ka tšohanyetso.
+2720,Symptoms and Complaints,I feel very cold and cannot get warm.,Ke ikutloa ke batile haholo mme ha ke khone ho futhumela.
+2721,Symptoms and Complaints,I have been feeling generally unwell for two weeks.,Ke ntse ke ikutloa ke sa phela hantle ka kakaretso ka libeke tse peli.
+2722,Symptoms and Complaints,I feel my heart beating very fast.,Ke ikutloa pelo ea ka e otla ka potlako haholo.
+2723,Symptoms and Complaints,I have been feeling anxious and restless.,Ke ntse ke ikutloa ke tšohile le ho se khutse.
+2724,Symptoms and Complaints,I feel very weak and cannot get out of bed.,Ke ikutloa ke fokotsehela haholo mme ha ke khone ho tsoa setulong sa boroko.
+2725,Symptoms and Complaints,I have been having chills and shaking.,Ke ntse ke na le ho batela le ho thothomela.
+2726,Symptoms and Complaints,I feel my body temperature is very high.,Ke ikutloa mocheso oa 'mele oa ka o phahame haholo.
+2727,Symptoms and Complaints,I have been feeling confused and disoriented.,Ke ntse ke ikutloa ke tsieleha le ho lahlehela.
+2728,Symptoms and Complaints,I feel very pale and look washed out.,Ke ikutloa ke pheela haholo mme ke bonahala ke hlokile matla.
+2729,Symptoms and Complaints,I have been having night sweats that soak my clothes.,Ke ntse ke tsoa molapo bosiu o omisang liaparo tsa ka.
+2730,Symptoms and Complaints,I feel very lethargic and have no energy.,Ke ikutloa ke le botsoa haholo mme ha ke na matla.
+2731,Symptoms and Complaints,I have been feeling unwell since I started the new medicine.,Ke ntse ke ikutloa ke sa phela hantle ho tloha ha ke qala moriana o mocha.
+2732,Symptoms and Complaints,I feel my whole body is aching.,Ke ikutloa 'mele oa ka ka bophara o bohloko.
+2733,Symptoms and Complaints,I have been having episodes of feeling very hot followed by cold.,Ke ntse ke na le linako tsa ho ikutloa ke chesa haholo tse lateloa ke ho batela.
+2734,Symptoms and Complaints,I feel very dehydrated and my mouth is dry.,Ke ikutloa ke hlokile metsi haholo mme molomo oa ka o omile.
+2735,Symptoms and Complaints,I have been feeling very ill and cannot function normally.,Ke ntse ke ikutloa ke kula haholo mme ha ke khone ho sebetsa ka mokhoa oa kamehla.
+2736,Symptoms and Complaints,I feel my energy levels are very low.,Ke ikutloa maemo a matla a ka a tlase haholo.
+2737,Symptoms and Complaints,I have been having episodes of shaking and trembling.,Ke ntse ke na le linako tsa ho thothomela le ho thothomela.
+2738,Symptoms and Complaints,I feel very uncomfortable and cannot sleep.,Ke ikutloa ke sa ikutloe hantle haholo mme ha ke khone ho robala.
+2739,Symptoms and Complaints,I have been feeling very sick and need to see a doctor urgently.,Ke ntse ke ikutloa ke kula haholo mme ke hloka ho bona ngaka ka potlako.
+2740,Symptoms and Complaints,I feel my body is not working properly.,Ke ikutloa 'mele oa ka ha o sebetse hantle.
+2741,Symptoms and Complaints,I have been having episodes of sudden weakness.,Ke ntse ke na le linako tsa ho fokotsehela ka tšohanyetso.
+2742,Symptoms and Complaints,I feel very unwell and my condition is getting worse.,Ke ikutloa ke sa phela hantle haholo mme boemo ba ka bo mpe.
+2743,Symptoms and Complaints,I have been having episodes of sudden sweating.,Ke ntse ke na le linako tsa ho tsoa molapo ka tšohanyetso.
+2744,Symptoms and Complaints,I feel very poorly and need help.,Ke ikutloa ke sa phela hantle haholo mme ke hloka thuso.
+2745,Symptoms and Complaints,I have been feeling ill for a long time and am worried.,Ke ntse ke ikutloa ke kula nako e telele mme ke na le khathello.
+2746,Symptoms and Complaints,I feel my whole body is swollen.,Ke ikutloa 'mele oa ka ka bophara o ruruhetse.
+2747,Symptoms and Complaints,I have been having episodes of sudden dizziness.,Ke ntse ke na le linako tsa ho potoloha ka tšohanyetso.
+2748,Symptoms and Complaints,I feel very sick and cannot eat or drink.,Ke ikutloa ke kula haholo mme ha ke khone ho ja kapa ho noa.
+2749,Symptoms and Complaints,I have been feeling very unwell and have lost a lot of weight.,Ke ntse ke ikutloa ke sa phela hantle haholo mme ke lahleheloe ke boima bo bongata.
+2750,Symptoms and Complaints,I feel my condition is getting worse every day.,Ke ikutloa boemo ba ka bo mpe letsatsi le leng le le leng.
+2751,Symptoms and Complaints,I have been having episodes of sudden fever.,Ke ntse ke na le linako tsa feberu ka tšohanyetso.
+2752,Symptoms and Complaints,I feel very weak and my muscles are sore.,Ke ikutloa ke fokotsehela haholo mme mochine oa ka o bohloko.
+2753,Symptoms and Complaints,I have been feeling very tired even after sleeping.,Ke ntse ke ikutloa ke lapetse haholo le ka mor'a ho robala.
+2754,Symptoms and Complaints,I feel my body temperature keeps going up and down.,Ke ikutloa mocheso oa 'mele oa ka o ntse o phahama le ho theohela.
+2755,Symptoms and Complaints,I have been having episodes of sudden chills.,Ke ntse ke na le linako tsa ho batela ka tšohanyetso.
+2756,Symptoms and Complaints,I feel very ill and need immediate medical attention.,Ke ikutloa ke kula haholo mme ke hloka tlhokomelo ea ngaka hang hang.
+2757,Symptoms and Complaints,I have been feeling very unwell and cannot go to work.,Ke ntse ke ikutloa ke sa phela hantle haholo mme ha ke khone ho ea mosebetsing.
+2758,Symptoms and Complaints,I feel my whole body is in pain.,Ke ikutloa 'mele oa ka ka bophara o mahloko.
+2759,Symptoms and Complaints,I have been having episodes of sudden nausea.,Ke ntse ke na le linako tsa ho nyakeloa ka tšohanyetso.
+2760,Symptoms and Complaints,I feel very sick and need to lie down.,Ke ikutloa ke kula haholo mme ke hloka ho robala.
+2761,Symptoms and Complaints,I have been feeling very poorly and am not improving.,Ke ntse ke ikutloa ke sa phela hantle haholo mme ha ke ntlafale.
+2762,Symptoms and Complaints,I feel my condition is serious and I am scared.,Ke ikutloa boemo ba ka bo matla mme ke tšaba.
+2763,Symptoms and Complaints,I have been having episodes of sudden vomiting.,Ke ntse ke na le linako tsa ho hlatsa ka tšohanyetso.
+2764,Symptoms and Complaints,I feel very unwell and my family is worried about me.,Ke ikutloa ke sa phela hantle haholo mme lelapa la ka le na le khathello ka nna.
+2765,Symptoms and Complaints,I have been feeling very ill and have no appetite.,Ke ntse ke ikutloa ke kula haholo mme ha ke na takatso ea lijo.
+2766,Symptoms and Complaints,I feel my body is fighting something.,Ke ikutloa 'mele oa ka o loa le ntho e itseng.
+2767,Symptoms and Complaints,I have been having episodes of sudden fatigue.,Ke ntse ke na le linako tsa ho lapala ka tšohanyetso.
+2768,Symptoms and Complaints,I feel very weak and cannot stand up.,Ke ikutloa ke fokotsehela haholo mme ha ke khone ho ema.
+2769,Symptoms and Complaints,I have been feeling very sick and need to be seen today.,Ke ntse ke ikutloa ke kula haholo mme ke hloka ho bonoa kajeno.
+2770,Symptoms and Complaints,I feel my whole body is reacting to something.,Ke ikutloa 'mele oa ka ka bophara o arabela ntho e itseng.
+2771,Symptoms and Complaints,I have been having episodes of sudden weakness and dizziness.,Ke ntse ke na le linako tsa ho fokotsehela le ho potoloha ka tšohanyetso.
+2772,Symptoms and Complaints,I feel very unwell and my symptoms are getting worse.,Ke ikutloa ke sa phela hantle haholo mme matšoao a ka a mpe.
+2773,Symptoms and Complaints,I have been feeling very ill and need urgent help.,Ke ntse ke ikutloa ke kula haholo mme ke hloka thuso ea potlako.
+2774,Symptoms and Complaints,I feel my body temperature is not normal.,Ke ikutloa mocheso oa 'mele oa ka ha o tloaelehang.
+2775,Symptoms and Complaints,I have been having episodes of sudden hot and cold feelings.,Ke ntse ke na le linako tsa maikutlo a ho chesa le ho batela ka tšohanyetso.
+2776,Symptoms and Complaints,I feel very sick and am worried about my health.,Ke ikutloa ke kula haholo mme ke na le khathello ka bophelo ba ka bo botle.
+2777,Symptoms and Complaints,I have been feeling very unwell and cannot do anything.,Ke ntse ke ikutloa ke sa phela hantle haholo mme ha ke khone ho etsa letho.
+2778,Symptoms and Complaints,I feel my whole body is tired and sore.,Ke ikutloa 'mele oa ka ka bophara o lapetse le ho bohloka.
+2779,Symptoms and Complaints,I have been having episodes of sudden loss of appetite.,Ke ntse ke na le linako tsa ho lahleheloa ke takatso ea lijo ka tšohanyetso.
+2780,Symptoms and Complaints,I feel very ill and need to be admitted to hospital.,Ke ikutloa ke kula haholo mme ke hloka ho kenngoa sepetlele.
+2781,Symptoms and Complaints,I have been feeling very poorly and need a doctor.,Ke ntse ke ikutloa ke sa phela hantle haholo mme ke hloka ngaka.
+2782,Symptoms and Complaints,I feel my condition is deteriorating rapidly.,Ke ikutloa boemo ba ka bo mpe ka potlako.
+2783,Symptoms and Complaints,I have been having episodes of sudden weight loss.,Ke ntse ke na le linako tsa ho lahleheloa ke boima ka tšohanyetso.
+2784,Symptoms and Complaints,I feel very unwell and cannot care for myself.,Ke ikutloa ke sa phela hantle haholo mme ha ke khone ho itlhokomela.
+2785,Symptoms and Complaints,I have been feeling very sick and need treatment.,Ke ntse ke ikutloa ke kula haholo mme ke hloka phekolo.
+2786,Symptoms and Complaints,I feel my body is not responding to treatment.,Ke ikutloa 'mele oa ka ha o arabele phekolo.
+2787,Symptoms and Complaints,I have been having episodes of sudden confusion.,Ke ntse ke na le linako tsa ho tsieleha ka tšohanyetso.
+2788,Symptoms and Complaints,I feel very ill and am getting worse.,Ke ikutloa ke kula haholo mme ke mpe.
+2789,Symptoms and Complaints,I have been feeling very unwell and need urgent care.,Ke ntse ke ikutloa ke sa phela hantle haholo mme ke hloka tlhokomelo ea potlako.
+2790,Symptoms and Complaints,I feel my whole body is affected.,Ke ikutloa 'mele oa ka ka bophara o angoa.
+2791,Symptoms and Complaints,I have been having episodes of sudden pallor.,Ke ntse ke na le linako tsa ho pheela ka tšohanyetso.
+2792,Symptoms and Complaints,I feel very sick and cannot look after my children.,Ke ikutloa ke kula haholo mme ha ke khone ho hlokomela bana ba ka.
+2793,Symptoms and Complaints,I have been feeling very poorly and need to rest.,Ke ntse ke ikutloa ke sa phela hantle haholo mme ke hloka ho khutsa.
+2794,Symptoms and Complaints,I feel my condition is very serious.,Ke ikutloa boemo ba ka bo matla haholo.
+2795,Symptoms and Complaints,I have been having episodes of sudden breathlessness.,Ke ntse ke na le linako tsa ho hloka moya ka tšohanyetso.
+2796,Symptoms and Complaints,I feel very unwell and my symptoms are alarming.,Ke ikutloa ke sa phela hantle haholo mme matšoao a ka a tšoha.
+2797,Symptoms and Complaints,I have been feeling very ill and cannot eat.,Ke ntse ke ikutloa ke kula haholo mme ha ke khone ho ja.
+2798,Symptoms and Complaints,I feel my body is very weak and I need help.,Ke ikutloa 'mele oa ka o fokotsehela haholo mme ke hloka thuso.
+2799,Symptoms and Complaints,I have been having episodes of sudden heart palpitations.,Ke ntse ke na le linako tsa ho otla ha pelo ka tšohanyetso.
+2800,Symptoms and Complaints,I feel very sick and need to see a specialist.,Ke ikutloa ke kula haholo mme ke hloka ho bona ngaka e khethehileng.
