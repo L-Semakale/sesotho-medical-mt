@@ -2,18 +2,22 @@ import os
 import sqlite3
 from datetime import datetime
 
+import faiss
+import numpy as np
 import pandas as pd
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 from werkzeug.security import generate_password_hash, check_password_hash
+from sentence_transformers import SentenceTransformer
 
 from nllb_translator import nllb_translate
+from safety import check_safety
 
 
 app = Flask(__name__)
 CORS(app)
 
-HERE = os.path.dirname(os.path.abspath(__file__))
+HERE     = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(HERE, "data")
 os.makedirs(DATA_DIR, exist_ok=True)
 
@@ -28,6 +32,69 @@ COLUMNS = [
 VALID_STATUSES = {"raw", "translated", "reviewed", "verified", "rejected"}
 
 
+#  Semantic corpus cache 
+
+_embedder         = None
+_faiss_index      = {"en": None, "st": None}
+_corpus_sentences = {"en": [], "st": []}
+
+
+def build_faiss_index():
+    global _embedder, _faiss_index, _corpus_sentences, corpus_df
+
+    corpus_df = load_corpus()
+    if _embedder is None:
+        _embedder = SentenceTransformer(
+            "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+        )
+
+    for lang, src_col, tgt_col in (
+        ("en", "english_text", "sesotho_text"),
+        ("st", "sesotho_text", "english_text"),
+    ):
+        sentences = corpus_df[src_col].astype(str).tolist()
+        targets   = corpus_df[tgt_col].astype(str).tolist()
+
+        if not sentences:
+            _faiss_index[lang]      = None
+            _corpus_sentences[lang] = []
+            continue
+
+        embeddings = _embedder.encode(sentences, show_progress_bar=False)
+        embeddings = np.array(embeddings).astype("float32")
+        faiss.normalize_L2(embeddings)
+
+        index = faiss.IndexFlatIP(embeddings.shape[1])
+        index.add(embeddings)
+
+        _faiss_index[lang]      = index
+        _corpus_sentences[lang] = targets
+
+    print(f"  FAISS index built — {len(corpus_df):,} rows")
+
+
+def semantic_lookup(text: str, lang: str = "en", threshold: float = 0.88):
+    """
+    Returns the best corpus match if similarity >= threshold.
+    Returns (None, score) if no close match found.
+    """
+    index = _faiss_index.get(lang)
+    if index is None or _embedder is None:
+        return None, 0.0
+
+    vec = _embedder.encode([text], show_progress_bar=False)
+    vec = np.array(vec).astype("float32")
+    faiss.normalize_L2(vec)
+
+    scores, indices = index.search(vec, k=1)
+    score = float(scores[0][0])
+    idx   = int(indices[0][0])
+
+    if score >= threshold:
+        return _corpus_sentences[lang][idx], score
+    return None, score
+
+
 #  Database helpers 
 
 def get_db():
@@ -38,7 +105,7 @@ def get_db():
 
 def init_db():
     conn = get_db()
-    c = conn.cursor()
+    c    = conn.cursor()
 
     c.execute("""
         CREATE TABLE IF NOT EXISTS users (
@@ -72,8 +139,6 @@ def init_db():
         )
     """)
 
-    # FIX 1: Moved usability_feedback table creation here from submit_feedback()
-    # where it was unreachable dead code (placed after a return statement).
     c.execute("""
         CREATE TABLE IF NOT EXISTS usability_feedback (
             id         INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -119,6 +184,13 @@ def save_corpus(df):
 
 
 corpus_df = load_corpus()
+build_faiss_index()
+
+print("  Translation pipeline ready:")
+print("  Layer 1 → Exact corpus match")
+print("  Layer 2 → Semantic similarity (FAISS + Sentence Transformers)")
+print("  Layer 3 → NLLB-200 neural translation")
+print("  Safety  → High-risk term detection active")
 
 
 #  Auth routes 
@@ -186,30 +258,41 @@ def translate_text():
         return jsonify({"error": "Text is required"}), 400
 
     if direction == "en-st":
-        label = "English → Sesotho"
-        src_col, tgt_col = "english_text", "sesotho_text"
-        src_lang, tgt_lang = "english", "sesotho"
+        label                    = "English → Sesotho"
+        src_col, tgt_col         = "english_text", "sesotho_text"
+        src_lang, tgt_lang       = "english", "sesotho"
+        lookup_lang              = "en"
     elif direction == "st-en":
-        label = "Sesotho → English"
-        src_col, tgt_col = "sesotho_text", "english_text"
-        src_lang, tgt_lang = "sesotho", "english"
+        label                    = "Sesotho → English"
+        src_col, tgt_col         = "sesotho_text", "english_text"
+        src_lang, tgt_lang       = "sesotho", "english"
+        lookup_lang              = "st"
     else:
         return jsonify({"error": "Invalid direction"}), 400
 
-    # 1. Cache lookup — exact match against verified corpus (case-insensitive)
+    # Layer 1 — Exact match
     match = corpus_df[corpus_df[src_col].str.lower() == text.lower()]
     if not match.empty:
         translated = match.iloc[0][tgt_col]
-        model_used = "verified_corpus"
+        model_used = "verified_corpus_exact"
     else:
-        # 2. Fall back to NLLB neural translation
-        translated = nllb_translate(text, src=src_lang, tgt=tgt_lang)
-        model_used = "nllb_model"
+        # Layer 2 — Semantic similarity
+        semantic_result, similarity = semantic_lookup(
+            text, lang=lookup_lang, threshold=0.88
+        )
+        if semantic_result:
+            translated = semantic_result
+            model_used = f"verified_corpus_semantic ({similarity:.2f})"
+        else:
+            # Layer 3 — NLLB-200 neural translation
+            translated = nllb_translate(text, src=src_lang, tgt=tgt_lang)
+            model_used = "nllb_model"
 
     conn = get_db()
     conn.execute(
         """INSERT INTO history
-           (username, input_text, direction, direction_label, translated_text, model, created_at)
+           (username, input_text, direction, direction_label,
+            translated_text, model, created_at)
            VALUES (?, ?, ?, ?, ?, ?, ?)""",
         (username, text, direction, label, translated, model_used,
          datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
@@ -217,12 +300,15 @@ def translate_text():
     conn.commit()
     conn.close()
 
+    safety_check = check_safety(text, translated)
+
     return jsonify({
-        "input_text":     text,
-        "direction":      direction,
+        "input_text":      text,
+        "direction":       direction,
         "direction_label": label,
         "translated_text": translated,
-        "model":          model_used
+        "model":           model_used,
+        "safety":          safety_check,
     })
 
 
@@ -232,7 +318,8 @@ def get_history():
     conn     = get_db()
     if username:
         rows = conn.execute(
-            "SELECT * FROM history WHERE username = ? ORDER BY id DESC", (username,)
+            "SELECT * FROM history WHERE username = ? ORDER BY id DESC",
+            (username,)
         ).fetchall()
     else:
         rows = conn.execute(
@@ -251,8 +338,6 @@ def submit_feedback():
     rating   = data.get("rating", "5")
     comment  = data.get("comment", "").strip()
 
-    # FIX 2: Validate rating is a number in range 1–10 before inserting.
-    # Previously any value was accepted with no validation.
     try:
         rating_int = int(rating)
         if not (1 <= rating_int <= 10):
@@ -263,7 +348,8 @@ def submit_feedback():
     conn = get_db()
     conn.execute(
         "INSERT INTO feedback (username, rating, comment, created_at) VALUES (?, ?, ?, ?)",
-        (username, str(rating_int), comment, datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+        (username, str(rating_int), comment,
+         datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
     )
     conn.commit()
     conn.close()
@@ -273,9 +359,69 @@ def submit_feedback():
 @app.route("/api/feedback", methods=["GET"])
 def get_feedback():
     conn = get_db()
-    rows = conn.execute("SELECT * FROM feedback ORDER BY id DESC").fetchall()
+    rows = conn.execute(
+        "SELECT * FROM feedback ORDER BY id DESC"
+    ).fetchall()
     conn.close()
     return jsonify([dict(r) for r in rows])
+
+
+#  SUS Usability routes 
+
+@app.route("/api/sus", methods=["POST"])
+def submit_sus():
+    data      = request.get_json() or {}
+    username  = data.get("username", "anonymous")
+    responses = data.get("responses", {})
+    sus_score = data.get("sus_score", 0)
+    comment   = data.get("comment", "").strip()
+
+    try:
+        sus_score = float(sus_score)
+        if not (0 <= sus_score <= 100):
+            raise ValueError
+    except (ValueError, TypeError):
+        return jsonify({"error": "Invalid SUS score. Must be between 0 and 100."}), 400
+
+    conn = get_db()
+    conn.execute(
+        """INSERT INTO usability_feedback
+           (username, q1, q2, q3, q4, q5, q6, q7, q8, q9, q10,
+            sus_score, comment, created_at)
+           VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+        (
+            username,
+            responses.get("1"), responses.get("2"), responses.get("3"),
+            responses.get("4"), responses.get("5"), responses.get("6"),
+            responses.get("7"), responses.get("8"), responses.get("9"),
+            responses.get("10"),
+            sus_score, comment,
+            datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        )
+    )
+    conn.commit()
+    conn.close()
+    return jsonify({"message": "SUS response recorded.", "sus_score": sus_score})
+
+
+@app.route("/api/sus", methods=["GET"])
+def get_sus_results():
+    conn    = get_db()
+    rows    = conn.execute(
+        "SELECT * FROM usability_feedback ORDER BY id DESC"
+    ).fetchall()
+    conn.close()
+
+    results   = [dict(r) for r in rows]
+    avg_score = (
+        round(sum(r["sus_score"] for r in results) / len(results), 1)
+        if results else 0
+    )
+    return jsonify({
+        "average_sus": avg_score,
+        "count":       len(results),
+        "results":     results,
+    })
 
 
 #  Corpus routes 
@@ -290,20 +436,23 @@ def get_stats():
     df    = load_corpus()
     total = len(df)
     if total == 0:
-        return jsonify({"total": 0, "translated": 0, "missing": 0, "status_counts": {}})
+        return jsonify({
+            "total": 0, "translated": 0,
+            "missing": 0, "status_counts": {}
+        })
     translated    = len(df[df["sesotho_text"].astype(str).str.strip() != ""])
     status_counts = df["reviewer_status"].astype(str).value_counts().to_dict()
     return jsonify({
         "total":         total,
         "translated":    translated,
         "missing":       total - translated,
-        "status_counts": status_counts
+        "status_counts": status_counts,
     })
 
 
 @app.route("/api/corpus/<int:sentence_id>", methods=["PUT"])
 def update_sentence(sentence_id):
-    global corpus_df  # FIX 3: Declare global so the in-memory cache stays in sync after edits.
+    global corpus_df
 
     df = load_corpus()
     if df.empty:
@@ -326,7 +475,8 @@ def update_sentence(sentence_id):
         df.at[idx, "reviewer_status"] = data["reviewer_status"]
 
     save_corpus(df)
-    corpus_df = df  # FIX 3: Keep in-memory cache in sync so translate hits updated data.
+    corpus_df = df
+    build_faiss_index()
     return jsonify({"message": "Updated successfully", "sentence_id": sentence_id})
 
 

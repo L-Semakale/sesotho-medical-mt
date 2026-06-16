@@ -1,0 +1,4 @@
+Criterion,Mean,Std Dev,Min,Max,N Ratings
+Adequacy,4.9,0.3,4,5,10
+Fluency,4.9,0.3,4,5,10
+Medical Accuracy,1.0,0.0,1,1,5

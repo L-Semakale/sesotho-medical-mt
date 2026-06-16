@@ -7,6 +7,8 @@ sacrebleu
 pandas
 matplotlib
 seaborn
+sentence-transformers
+faiss-cpu
 # NLLB model files — too large for GitHub, downloaded via HuggingFace
 models/
 *.bin
