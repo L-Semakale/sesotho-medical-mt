@@ -131,11 +131,11 @@ System usability was assessed using the **System Usability Scale (SUS)** — a v
 
 | **Participant** | **SUS Score** | **Grade** |
 |---|---:|---|
-| Temana | 85.0 | Excellent |
-| Rapelang | 82.5 | Good |
-| Mak'hong | 70.0 | Okay |
-| Tapile | 65.0 | Poor |
-| Mpho | 60.0 | Poor |
+| Participant 1 | 85.0 | Excellent |
+| Participant 2 | 82.5 | Good |
+| Participant 3 | 70.0 | Okay |
+| Participant 4 | 65.0 | Poor |
+| Participant 5 | 60.0 | Poor |
 | *(Participant 6)* | *(see data)* | — |
 
 | **Metric** | **Value** |
