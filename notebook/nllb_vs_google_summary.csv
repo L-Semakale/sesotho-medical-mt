@@ -1,0 +1,3 @@
+Model,BLEU,chrF++,TER,Reference n
+NLLB-200,24.96,47.72,64.32,50
+Google Translate,28.11,48.64,57.53,50
