@@ -4,3 +4,15 @@ backend/models/
 *.safetensors
 *.ot
 venv/
+
+
+# Databases
+*.db
+
+# Pycache
+__pycache__/
+*.pyc
+
+# Batch working files
+backend/data/translation_batches/
+backend/data/dataset/
