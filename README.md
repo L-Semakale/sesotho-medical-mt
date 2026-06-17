@@ -245,26 +245,43 @@ npm start
 ## Project Structure
 
 ```
+## Project Structure
+
+```
 sesotho-medical-mt/
 ├── backend/
-│   ├── app.py                  # Flask API server
-│   ├── safety.py               # Medical safety filter
-│   ├── download_model.py       # NLLB-200 model downloader
-│   ├── data/
-│   │   ├── system.db           # SQLite database
-│   │   ├── medical_corpus.csv  # 5,000 English–Sesotho pairs
-│   │   ├── evaluation_results.txt
-│   │   └── evaluation_examples.csv
+│   ├── app.py                      # Flask API server
+│   ├── database.py                 # Database logic
+│   ├── nllb_translator.py          # NLLB-200 translation engine
+│   ├── translator.py               # Translation routing logic
+│   ├── safety.py                   # Medical safety filter
+│   ├── usability.py                # SUS data collection
+│   ├── download_model.py           # NLLB-200 model downloader
+│   ├── reset_admin.py              # Admin utility
+│   ├── translate_eval.py           # Evaluation runner
+│   ├── sus_analysis.py             # SUS scoring and visualisation
+│   ├── sus_responses.csv           # Raw SUS responses
+│   ├── sus_summary.csv             # SUS summary statistics
+│   ├── figure8_sus_scores.png      # SUS bar chart
+│   ├── requirements.txt            # Python dependencies
+│   └── data/
+│       ├── medical_corpus.csv      # 5,000 English–Sesotho pairs
+│       ├── evaluate_nllb.py        # NLLB evaluation script
+│       ├── evaluation_results.txt  # BLEU, chrF++, TER scores
+│       ├── evaluation_examples.csv # Side-by-side translation examples
+│       ├── terminology_glossary.csv
+│       ├── test_set.csv
+│       ├── train_set.csv
+│       ├── validation_set.csv
+│       └── README.md
 ├── frontend/
-│   └── src/                    # React.js application
+│   └── src/                        # React.js application
 ├── notebook/
 │   └── 01_data_eval_model.ipynb
 ├── docs/
 │   └── screenshots/
-├── figure8_sus_scores.png      # SUS visualisation
 └── README.md
 ```
-
 ---
 
 ## Limitations
