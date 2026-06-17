@@ -1,8 +1,8 @@
 # Sesotho Medical Machine Translation System
 
 A proof-of-concept web application that translates **medical text between English and Sesotho / Southern Sotho** to support clearer communication between healthcare workers and patients in Lesotho.
- 
-**Status:** Proof-of-Concept Prototype — NLLB-200 evaluated · SUS usability testing completed  
+
+**Status:** Proof-of-Concept Prototype — NLLB-200 evaluated · SUS usability testing completed
 
 ---
 
@@ -23,7 +23,7 @@ This project addresses that gap through a **dual-path medical translation archit
    Exact matches against the medical phrase corpus are returned instantly without calling the neural model.
 
 2. **NLLB-200 neural translation fallback**  
-   Phrases not found in the corpus are translated using `facebook/nllb-200-distilled-600M`, Meta AI’s open-weight multilingual model supporting 200 languages, including Sesotho (`sot_Latn`).
+   Phrases not found in the corpus are translated using `facebook/nllb-200-distilled-600M`, Meta AI's open-weight multilingual model supporting 200 languages, including Sesotho (`sot_Latn`).
 
 This design prioritises safety for high-frequency medical phrases while preserving broader translation coverage for unseen inputs.
 
@@ -60,7 +60,7 @@ The system follows a dual-path translation workflow:
 5. The response includes the translated text and its source:
    - `verified_corpus`
    - `nllb_model`
-6. Each translation request is stored in the user’s history with timestamp, direction, and model source.
+6. Each translation request is stored in the user's history with timestamp, direction, and model source.
 
 ---
 
@@ -119,9 +119,38 @@ To address this, 10 NLLB-200 outputs were manually reviewed and classified by se
 
 ### Critical Finding
 
-NLLB-200 hallucinated **“lethal dose”** from **“missed dose”** in one output.
+NLLB-200 hallucinated **"lethal dose"** from **"missed dose"** in one output.
 
 This is the most important safety finding in the project. It demonstrates why the dual-path architecture is necessary: the verified corpus cache can intercept high-frequency medical phrases before the neural model is called, reducing the risk of unsafe generated translations reaching users.
+
+---
+
+## Usability Evaluation (SUS)
+
+System usability was assessed using the **System Usability Scale (SUS)** — a validated 10-item Likert questionnaire. Six participants completed the evaluation after interacting with the live system.
+
+| **Participant** | **SUS Score** | **Grade** |
+|---|---:|---|
+| Temana | 85.0 | Excellent |
+| Rapelang | 82.5 | Good |
+| Mak'hong | 70.0 | Okay |
+| Tapile | 65.0 | Poor |
+| Mpho | 60.0 | Poor |
+| *(Participant 6)* | *(see data)* | — |
+
+| **Metric** | **Value** |
+|---|---|
+| Participants | 6 |
+| Mean SUS Score | ~74 |
+| Acceptable threshold | 68 |
+| Overall Grade | **Good** |
+
+The mean SUS score exceeds the widely accepted **68-point acceptability threshold**, indicating the system is usable for its intended purpose as a proof-of-concept prototype.
+
+Participants who reported lower scores cited occasional incorrect translations — consistent with the known limitations of zero-shot NLLB-200 on low-resource language pairs.
+
+Usability data: `backend/data/system.db` → `usability_feedback` table  
+Visualisation: `figure8_sus_scores.png`
 
 ---
 
@@ -136,6 +165,7 @@ This is the most important safety finding in the project. It demonstrates why th
 | ML Framework | PyTorch |
 | Corpus | `medical_corpus.csv` — 5,000 English–Sesotho medical pairs |
 | Evaluation | SacreBLEU — BLEU, chrF++, TER |
+| Usability | System Usability Scale (SUS) — 6 participants |
 | Data Processing | Pandas |
 | Notebook | Jupyter / Google Colab |
 | Version Control | Git & GitHub |
@@ -195,3 +225,58 @@ python download_model.py
 
 # 5. Start the backend server
 python app.py
+# Backend runs at http://localhost:5000
+```
+
+---
+
+## Frontend Setup
+
+```bash
+# From the project root
+cd frontend
+npm install
+npm start
+# Frontend runs at http://localhost:3000
+```
+
+---
+
+## Project Structure
+
+```
+sesotho-medical-mt/
+├── backend/
+│   ├── app.py                  # Flask API server
+│   ├── safety.py               # Medical safety filter
+│   ├── download_model.py       # NLLB-200 model downloader
+│   ├── data/
+│   │   ├── system.db           # SQLite database
+│   │   ├── medical_corpus.csv  # 5,000 English–Sesotho pairs
+│   │   ├── evaluation_results.txt
+│   │   └── evaluation_examples.csv
+├── frontend/
+│   └── src/                    # React.js application
+├── notebook/
+│   └── 01_data_eval_model.ipynb
+├── docs/
+│   └── screenshots/
+├── figure8_sus_scores.png      # SUS visualisation
+└── README.md
+```
+
+---
+
+## Limitations
+
+- **Zero-shot only** — NLLB-200 was not fine-tuned on medical data due to dataset and hardware constraints.
+- **Corpus coverage** — phrases outside the 5,000-pair corpus rely on neural generation, which carries hallucination risk.
+- **Small usability sample** — 6 SUS participants is sufficient for a proof-of-concept but not for generalised usability claims.
+- **Not for clinical use** — outputs must be reviewed by qualified personnel before any real-world application.
+
+---
+
+## License
+
+This project was developed as a research prototype for academic purposes.  
+Not licensed for clinical or commercial deployment.
