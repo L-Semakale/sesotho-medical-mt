@@ -16,3 +16,5 @@ __pycache__/
 # Batch working files
 backend/data/translation_batches/
 backend/data/dataset/
+
+backend/data/translation_batches/
