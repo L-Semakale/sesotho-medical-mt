@@ -39,7 +39,15 @@ function UserDashboard({ username }) {
         {activeTab === "translate" && <Translator username={username} />}
         {activeTab === "history"   && <History    username={username} />}
         {activeTab === "sus"       && <SUSForm    username={username} />}
-        {activeTab === "feedback"  && <Feedback   username={username} />}
+        {activeTab === "feedback"  && (
+          <Feedback
+            username={username}
+            showAverage={false}
+            showDistribution={false}
+            showResponses={false}
+       />
+    )}
+
       </div>
     </section>
   );

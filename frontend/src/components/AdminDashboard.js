@@ -46,7 +46,7 @@ function AdminDashboard() {
       <div style={styles.panel}>
         {activeTab === "corpus"     && <CorpusDashboard />}
         {activeTab === "evaluation" && <EvaluationPanel />}
-        {activeTab === "feedback"   && <FeedbackViewer  />}
+        {activeTab === "feedback"   && <FeedbackViewer showForm={false} />}
       </div>
 
     </section>
