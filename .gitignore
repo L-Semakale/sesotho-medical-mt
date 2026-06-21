@@ -1,42 +1,49 @@
 #  Node 
-node_modules/
+frontend/node_modules/
+frontend/build/
+frontend/dist/
 npm-debug.log*
-yarn-debug.log*
 yarn-error.log*
 
-#  Build output 
-build/
-dist/
-
-# ── Environment variables ─────────────────────────
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-#  Python 
+#  Python / Virtual Env 
 venv/
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 .Python
+*.egg-info/
 
-#  Large data files 
-../backend/data/full_corpus.csv
-../backend/data/corpus.csv
-../backend/data/synthetic_pairs.csv
-../backend/data/related_language_data.csv
-../backend/data/english_medical_sentences.txt
-../backend/data/opus_cache/
+#  Large Data Files 
+backend/data/full_corpus.csv
+backend/data/corpus.csv
+backend/data/synthetic_pairs.csv
+backend/data/related_language_data.csv
+backend/data/english_medical_sentences.txt
+backend/data/opus_cache/
+backend/data/dataset/
+backend/data/translation_batches/
 
-#  ML model files 
-../backend/models/
+#  Databases 
+backend/data/system.db
+backend/translations.db
+*.db
+*.sqlite3
+
+#  ML Models (large binary files) 
+backend/models/
 *.bin
 *.pt
 *.safetensors
+*.ckpt
+*.onnx
 
-#  OS clutter 
+#  Environment Variables 
+.env
+.env.local
+.env.*.local
+
+#  OS Clutter 
 .DS_Store
 Thumbs.db
+desktop.ini

@@ -1,22 +1,64 @@
 // frontend/src/components/SUSForm.js
-import { useState } from "react";
 
-const API = "http://127.0.0.1:5000";
+import { useState } from "react";
+import { API, getAuthHeaders } from "../config";
+import Alert from "./ui/Alert";
 
 const SUS_QUESTIONS = [
-  { id: 1,  text: "I think that I would like to use this system frequently.",          positive: true  },
-  { id: 2,  text: "I found the system unnecessarily complex.",                         positive: false },
-  { id: 3,  text: "I thought the system was easy to use.",                             positive: true  },
-  { id: 4,  text: "I think that I would need the support of a technical person to use this system.", positive: false },
-  { id: 5,  text: "I found the various functions in this system were well integrated.", positive: true  },
-  { id: 6,  text: "I thought there was too much inconsistency in this system.",        positive: false },
-  { id: 7,  text: "I would imagine that most people would learn to use this system very quickly.", positive: true },
-  { id: 8,  text: "I found the system very cumbersome to use.",                        positive: false },
-  { id: 9,  text: "I felt very confident using the system.",                           positive: true  },
-  { id: 10, text: "I needed to learn a lot of things before I could get going with this system.", positive: false },
+  {
+    id: 1,
+    text: "I think that I would like to use this system frequently.",
+    positive: true,
+  },
+  {
+    id: 2,
+    text: "I found the system unnecessarily complex.",
+    positive: false,
+  },
+  {
+    id: 3,
+    text: "I thought the system was easy to use.",
+    positive: true,
+  },
+  {
+    id: 4,
+    text: "I think that I would need the support of a technical person to use this system.",
+    positive: false,
+  },
+  {
+    id: 5,
+    text: "I found the various functions in this system were well integrated.",
+    positive: true,
+  },
+  {
+    id: 6,
+    text: "I thought there was too much inconsistency in this system.",
+    positive: false,
+  },
+  {
+    id: 7,
+    text: "I would imagine that most people would learn to use this system very quickly.",
+    positive: true,
+  },
+  {
+    id: 8,
+    text: "I found the system very cumbersome to use.",
+    positive: false,
+  },
+  {
+    id: 9,
+    text: "I felt very confident using the system.",
+    positive: true,
+  },
+  {
+    id: 10,
+    text: "I needed to learn a lot of things before I could get going with this system.",
+    positive: false,
+  },
 ];
 
 const SCALE = [1, 2, 3, 4, 5];
+
 const SCALE_LABELS = {
   1: "Strongly Disagree",
   3: "Neutral",
@@ -24,55 +66,82 @@ const SCALE_LABELS = {
 };
 
 function SUSForm({ username }) {
-  const [responses, setResponses]   = useState({});
-  const [comment,   setComment]     = useState("");
-  const [submitted, setSubmitted]   = useState(false);
-  const [susScore,  setSusScore]    = useState(null);
-  const [busy,      setBusy]        = useState(false);
-  const [error,     setError]       = useState("");
+  const [responses, setResponses] = useState({});
+  const [comment, setComment] = useState("");
+  const [submitted, setSubmitted] = useState(false);
+  const [susScore, setSusScore] = useState(null);
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState("");
 
   const allAnswered = SUS_QUESTIONS.every(q => responses[q.id] !== undefined);
 
   function handleSelect(questionId, value) {
-    setResponses(prev => ({ ...prev, [questionId]: value }));
+    setResponses(prev => ({
+      ...prev,
+      [questionId]: Number(value),
+    }));
   }
 
   function calculateSUS() {
     let total = 0;
+
     SUS_QUESTIONS.forEach(q => {
-      const r = responses[q.id];
+      const r = Number(responses[q.id]);
+
       if (q.positive) {
-        total += (r - 1);
+        total += r - 1;
       } else {
-        total += (5 - r);
+        total += 5 - r;
       }
     });
-    return parseFloat((total * 2.5).toFixed(1));
+
+    return Number((total * 2.5).toFixed(1));
   }
 
   async function handleSubmit(e) {
     e.preventDefault();
-    if (!allAnswered) return;
+
+    if (!allAnswered) {
+      setError("Please answer all 10 questions before submitting.");
+      return;
+    }
 
     const score = calculateSUS();
+
     setSusScore(score);
     setBusy(true);
     setError("");
 
     try {
-      await fetch(`${API}/api/sus`, {
-        method:  "POST",
-        headers: { "Content-Type": "application/json" },
+      const res = await fetch(`${API}/api/sus`, {
+        method: "POST",
+        headers: getAuthHeaders(),
         body: JSON.stringify({
-          username,
+          username: username || "anonymous",
           responses,
           sus_score: score,
-          comment,
+          comment: comment.trim(),
         }),
       });
+
+      let data = {};
+
+      try {
+        data = await res.json();
+      } catch {
+        data = {};
+      }
+
+      if (!res.ok) {
+        throw new Error(data.error || "Could not submit SUS evaluation.");
+      }
+
       setSubmitted(true);
-    } catch {
-      setError("Could not submit. Your score has been calculated below.");
+    } catch (err) {
+      setError(
+        err.message ||
+          "Could not submit. Your score has still been calculated below."
+      );
       setSubmitted(true);
     } finally {
       setBusy(false);
@@ -81,37 +150,63 @@ function SUSForm({ username }) {
 
   if (submitted) {
     const grade =
-      susScore >= 85 ? { label: "Excellent",    color: "#15803d", bg: "#dcfce7" } :
-      susScore >= 72 ? { label: "Good",          color: "#1d4ed8", bg: "#dbeafe" } :
-      susScore >= 65 ? { label: "Acceptable ✅", color: "#0d9488", bg: "#ccfbf1" } :
-      susScore >= 51 ? { label: "Marginal",      color: "#a16207", bg: "#fef9c3" } :
-                       { label: "Poor",          color: "#dc2626", bg: "#fee2e2" };
+      susScore >= 85
+        ? { label: "Excellent", color: "#15803d", bg: "#dcfce7" }
+        : susScore >= 72
+          ? { label: "Good", color: "#1d4ed8", bg: "#dbeafe" }
+          : susScore >= 65
+            ? { label: "Acceptable ✅", color: "#0d9488", bg: "#ccfbf1" }
+            : susScore >= 51
+              ? { label: "Marginal", color: "#a16207", bg: "#fef9c3" }
+              : { label: "Poor", color: "#dc2626", bg: "#fee2e2" };
 
     return (
       <div className="card" style={{ textAlign: "center" }}>
         <h2>✅ Thank You!</h2>
+
         <p className="muted">Your usability feedback has been recorded.</p>
 
-        <div style={{
-          background: grade.bg,
-          borderRadius: 16,
-          padding: "32px 24px",
-          margin: "24px auto",
-          maxWidth: 320,
-        }}>
+        {error && <Alert type="warning">{error}</Alert>}
+
+        <div
+          style={{
+            background: grade.bg,
+            borderRadius: 16,
+            padding: "32px 24px",
+            margin: "24px auto",
+            maxWidth: 320,
+          }}
+        >
           <div style={{ fontSize: 56, fontWeight: 800, color: grade.color }}>
             {susScore}
           </div>
-          <div style={{ fontSize: 14, color: grade.color, fontWeight: 700, marginTop: 4 }}>
+
+          <div
+            style={{
+              fontSize: 14,
+              color: grade.color,
+              fontWeight: 700,
+              marginTop: 4,
+            }}
+          >
             / 100 — {grade.label}
           </div>
+
           <div style={{ fontSize: 12, color: "#64748b", marginTop: 8 }}>
             SUS target for this prototype: ≥ 65 / 100
           </div>
         </div>
 
-        <p style={{ fontSize: 13, color: "#64748b", maxWidth: 420, margin: "0 auto" }}>
-          This score is for research purposes only. The System Usability Scale (Brooke, 1996)
+        <p
+          style={{
+            fontSize: 13,
+            color: "#64748b",
+            maxWidth: 420,
+            margin: "0 auto",
+            lineHeight: 1.6,
+          }}
+        >
+          This score is for research purposes only. The System Usability Scale
           measures perceived usability on a scale of 0–100.
         </p>
       </div>
@@ -121,31 +216,25 @@ function SUSForm({ username }) {
   return (
     <div className="card">
       <h2>📋 System Usability Scale (SUS)</h2>
+
       <p className="muted" style={{ marginTop: 0, marginBottom: 6 }}>
-        Please rate your experience with this prototype after using the translator.
-        There are no right or wrong answers.
+        Please rate your experience with this prototype after using the
+        translator. There are no right or wrong answers.
       </p>
-      <div style={{
-        background: "#eff6ff",
-        border: "1px solid #bfdbfe",
-        borderRadius: 8,
-        padding: "10px 14px",
-        marginBottom: 24,
-        fontSize: 13,
-        color: "#1e40af",
-      }}>
+
+      <Alert type="info" style={{ marginBottom: 24 }}>
         ℹ️ This is a <strong>proof-of-concept research prototype</strong>.
-        Your anonymous feedback helps evaluate its usability.
-        Based on Brooke (1996) — System Usability Scale.
-      </div>
+        Your feedback helps evaluate its usability. Based on Brooke
+        (1996) — System Usability Scale.
+      </Alert>
 
       <form onSubmit={handleSubmit}>
         {SUS_QUESTIONS.map((q, idx) => (
-          <div key={q.id} style={styles.questionBlock}>
-            <p style={styles.questionText}>
+          <fieldset key={q.id} style={styles.questionBlock}>
+            <legend style={styles.questionText}>
               <span style={styles.qNumber}>{idx + 1}</span>
               {q.text}
-            </p>
+            </legend>
 
             <div style={styles.scaleRow}>
               <span style={styles.scaleLabel}>Strongly Disagree</span>
@@ -159,17 +248,24 @@ function SUSForm({ username }) {
                       value={val}
                       checked={responses[q.id] === val}
                       onChange={() => handleSelect(q.id, val)}
-                      style={{ display: "none" }}
+                      style={styles.visuallyHidden}
                     />
-                    <div style={{
-                      ...styles.radioCircle,
-                      background:   responses[q.id] === val ? "#1e3a8a" : "#f1f5f9",
-                      color:        responses[q.id] === val ? "#fff"    : "#475569",
-                      borderColor:  responses[q.id] === val ? "#1e3a8a" : "#cbd5e1",
-                      transform:    responses[q.id] === val ? "scale(1.15)" : "scale(1)",
-                    }}>
+
+                    <span
+                      style={{
+                        ...styles.radioCircle,
+                        background:
+                          responses[q.id] === val ? "#1e3a8a" : "#f1f5f9",
+                        color: responses[q.id] === val ? "#fff" : "#475569",
+                        borderColor:
+                          responses[q.id] === val ? "#1e3a8a" : "#cbd5e1",
+                        transform:
+                          responses[q.id] === val ? "scale(1.12)" : "scale(1)",
+                      }}
+                    >
                       {val}
-                    </div>
+                    </span>
+
                     {SCALE_LABELS[val] && (
                       <span style={styles.scaleTick}>{SCALE_LABELS[val]}</span>
                     )}
@@ -179,29 +275,31 @@ function SUSForm({ username }) {
 
               <span style={styles.scaleLabel}>Strongly Agree</span>
             </div>
-          </div>
+          </fieldset>
         ))}
 
         <div className="form-group" style={{ marginTop: 24 }}>
-          <label>Additional Comments (optional)</label>
+          <label htmlFor="sus-comment">Additional Comments (optional)</label>
+
           <textarea
+            id="sus-comment"
             value={comment}
             onChange={e => setComment(e.target.value)}
             placeholder="Any comments about the interface, translation quality, or ease of use..."
             rows={3}
-            style={{
-              width: "100%",
-              padding: "10px 12px",
-              borderRadius: 8,
-              border: "1px solid #e2e8f0",
-              fontSize: 14,
-              resize: "vertical",
-              fontFamily: "inherit",
-            }}
+            style={styles.textarea}
           />
         </div>
 
-        <div style={{ display: "flex", alignItems: "center", gap: 14, marginTop: 16 }}>
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: 14,
+            marginTop: 16,
+            flexWrap: "wrap",
+          }}
+        >
           <button
             type="submit"
             className="btn btn-primary"
@@ -222,7 +320,9 @@ function SUSForm({ username }) {
         )}
 
         {error && (
-          <p style={{ fontSize: 13, color: "#dc2626", marginTop: 8 }}>{error}</p>
+          <Alert type="error" style={{ marginTop: 10 }}>
+            {error}
+          </Alert>
         )}
       </form>
     </div>
@@ -231,9 +331,10 @@ function SUSForm({ username }) {
 
 const styles = {
   questionBlock: {
+    border: "none",
     borderBottom: "1px solid #f1f5f9",
-    paddingBottom: 20,
-    marginBottom: 20,
+    padding: "0 0 20px",
+    margin: "0 0 20px",
   },
   questionText: {
     margin: "0 0 12px",
@@ -243,6 +344,7 @@ const styles = {
     display: "flex",
     alignItems: "flex-start",
     gap: 10,
+    fontWeight: 500,
   },
   qNumber: {
     background: "#1e3a8a",
@@ -262,6 +364,7 @@ const styles = {
     display: "flex",
     alignItems: "center",
     gap: 12,
+    flexWrap: "wrap",
   },
   scaleLabel: {
     fontSize: 11,
@@ -274,6 +377,7 @@ const styles = {
     gap: 10,
     flex: 1,
     justifyContent: "center",
+    minWidth: 240,
   },
   radioLabel: {
     cursor: "pointer",
@@ -281,6 +385,13 @@ const styles = {
     flexDirection: "column",
     alignItems: "center",
     gap: 4,
+  },
+  visuallyHidden: {
+    position: "absolute",
+    opacity: 0,
+    width: 1,
+    height: 1,
+    overflow: "hidden",
   },
   radioCircle: {
     width: 38,
@@ -301,6 +412,16 @@ const styles = {
     textAlign: "center",
     maxWidth: 50,
     lineHeight: 1.2,
+  },
+  textarea: {
+    width: "100%",
+    padding: "10px 12px",
+    borderRadius: 8,
+    border: "1px solid #e2e8f0",
+    fontSize: 14,
+    resize: "vertical",
+    fontFamily: "inherit",
+    boxSizing: "border-box",
   },
 };
 

@@ -1,32 +1,78 @@
-import { useState } from "react";
+// frontend/src/components/Login.js
 
-const API = "http://127.0.0.1:5000";
+import { useState } from "react";
+import { API } from "../config";
 
 function Login({ onLogin }) {
-  const [mode,     setMode]     = useState("signin");
+  const [mode, setMode] = useState("signin");
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-  const [confirm,  setConfirm]  = useState("");
-  const [error,    setError]    = useState("");
-  const [busy,     setBusy]     = useState(false);
+  const [confirm, setConfirm] = useState("");
+  const [error, setError] = useState("");
+  const [busy, setBusy] = useState(false);
 
-  function switchMode(m) {
-    setMode(m);
+  function switchMode(nextMode) {
+    setMode(nextMode);
     setError("");
     setPassword("");
     setConfirm("");
+  }
+
+  function saveSession(data) {
+    if (data?.token) {
+      localStorage.setItem("token", data.token);
+    }
+
+    if (data?.username) {
+      localStorage.setItem("username", data.username);
+    }
+
+    if (data?.role) {
+      localStorage.setItem("role", data.role);
+    }
+
+    onLogin(data);
+  }
+
+  async function loginUser(cleanUsername, userPassword) {
+    const res = await fetch(`${API}/api/login`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        username: cleanUsername,
+        password: userPassword,
+      }),
+    });
+
+    const data = await res.json();
+
+    if (!res.ok) {
+      throw new Error(data.error || "Invalid username or password.");
+    }
+
+    return data;
   }
 
   async function handleSubmit(e) {
     e.preventDefault();
     setError("");
 
+    const cleanUsername = username.trim().toLowerCase();
+
+    if (!cleanUsername) {
+      setError("Please enter your username.");
+      return;
+    }
+
     if (mode === "signup") {
       if (password !== confirm) {
-        return setError("Passwords do not match.");
+        setError("Passwords do not match.");
+        return;
       }
+
       if (password.length < 6) {
-        return setError("Password must be at least 6 characters.");
+        setError("Password must be at least 6 characters.");
+        return;
       }
     }
 
@@ -34,52 +80,29 @@ function Login({ onLogin }) {
 
     try {
       if (mode === "signup") {
-        // Step 1: Register the account
         const registerRes = await fetch(`${API}/api/register`, {
-          method:  "POST",
+          method: "POST",
           headers: { "Content-Type": "application/json" },
-          body:    JSON.stringify({
-            username: username.trim().toLowerCase(),
+          body: JSON.stringify({
+            username: cleanUsername,
             password,
           }),
         });
 
         const registerData = await registerRes.json();
-        if (!registerRes.ok) throw new Error(registerData.error || "Registration failed.");
 
-        // Step 2: Immediately log them in
-        const loginRes = await fetch(`${API}/api/login`, {
-          method:  "POST",
-          headers: { "Content-Type": "application/json" },
-          body:    JSON.stringify({
-            username: username.trim().toLowerCase(),
-            password,
-          }),
-        });
+        if (!registerRes.ok) {
+          throw new Error(registerData.error || "Registration failed.");
+        }
 
-        const loginData = await loginRes.json();
-        if (!loginRes.ok) throw new Error(loginData.error || "Auto-login failed.");
-
-        onLogin(loginData); // { username, role }
-
+        const loginData = await loginUser(cleanUsername, password);
+        saveSession(loginData);
       } else {
-        // Normal sign in
-        const res  = await fetch(`${API}/api/login`, {
-          method:  "POST",
-          headers: { "Content-Type": "application/json" },
-          body:    JSON.stringify({
-            username: username.trim().toLowerCase(),
-            password,
-          }),
-        });
-
-        const data = await res.json();
-        if (!res.ok) throw new Error(data.error || "Invalid username or password.");
-
-        onLogin(data); // { username, role }
+        const loginData = await loginUser(cleanUsername, password);
+        saveSession(loginData);
       }
     } catch (err) {
-      setError(err.message);
+      setError(err.message || "Could not connect to the server.");
     } finally {
       setBusy(false);
     }
@@ -91,19 +114,23 @@ function Login({ onLogin }) {
         <h1>🏥 Medical MT</h1>
         <p className="sub">Sesotho–English Translation Prototype</p>
 
-        {/* Sign In / Sign Up toggle */}
-        <div className="login-toggle">
+        <div className="login-toggle" role="tablist" aria-label="Login mode">
           <button
             type="button"
             className={mode === "signin" ? "active" : ""}
             onClick={() => switchMode("signin")}
+            role="tab"
+            aria-selected={mode === "signin"}
           >
             Sign In
           </button>
+
           <button
             type="button"
             className={mode === "signup" ? "active" : ""}
             onClick={() => switchMode("signup")}
+            role="tab"
+            aria-selected={mode === "signup"}
           >
             Sign Up
           </button>
@@ -113,35 +140,41 @@ function Login({ onLogin }) {
 
         <form onSubmit={handleSubmit}>
           <div className="form-group">
-            <label>Username</label>
+            <label htmlFor="username">Username</label>
             <input
+              id="username"
               type="text"
               value={username}
               onChange={e => setUsername(e.target.value)}
               placeholder="Enter your username"
+              autoComplete="username"
               required
             />
           </div>
 
           <div className="form-group">
-            <label>Password</label>
+            <label htmlFor="password">Password</label>
             <input
+              id="password"
               type="password"
               value={password}
               onChange={e => setPassword(e.target.value)}
               placeholder="Enter your password"
+              autoComplete={mode === "signup" ? "new-password" : "current-password"}
               required
             />
           </div>
 
           {mode === "signup" && (
             <div className="form-group">
-              <label>Confirm Password</label>
+              <label htmlFor="confirm-password">Confirm Password</label>
               <input
+                id="confirm-password"
                 type="password"
                 value={confirm}
                 onChange={e => setConfirm(e.target.value)}
                 placeholder="Re-enter your password"
+                autoComplete="new-password"
                 required
               />
             </div>
@@ -154,8 +187,9 @@ function Login({ onLogin }) {
           >
             {busy
               ? "Please wait…"
-              : mode === "signup" ? "Create Account" : "Sign In"
-            }
+              : mode === "signup"
+                ? "Create Account"
+                : "Sign In"}
           </button>
         </form>
       </div>
