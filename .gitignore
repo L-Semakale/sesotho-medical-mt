@@ -1,20 +1,42 @@
-# NLLB model files � too large for GitHub
-backend/models/
-*.bin
-*.safetensors
-*.ot
+#  Node 
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+#  Build output 
+build/
+dist/
+
+# ── Environment variables ─────────────────────────
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+#  Python 
 venv/
-
-
-# Databases
-*.db
-
-# Pycache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.Python
 
-# Batch working files
-backend/data/translation_batches/
-backend/data/dataset/
+#  Large data files 
+../backend/data/full_corpus.csv
+../backend/data/corpus.csv
+../backend/data/synthetic_pairs.csv
+../backend/data/related_language_data.csv
+../backend/data/english_medical_sentences.txt
+../backend/data/opus_cache/
 
-backend/data/translation_batches/
+#  ML model files 
+../backend/models/
+*.bin
+*.pt
+*.safetensors
+
+#  OS clutter 
+.DS_Store
+Thumbs.db
