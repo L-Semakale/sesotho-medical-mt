@@ -249,6 +249,8 @@ def login():
 
 @app.route("/api/translate", methods=["POST"])
 def translate_text():
+    global corpus_df
+
     data      = request.get_json() or {}
     text      = data.get("text", "").strip()
     direction = data.get("direction", "en-st")
@@ -258,15 +260,15 @@ def translate_text():
         return jsonify({"error": "Text is required"}), 400
 
     if direction == "en-st":
-        label                    = "English → Sesotho"
-        src_col, tgt_col         = "english_text", "sesotho_text"
-        src_lang, tgt_lang       = "english", "sesotho"
-        lookup_lang              = "en"
+        label              = "English → Sesotho"
+        src_col, tgt_col   = "english_text", "sesotho_text"
+        src_lang, tgt_lang = "english", "sesotho"
+        lookup_lang        = "en"
     elif direction == "st-en":
-        label                    = "Sesotho → English"
-        src_col, tgt_col         = "sesotho_text", "english_text"
-        src_lang, tgt_lang       = "sesotho", "english"
-        lookup_lang              = "st"
+        label              = "Sesotho → English"
+        src_col, tgt_col   = "sesotho_text", "english_text"
+        src_lang, tgt_lang = "sesotho", "english"
+        lookup_lang        = "st"
     else:
         return jsonify({"error": "Invalid direction"}), 400
 
@@ -275,6 +277,7 @@ def translate_text():
     if not match.empty:
         translated = match.iloc[0][tgt_col]
         model_used = "verified_corpus_exact"
+
     else:
         # Layer 2 — Semantic similarity
         semantic_result, similarity = semantic_lookup(
@@ -283,11 +286,29 @@ def translate_text():
         if semantic_result:
             translated = semantic_result
             model_used = f"verified_corpus_semantic ({similarity:.2f})"
+
         else:
             # Layer 3 — NLLB-200 neural translation
             translated = nllb_translate(text, src=src_lang, tgt=tgt_lang)
             model_used = "nllb_model"
 
+            #  Promote corpus row: raw → translated 
+            df = load_corpus()
+            if not df.empty:
+                df["sentence_id"] = df["sentence_id"].astype(int)
+                mask = (
+                    df[src_col].str.lower() == text.lower()
+                ) & (
+                    df["reviewer_status"] == "raw"
+                )
+                if mask.any():
+                    df.loc[mask, "sesotho_text"]    = translated
+                    df.loc[mask, "reviewer_status"] = "translated"
+                    save_corpus(df)
+                    corpus_df = df
+                    build_faiss_index()
+
+    #  Log to history 
     conn = get_db()
     conn.execute(
         """INSERT INTO history

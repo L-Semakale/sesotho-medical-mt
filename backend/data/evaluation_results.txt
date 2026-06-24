@@ -1,7 +1,10 @@
-NLLB-200 Sesotho-English Medical Translation Evaluation
-Direction: English -> Sesotho
-Test set size: 100 sentence pairs
+NLLB-200 Sesotho Medical Translation — Evaluation Results
+Direction  : English → Sesotho
+Test set   : 100 sentence pairs
 
-BLEU   : 27.01
-chrF++ : 49.15
-TER    : 60.67
+Model                                 BLEU   chrF++     TER
+------------------------------------------------------------
+NLLB-200 Base (zero-shot)            27.01    49.15   60.67
+NLLB-200 Fine-tuned (3 epochs)       50.41    65.89   36.78
+------------------------------------------------------------
+Improvement                         +23.40   +16.74  +23.89
