@@ -2,15 +2,17 @@ import { useState } from "react";
 import CorpusDashboard from "./CorpusDashboard";
 import EvaluationPanel from "./EvaluationPanel";
 import FeedbackViewer  from "./FeedbackViewer";
+import Translator      from "./Translator";   // ← correct import
 
 const TABS = [
-  { id: "corpus",     label: "📂 Corpus Manager"    },
-  { id: "evaluation", label: "📊 Evaluation Metrics" },
-  { id: "feedback",   label: "💬 User Feedback"      },
+  { id: "translate",  label: "🌐 Translate"          },
+  { id: "corpus",     label: "📂 Corpus Manager"      },
+  { id: "evaluation", label: "📊 Evaluation Metrics"  },
+  { id: "feedback",   label: "💬 User Feedback"       },
 ];
 
-function AdminDashboard() {
-  const [activeTab, setActiveTab] = useState("corpus");
+function AdminDashboard({ username }) {   // ← accept username prop
+  const [activeTab, setActiveTab] = useState("translate");
 
   return (
     <section>
@@ -20,7 +22,7 @@ function AdminDashboard() {
         <div>
           <h2 style={styles.bannerTitle}>🔒 Admin Dashboard</h2>
           <p style={styles.bannerSub}>
-            Corpus management · Model evaluation · User feedback review.
+            Translation · Corpus management · Model evaluation · User feedback review.
             Restricted to the system administrator.
           </p>
         </div>
@@ -44,6 +46,7 @@ function AdminDashboard() {
 
       {/* Tab Panels */}
       <div style={styles.panel}>
+        {activeTab === "translate"  && <Translator username={username} />}  {/* ← pass username */}
         {activeTab === "corpus"     && <CorpusDashboard />}
         {activeTab === "evaluation" && <EvaluationPanel />}
         {activeTab === "feedback"   && <FeedbackViewer showForm={false} />}
@@ -79,6 +82,7 @@ const styles = {
     padding:      "6px",
     marginBottom: "22px",
     boxShadow:    "0 2px 8px rgba(0,0,0,0.06)",
+    flexWrap:     "wrap",      // ← mobile friendly
   },
   tabBtn: {
     flex:         1,
@@ -91,6 +95,7 @@ const styles = {
     color:        "#64748b",
     cursor:       "pointer",
     transition:   "all 0.2s",
+    minWidth:     "120px",     // ← prevents squishing
   },
   tabBtnActive: {
     background: "#1e3a8a",

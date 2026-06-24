@@ -1,27 +1,52 @@
 import re
 
 HIGH_RISK_TERMS = {
-    # Dosage
-    "dose", "dosage", "overdose", "underdose", "mg", "ml",
-    "milligram", "millilitre", "tablet", "capsule",
-    # Conditions
-    "allergy", "allergic", "anaphylaxis",
-    "insulin", "diabetes", "diabetic",
-    "pregnancy", "pregnant", "trimester",
-    "hiv", "aids", "arv", "antiretroviral",
-    "tuberculosis", "tb", "isoniazid", "rifampicin",
-    # Actions
-    "inject", "injection", "infusion", "transfusion",
-    "stop", "discontinue", "avoid", "contraindicated",
-    "emergency", "urgent", "immediately",
+    #  Overdose / toxic quantities 
+    "overdose",
+    "toxic dose",
+    "maximum dose exceeded",
+    "lethal dose",
+
+    #  Life-threatening conditions / events 
+    "anaphylaxis",
+    "anaphylactic shock",
+    "cardiac arrest",
+    "respiratory arrest",
+    "stop breathing",
+    "life-threatening",
+    "do not resuscitate",
+    "dnr",
+
+    #  Dangerous instructions 
+    "contraindicated",
+    "do not administer",
+    "do not inject",
+    "do not take",
+    "discontinue immediately",
+    "stop immediately",
+    "avoid completely",
+
+    #  High-risk drug interactions / warnings 
+    "fatal",
+    "lethal",
+    "poison",
+    "poisoning",
+    "toxicity",
+    "toxic",
+    "antidote",
+
+    #  Emergency escalation 
+    "call emergency",
+    "call ambulance",
+    "go to emergency",
 }
 
 
 def check_safety(text: str, translated: str) -> dict:
     """
     Returns a safety assessment for a translation.
-    Uses word-boundary matching to avoid false positives
-    (e.g. 'tb' inside 'tablet', 'stop' inside 'stomach').
+    Uses word-boundary matching to avoid false positives.
+    Only flags genuinely dangerous clinical terms.
     """
     text_lower     = text.lower()
     detected_terms = [
@@ -34,7 +59,7 @@ def check_safety(text: str, translated: str) -> dict:
         "is_high_risk":    is_high_risk,
         "detected_terms":  detected_terms,
         "warning": (
-            " This phrase contains high-risk medical terminology. "
+            "This phrase contains high-risk medical terminology. "
             "Please verify this translation with a qualified bilingual "
             "healthcare professional before clinical use."
         ) if is_high_risk else None,
