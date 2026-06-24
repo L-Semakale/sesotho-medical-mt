@@ -1,15 +1,13 @@
-// frontend/src/components/Login.js
-
 import { useState } from "react";
 import { API } from "../config";
 
 function Login({ onLogin }) {
-  const [mode, setMode] = useState("signin");
+  const [mode, setMode]         = useState("signin");
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-  const [confirm, setConfirm] = useState("");
-  const [error, setError] = useState("");
-  const [busy, setBusy] = useState(false);
+  const [confirm, setConfirm]   = useState("");
+  const [error, setError]       = useState("");
+  const [busy, setBusy]         = useState(false);
 
   function switchMode(nextMode) {
     setMode(nextMode);
@@ -19,82 +17,45 @@ function Login({ onLogin }) {
   }
 
   function saveSession(data) {
-    if (data?.token) {
-      localStorage.setItem("token", data.token);
-    }
-
-    if (data?.username) {
-      localStorage.setItem("username", data.username);
-    }
-
-    if (data?.role) {
-      localStorage.setItem("role", data.role);
-    }
-
+    if (data?.token)    localStorage.setItem("token",    data.token);
+    if (data?.username) localStorage.setItem("username", data.username);
+    if (data?.role)     localStorage.setItem("role",     data.role);
     onLogin(data);
   }
 
   async function loginUser(cleanUsername, userPassword) {
-    const res = await fetch(`${API}/api/login`, {
-      method: "POST",
+    const res  = await fetch(`${API}/api/login`, {
+      method:  "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        username: cleanUsername,
-        password: userPassword,
-      }),
+      body:    JSON.stringify({ username: cleanUsername, password: userPassword }),
     });
-
     const data = await res.json();
-
-    if (!res.ok) {
-      throw new Error(data.error || "Invalid username or password.");
-    }
-
+    if (!res.ok) throw new Error(data.error || "Invalid username or password.");
     return data;
   }
 
   async function handleSubmit(e) {
     e.preventDefault();
     setError("");
-
     const cleanUsername = username.trim().toLowerCase();
 
-    if (!cleanUsername) {
-      setError("Please enter your username.");
-      return;
-    }
+    if (!cleanUsername) { setError("Please enter your username."); return; }
 
     if (mode === "signup") {
-      if (password !== confirm) {
-        setError("Passwords do not match.");
-        return;
-      }
-
-      if (password.length < 6) {
-        setError("Password must be at least 6 characters.");
-        return;
-      }
+      if (password !== confirm)  { setError("Passwords do not match."); return; }
+      if (password.length < 6)   { setError("Password must be at least 6 characters."); return; }
     }
 
     setBusy(true);
-
     try {
       if (mode === "signup") {
-        const registerRes = await fetch(`${API}/api/register`, {
-          method: "POST",
+        const regRes  = await fetch(`${API}/api/register`, {
+          method:  "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            username: cleanUsername,
-            password,
-          }),
+          body:    JSON.stringify({ username: cleanUsername, password }),
         });
-
-        const registerData = await registerRes.json();
-
-        if (!registerRes.ok) {
-          throw new Error(registerData.error || "Registration failed.");
-        }
-
+        const regData = await regRes.json();
+        if (!regRes.ok) throw new Error(regData.error || "Registration failed.");
         const loginData = await loginUser(cleanUsername, password);
         saveSession(loginData);
       } else {
@@ -109,38 +70,40 @@ function Login({ onLogin }) {
   }
 
   return (
-    <div className="login-page">
-      <div className="login-box">
-        <h1>🏥 Medical MT</h1>
-        <p className="sub">Sesotho–English Translation Prototype</p>
+    <div style={styles.page}>
+      <div style={styles.box}>
 
-        <div className="login-toggle" role="tablist" aria-label="Login mode">
-          <button
-            type="button"
-            className={mode === "signin" ? "active" : ""}
-            onClick={() => switchMode("signin")}
-            role="tab"
-            aria-selected={mode === "signin"}
-          >
-            Sign In
-          </button>
-
-          <button
-            type="button"
-            className={mode === "signup" ? "active" : ""}
-            onClick={() => switchMode("signup")}
-            role="tab"
-            aria-selected={mode === "signup"}
-          >
-            Sign Up
-          </button>
+        <div style={styles.logoArea}>
+          <div style={styles.logoIcon}>MT</div>
+          <div>
+            <h1 style={styles.title}>Medical Translator</h1>
+            <p style={styles.subtitle}>Sesotho – English · Clinical Prototype</p>
+          </div>
         </div>
 
-        {error && <p className="error-msg">{error}</p>}
+        <div style={styles.toggle} role="tablist" aria-label="Login mode">
+          {["signin", "signup"].map(m => (
+            <button
+              key={m}
+              type="button"
+              role="tab"
+              aria-selected={mode === m}
+              onClick={() => switchMode(m)}
+              style={{
+                ...styles.toggleBtn,
+                ...(mode === m ? styles.toggleBtnActive : {}),
+              }}
+            >
+              {m === "signin" ? "Sign In" : "Sign Up"}
+            </button>
+          ))}
+        </div>
 
-        <form onSubmit={handleSubmit}>
-          <div className="form-group">
-            <label htmlFor="username">Username</label>
+        {error && <p style={styles.errorMsg}>{error}</p>}
+
+        <form onSubmit={handleSubmit} style={styles.form}>
+          <div style={styles.formGroup}>
+            <label style={styles.label} htmlFor="username">Username</label>
             <input
               id="username"
               type="text"
@@ -149,11 +112,12 @@ function Login({ onLogin }) {
               placeholder="Enter your username"
               autoComplete="username"
               required
+              style={styles.input}
             />
           </div>
 
-          <div className="form-group">
-            <label htmlFor="password">Password</label>
+          <div style={styles.formGroup}>
+            <label style={styles.label} htmlFor="password">Password</label>
             <input
               id="password"
               type="password"
@@ -162,12 +126,15 @@ function Login({ onLogin }) {
               placeholder="Enter your password"
               autoComplete={mode === "signup" ? "new-password" : "current-password"}
               required
+              style={styles.input}
             />
           </div>
 
           {mode === "signup" && (
-            <div className="form-group">
-              <label htmlFor="confirm-password">Confirm Password</label>
+            <div style={styles.formGroup}>
+              <label style={styles.label} htmlFor="confirm-password">
+                Confirm Password
+              </label>
               <input
                 id="confirm-password"
                 type="password"
@@ -176,14 +143,15 @@ function Login({ onLogin }) {
                 placeholder="Re-enter your password"
                 autoComplete="new-password"
                 required
+                style={styles.input}
               />
             </div>
           )}
 
           <button
             type="submit"
-            className="btn btn-primary btn-block"
             disabled={busy}
+            style={{ ...styles.submitBtn, opacity: busy ? 0.7 : 1 }}
           >
             {busy
               ? "Please wait…"
@@ -196,5 +164,127 @@ function Login({ onLogin }) {
     </div>
   );
 }
+
+const styles = {
+  page: {
+    minHeight:      "100vh",
+    display:        "flex",
+    alignItems:     "center",
+    justifyContent: "center",
+    background:     "#f1f5f9",
+    padding:        "24px 16px",
+  },
+  box: {
+    background:   "#fff",
+    border:       "1px solid #e2e8f0",
+    borderRadius: "8px",
+    padding:      "36px 32px",
+    width:        "100%",
+    maxWidth:     "400px",
+    boxShadow:    "0 1px 4px rgba(0,0,0,0.06)",
+  },
+  logoArea: {
+    display:      "flex",
+    alignItems:   "center",
+    gap:          14,
+    marginBottom: 28,
+  },
+  logoIcon: {
+    width:          44,
+    height:         44,
+    background:     "#1e3a8a",
+    color:          "#fff",
+    borderRadius:   6,
+    display:        "flex",
+    alignItems:     "center",
+    justifyContent: "center",
+    fontWeight:     800,
+    fontSize:       14,
+    letterSpacing:  "0.05em",
+    flexShrink:     0,
+  },
+  title: {
+    margin:     0,
+    fontSize:   17,
+    fontWeight: 700,
+    color:      "#0f172a",
+  },
+  subtitle: {
+    margin:   "2px 0 0",
+    fontSize: 12,
+    color:    "#94a3b8",
+  },
+  toggle: {
+    display:      "flex",
+    border:       "1px solid #e2e8f0",
+    borderRadius: 6,
+    overflow:     "hidden",
+    marginBottom: 22,
+  },
+  toggleBtn: {
+    flex:       1,
+    border:     "none",
+    background: "#f8fafc",
+    padding:    "10px",
+    fontSize:   13,
+    fontWeight: 500,
+    color:      "#64748b",
+    cursor:     "pointer",
+  },
+  toggleBtnActive: {
+    background: "#1e3a8a",
+    color:      "#fff",
+    fontWeight: 700,
+  },
+  errorMsg: {
+    background:   "#fef2f2",
+    border:       "1px solid #fecaca",
+    borderRadius: 5,
+    color:        "#b91c1c",
+    fontSize:     13,
+    padding:      "10px 12px",
+    marginBottom: 16,
+  },
+  form: {
+    display:       "flex",
+    flexDirection: "column",
+    gap:           14,
+  },
+  formGroup: {
+    display:       "flex",
+    flexDirection: "column",
+    gap:           6,
+  },
+  label: {
+    fontSize:      12,
+    fontWeight:    600,
+    color:         "#475569",
+    textTransform: "uppercase",
+    letterSpacing: "0.04em",
+  },
+  input: {
+    padding:      "10px 12px",
+    border:       "1px solid #cbd5e1",
+    borderRadius: 6,
+    fontSize:     14,
+    color:        "#0f172a",
+    background:   "#fff",
+    outline:      "none",
+    width:        "100%",
+    boxSizing:    "border-box",
+  },
+  submitBtn: {
+    marginTop:    4,
+    padding:      "11px",
+    background:   "#1e3a8a",
+    color:        "#fff",
+    border:       "none",
+    borderRadius: 6,
+    fontSize:     14,
+    fontWeight:   700,
+    cursor:       "pointer",
+    width:        "100%",
+  },
+};
 
 export default Login;
