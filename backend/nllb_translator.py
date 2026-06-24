@@ -2,9 +2,6 @@ from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 import torch
 import os
 
-# If you've downloaded the model locally (recommended), set this path.
-# Run download_model.py once first, then Flask will never need internet access.
-# If the local path doesn't exist, falls back to downloading from HuggingFace.
 LOCAL_MODEL_PATH = "./models/nllb-600M"
 REMOTE_MODEL_NAME = "facebook/nllb-200-distilled-600M"
 
@@ -15,17 +12,16 @@ LANG_CODES = {
     "sesotho": "sot_Latn",
 }
 
-# Lazy-loaded globals — model is NOT loaded at import time.
-# It loads on the first call to nllb_translate(), so Flask starts instantly.
+DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+
 _tokenizer = None
 _model = None
 
 
 def _load_model():
-    """Load model and tokenizer into memory (only runs once)."""
     global _tokenizer, _model
     if _model is not None:
-        return  # Already loaded
+        return
 
     print(f"Loading NLLB-200 model from: {MODEL_PATH}")
     if MODEL_PATH == REMOTE_MODEL_NAME:
@@ -34,27 +30,17 @@ def _load_model():
     _tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
     _model = AutoModelForSeq2SeqLM.from_pretrained(MODEL_PATH)
     _model.eval()
-    print("NLLB-200 loaded and ready.")
+    _model.to(DEVICE)  
+    print(f"NLLB-200 loaded and ready on {DEVICE}.")
 
 
 def nllb_translate(text: str, src: str = "english", tgt: str = "sesotho") -> str:
-    """
-    Translate text using the NLLB-200 neural model.
-
-    Args:
-        text: Input text to translate.
-        src:  Source language key — 'english' or 'sesotho'.
-        tgt:  Target language key — 'english' or 'sesotho'.
-
-    Returns:
-        Translated string.
-    """
     if src not in LANG_CODES:
         raise ValueError(f"Unsupported source language: '{src}'. Choose from {list(LANG_CODES)}")
     if tgt not in LANG_CODES:
         raise ValueError(f"Unsupported target language: '{tgt}'. Choose from {list(LANG_CODES)}")
     if src == tgt:
-        return text  # No-op
+        return text
 
     _load_model()
 
@@ -63,13 +49,14 @@ def nllb_translate(text: str, src: str = "english", tgt: str = "sesotho") -> str
 
     _tokenizer.src_lang = src_code
     inputs = _tokenizer(text, return_tensors="pt", truncation=True, max_length=512)
+    inputs = {k: v.to(DEVICE) for k, v in inputs.items()}  # ✅ Fix 2 — move inputs to GPU
 
     with torch.no_grad():
         generated = _model.generate(
             **inputs,
             forced_bos_token_id=_tokenizer.convert_tokens_to_ids(tgt_code),
             max_length=128,
-            num_beams=4,          # beam search for better quality
+            num_beams=4,
             early_stopping=True,
         )
 
