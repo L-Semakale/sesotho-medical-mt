@@ -15,7 +15,17 @@ from safety import check_safety
 
 
 app = Flask(__name__)
-CORS(app)
+
+CORS(app,
+     origins=[
+         "https://sesotho-medical-mt.vercel.app",
+         "https://sesotho-medical-2tym4ugnj-limpho.vercel.app",
+         "http://localhost:3000"
+     ],
+     methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+     allow_headers=["Content-Type", "Authorization"],
+     supports_credentials=True
+)
 
 HERE     = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(HERE, "data")
@@ -292,7 +302,7 @@ def translate_text():
             translated = nllb_translate(text, src=src_lang, tgt=tgt_lang)
             model_used = "nllb_model"
 
-            #  Promote corpus row: raw → translated 
+            # Promote corpus row: raw → translated
             df = load_corpus()
             if not df.empty:
                 df["sentence_id"] = df["sentence_id"].astype(int)
@@ -308,7 +318,7 @@ def translate_text():
                     corpus_df = df
                     build_faiss_index()
 
-    #  Log to history 
+    # Log to history
     conn = get_db()
     conn.execute(
         """INSERT INTO history
