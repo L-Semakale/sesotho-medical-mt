@@ -1,8 +1,9 @@
+```markdown
 # Sesotho Medical Machine Translation System
 
 A proof-of-concept web application that translates **medical text between English and Sesotho / Southern Sotho** to support clearer communication between healthcare workers and patients in Lesotho.
 
-**Status:** Proof-of-Concept Prototype — NLLB-200 evaluated · SUS usability testing completed
+**Status:** Proof-of-Concept Prototype — NLLB-200 fine-tuned · SUS usability testing completed
 
 ---
 
@@ -17,13 +18,16 @@ A proof-of-concept web application that translates **medical text between Englis
 
 Many patients in Sesotho-speaking regions receive medical instructions in English, which can create barriers to understanding treatment, medication use, follow-up care, and disease prevention.
 
-This project addresses that gap through a **dual-path medical translation architecture**:
+This project addresses that gap through a **three-layer medical translation pipeline**:
 
-1. **Verified corpus cache**  
-   Exact matches against the medical phrase corpus are returned instantly without calling the neural model.
+1. **Exact corpus match**  
+   The input phrase is checked against a verified 5,000-pair medical corpus. Exact matches are returned instantly without calling the neural model.
 
-2. **NLLB-200 neural translation fallback**  
-   Phrases not found in the corpus are translated using `facebook/nllb-200-distilled-600M`, Meta AI's open-weight multilingual model supporting 200 languages, including Sesotho (`sot_Latn`).
+2. **Semantic similarity search**  
+   If no exact match is found, FAISS and SentenceTransformers search for the closest corpus entry. If the similarity score meets the 0.88 threshold, the verified corpus translation is returned.
+
+3. **NLLB-200 neural translation fallback**  
+   Phrases not resolved by the corpus are translated using a fine-tuned `facebook/nllb-200-distilled-600M` model — Meta AI's open-weight multilingual model supporting 200 languages, including Sesotho (`sot_Latn`).
 
 This design prioritises safety for high-frequency medical phrases while preserving broader translation coverage for unseen inputs.
 
@@ -51,24 +55,43 @@ The corpus contains English–Sesotho medical sentence pairs across key healthca
 
 ## How Translation Works
 
-The system follows a dual-path translation workflow:
+The system follows a three-layer translation pipeline:
 
 1. The user signs in and submits a medical phrase in English or Sesotho.
-2. The backend checks the **verified corpus cache** for an exact match.
-3. If the phrase is found, the system returns the stored corpus translation.
-4. If no match is found, **NLLB-200** performs live neural translation.
+2. **Layer 1 — Exact Match:** The backend checks `medical_corpus.csv` for an exact string match.
+3. **Layer 2 — Semantic Similarity:** If no exact match is found, FAISS + SentenceTransformers (`paraphrase-multilingual-MiniLM-L12-v2`) searches for the closest corpus entry. Matches above the 0.88 similarity threshold are returned as verified corpus translations.
+4. **Layer 3 — Neural Translation:** If no corpus match is found at either layer, the fine-tuned NLLB-200 model performs live translation.
 5. The response includes the translated text and its source:
-   - `verified_corpus`
-   - `nllb_model`
+   - `verified_corpus` — returned by Layer 1 or Layer 2
+   - `nllb_model` — returned by Layer 3
 6. Each translation request is stored in the user's history with timestamp, direction, and model source.
+
+---
+
+## Model
+
+### Base Model
+
+`facebook/nllb-200-distilled-600M` — Meta AI's multilingual translation model supporting 200 languages. Sesotho is supported natively as `sot_Latn`.
+
+### Fine-Tuning
+
+The base NLLB-200 model was fine-tuned on the project's 5,000-pair English–Sesotho medical corpus to improve domain-specific translation quality.
+
+| **Fine-Tuning Detail** | **Value** |
+|---|---|
+| Base model | `facebook/nllb-200-distilled-600M` |
+| Training pairs | 5,000 English–Sesotho medical sentence pairs |
+| Domain | Medical — HIV/AIDS, TB, medication, maternal health |
+| Output | `models/nllb-finetuned-sesotho/` |
+
+The fine-tuned model weights are loaded automatically on startup. If the fine-tuned model is unavailable, the system falls back to the base `nllb-600M` model.
 
 ---
 
 ## Model Evaluation
 
-NLLB-200 was evaluated in **zero-shot mode** on a 100-pair held-out medical test set using SacreBLEU.
-
-No model weights were fine-tuned. Instead, the project uses a domain-aware translation strategy based on verified corpus lookup and NLLB-200 fallback generation.
+The fine-tuned NLLB-200 model was evaluated on a 100-pair held-out medical test set using SacreBLEU.
 
 | **Metric** | **Score** | **Interpretation** |
 |---|---:|---|
@@ -80,28 +103,9 @@ No model weights were fine-tuned. Instead, the project uses a domain-aware trans
 
 Evaluation files:
 
-- Full results: `backend/data/evaluation_results.txt`
-- Side-by-side examples: `backend/data/evaluation_examples.csv`
+- Full results: `research_archive/data/evaluation_results.txt`
+- Side-by-side examples: `research_archive/data/evaluation_examples.csv`
 - Evaluation notebook: `notebook/01_data_eval_model.ipynb`
-
----
-
-## Why No Fine-Tuning?
-
-NLLB-200 was not fine-tuned because the available dataset and hardware resources were not sufficient for stable model adaptation.
-
-| **Reason** | **Detail** |
-|---|---|
-| Dataset size | 5,000 pairs is below the 50,000+ usually needed for stable fine-tuning |
-| Hardware | Approximately 16GB VRAM would be required, exceeding available resources |
-| Risk | Fine-tuning on insufficient data can cause catastrophic forgetting |
-
-Instead, the project uses two lightweight domain adaptation strategies:
-
-- **Retrieval-based phrase cache** — verified corpus pairs are returned without calling the model.
-- **Domain-specific evaluation** — the model is benchmarked specifically on medical text.
-
-This approach is consistent with Saunders (2022) on lightweight domain adaptation in neural machine translation.
 
 ---
 
@@ -121,7 +125,7 @@ To address this, 10 NLLB-200 outputs were manually reviewed and classified by se
 
 NLLB-200 hallucinated **"lethal dose"** from **"missed dose"** in one output.
 
-This is the most important safety finding in the project. It demonstrates why the dual-path architecture is necessary: the verified corpus cache can intercept high-frequency medical phrases before the neural model is called, reducing the risk of unsafe generated translations reaching users.
+This is the most important safety finding in the project. It demonstrates why the three-layer architecture is necessary: Layers 1 and 2 intercept high-frequency medical phrases before the neural model is called, reducing the risk of unsafe generated translations reaching users. A high-risk term safety filter is also active on all Layer 3 outputs.
 
 ---
 
@@ -147,10 +151,9 @@ System usability was assessed using the **System Usability Scale (SUS)** — a v
 
 The mean SUS score exceeds the widely accepted **68-point acceptability threshold**, indicating the system is usable for its intended purpose as a proof-of-concept prototype.
 
-Participants who reported lower scores cited occasional incorrect translations — consistent with the known limitations of zero-shot NLLB-200 on low-resource language pairs.
+Participants who reported lower scores cited occasional incorrect translations — consistent with the known limitations of neural MT on low-resource language pairs.
 
-Usability data: `backend/data/system.db` → `usability_feedback` table  
-Visualisation: `figure8_sus_scores.png`
+Usability data: `backend/data/system.db` → `usability_feedback` table
 
 ---
 
@@ -161,7 +164,8 @@ Visualisation: `figure8_sus_scores.png`
 | Frontend | React.js |
 | Backend | Python 3.10+, Flask |
 | Database | SQLite (`system.db`) |
-| Translation Engine | NLLB-200 `facebook/nllb-200-distilled-600M` via HuggingFace Transformers |
+| Translation Engine | NLLB-200 `facebook/nllb-200-distilled-600M` — fine-tuned, via HuggingFace Transformers |
+| Semantic Search | FAISS + SentenceTransformers (`paraphrase-multilingual-MiniLM-L12-v2`) |
 | ML Framework | PyTorch |
 | Corpus | `medical_corpus.csv` — 5,000 English–Sesotho medical pairs |
 | Evaluation | SacreBLEU — BLEU, chrF++, TER |
@@ -216,16 +220,13 @@ venv\Scripts\activate        # Windows PowerShell
 source venv/bin/activate     # macOS / Linux
 
 # 3. Install Python dependencies
-pip install -r requirements.txt
+pip install -r backend/requirements.txt
 
-# 4. Download the NLLB-200 model
-# Run once only — downloads approximately 2.5 GB
+# 4. Start the backend server
 cd backend
-python download_model.py
-
-# 5. Start the backend server
 python app.py
 # Backend runs at http://localhost:5000
+# The fine-tuned NLLB model loads automatically from models/nllb-finetuned-sesotho/
 ```
 
 ---
@@ -240,48 +241,93 @@ npm start
 # Frontend runs at http://localhost:3000
 ```
 
+---
+
+## Default Admin Account
+
+| **Field** | **Value** |
+|---|---|
+| Username | `admin` |
+| Password | `Admin@MT2025` |
+
+> Change this password before any public or shared deployment.
+
+---
+
 ## Project Structure
 
 ```
 sesotho-medical-mt/
 ├── backend/
 │   ├── app.py                      # Flask API server
-│   ├── database.py                 # Database logic
+│   ├── database.py                 # Database schema & queries
 │   ├── nllb_translator.py          # NLLB-200 translation engine
-│   ├── translator.py               # Translation routing logic
 │   ├── safety.py                   # Medical safety filter
 │   ├── usability.py                # SUS data collection
-│   ├── download_model.py           # NLLB-200 model downloader
-│   ├── reset_admin.py              # Admin utility
-│   ├── translate_eval.py           # Evaluation runner
-│   ├── sus_analysis.py             # SUS scoring and visualisation
-│   ├── sus_responses.csv           # Raw SUS responses
-│   ├── sus_summary.csv             # SUS summary statistics
-│   ├── figure8_sus_scores.png      # SUS bar chart
 │   ├── requirements.txt            # Python dependencies
 │   └── data/
 │       ├── medical_corpus.csv      # 5,000 English–Sesotho pairs
-│       ├── evaluate_nllb.py        # NLLB evaluation script
-│       ├── evaluation_results.txt  # BLEU, chrF++, TER scores
-│       ├── evaluation_examples.csv # Side-by-side translation examples
-│       ├── terminology_glossary.csv
-│       ├── test_set.csv
-│       ├── train_set.csv
-│       ├── validation_set.csv
-│       └── README.md
+│       └── system.db               # SQLite database
+├── models/
+│   ├── nllb-600M/                  # Base NLLB-200 model weights
+│   └── nllb-finetuned-sesotho/     # Fine-tuned model weights (loaded by default)
 ├── frontend/
 │   └── src/                        # React.js application
 ├── notebook/
-│   └── 01_data_eval_model.ipynb
+│   └── 01_data_eval_model.ipynb    # Data preparation & evaluation notebook
 ├── docs/
-│   └── screenshots/
+│   └── screenshots/                # UI screenshots
+├── research_archive/               # Training data, evaluation scripts & results
 └── README.md
 ```
 
+---
+
+## API Reference
+
+### `POST /api/translate`
+
+Translates a medical phrase using the three-layer pipeline.
+
+**Request body:**
+```json
+{
+  "text": "Take this medication twice a day",
+  "direction": "en-st",
+  "username": "admin"
+}
+```
+
+**Response:**
+```json
+{
+  "input_text": "Take this medication twice a day",
+  "translated_text": "noa meriana ena habeli ka letsatsi",
+  "direction": "en-st",
+  "direction_label": "English → Sesotho",
+  "model": "nllb_model",
+  "safety": {
+    "is_high_risk": false,
+    "detected_terms": [],
+    "requires_review": false,
+    "warning": null
+  }
+}
+```
+
+| **Field** | **Values** |
+|---|---|
+| `direction` | `"en-st"` (English → Sesotho) or `"st-en"` (Sesotho → English) |
+| `model` | `"verified_corpus"` or `"nllb_model"` |
+| `safety.is_high_risk` | `true` if high-risk medical terms detected |
+
+---
+
 ## Limitations
 
-- **Zero-shot only** — NLLB-200 was not fine-tuned on medical data due to dataset and hardware constraints.
+- **Small fine-tuning dataset** — 5,000 pairs is below the 50,000+ typically needed for stable fine-tuning. The fine-tuned model may not generalise well to all medical sub-domains.
 - **Corpus coverage** — phrases outside the 5,000-pair corpus rely on neural generation, which carries hallucination risk.
+- **CPU inference** — the system runs on CPU by default. Layer 3 (NLLB) translations may take 3–8 seconds per sentence.
 - **Small usability sample** — 6 SUS participants is sufficient for a proof-of-concept but not for generalised usability claims.
 - **Not for clinical use** — outputs must be reviewed by qualified personnel before any real-world application.
 
@@ -291,3 +337,4 @@ sesotho-medical-mt/
 
 This project was developed as a research prototype for academic purposes.  
 Not licensed for clinical or commercial deployment.
+```
