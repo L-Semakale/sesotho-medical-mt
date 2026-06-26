@@ -1,31 +1,39 @@
 # Sesotho Medical MT
 
-**Medical text translation between English and Sesotho — built for healthcare workers and patients in Lesotho.**
+Medical text translation between English and Sesotho, built for healthcare workers and patients in Lesotho.
 
 >  **Medical Disclaimer:** This is a research prototype. Do not use for clinical diagnosis, treatment decisions, or emergency care. All outputs must be reviewed by qualified bilingual or medical personnel before real-world use.
 
 ---
 
-## 🔗 Links
+##  Links
 
 | | |
 |---|---|
+| **Live App** | https://sesotho-medical-mt.vercel.app |
 | **GitHub Repository** | https://github.com/L-Semakale/sesotho-medical-mt |
-| **Video Demo** | https://youtu.be/IUWbhWTxlg0 |
+| **Backend API** | https://limpho-sesotho-medical-backend.hf.space |
+| **Model on Hugging Face** | https://huggingface.co/Limpho/nllb-finetuned-sesotho |
+
+---
+
+##  Video Demo
+
+[![Video Demo](https://img.youtube.com/vi/IUWbhWTxlg0/0.jpg)](https://youtu.be/IUWbhWTxlg0)
 
 ---
 
 ##  App Interfaces
 
 ### Translator — User View
-Medical disclaimer visible on load. Users can translate, view history, submit feedback, and complete usability testing.
+Translate medical text between English and Sesotho. Medical disclaimer shown on load. Users can view translation history, submit feedback, and complete usability testing.
 
 ![Translator Interface](docs/screenshots/01_translator.png)
 
 ---
 
 ### Admin Dashboard — Evaluation Metrics
-Live BLEU, chrF++, and TER scores from the held-out medical test set. Accessible to admin accounts only.
+Live BLEU, chrF++, and TER scores computed from the held-out medical test set. Accessible to admin accounts only.
 
 ![Admin Dashboard](docs/screenshots/02_evaluation.png)
 
@@ -34,16 +42,14 @@ Live BLEU, chrF++, and TER scores from the held-out medical test set. Accessible
 ##  Designs
 
 ### Figma Mockups
-> Add your Figma link here:  
-> [View Figma Mockups](https://figma.com/your-link-here)
+[View Figma Mockups](https://figma.com/your-link-here)
 
 ### UI Screenshots
-All interface screenshots are in `docs/screenshots/`.
 
 | Screen | File |
 |---|---|
-| Translator (User) | `docs/screenshots/01_translator.png` |
-| Evaluation Dashboard (Admin) | `docs/screenshots/02_evaluation.png` |
+| Translator — User View | `docs/screenshots/01_translator.png` |
+| Evaluation Dashboard — Admin | `docs/screenshots/02_evaluation.png` |
 
 ---
 
@@ -53,21 +59,26 @@ All interface screenshots are in `docs/screenshots/`.
 
 | Tool | Version |
 |---|---|
-| Python | 3.10 or higher |
+| Python | 3.9 or higher |
 | Node.js | 18 or higher |
 | pip | Latest |
 | Git | Latest |
 
 ---
 
-### Backend Setup
+### 1. Clone the Repository
 
 ```bash
-# 1. Clone the repository
 git clone https://github.com/L-Semakale/sesotho-medical-mt.git
 cd sesotho-medical-mt
+```
 
-# 2. Create and activate virtual environment
+---
+
+### 2. Backend Setup
+
+```bash
+# Create and activate virtual environment
 python -m venv venv
 
 # Windows PowerShell
@@ -76,40 +87,46 @@ venv\Scripts\activate
 # macOS / Linux
 source venv/bin/activate
 
-# 3. Install Python dependencies
+# Install dependencies
 pip install -r backend/requirements.txt
 
-# 4. Start the backend server
+# Start the backend
 cd backend
 python app.py
 ```
 
-Backend runs at **http://localhost:5000**
+Backend runs at `http://localhost:5000`
 
-The fine-tuned NLLB model loads automatically from `models/nllb-finetuned-sesotho/` on startup. Expected startup output:
+Expected startup output:
 
 ```
-  FAISS index built — 5,000 rows
-  Translation pipeline ready:
+FAISS index built — 5,000 rows
+Translation pipeline ready:
   Layer 1 → Exact corpus match
   Layer 2 → Semantic similarity (FAISS + Sentence Transformers)
   Layer 3 → NLLB-200 neural translation
   Safety  → High-risk term detection active
- * Running on http://127.0.0.1:5000
+Running on http://127.0.0.1:5000
 ```
 
 ---
 
-### Frontend Setup
+### 3. Frontend Setup
 
 ```bash
-# From the project root
+# From project root
 cd frontend
 npm install
 npm start
 ```
 
-Frontend runs at **http://localhost:3000**
+Frontend runs at `http://localhost:3000`
+
+Create a `.env` file inside `frontend/`:
+
+```env
+REACT_APP_API_URL=http://localhost:5000
+```
 
 ---
 
@@ -120,55 +137,73 @@ Frontend runs at **http://localhost:3000**
 | Username | `admin` |
 | Password | `Admin@MT2025` |
 
-> Change this password before any shared or public deployment.
+> Change this before any shared or public deployment.
 
 ---
 
-##  Deployment Plan
+##  Deployment
 
-### Current State
-The system runs locally as a development prototype.
+The system is fully deployed and live.
 
-### Recommended Production Stack
-
-| Layer | Recommended Tool | Reason |
+| Layer | Platform | URL |
 |---|---|---|
-| Backend hosting | **Railway** or **Render** | Free tier, supports Python/Flask, easy GitHub deploy |
-| Frontend hosting | **Vercel** | Zero-config React deployment, free tier |
-| Database | **SQLite → PostgreSQL** | Migrate `system.db` to PostgreSQL for concurrent users |
-| Model serving | **Hugging Face Inference API** or self-hosted | Offload NLLB GPU inference from app server |
-| Reverse proxy | **Nginx** | Route frontend ↔ backend traffic |
-| Process manager | **Gunicorn** | Replace Flask dev server for production |
+| **Frontend** | Vercel | https://sesotho-medical-mt.vercel.app |
+| **Backend API** | Hugging Face Spaces (Docker) | https://limpho-sesotho-medical-backend.hf.space |
+| **Model** | Hugging Face Model Hub | `Limpho/nllb-finetuned-sesotho` |
 
-### Deployment Steps (Backend — Render/Railway)
+### Architecture
+
+```
+Browser
+  │
+  ▼
+React — Vercel
+  │
+  ▼  REACT_APP_API_URL
+Flask API — Hugging Face Spaces (Docker, Python 3.9)
+  │
+  ├── Layer 1: Exact match → medical_corpus.csv
+  ├── Layer 2: FAISS semantic search
+  └── Layer 3: Fine-tuned NLLB-600M (Hugging Face Hub)
+                    │
+                    ▼
+              Safety Filter
+                    │
+                    ▼
+              Response → User
+```
+
+### Deploying Your Own Instance
+
+**Backend — Hugging Face Spaces (Docker)**
 
 ```bash
-# 1. Add a Procfile to backend/
-echo "web: gunicorn app:app" > backend/Procfile
+# Ensure your Space README.md contains:
+# sdk: docker
+# app_port: 7860
 
-# 2. Set environment variables on the platform
-FLASK_ENV=production
-SECRET_KEY=your-secret-key
-
-# 3. Push to GitHub — platform auto-deploys on push
 git push origin main
+# Hugging Face auto-builds from Dockerfile on push
 ```
 
-### Deployment Steps (Frontend — Vercel)
+**Frontend — Vercel**
 
 ```bash
-# From the frontend directory
+# Set environment variable in Vercel dashboard:
+# REACT_APP_API_URL = https://your-space.hf.space
+
 npm run build
-# Then connect the GitHub repo to Vercel — it detects React automatically
+# Connect GitHub repo to Vercel — auto-deploys on push
 ```
 
-### Environment Variable Reference
+**Environment Variables**
 
-| Variable | Purpose |
-|---|---|
-| `FLASK_ENV` | Set to `production` to disable debug mode |
-| `SECRET_KEY` | Flask session signing key |
-| `DATABASE_URL` | PostgreSQL connection string (if migrating from SQLite) |
+| Variable | Where | Value |
+|---|---|---|
+| `REACT_APP_API_URL` | Vercel | Your Hugging Face Space URL |
+| `HF_TOKEN` | HF Space Secrets | Hugging Face access token |
+
+> The free-tier Hugging Face Space sleeps after 48 hours of inactivity. The first request after sleep takes ~60 seconds to wake up.
 
 ---
 
@@ -181,20 +216,18 @@ sesotho-medical-mt/
 ├── backend/
 │   ├── app.py                      # Flask API — all routes and endpoints
 │   ├── database.py                 # Database schema, queries, init
-│   ├── nllb_translator.py          # NLLB-200 translation engine (3-layer pipeline)
+│   ├── nllb_translator.py          # 3-layer translation pipeline
 │   ├── safety.py                   # High-risk medical term detection
 │   ├── usability.py                # SUS score collection and storage
 │   ├── requirements.txt            # Python dependencies
+│   ├── Dockerfile                  # Docker config for Hugging Face Spaces
 │   └── data/
 │       ├── medical_corpus.csv      # 5,000 English–Sesotho verified pairs
 │       └── system.db               # SQLite — users, history, feedback, SUS
-├── models/
-│   ├── nllb-600M/                  # Base NLLB-200 model weights
-│   └── nllb-finetuned-sesotho/     # Fine-tuned model weights (loaded by default)
 ├── frontend/
-│   └── src/                        # React.js application source
+│   └── src/                        # React application source
 ├── notebook/
-│   └── 01_data_eval_model.ipynb    # Data preparation & model evaluation
+│   └── 01_data_eval_model.ipynb    # Data preparation and model evaluation
 ├── docs/
 │   └── screenshots/                # UI screenshots
 ├── research_archive/               # Training data, evaluation scripts, results
@@ -203,43 +236,48 @@ sesotho-medical-mt/
 
 ---
 
-### Key Backend Files
-
-#### `app.py` — API Routes
+### `app.py` — API Routes
 
 | Route | Method | Description |
 |---|---|---|
-| `/api/translate` | POST | Main translation endpoint |
+| `/health` | GET | Health check |
+| `/api/translate` | POST | Translate text |
 | `/api/history` | GET | User translation history |
 | `/api/feedback` | POST | Submit translation feedback |
 | `/api/sus` | POST | Submit SUS usability score |
-| `/api/admin/metrics` | GET | BLEU, chrF++, TER scores (admin only) |
+| `/api/admin/metrics` | GET | BLEU, chrF++, TER (admin only) |
 | `/api/admin/users` | GET | User list (admin only) |
 
-#### `nllb_translator.py` — Translation Pipeline
+---
+
+### `nllb_translator.py` — Translation Pipeline
 
 ```
 Input text
     │
     ├── Layer 1: Exact match → medical_corpus.csv
-    │               ↓ hit → return verified_corpus
+    │               └── hit → return verified translation
     │
     ├── Layer 2: FAISS semantic search (threshold: 0.88)
-    │               ↓ hit → return verified_corpus
+    │               └── hit → return verified translation
     │
-    └── Layer 3: Fine-tuned NLLB-200 (nllb-finetuned-sesotho)
-                    ↓ → safety filter → return nllb_model
+    └── Layer 3: Fine-tuned NLLB-600M
+                    └── generate → safety filter → return translation
 ```
 
-#### `safety.py` — Safety Filter
-Scans all Layer 3 outputs for high-risk medical terms before returning to the user. Flags outputs that require human review.
+---
 
-#### `database.py` — Schema
+### `safety.py`
+Scans all Layer 3 outputs for high-risk medical terms. Flags any output that requires human review before use.
+
+---
+
+### `database.py` — Schema
 
 | Table | Contents |
 |---|---|
 | `users` | Accounts, roles, hashed passwords |
-| `translations` | Full history — input, output, direction, model, timestamp |
+| `translations` | Input, output, direction, model, timestamp |
 | `feedback` | Per-translation user feedback |
 | `usability_feedback` | SUS scores and responses |
 
@@ -261,9 +299,9 @@ sacrebleu
 
 ---
 
-##  Translation API — Quick Reference
+##  Translation API
 
-**Endpoint:** `POST http://localhost:5000/api/translate`
+**Endpoint:** `POST https://limpho-sesotho-medical-backend.hf.space/api/translate`
 
 **Request:**
 ```json
@@ -292,22 +330,24 @@ sacrebleu
 
 | Field | Values |
 |---|---|
-| `direction` | `"en-st"` English → Sesotho · `"st-en"` Sesotho → English |
-| `model` | `"verified_corpus"` · `"nllb_model"` |
-| `safety.is_high_risk` | `true` if dangerous medical terms detected in output |
+| `direction` | `en-st` English → Sesotho · `st-en` Sesotho → English |
+| `model` | `verified_corpus` · `nllb_model` |
+| `safety.is_high_risk` | `true` if high-risk medical terms detected |
 
 ---
 
 ##  Limitations
 
-- CPU inference only — Layer 3 translations take 3–8 seconds per sentence
-- Corpus covers 5,000 pairs across 7 medical domains — unseen phrases rely on neural generation
-- Not validated for clinical use — all outputs require human review before real-world application
+- CPU-only inference — Layer 3 translations take 3–8 seconds per sentence
+- Corpus covers 5,000 pairs across 7 medical domains — unseen phrases use neural generation
+- Not clinically validated — all outputs require human review before real-world use
 - 6 SUS participants — sufficient for proof-of-concept, not for generalised usability claims
-
----
+- Free-tier backend may cold-start after inactivity
 
 ##  License
 
 Research prototype developed for academic purposes.  
 Not licensed for clinical or commercial deployment.
+```
+
+---
