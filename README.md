@@ -349,5 +349,3 @@ sacrebleu
 Research prototype developed for academic purposes.  
 Not licensed for clinical or commercial deployment.
 ```
-
----
