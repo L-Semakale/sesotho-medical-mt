@@ -11,7 +11,6 @@ Medical text translation between English and Sesotho, built for healthcare worke
 | | |
 |---|---|
 | **Live App** | https://sesotho-medical-mt.vercel.app |
-| **GitHub Repository** | https://github.com/L-Semakale/sesotho-medical-mt |
 | **Backend API** | https://limpho-sesotho-medical-backend.hf.space |
 | **Model on Hugging Face** | https://huggingface.co/Limpho/nllb-finetuned-sesotho |
 
