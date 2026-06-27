@@ -13,13 +13,7 @@ Medical text translation between English and Sesotho, built for healthcare worke
 | **Live App** | https://sesotho-medical-mt.vercel.app |
 | **Backend API** | https://limpho-sesotho-medical-backend.hf.space |
 | **Model on Hugging Face** | https://huggingface.co/Limpho/nllb-finetuned-sesotho |
-
----
-
-##  Video Demo
-
-[![Video Demo]([https://youtu.be/IUWbhWTxlg0](https://youtu.be/UwYzKs-oDpM))
-
+| **Video Demo** | https://youtu.be/UwYzKs-oDpM |
 ---
 
 ##  App Interfaces
