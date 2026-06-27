@@ -18,7 +18,7 @@ Medical text translation between English and Sesotho, built for healthcare worke
 
 ##  Video Demo
 
-[![Video Demo](https://img.youtube.com/vi/IUWbhWTxlg0/0.jpg)](https://youtu.be/IUWbhWTxlg0)
+[![Video Demo]([https://youtu.be/IUWbhWTxlg0](https://youtu.be/UwYzKs-oDpM))
 
 ---
 
