@@ -1,49 +1,27 @@
-#  Node 
-frontend/node_modules/
-frontend/build/
-frontend/dist/
-npm-debug.log*
-yarn-error.log*
-
-#  Python / Virtual Env 
+﻿# Virtual environment — never push this
 venv/
+env/
+.env/
+
+# Python cache — not needed
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.Python
-*.egg-info/
 
-#  Large Data Files 
-backend/data/full_corpus.csv
-backend/data/corpus.csv
-backend/data/synthetic_pairs.csv
-backend/data/related_language_data.csv
-backend/data/english_medical_sentences.txt
-backend/data/opus_cache/
-backend/data/dataset/
-backend/data/translation_batches/
+# Model checkpoints — handled by Git LFS separately
+# checkpoints/best_model/pytorch_model.bin
 
-#  Databases 
-backend/data/system.db
-backend/translations.db
-*.db
-*.sqlite3
+# Node modules
+node_modules/
+frontend/node_modules/
 
-#  ML Models (large binary files) 
-backend/models/
-*.bin
-*.pt
-*.safetensors
-*.ckpt
-*.onnx
+# Build output
+frontend/build/
 
-#  Environment Variables 
-.env
-.env.local
-.env.*.local
-
-#  OS Clutter 
+# OS files
 .DS_Store
 Thumbs.db
-desktop.ini
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
