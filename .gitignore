@@ -1,0 +1,29 @@
+﻿# Virtual environment — never push this
+venv/
+env/
+.env/
+
+# Python cache — not needed
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Model checkpoints — handled by Git LFS separately
+# checkpoints/best_model/pytorch_model.bin
+
+# Node modules
+node_modules/
+frontend/node_modules/
+
+# Build output
+frontend/build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+backend/models/

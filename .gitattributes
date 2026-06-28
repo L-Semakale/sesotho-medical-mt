@@ -1,0 +1,4 @@
+*.bin !text !filter !merge !diff
+*.safetensors !text !filter !merge !diff
+*.model !text !filter !merge !diff
+tokenizer.json !text !filter !merge !diff
