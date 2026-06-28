@@ -21,14 +21,14 @@ Medical text translation between English and Sesotho, built for healthcare worke
 ### Translator — User View
 Translate medical text between English and Sesotho. Medical disclaimer shown on load. Users can view translation history, submit feedback, and complete usability testing.
 
-![Translator Interface](docs/screenshots/01_translator.png)
+![Translator Interface](docs/screenshots/1_translator.png)
 
 ---
 
 ### Admin Dashboard — Evaluation Metrics
 Live BLEU, chrF++, and TER scores computed from the held-out medical test set. Accessible to admin accounts only.
 
-![Admin Dashboard](docs/screenshots/02_evaluation.png)
+![Admin Dashboard](docs/screenshots/2_evaluation.png)
 
 ---
 
