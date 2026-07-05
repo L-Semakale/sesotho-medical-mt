@@ -20,7 +20,8 @@ CORS(app,
      origins=[
          "https://sesotho-medical-mt.vercel.app",
          "https://sesotho-medical-2tym4ugnj-limpho.vercel.app",
-         "http://localhost:3000"
+         "http://localhost:3000",
+         "http://192.168.56.1:3000",  
      ],
      methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
      allow_headers=["Content-Type", "Authorization"],
@@ -255,7 +256,7 @@ def login():
     return jsonify({"error": "Invalid username or password"}), 401
 
 
-#  Translation routes 
+#  Translation route 
 
 @app.route("/api/translate", methods=["POST"])
 def translate_text():
@@ -282,43 +283,51 @@ def translate_text():
     else:
         return jsonify({"error": "Invalid direction"}), 400
 
-    # Layer 1 — Exact match
+    #  Layer 1 — Exact match 
     match = corpus_df[corpus_df[src_col].str.lower() == text.lower()]
     if not match.empty:
         translated = match.iloc[0][tgt_col]
         model_used = "verified_corpus_exact"
+        source     = "corpus_match"
 
     else:
-        # Layer 2 — Semantic similarity
+        #  Layer 2 — Semantic similarity 
         semantic_result, similarity = semantic_lookup(
             text, lang=lookup_lang, threshold=0.88
         )
         if semantic_result:
             translated = semantic_result
             model_used = f"verified_corpus_semantic ({similarity:.2f})"
+            source     = "semantic_search"
 
         else:
-            # Layer 3 — NLLB-200 neural translation
+            #  Layer 3 — NLLB-200 neural translation 
             translated = nllb_translate(text, src=src_lang, tgt=tgt_lang)
             model_used = "nllb_model"
+            source     = "neural"
 
-            # Promote corpus row: raw → translated
-            df = load_corpus()
-            if not df.empty:
-                df["sentence_id"] = df["sentence_id"].astype(int)
-                mask = (
-                    df[src_col].str.lower() == text.lower()
-                ) & (
-                    df["reviewer_status"] == "raw"
-                )
-                if mask.any():
-                    df.loc[mask, "sesotho_text"]    = translated
-                    df.loc[mask, "reviewer_status"] = "translated"
-                    save_corpus(df)
-                    corpus_df = df
-                    build_faiss_index()
+            #  Safety check BEFORE corpus promotion 
+            # High-risk phrases must NEVER be saved to the corpus.
+            # They must always go through Layer 3 so the safety filter fires.
+            pre_safety = check_safety(text, translated)
 
-    # Log to history
+            if not pre_safety["is_high_risk"]:
+                df = load_corpus()
+                if not df.empty:
+                    df["sentence_id"] = df["sentence_id"].astype(int)
+                    mask = (
+                        df[src_col].str.lower() == text.lower()
+                    ) & (
+                        df["reviewer_status"] == "raw"
+                    )
+                    if mask.any():
+                        df.loc[mask, "sesotho_text"]    = translated
+                        df.loc[mask, "reviewer_status"] = "translated"
+                        save_corpus(df)
+                        corpus_df = df
+                        build_faiss_index()
+
+    #  Log to history 
     conn = get_db()
     conn.execute(
         """INSERT INTO history
@@ -339,9 +348,12 @@ def translate_text():
         "direction_label": label,
         "translated_text": translated,
         "model":           model_used,
+        "source":          source,
         "safety":          safety_check,
     })
 
+
+#  History route 
 
 @app.route("/api/history", methods=["GET"])
 def get_history():
@@ -519,4 +531,7 @@ def home():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5000)
+    # NEW — accepts connections from any network interface
+      app.run(debug=True, host="0.0.0.0", port=5000)
+
+    

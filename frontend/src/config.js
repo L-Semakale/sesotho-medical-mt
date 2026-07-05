@@ -1,5 +1,5 @@
 export const API =
-  process.env.REACT_APP_API_URL || "http://127.0.0.1:5000";
+  process.env.REACT_APP_API_URL || "http://192.168.56.1:5000";
 
 export function getAuthHeaders(extraHeaders = {}) {
   const token = localStorage.getItem("token");

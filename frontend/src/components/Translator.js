@@ -5,11 +5,11 @@ import Alert from "./ui/Alert";
 const MAX_CHARS = 300;
 
 function Translator({ username }) {
-  const [text, setText] = useState("");
+  const [text, setText]           = useState("");
   const [direction, setDirection] = useState("en-st");
-  const [result, setResult] = useState(null);
-  const [busy, setBusy] = useState(false);
-  const [error, setError] = useState("");
+  const [result, setResult]       = useState(null);
+  const [busy, setBusy]           = useState(false);
+  const [error, setError]         = useState("");
 
   async function handleTranslate(e) {
     e.preventDefault();
@@ -65,6 +65,9 @@ function Translator({ username }) {
     setError("");
   }
 
+  const isNeural   = result?.source === "neural";
+  const isHighRisk = result?.safety?.is_high_risk;
+
   return (
     <div className="card">
       <h2>Translate Medical Phrase</h2>
@@ -116,7 +119,6 @@ function Translator({ username }) {
               required
               maxLength={MAX_CHARS}
             />
-
             <div style={styles.charCount}>
               {text.length}/{MAX_CHARS}
             </div>
@@ -156,22 +158,72 @@ function Translator({ username }) {
 
       {result && (
         <div style={{ marginTop: 18 }}>
-          <label>Translation Output</label>
 
+          {/* Output box — always shown for every layer */}
+          <label>Translation Output</label>
           <div className="output-box" aria-live="polite">
             {result.translated_text}
           </div>
 
-          {/* badge and description removed */}
+          {/* Safety alert — Layer 3 high-risk only, no badge ever */}
+          {isNeural && isHighRisk && (
+            <div style={{
+              marginTop: 10,
+              background: "#fff1f5",
+              border: "1px solid #fbcfe8",
+              borderRadius: 14,
+              padding: "10px 12px",
+              boxShadow: "0 6px 16px rgba(244, 114, 182, 0.12)",
+            }}>
+              <div style={{
+                display: "flex",
+                alignItems: "center",
+                gap: 7,
+                marginBottom: 6,
+              }}>
+                <span style={{
+                  fontSize: 14,
+                  background: "#ffe4e6",
+                  borderRadius: "50%",
+                  width: 22,
+                  height: 22,
+                  display: "inline-flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}>
+                  ⚠️
+                </span>
 
-          {result?.safety?.is_high_risk && (
-            <Alert type="error" style={{ marginTop: 10 }}>
-              <strong>High-Risk Medical Terms Detected:</strong>{" "}
-              {result.safety.detected_terms?.join(", ")}
-              <br />
-              {result.safety.warning}
-            </Alert>
+                <strong style={{ color: "#9f1239", fontSize: 13 }}>
+                  Tiny safety check
+                </strong>
+              </div>
+
+              <p style={{
+                margin: 0,
+                fontSize: 12.5,
+                color: "#881337",
+                lineHeight: 1.5,
+              }}>
+                <em>"{result.input_text}"</em> includes{" "}
+                {result.safety.detected_terms?.length === 1
+                  ? "a sensitive term"
+                  : "sensitive terms"}
+                : <strong>{result.safety.detected_terms?.join(", ")}</strong>.
+              </p>
+
+              <p style={{
+                margin: "6px 0 0",
+                fontSize: 12.5,
+                color: "#881337",
+                lineHeight: 1.5,
+              }}>
+                Please have a qualified healthcare professional review this
+                before clinical use.
+              </p>
+            </div>
           )}
+
         </div>
       )}
     </div>

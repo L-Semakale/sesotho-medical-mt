@@ -1,13 +1,28 @@
 import re
 
 HIGH_RISK_TERMS = {
-    #  Overdose / toxic quantities 
+    # Overdose / toxic quantities
     "overdose",
     "toxic dose",
     "maximum dose exceeded",
     "lethal dose",
 
-    #  Life-threatening conditions / events 
+    # Controlled substances / high-risk drugs
+    "morphine",
+    "fentanyl",
+    "ketamine",
+    "midazolam",
+    "diazepam",
+    "haloperidol",
+    "warfarin",
+    "heparin",
+    "insulin",
+    "digoxin",
+    "lithium",
+    "methotrexate",
+    "chemotherapy",
+
+    # Life-threatening conditions / events
     "anaphylaxis",
     "anaphylactic shock",
     "cardiac arrest",
@@ -17,7 +32,7 @@ HIGH_RISK_TERMS = {
     "do not resuscitate",
     "dnr",
 
-    #  Dangerous instructions 
+    # Dangerous instructions
     "contraindicated",
     "do not administer",
     "do not inject",
@@ -26,7 +41,7 @@ HIGH_RISK_TERMS = {
     "stop immediately",
     "avoid completely",
 
-    #  High-risk drug interactions / warnings 
+    # High-risk drug interactions / warnings
     "fatal",
     "lethal",
     "poison",
@@ -35,7 +50,7 @@ HIGH_RISK_TERMS = {
     "toxic",
     "antidote",
 
-    #  Emergency escalation 
+    # Emergency escalation
     "call emergency",
     "call ambulance",
     "go to emergency",
