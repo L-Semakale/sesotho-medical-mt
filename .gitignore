@@ -27,3 +27,6 @@ Thumbs.db
 .ipynb_checkpoints/
 
 backend/models/
+
+.env
+.env.*
