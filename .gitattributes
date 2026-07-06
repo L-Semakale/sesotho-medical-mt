@@ -1,4 +1,7 @@
-*.bin !text !filter !merge !diff
-*.safetensors !text !filter !merge !diff
-*.model !text !filter !merge !diff
-tokenizer.json !text !filter !merge !diff
+*.ipynb filter=nbstripout
+*.ipynb diff=jupyternotebook
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
