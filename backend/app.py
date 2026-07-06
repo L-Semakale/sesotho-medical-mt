@@ -531,7 +531,5 @@ def home():
 
 
 if __name__ == "__main__":
-    # NEW — accepts connections from any network interface
-      app.run(debug=True, host="0.0.0.0", port=5000)
-
-    
+    app.run(debug=True, host="0.0.0.0", port=5000)
+   
