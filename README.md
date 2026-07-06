@@ -136,19 +136,15 @@ sesotho-medical-mt/
 
 ---
 
-## Screenshots
+##  Screenshots
 
-The following screenshots are available in the project documentation folder.
-
-| Screen | File Path |
-|---|---|
-| Layer 1 — Corpus Match | `docs/screenshots/layer1-corpus-match.png` |
-| Layer 2 — Semantic Search | `docs/screenshots/layer2-semantic-search.png` |
-| Layer 3 — Neural Translation | `docs/screenshots/layer3-neural.png` |
-| Safety Filter Triggered | `docs/screenshots/safety-filter-triggered.png` |
-| Admin Dashboard | `docs/screenshots/admin-dashboard.png` |
-| Translation History | `docs/screenshots/translation-history.png` |
-| SUS Usability Feedback | `docs/screenshots/sus-feedback.png` |
+<img src="docs/screenshots/layer1-corpus-match.png" width="300"/>
+<img src="docs/screenshots/layer2-semantic-search.png" width="300"/>
+<img src="docs/screenshots/layer3-neural.png" width="300"/>
+<img src="docs/screenshots/safety-filter-triggered.png" width="300"/>
+<img src="docs/screenshots/admin-dashboard.png" width="300"/>
+<img src="docs/screenshots/translation-history.png" width="300"/>
+<img src="docs/screenshots/sus-feedback.png" width="300"/>
 
 ---
 
