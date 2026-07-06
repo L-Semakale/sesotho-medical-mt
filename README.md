@@ -145,6 +145,7 @@ sesotho-medical-mt/
 <img src="docs/screenshots/admin-dashboard.png" width="300"/>
 <img src="docs/screenshots/translation-history.png" width="300"/>
 <img src="docs/screenshots/sus-feedback.png" width="300"/>
+<img src="docs/screenshots/mobile.jpeg" width="300"/>
 
 ---
 
