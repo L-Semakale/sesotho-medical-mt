@@ -2,17 +2,15 @@ import { useState } from "react";
 import CorpusDashboard from "./CorpusDashboard";
 import EvaluationPanel from "./EvaluationPanel";
 import FeedbackViewer  from "./FeedbackViewer";
-import Translator      from "./Translator";
 
 const TABS = [
-  { id: "translate",  label: "Translate"         },
-  { id: "corpus",     label: "Corpus Manager"     },
-  { id: "evaluation", label: "Evaluation Metrics" },
-  { id: "feedback",   label: "User Feedback"      },
+  { id: "corpus",     label: "📂 Corpus Manager"    },
+  { id: "evaluation", label: "📊 Evaluation Metrics" },
+  { id: "feedback",   label: "💬 User Feedback"      },
 ];
 
-function AdminDashboard({ username }) {
-  const [activeTab, setActiveTab] = useState("translate");
+function AdminDashboard() {
+  const [activeTab, setActiveTab] = useState("corpus");
 
   return (
     <section>
@@ -20,9 +18,9 @@ function AdminDashboard({ username }) {
       {/* Admin Banner */}
       <div style={styles.banner}>
         <div>
-          <h2 style={styles.bannerTitle}>Admin Dashboard</h2>
+          <h2 style={styles.bannerTitle}>🔒 Admin Dashboard</h2>
           <p style={styles.bannerSub}>
-            Translation · Corpus management · Model evaluation · User feedback.
+            Corpus management · Model evaluation · User feedback review.
             Restricted to the system administrator.
           </p>
         </div>
@@ -46,10 +44,9 @@ function AdminDashboard({ username }) {
 
       {/* Tab Panels */}
       <div style={styles.panel}>
-        {activeTab === "translate"  && <Translator username={username} />}
         {activeTab === "corpus"     && <CorpusDashboard />}
         {activeTab === "evaluation" && <EvaluationPanel />}
-        {activeTab === "feedback"   && <FeedbackViewer showForm={false} />}
+        {activeTab === "feedback"   && <FeedbackViewer  />}
       </div>
 
     </section>
@@ -58,50 +55,50 @@ function AdminDashboard({ username }) {
 
 const styles = {
   banner: {
-    background:   "#f8fafc",
-    border:       "1px solid #e2e8f0",
-    borderLeft:   "4px solid #1e3a8a",
-    borderRadius: "6px",
-    padding:      "18px 22px",
-    marginBottom: "20px",
+    background:   "linear-gradient(135deg, #1e3a8a, #1e40af)",
+    borderRadius: "14px",
+    padding:      "22px 26px",
+    marginBottom: "22px",
+    borderLeft:   "6px solid #f59e0b",
   },
   bannerTitle: {
-    margin:     "0 0 4px",
-    color:      "#0f172a",
-    fontSize:   "17px",
-    fontWeight: 700,
+    margin:     "0 0 6px",
+    color:      "#fff",
+    fontSize:   "20px",
   },
   bannerSub: {
     margin:   0,
-    color:    "#64748b",
-    fontSize: "13px",
+    color:    "#bfdbfe",
+    fontSize: "14px",
   },
   tabBar: {
     display:      "flex",
-    gap:          "4px",
-    borderBottom: "2px solid #e2e8f0",
-    marginBottom: "24px",
-    flexWrap:     "wrap",
+    gap:          "8px",
+    background:   "#fff",
+    borderRadius: "14px",
+    padding:      "6px",
+    marginBottom: "22px",
+    boxShadow:    "0 2px 8px rgba(0,0,0,0.06)",
   },
   tabBtn: {
-    border:           "none",
-    borderBottom:     "2px solid transparent",
-    marginBottom:     "-2px",
-    background:       "transparent",
-    padding:          "10px 18px",
-    fontWeight:       500,
-    fontSize:         "14px",
-    color:            "#64748b",
-    cursor:           "pointer",
-    transition:       "color 0.15s, border-color 0.15s",
+    flex:         1,
+    border:       "none",
+    background:   "transparent",
+    padding:      "11px 16px",
+    borderRadius: "10px",
+    fontWeight:   600,
+    fontSize:     "14px",
+    color:        "#64748b",
+    cursor:       "pointer",
+    transition:   "all 0.2s",
   },
   tabBtnActive: {
-    color:        "#1e3a8a",
-    borderBottom: "2px solid #1e3a8a",
-    fontWeight:   700,
+    background: "#1e3a8a",
+    color:      "#fff",
+    boxShadow:  "0 4px 12px rgba(30,58,138,0.25)",
   },
   panel: {
-    animation: "fadeIn 0.15s ease",
+    animation: "fadeIn 0.2s ease",
   },
 };
 
