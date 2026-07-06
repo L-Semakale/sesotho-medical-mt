@@ -1,5 +1,3 @@
-// frontend/src/components/FeedbackForm.js
-
 import { useState } from "react";
 import { API, getAuthHeaders } from "../config";
 import Alert from "./ui/Alert";
@@ -11,6 +9,25 @@ const LABELS = {
   2: "Poor",
   1: "Very Poor",
 };
+
+function getAnonymousFeedbackUser() {
+  const key = "feedbackAnonymousUser";
+
+  let anonymousUser = localStorage.getItem(key);
+
+  if (!anonymousUser) {
+    const countKey = "feedbackAnonymousUserCount";
+    const currentCount = Number(localStorage.getItem(countKey) || "0");
+    const nextCount = currentCount + 1;
+
+    anonymousUser = `user${nextCount}`;
+
+    localStorage.setItem(countKey, String(nextCount));
+    localStorage.setItem(key, anonymousUser);
+  }
+
+  return anonymousUser;
+}
 
 function FeedbackForm({ username, onSubmitted }) {
   const [rating, setRating] = useState(0);
@@ -31,12 +48,14 @@ function FeedbackForm({ username, onSubmitted }) {
     setStatus("loading");
     setMessage("");
 
+    const anonymousUsername = getAnonymousFeedbackUser();
+
     try {
       const res = await fetch(`${API}/api/feedback`, {
         method: "POST",
         headers: getAuthHeaders(),
         body: JSON.stringify({
-          username: username || "anonymous",
+          username: anonymousUsername,
           rating,
           comment: comment.trim(),
         }),

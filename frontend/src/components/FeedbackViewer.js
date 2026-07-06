@@ -1,5 +1,3 @@
-// frontend/src/components/FeedbackViewer.js
-
 import { useEffect, useState, useCallback } from "react";
 import FeedbackForm from "./FeedbackForm";
 import { API, getAuthHeaders } from "../config";
@@ -146,15 +144,15 @@ function FeedbackViewer({
                 </thead>
 
                 <tbody>
-                  {items.map(item => (
+                  {items.map((item, index) => (
                     <tr key={item.id}>
                       <td style={{ ...styles.td, color: "#94a3b8", fontWeight: 600 }}>
-                        {item.id}
+                        {index + 1}
                       </td>
 
                       <td style={styles.td}>
-                        <strong style={{ textTransform: "capitalize" }}>
-                          {item.username}
+                        <strong>
+                          {`user${index + 1}`}
                         </strong>
                       </td>
 
