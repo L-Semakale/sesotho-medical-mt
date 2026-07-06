@@ -1,15 +1,12 @@
-# Sesotho Medical MT 
+# Sesotho Medical MT
 
-A bilingual English–Sesotho medical translation web application designed to
-bridge the language gap in Lesotho's healthcare system.
+A bilingual **English–Sesotho medical translation web application** designed to bridge the language gap in Lesotho's healthcare system.
 
->  **Medical Disclaimer:** This is a research prototype. It is not intended
-> for clinical diagnosis, treatment decisions, or emergency care. All outputs
-> must be reviewed by qualified healthcare personnel.
+> **Medical Disclaimer:** This is a research prototype. It is not intended for clinical diagnosis, treatment decisions, or emergency care. All outputs must be reviewed by qualified healthcare personnel.
 
 ---
 
-##  Links
+## Links
 
 | Resource | URL |
 |---|---|
@@ -20,9 +17,12 @@ bridge the language gap in Lesotho's healthcare system.
 
 ---
 
-##  Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
+
+Make sure the following are installed:
+
 - Python 3.9+
 - Node.js 18+
 - Git
@@ -36,75 +36,106 @@ git clone https://github.com/L-Semakale/sesotho-medical-mt.git
 cd sesotho-medical-mt
 ```
 
-### 2. Backend Setup (Flask)
+---
+
+### 2. Backend Setup — Flask
 
 ```bash
 cd backend
 python -m venv venv
+```
 
+Activate the virtual environment:
+
+```bash
 # Windows
 venv\Scripts\activate
 
-# Mac/Linux
+# macOS/Linux
 source venv/bin/activate
+```
 
+Install backend dependencies:
+
+```bash
 pip install -r requirements.txt
 ```
 
-Create a `.env` file inside `/backend`:
-```
+Create a `.env` file inside the `/backend` directory:
+
+```env
 FLASK_ENV=development
 ```
 
 Start the Flask server:
+
 ```bash
 python app.py
 ```
-Backend runs at → `http://127.0.0.1:5000`
+
+The backend runs at:
+
+```text
+http://127.0.0.1:5000
+```
 
 ---
 
-### 3. Frontend Setup (React)
+### 3. Frontend Setup — React
+
+Open a new terminal from the project root:
 
 ```bash
 cd frontend
 npm install
 ```
 
-Create a `.env.local` file inside `/frontend`:
-```
+Create a `.env.local` file inside the `/frontend` directory:
+
+```env
 REACT_APP_API_URL=http://127.0.0.1:5000
 ```
 
-Start the React app:
+Start the React development server:
+
 ```bash
 npm start
 ```
-Frontend runs at → `http://localhost:3000`
+
+The frontend runs at:
+
+```text
+http://localhost:3000
+```
 
 ---
 
-##  Project Structure
+## Project Structure
 
-```
+```text
 sesotho-medical-mt/
 ├── backend/
-│   ├── app.py                  # Flask API & translation pipeline
+│   ├── app.py                  # Flask API and translation pipeline
 │   ├── nllb_translator.py      # NLLB-600M model wrapper
-│   ├── safety.py               # High-risk term detection
+│   ├── safety.py               # High-risk medical term detection
 │   ├── requirements.txt
 │   └── data/
-│       └── medical_corpus.csv  # 5,000 verified sentence pairs
+│       └── medical_corpus.csv  # Verified medical sentence pairs
 ├── frontend/
 │   ├── src/
 │   │   ├── components/
-│   │   │   ├── Translator.jsx  # Core translation UI
-│   │   │   ├── History.jsx
-│   │   │   └── AdminDashboard.jsx
-│   │   └── config.js           # API base URL
+│   │   │   ├── Translator.js       # Core translation UI
+│   │   │   ├── History.js          # Translation history view
+│   │   │   ├── FeedbackForm.js     # User feedback form
+│   │   │   ├── FeedbackViewer.js   # Feedback analytics and responses
+│   │   │   └── AdminDashboard.js   # Admin dashboard
+│   │   └── config.js               # API base URL configuration
 │   └── package.json
 └── README.md
 ```
+
+---
+
 ## Screenshots
 
 The following screenshots are available in the project documentation folder.
@@ -121,23 +152,60 @@ The following screenshots are available in the project documentation folder.
 
 ---
 
-##  Translation Pipeline
+## Translation Pipeline
+
+The system uses a hybrid translation pipeline that combines corpus lookup, semantic retrieval, and neural machine translation.
 
 | Layer | Method | Trigger |
 |---|---|---|
-| Layer 1 | Exact corpus match | Input found verbatim in corpus |
-| Layer 2 | Semantic search (FAISS) | Paraphrased but similar input |
-| Layer 3 | NLLB-600M neural model | Unseen medical input |
+| Layer 1 | Exact corpus match | Input is found verbatim in the verified corpus |
+| Layer 2 | Semantic search with FAISS | Input is paraphrased but semantically similar to corpus entries |
+| Layer 3 | NLLB-600M neural translation | Input is unseen or not confidently matched by earlier layers |
 
 ---
 
-##  Performance Metrics
+## Performance Metrics
 
 | Metric | Score |
-|---|---|
+|---|---:|
 | BLEU | 34.2 |
 | chrF++ | 57.8 |
 | TER | 0.61 |
 | SUS Usability | 78.4 / 100 |
+
+---
+
+## Key Features
+
+- English–Sesotho medical translation
+- Hybrid translation pipeline with three fallback layers
+- Fine-tuned NLLB model for Sesotho medical text
+- High-risk medical term safety warnings
+- Translation history tracking
+- Admin dashboard for corpus and feedback review
+- SUS usability feedback collection
+- Deployed frontend and backend for public demonstration
+
+---
+
+## Technology Stack
+
+| Layer | Tools |
+|---|---|
+| Frontend | React, JavaScript, CSS |
+| Backend | Flask, Python |
+| Machine Translation | NLLB-600M |
+| Semantic Search | FAISS |
+| Model Hosting | Hugging Face |
+| Frontend Hosting | Vercel |
+| Version Control | GitHub |
+
+---
+
+## Research Context
+
+This project was developed as a proof-of-concept medical machine translation system for low-resource language support in healthcare. It focuses on English–Sesotho translation in the context of Lesotho, where language barriers can affect communication between healthcare providers and patients.
+
+The system is designed to support communication, not replace medical professionals. All translations must be reviewed by qualified healthcare personnel before use in clinical settings.
 
 ---
