@@ -218,7 +218,7 @@ function Translator({ username }) {
                 color: "#881337",
                 lineHeight: 1.5,
               }}>
-                Please have a qualified healthcare professional review this
+                Please have a qualified healthcare Professional review this
                 before clinical use.
               </p>
             </div>
