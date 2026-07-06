@@ -30,3 +30,9 @@ backend/models/
 
 .env
 .env.*
+
+backend/data/system.db
+*.db
+
+.env
+.env.*
