@@ -44,25 +44,20 @@ COLUMNS = [
 VALID_STATUSES = {"raw", "translated", "reviewed", "verified", "rejected"}
 
 
+
 #  Semantic corpus cache
 
 _embedder         = None
 _faiss_index      = {"en": None, "st": None}
 _corpus_sentences = {"en": [], "st": []}
 
-# FIX 1 — Lock to prevent race conditions during async model load
 _model_lock  = threading.Lock()
-_model_ready = threading.Event()   # signals when model + index are fully loaded
+_model_ready = threading.Event()
 
 
 def build_faiss_index(df=None):
-    """
-    FIX 2 — Accepts an already-loaded df to avoid redundant disk reads.
-    Only reads from disk if df is not provided.
-    """
     global _embedder, _faiss_index, _corpus_sentences, corpus_df
 
-    # FIX 2 — Reuse passed-in df; don't reload from disk unnecessarily
     if df is None:
         df = load_corpus()
     corpus_df = df
@@ -98,10 +93,6 @@ def build_faiss_index(df=None):
 
 
 def add_to_faiss_index(src_text: str, tgt_text: str, lang: str):
-    """
-    FIX 3 — Incremental index update: encodes and appends ONE new sentence
-    instead of rebuilding the entire index from scratch on every corpus change.
-    """
     if _embedder is None or _faiss_index.get(lang) is None:
         return
 
@@ -115,11 +106,6 @@ def add_to_faiss_index(src_text: str, tgt_text: str, lang: str):
 
 
 def _load_model_and_index():
-    """
-    FIX 1 — Loads the SentenceTransformer model and builds the FAISS index
-    in a background daemon thread so Flask starts instantly and can serve
-    requests (falling back to NLLB) while the model is warming up.
-    """
     with _model_lock:
         build_faiss_index()
     _model_ready.set()
@@ -127,11 +113,6 @@ def _load_model_and_index():
 
 
 def semantic_lookup(text: str, lang: str = "en", threshold: float = 0.88):
-    """
-    Returns the best corpus match if similarity >= threshold.
-    Returns (None, score) if no close match found or model not yet ready.
-    """
-    # FIX 1 — Gracefully skip semantic search if model is still loading
     if not _model_ready.is_set():
         return None, 0.0
 
@@ -209,7 +190,6 @@ def init_db():
         )
     """)
 
-    # Seed admin — only once
     c.execute("SELECT id FROM users WHERE username = 'admin'")
     if not c.fetchone():
         c.execute(
@@ -243,7 +223,6 @@ def save_corpus(df):
 
 corpus_df = load_corpus()
 
-# FIX 1 — Start model loading in background; Flask is immediately ready
 print("  Starting background model load...")
 threading.Thread(target=_load_model_and_index, daemon=True).start()
 
@@ -251,7 +230,7 @@ print("  Translation pipeline ready:")
 print("  Layer 1 → Exact corpus match")
 print("  Layer 2 → Semantic similarity (FAISS + Sentence Transformers) [loading...]")
 print("  Layer 3 → NLLB-200 neural translation")
-print("  Safety  → High-risk term detection active")
+print("  Safety  → High-risk term detection active for ALL layers")
 
 
 #  Auth routes
@@ -333,7 +312,7 @@ def translate_text():
     else:
         return jsonify({"error": "Invalid direction"}), 400
 
-    # Layer 1 — Exact match
+    #  Layer 1 — Exact corpus match 
     match = corpus_df[corpus_df[src_col].str.lower() == text.lower()]
     if not match.empty:
         translated = match.iloc[0][tgt_col]
@@ -341,7 +320,7 @@ def translate_text():
         source     = "corpus_match"
 
     else:
-        # Layer 2 — Semantic similarity
+        #  Layer 2 — Semantic similarity 
         semantic_result, similarity = semantic_lookup(
             text, lang=lookup_lang, threshold=0.88
         )
@@ -351,15 +330,16 @@ def translate_text():
             source     = "semantic_search"
 
         else:
-            # Layer 3 — NLLB-200 neural translation
+            #  Layer 3 — NLLB-200 neural translation 
             translated = nllb_translate(text, src=src_lang, tgt=tgt_lang)
             model_used = "nllb_model"
             source     = "neural"
 
-            # FIX 4 — Call check_safety ONCE and reuse the result everywhere
-            safety_check = check_safety(text, translated)
+            # Run safety check here ONLY to decide corpus promotion.
+            # A second unconditional call runs below for the response.
+            _pre_safety = check_safety(text, translated)
 
-            if not safety_check["is_high_risk"]:
+            if not _pre_safety["is_high_risk"]:
                 df = load_corpus()
                 if not df.empty:
                     df["sentence_id"] = df["sentence_id"].astype(int)
@@ -369,25 +349,17 @@ def translate_text():
                         df["reviewer_status"] == "raw"
                     )
                     if mask.any():
-                        df.loc[mask, tgt_col]              = translated
-                        df.loc[mask, "reviewer_status"]    = "translated"
+                        df.loc[mask, tgt_col]           = translated
+                        df.loc[mask, "reviewer_status"] = "translated"
                         save_corpus(df)
                         corpus_df = df
+                        add_to_faiss_index(text, translated, lookup_lang)
 
-                        # FIX 3 — Incremental index update instead of full rebuild
-                        src_text_saved = text
-                        tgt_text_saved = translated
-                        add_to_faiss_index(src_text_saved, tgt_text_saved, lookup_lang)
+    #  Safety check — ALWAYS runs for every layer 
+    # No conditionals. Every response includes a safety assessment.
+    safety_check = check_safety(text, translated)
 
-            # Safety result already computed above — skip second call
-            # (moved outside the neural block below for all paths)
-            _safety_already_computed = True
-
-    # FIX 4 — Only compute safety if not already done in the neural branch
-    if source != "neural":
-        safety_check = check_safety(text, translated)
-
-    # Log to history
+    #  Log to history 
     conn = get_db()
     conn.execute(
         """INSERT INTO history
@@ -407,7 +379,7 @@ def translate_text():
         "translated_text": translated,
         "model":           model_used,
         "source":          source,
-        "safety":          safety_check,
+        "safety":          safety_check,   
     })
 
 
@@ -566,7 +538,6 @@ def update_sentence(sentence_id):
     data = request.get_json() or {}
     idx  = df.index[df["sentence_id"] == sentence_id][0]
 
-    # Capture old and new values for incremental index update
     old_en = str(df.at[idx, "english_text"])
     old_st = str(df.at[idx, "sesotho_text"])
 
@@ -582,8 +553,6 @@ def update_sentence(sentence_id):
     save_corpus(df)
     corpus_df = df
 
-    # FIX 3 — Only add the changed row to the index incrementally
-    # Full rebuild is avoided; we append the updated sentence pair
     new_en = str(df.at[idx, "english_text"])
     new_st = str(df.at[idx, "sesotho_text"])
 
@@ -601,7 +570,7 @@ def update_sentence(sentence_id):
 def home():
     return jsonify({
         "message":     "Sesotho Medical MT Backend — running",
-        "model_ready": _model_ready.is_set()   # handy for health checks
+        "model_ready": _model_ready.is_set()
     })
 
 

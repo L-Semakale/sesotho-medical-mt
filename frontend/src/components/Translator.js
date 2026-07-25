@@ -65,7 +65,9 @@ function Translator({ username }) {
     setError("");
   }
 
-  const isNeural   = result?.source === "neural";
+  // ✅ FIX — Removed `isNeural` gate; safety banner now fires for ALL sources
+  // Old: const isNeural   = result?.source === "neural";
+  // Old: const isHighRisk = result?.safety?.is_high_risk;
   const isHighRisk = result?.safety?.is_high_risk;
 
   return (
@@ -165,8 +167,11 @@ function Translator({ username }) {
             {result.translated_text}
           </div>
 
-          {/* Safety alert — Layer 3 high-risk only, no badge ever */}
-          {isNeural && isHighRisk && (
+          {/* ✅ FIX — Safety alert now shows for ALL sources (corpus, semantic, neural)
+              Old: {isNeural && isHighRisk && ( ... )}
+              New: {isHighRisk && ( ... )}
+          */}
+          {isHighRisk && (
             <div style={{
               marginTop: 10,
               background: "#fff1f5",
@@ -209,7 +214,8 @@ function Translator({ username }) {
                 {result.safety.detected_terms?.length === 1
                   ? "a sensitive term"
                   : "sensitive terms"}
-                : <strong>{result.safety.detected_terms?.join(", ")}</strong>.
+                :{" "}
+                <strong>{result.safety.detected_terms?.join(", ")}</strong>.
               </p>
 
               <p style={{
