@@ -11,25 +11,25 @@ const METRICS = [
     ter:    "60.67",
     status: "evaluated",
     label:  "Evaluated",
-    note:   "Primary model — zero-shot on 100-pair medical test set",
+    note:   "Zero-shot on 100-pair medical test set",
   },
   {
-    model:  "mBART-50 (Baseline)",
+    model:  "Fine-Tuned NLLB-200 (distilled-600M)",
+    bleu:   "50.41",
+    chrf:   "65.89",
+    ter:    "36.78",
+    status: "evaluated",
+    label:  "Evaluated",
+    note:   "Fine-tuned on Sesotho medical corpus — 100-pair test set",
+  },
+  {
+    model:  "mBART-50",
     bleu:   "—",
     chrf:   "—",
     ter:    "—",
     status: "pending",
     label:  "Hardware Constrained",
     note:   "Excluded — limited Sesotho support; NLLB-200 selected per proposal Section 3.7",
-  },
-  {
-    model:  "Fine-Tuned NLLB-200",
-    bleu:   "—",
-    chrf:   "—",
-    ter:    "—",
-    status: "pending",
-    label:  "Out of Scope",
-    note:   "Requires 50,000+ pairs and 16GB VRAM — infeasible per Section 3.9 risk strategy",
   },
 ];
 
@@ -42,27 +42,33 @@ const ERROR_ANALYSIS = [
 const METRIC_CARDS = [
   {
     name:      "BLEU",
-    score:     "27.01",
+    baseline:  "27.01",
+    score:     "50.41",
+    delta:     "+23.40",
     direction: "Higher is better",
-    threshold: "Above 20 = understandable",
-    desc:      "Measures n-gram overlap between MT output and reference. A score of 27 is strong for low-resource Sesotho.",
+    threshold: "Threshold: 20 · Fine-tuned exceeds by +30.41",
+    desc:      "Measures n-gram overlap between MT output and reference. Fine-tuning nearly doubled the baseline score.",
     color:     "#1d4ed8",
   },
   {
     name:      "chrF++",
-    score:     "49.15",
+    baseline:  "49.15",
+    score:     "65.89",
+    delta:     "+16.74",
     direction: "Higher is better",
-    threshold: "Primary metric for Sesotho",
+    threshold: "Threshold: 40 · Primary metric for Sesotho",
     desc:      "Character-level F-score. More robust for morphologically rich languages like Sesotho.",
     color:     "#16a34a",
     primary:   true,
   },
   {
     name:      "TER",
-    score:     "60.67",
+    baseline:  "60.67",
+    score:     "36.78",
+    delta:     "−23.89",
     direction: "Lower is better",
-    threshold: "~60% expected for low-resource MT",
-    desc:      "Translation Edit Rate. Counts edits needed to match the reference. Score aligns with expected low-resource baseline.",
+    threshold: "Threshold: 70 · Fine-tuned well below baseline",
+    desc:      "Translation Edit Rate. Fine-tuning reduced edits needed by nearly 24 points — a major improvement.",
     color:     "#dc2626",
   },
 ];
@@ -93,6 +99,21 @@ function EvaluationPanel() {
               </span>
             </div>
 
+            {/* Delta row */}
+            <div style={styles.deltaRow}>
+              <span style={styles.baselineLabel}>
+                Baseline: <strong>{m.baseline}</strong>
+              </span>
+              <span style={{
+                ...styles.deltaBadge,
+                background: m.name === "TER" ? "#fef2f2" : "#f0fdf4",
+                color:      m.name === "TER" ? "#dc2626" : "#16a34a",
+                border:     m.name === "TER" ? "1px solid #fecaca" : "1px solid #bbf7d0",
+              }}>
+                {m.delta}
+              </span>
+            </div>
+
             <span style={{ ...styles.direction, color: m.color }}>
               {m.direction}
             </span>
@@ -109,7 +130,7 @@ function EvaluationPanel() {
         <h2 style={styles.cardTitle}>Model Evaluation Results</h2>
 
         <p style={styles.cardSub}>
-          NLLB-200 evaluated zero-shot on a 100-pair held-out Sesotho–English
+          Both NLLB-200 variants evaluated on a 100-pair held-out Sesotho–English
           medical test set using SacreBLEU. The test set was kept separate from
           the corpus lookup cache.
         </p>
@@ -192,15 +213,16 @@ function EvaluationPanel() {
         <h2 style={styles.cardTitle}>Evaluation Interpretation</h2>
 
         <p style={{ ...styles.cardSub, marginBottom: 12 }}>
-          The baseline result shows that NLLB-200 can produce understandable
-          Sesotho–English medical translations, but is not clinically safe as a
-          standalone translator. The safest prototype strategy is a hybrid
-          approach:
+          Fine-tuning produced substantial gains across all three metrics —
+          BLEU rose from 27.01 → 50.41, chrF++ from 49.15 → 65.89, and TER
+          dropped from 60.67 → 36.78. Despite this, qualitative error analysis
+          confirms that no MT system should operate without safeguards in a
+          clinical setting. The safest prototype strategy remains a hybrid approach:
         </p>
 
         <ul style={styles.list}>
           <li>Prefer <strong>verified corpus matches</strong> where available.</li>
-          <li>Use <strong>NLLB-200 generation</strong> only as a fallback.</li>
+          <li>Use <strong>fine-tuned NLLB-200 generation</strong> only as a fallback.</li>
           <li>Display <strong>medical disclaimers and high-risk warnings</strong>.</li>
           <li>Require <strong>bilingual professional review</strong> before any clinical use.</li>
         </ul>
@@ -218,13 +240,13 @@ const styles = {
     marginBottom:        20,
   },
   metricCard: {
-    background:   "#fff",
-    border:       "1px solid #e2e8f0",
-    borderRadius: 6,
-    padding:      "16px 18px",
-    display:      "flex",
+    background:    "#fff",
+    border:        "1px solid #e2e8f0",
+    borderRadius:  6,
+    padding:       "16px 18px",
+    display:       "flex",
     flexDirection: "column",
-    gap:          6,
+    gap:           6,
   },
   metricHeader: {
     display:        "flex",
@@ -240,13 +262,13 @@ const styles = {
     gap:        8,
   },
   primaryBadge: {
-    fontSize:     10,
-    fontWeight:   600,
-    background:   "#f0fdf4",
-    color:        "#16a34a",
-    border:       "1px solid #bbf7d0",
-    borderRadius: 4,
-    padding:      "2px 6px",
+    fontSize:      10,
+    fontWeight:    600,
+    background:    "#f0fdf4",
+    color:         "#16a34a",
+    border:        "1px solid #bbf7d0",
+    borderRadius:  4,
+    padding:       "2px 6px",
     textTransform: "uppercase",
     letterSpacing: "0.04em",
   },
@@ -254,9 +276,25 @@ const styles = {
     fontSize:   22,
     fontWeight: 800,
   },
+  deltaRow: {
+    display:        "flex",
+    justifyContent: "space-between",
+    alignItems:     "center",
+  },
+  baselineLabel: {
+    fontSize: 11,
+    color:    "#94a3b8",
+  },
+  deltaBadge: {
+    fontSize:      11,
+    fontWeight:    700,
+    borderRadius:  4,
+    padding:       "2px 7px",
+    letterSpacing: "0.03em",
+  },
   direction: {
-    fontSize:   11,
-    fontWeight: 700,
+    fontSize:      11,
+    fontWeight:    700,
     textTransform: "uppercase",
     letterSpacing: "0.04em",
   },
@@ -265,12 +303,12 @@ const styles = {
     color:    "#64748b",
   },
   metricDesc: {
-    color:        "#475569",
-    fontSize:     13,
-    lineHeight:   1.6,
-    margin:       0,
-    paddingTop:   4,
-    borderTop:    "1px solid #f1f5f9",
+    color:      "#475569",
+    fontSize:   13,
+    lineHeight: 1.6,
+    margin:     0,
+    paddingTop: 4,
+    borderTop:  "1px solid #f1f5f9",
   },
   cardTitle: {
     fontSize:     16,
@@ -279,10 +317,10 @@ const styles = {
     marginBottom: 6,
   },
   cardSub: {
-    fontSize:     13,
-    color:        "#64748b",
-    marginTop:    0,
-    lineHeight:   1.6,
+    fontSize:   13,
+    color:      "#64748b",
+    marginTop:  0,
+    lineHeight: 1.6,
   },
   errorGrid: {
     display:             "grid",
