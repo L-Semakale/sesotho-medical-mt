@@ -4,17 +4,21 @@ import Alert from "./ui/Alert";
 
 const MAX_CHARS = 300;
 
+// Only supported language directions for this project
+const SUPPORTED_DIRECTIONS = ["en-st", "st-en"];
+
 function Translator({ username }) {
-  const [text, setText]           = useState("");
+  const [text, setText] = useState("");
   const [direction, setDirection] = useState("en-st");
-  const [result, setResult]       = useState(null);
-  const [busy, setBusy]           = useState(false);
-  const [error, setError]         = useState("");
+  const [result, setResult] = useState(null);
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState("");
 
   async function handleTranslate(e) {
     e.preventDefault();
 
     const cleanText = text.trim();
+    const cleanDirection = direction.trim().toLowerCase();
 
     if (!cleanText) {
       setError("Please enter a medical phrase to translate.");
@@ -23,6 +27,13 @@ function Translator({ username }) {
 
     if (cleanText.length > MAX_CHARS) {
       setError(`Please keep the phrase under ${MAX_CHARS} characters.`);
+      return;
+    }
+
+    if (!SUPPORTED_DIRECTIONS.includes(cleanDirection)) {
+      setError(
+        "Unsupported language direction. This system only supports English ↔ Sesotho medical translation."
+      );
       return;
     }
 
@@ -36,7 +47,7 @@ function Translator({ username }) {
         headers: getAuthHeaders(),
         body: JSON.stringify({
           text: cleanText,
-          direction,
+          direction: cleanDirection,
           username: username || "anonymous",
         }),
       });
@@ -65,18 +76,15 @@ function Translator({ username }) {
     setError("");
   }
 
-  // ✅ FIX — Removed `isNeural` gate; safety banner now fires for ALL sources
-  // Old: const isNeural   = result?.source === "neural";
-  // Old: const isHighRisk = result?.safety?.is_high_risk;
   const isHighRisk = result?.safety?.is_high_risk;
 
   return (
     <div className="card">
       <h2>Translate Medical Phrase</h2>
 
-      <p className="muted" style={{ marginTop: 0 }}>
-        Enter a short healthcare phrase and select the translation direction.
-      </p>
+      <div style={styles.scopeBadge}>
+        Accepted input: English or Sesotho only
+      </div>
 
       <div style={styles.exampleRow}>
         <button
@@ -98,7 +106,9 @@ function Translator({ username }) {
         <button
           type="button"
           style={styles.exampleBtn}
-          onClick={() => useExample("Do not stop taking your medicine.", "en-st")}
+          onClick={() =>
+            useExample("Do not stop taking your medicine.", "en-st")
+          }
         >
           Example: adherence
         </button>
@@ -108,11 +118,12 @@ function Translator({ username }) {
         <div className="form-row">
           <div className="form-group" style={{ margin: 0 }}>
             <label htmlFor="medical-phrase">Medical Phrase</label>
+
             <input
               id="medical-phrase"
               type="text"
               value={text}
-              onChange={e => {
+              onChange={(e) => {
                 setText(e.target.value);
                 setError("");
                 setResult(null);
@@ -121,6 +132,7 @@ function Translator({ username }) {
               required
               maxLength={MAX_CHARS}
             />
+
             <div style={styles.charCount}>
               {text.length}/{MAX_CHARS}
             </div>
@@ -128,12 +140,23 @@ function Translator({ username }) {
 
           <div className="form-group" style={{ margin: 0 }}>
             <label htmlFor="translation-direction">Direction</label>
+
             <select
               id="translation-direction"
               value={direction}
-              onChange={e => {
-                setDirection(e.target.value);
+              onChange={(e) => {
+                const selectedDirection = e.target.value;
+
+                if (!SUPPORTED_DIRECTIONS.includes(selectedDirection)) {
+                  setError(
+                    "Unsupported language direction. Please select English ↔ Sesotho only."
+                  );
+                  return;
+                }
+
+                setDirection(selectedDirection);
                 setResult(null);
+                setError("");
               }}
             >
               <option value="en-st">English → Sesotho</option>
@@ -160,76 +183,54 @@ function Translator({ username }) {
 
       {result && (
         <div style={{ marginTop: 18 }}>
-
-          {/* Output box — always shown for every layer */}
           <label>Translation Output</label>
+
           <div className="output-box" aria-live="polite">
             {result.translated_text}
           </div>
 
-          {/* ✅ FIX — Safety alert now shows for ALL sources (corpus, semantic, neural)
-              Old: {isNeural && isHighRisk && ( ... )}
-              New: {isHighRisk && ( ... )}
-          */}
-          {isHighRisk && (
-            <div style={{
-              marginTop: 10,
-              background: "#fff1f5",
-              border: "1px solid #fbcfe8",
-              borderRadius: 14,
-              padding: "10px 12px",
-              boxShadow: "0 6px 16px rgba(244, 114, 182, 0.12)",
-            }}>
-              <div style={{
-                display: "flex",
-                alignItems: "center",
-                gap: 7,
-                marginBottom: 6,
-              }}>
-                <span style={{
-                  fontSize: 14,
-                  background: "#ffe4e6",
-                  borderRadius: "50%",
-                  width: 22,
-                  height: 22,
-                  display: "inline-flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                }}>
-                  ⚠️
-                </span>
+          <div style={styles.metaBox}>
+            <span>
+              <strong>Direction:</strong> {result.direction_label}
+            </span>
 
-                <strong style={{ color: "#9f1239", fontSize: 13 }}>
-                  Tiny safety check
+            <span>
+              <strong>Source:</strong> {result.source}
+            </span>
+
+            <span>
+              <strong>Model:</strong> {result.model}
+            </span>
+          </div>
+
+          {isHighRisk && (
+            <div style={styles.safetyBox}>
+              <div style={styles.safetyHeader}>
+                <span style={styles.safetyIcon}>⚠️</span>
+
+                <strong style={styles.safetyTitle}>
+                  Medical safety warning
                 </strong>
               </div>
 
-              <p style={{
-                margin: 0,
-                fontSize: 12.5,
-                color: "#881337",
-                lineHeight: 1.5,
-              }}>
+              <p style={styles.safetyText}>
                 <em>"{result.input_text}"</em> includes{" "}
                 {result.safety.detected_terms?.length === 1
-                  ? "a sensitive term"
-                  : "sensitive terms"}
+                  ? "a sensitive medical term"
+                  : "sensitive medical terms"}
                 :{" "}
-                <strong>{result.safety.detected_terms?.join(", ")}</strong>.
+                <strong>
+                  {result.safety.detected_terms?.join(", ")}
+                </strong>
+                .
               </p>
 
-              <p style={{
-                margin: "6px 0 0",
-                fontSize: 12.5,
-                color: "#881337",
-                lineHeight: 1.5,
-              }}>
+              <p style={styles.safetyText}>
                 Please have a qualified healthcare professional review this
-                before clinical use.
+                translation before clinical use.
               </p>
             </div>
           )}
-
         </div>
       )}
     </div>
@@ -237,27 +238,89 @@ function Translator({ username }) {
 }
 
 const styles = {
+  scopeBadge: {
+    display: "inline-block",
+    marginBottom: 14,
+    padding: "6px 10px",
+    borderRadius: 999,
+    background: "#ecfdf5",
+    color: "#047857",
+    fontSize: 12,
+    fontWeight: 700,
+    border: "1px solid #bbf7d0",
+  },
+
   exampleRow: {
-    display:      "flex",
-    gap:          8,
-    flexWrap:     "wrap",
+    display: "flex",
+    gap: 8,
+    flexWrap: "wrap",
     marginBottom: 16,
   },
+
   exampleBtn: {
-    border:       "1px solid #dbeafe",
-    background:   "#eff6ff",
-    color:        "#1e40af",
-    padding:      "7px 10px",
+    border: "1px solid #dbeafe",
+    background: "#eff6ff",
+    color: "#1e40af",
+    padding: "7px 10px",
     borderRadius: 999,
-    cursor:       "pointer",
-    fontSize:     12,
-    fontWeight:   700,
+    cursor: "pointer",
+    fontSize: 12,
+    fontWeight: 700,
   },
+
   charCount: {
     textAlign: "right",
-    fontSize:  12,
-    color:     "#94a3b8",
+    fontSize: 12,
+    color: "#94a3b8",
     marginTop: 4,
+  },
+
+  metaBox: {
+    display: "flex",
+    flexWrap: "wrap",
+    gap: 10,
+    marginTop: 10,
+    fontSize: 12,
+    color: "#475569",
+  },
+
+  safetyBox: {
+    marginTop: 10,
+    background: "#fff1f5",
+    border: "1px solid #fbcfe8",
+    borderRadius: 14,
+    padding: "10px 12px",
+    boxShadow: "0 6px 16px rgba(244, 114, 182, 0.12)",
+  },
+
+  safetyHeader: {
+    display: "flex",
+    alignItems: "center",
+    gap: 7,
+    marginBottom: 6,
+  },
+
+  safetyIcon: {
+    fontSize: 14,
+    background: "#ffe4e6",
+    borderRadius: "50%",
+    width: 22,
+    height: 22,
+    display: "inline-flex",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+
+  safetyTitle: {
+    color: "#9f1239",
+    fontSize: 13,
+  },
+
+  safetyText: {
+    margin: "6px 0 0",
+    fontSize: 12.5,
+    color: "#881337",
+    lineHeight: 1.5,
   },
 };
 
