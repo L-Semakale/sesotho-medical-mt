@@ -11,6 +11,7 @@ from flask import Flask, jsonify, request
 from flask_cors import CORS
 from werkzeug.security import generate_password_hash, check_password_hash
 from sentence_transformers import SentenceTransformer
+from lingua import Language, LanguageDetectorBuilder
 
 from nllb_translator import nllb_translate
 from safety import check_safety
@@ -55,21 +56,51 @@ VALID_STATUSES = {"raw", "translated", "reviewed", "verified", "rejected"}
 
 
 # ---------------------------------------------------------------------
+# Supported language detection
+# ---------------------------------------------------------------------
+
+SUPPORTED_INPUT_LANGUAGES = {
+    Language.ENGLISH,
+    Language.SOTHO,
+    Language.ZULU,
+    Language.XHOSA,
+}
+
+SUPPORTED_BANTU_LANGUAGES = {
+    Language.SOTHO,
+    Language.ZULU,
+    Language.XHOSA,
+}
+
+SUPPORTED_SCOPE_LABEL = "English ↔ Sesotho, Zulu, Xhosa, and isiNdebele"
+
+# Use all Lingua-supported languages so Latin-script languages like
+# Portuguese, Spanish, French, Irish/Gaelic-like text, etc. are less
+# likely to be misclassified as English or a supported Bantu language.
+language_detector = (
+    LanguageDetectorBuilder
+    .from_all_languages()
+    .with_preloaded_language_models()
+    .build()
+)
+
+
+# ---------------------------------------------------------------------
 # Input language validation helpers
 # ---------------------------------------------------------------------
 
 def contains_unsupported_script(text: str) -> bool:
     """
-    Blocks scripts outside the expected English/Sesotho Latin alphabet.
+    Blocks scripts outside the approved Latin-script project scope.
 
-    This prevents the prototype from translating languages outside scope,
-    such as Japanese, Chinese, Korean, Arabic, Cyrillic, and Devanagari.
+    This catches Japanese, Chinese, Korean, Arabic, Cyrillic,
+    Devanagari, Thai, Hebrew, and similar non-Latin scripts.
     """
 
     unsupported_patterns = [
         r"[\u3040-\u309F]",  # Japanese Hiragana
         r"[\u30A0-\u30FF]",  # Japanese Katakana
-        r"[\u4E00-\u9FFF]",  # Chinese/Japanese/Korean ideographs
+        r"[\u4E00-\u9FFF]",  # CJK ideographs
         r"[\uAC00-\uD7AF]",  # Korean Hangul
         r"[\u0600-\u06FF]",  # Arabic
         r"[\u0400-\u04FF]",  # Cyrillic
@@ -83,39 +114,402 @@ def contains_unsupported_script(text: str) -> bool:
 
 def looks_like_supported_latin_text(text: str) -> bool:
     """
-    Allows English/Sesotho-style Latin text, digits, whitespace,
+    Allows Latin-script text, numbers, whitespace,
     and common medical punctuation.
 
-    Sesotho and English mainly use Latin-script characters, so this keeps
-    the prototype within the approved English-Sesotho project scope.
+    This does not prove that the input is English, Sesotho, Zulu,
+    Xhosa, or isiNdebele. It only rejects unsupported symbols before
+    language detection and marker checks.
     """
 
     allowed_pattern = r"^[A-Za-zÀ-ÖØ-öø-ÿ0-9\s.,;:!?'\-()/%]+$"
     return bool(re.match(allowed_pattern, text))
 
 
-def validate_translation_input_language(text: str, direction: str):
+def detect_input_language(text: str):
     """
-    Validates that the input text is suitable for the selected
-    English-Sesotho translation direction.
+    Detects the language of the input text using Lingua.
 
     Returns:
-        tuple: (is_valid: bool, error_message: str)
+        detected_language: Language enum or None
+        confidence: float
+    """
+
+    confidence_values = language_detector.compute_language_confidence_values(
+        text
+    )
+
+    if not confidence_values:
+        return None, 0.0
+
+    best_result = confidence_values[0]
+
+    return best_result.language, best_result.value
+
+
+def contains_common_english_markers(text: str) -> bool:
+    """
+    Extra guard for English medical input.
+
+    This helps prevent non-English Latin-script inputs from being accepted
+    when the selected direction is English to supported Bantu language.
+    """
+
+    normalized = f" {text.lower().strip()} "
+
+    english_markers = [
+        " take ",
+        " tablet",
+        " tablets",
+        " pill",
+        " pills",
+        " medicine",
+        " medication",
+        " dose",
+        " dosage",
+        " daily",
+        " twice",
+        " once",
+        " morning",
+        " evening",
+        " night",
+        " before",
+        " after",
+        " food",
+        " water",
+        " clinic",
+        " hospital",
+        " doctor",
+        " nurse",
+        " patient",
+        " pain",
+        " fever",
+        " cough",
+        " blood",
+        " urine",
+        " insulin",
+        " injection",
+        " return",
+        " stop",
+        " continue",
+        " do not",
+        " every",
+        " hours",
+        " days",
+        " week",
+        " month",
+        " appointment",
+        " symptoms",
+        " treatment",
+        " prescription",
+        " dosage",
+        " adherence",
+    ]
+
+    return any(marker in normalized for marker in english_markers)
+
+
+def contains_common_bantu_markers(text: str) -> bool:
+    """
+    Extra guard for supported Bantu medical-language input.
+
+    This helps reject unrelated Latin-script languages that might be
+    misclassified as Sotho, Zulu, or Xhosa by the language detector.
+
+    It also supports isiNdebele through transparent marker-based checks,
+    because Lingua may not expose isiNdebele as a separate Language enum.
+    """
+
+    normalized = f" {text.lower().strip()} "
+
+    bantu_markers = [
+        # -------------------------------------------------------------
+        # Sesotho markers
+        # -------------------------------------------------------------
+        " ke ",
+        " o ",
+        " a ",
+        " ka ",
+        " le ",
+        " la ",
+        " ba ",
+        " ho ",
+        " ha ",
+        " ea ",
+        " e ",
+        " se ",
+        " sa ",
+        " tsa ",
+        " ya ",
+        " moriana",
+        " meriana",
+        " ngaka",
+        " mokuli",
+        " bohloko",
+        " hlooho",
+        " sefuba",
+        " feberu",
+        " pilisi",
+        " lipilisi",
+        " noa",
+        " nka",
+        " letsatsi",
+        " matsatsi",
+        " hoseng",
+        " bosiu",
+        " mantsiboea",
+        " habeli",
+        " hang",
+        " makhetlo",
+        " pele",
+        " kamora",
+        " dijo",
+        " lijo",
+        " metsi",
+        " tleliniki",
+        " bookelo",
+        " sepetlele",
+        " phekolo",
+        " ente",
+        " moroto",
+        " mali",
+
+        # -------------------------------------------------------------
+        # Zulu markers
+        # -------------------------------------------------------------
+        " umuthi",
+        " imithi",
+        " udokotela",
+        " isiguli",
+        " ubuhlungu",
+        " ikhanda",
+        " ukukhwehlela",
+        " umkhuhlane",
+        " iphilisi",
+        " amaphilisi",
+        " phuza",
+        " thatha",
+        " nsuku",
+        " zonke",
+        " ekuseni",
+        " ebusuku",
+        " kusihlwa",
+        " kabili",
+        " kanye",
+        " ngaphambi",
+        " ngemva",
+        " kokudla",
+        " ukudla",
+        " amanzi",
+        " umtholampilo",
+        " isibhedlela",
+        " ukwelashwa",
+        " umjovo",
+        " umchamo",
+        " igazi",
+
+        # -------------------------------------------------------------
+        # Xhosa markers
+        # -------------------------------------------------------------
+        " iyeza",
+        " amayeza",
+        " ugqirha",
+        " isigulana",
+        " intlungu",
+        " intloko",
+        " ukukhohlela",
+        " ifiva",
+        " ipilisi",
+        " iipilisi",
+        " sela",
+        " thatha",
+        " yonke imihla",
+        " yonke",
+        " imihla",
+        " kusasa",
+        " ebusuku",
+        " ngokuhlwa",
+        " kabini",
+        " kube kanye",
+        " ngaphambi",
+        " emva",
+        " kokutya",
+        " ukutya",
+        " amanzi",
+        " ikliniki",
+        " isibhedlele",
+        " unyango",
+        " inaliti",
+        " umchamo",
+        " igazi",
+
+        # -------------------------------------------------------------
+        # isiNdebele / Nguni-style markers
+        # -------------------------------------------------------------
+        " umuthi",
+        " imitjhoga",
+        " umtjhoga",
+        " udorhodere",
+        " udokotela",
+        " isigulani",
+        " isiguli",
+        " ubuhlungu",
+        " ihloko",
+        " ukukhwehlela",
+        " ifiva",
+        " iphilisi",
+        " amaphilisi",
+        " sela",
+        " thatha",
+        " qobe langa",
+        " qobe",
+        " langa",
+        " ekuseni",
+        " ebusuku",
+        " ntambama",
+        " kabili",
+        " kanye",
+        " ngaphambi",
+        " ngemva",
+        " ukudla",
+        " amanzi",
+        " ikliniki",
+        " isibhedlela",
+        " ukwelatjhwa",
+        " ukwelashwa",
+        " umjovo",
+        " umchamo",
+        " iingazi",
+        " igazi",
+
+        # -------------------------------------------------------------
+        # Shared medical/public-health terms
+        # -------------------------------------------------------------
+        " insulin",
+        " hiv",
+        " tb",
+        " asthma",
+        " diabetes",
+        " covid",
+        " malaria",
+    ]
+
+    return any(marker in normalized for marker in bantu_markers)
+
+
+def looks_like_supported_indebele(text: str) -> bool:
+    """
+    Specific isiNdebele support using marker-based validation.
+
+    This is needed because Lingua may not include isiNdebele as a
+    separate detectable language. isiNdebele is therefore accepted
+    when it contains recognizable isiNdebele/Nguni medical markers.
+    """
+
+    normalized = f" {text.lower().strip()} "
+
+    indebele_markers = [
+        " udorhodere",
+        " isigulani",
+        " ukwelatjhwa",
+        " imitjhoga",
+        " umtjhoga",
+        " qobe langa",
+        " ntambama",
+        " iingazi",
+        " ihloko",
+    ]
+
+    return any(marker in normalized for marker in indebele_markers)
+
+
+def validate_translation_input_language(text: str, direction: str):
+    """
+    Ensures the prototype only accepts the correct source language
+    for the selected medical translation direction.
+
+    Direction rules:
+    - en-st accepts English input only.
+    - st-en accepts Sesotho, Zulu, Xhosa, or isiNdebele input.
+
+    Validation layers:
+    1. Reject unsupported scripts.
+    2. Reject unsupported symbols.
+    3. Use Lingua language detection across all supported languages.
+    4. Apply direction-specific source language checks.
+    5. Apply lightweight English/Bantu marker checks to reduce false
+       positives from short Latin-script phrases.
     """
 
     if contains_unsupported_script(text):
         return False, (
             "Unsupported input language detected. "
-            "This prototype only supports English and Sesotho medical text."
+            "This prototype supports English, Sesotho, Zulu, Xhosa, and isiNdebele medical text only."
         )
 
     if not looks_like_supported_latin_text(text):
         return False, (
             "Unsupported characters detected. "
-            "Please enter English or Sesotho medical text only."
+            "Please enter English, Sesotho, Zulu, Xhosa, or isiNdebele medical text only."
         )
 
-    return True, ""
+    detected_language, confidence = detect_input_language(text)
+
+    detected_name = (
+        detected_language.name.title().replace("_", " ")
+        if detected_language is not None
+        else "Unknown"
+    )
+
+    # -------------------------------------------------------------
+    # English → supported Bantu language
+    # -------------------------------------------------------------
+    if direction == "en-st":
+        if detected_language != Language.ENGLISH:
+            return False, (
+                f"Selected direction is English to supported Bantu language, "
+                f"but the input appears to be {detected_name}. "
+                "Please enter English medical text or change the direction."
+            )
+
+        # Extra protection for longer ambiguous Latin-script text.
+        if len(text.split()) >= 4 and not contains_common_english_markers(text):
+            return False, (
+                "The input does not appear to be English medical text. "
+                "This prototype supports English to Sesotho, Zulu, Xhosa, or isiNdebele translation."
+            )
+
+        return True, ""
+
+    # -------------------------------------------------------------
+    # Supported Bantu language → English
+    # -------------------------------------------------------------
+    if direction == "st-en":
+        # isiNdebele support through marker validation.
+        if looks_like_supported_indebele(text):
+            return True, ""
+
+        if detected_language not in SUPPORTED_BANTU_LANGUAGES:
+            return False, (
+                f"Selected direction is supported Bantu language to English, "
+                f"but the input appears to be {detected_name}. "
+                "Please enter Sesotho, Zulu, Xhosa, or isiNdebele medical text."
+            )
+
+        # Extra protection against Gaelic/Irish/Portuguese/etc.
+        # being misread as a supported Bantu language.
+        if len(text.split()) >= 4 and not contains_common_bantu_markers(text):
+            return False, (
+                "The input does not appear to be supported Bantu medical text. "
+                "This prototype supports Sesotho, Zulu, Xhosa, and isiNdebele to English translation."
+            )
+
+        return True, ""
+
+    return False, (
+        "Unsupported language direction. "
+        "This system only supports English ↔ Sesotho, Zulu, Xhosa, and isiNdebele medical translation."
+    )
 
 
 # ---------------------------------------------------------------------
@@ -310,7 +704,9 @@ def save_corpus(df):
 
 corpus_df = load_corpus()
 
+print("===== Application Startup at", datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S"), "=====")
 print("  Starting background model load...")
+
 threading.Thread(target=_load_model_and_index, daemon=True).start()
 
 print("  Translation pipeline ready:")
@@ -318,6 +714,7 @@ print("  Layer 1 → Exact corpus match")
 print("  Layer 2 → Semantic similarity (FAISS + Sentence Transformers) [loading...]")
 print("  Layer 3 → NLLB-200 neural translation")
 print("  Safety  → High-risk term detection active for ALL layers")
+print("  Scope   → English ↔ Sesotho, Zulu, Xhosa, and isiNdebele")
 
 
 # ---------------------------------------------------------------------
@@ -404,7 +801,7 @@ def translate_text():
 
     SUPPORTED_DIRECTIONS = {
         "en-st": {
-            "label": "English → Sesotho",
+            "label": "English → supported Bantu language",
             "src_col": "english_text",
             "tgt_col": "sesotho_text",
             "src_lang": "english",
@@ -412,7 +809,7 @@ def translate_text():
             "lookup_lang": "en"
         },
         "st-en": {
-            "label": "Sesotho → English",
+            "label": "Supported Bantu language → English",
             "src_col": "sesotho_text",
             "tgt_col": "english_text",
             "src_lang": "sesotho",
@@ -423,23 +820,23 @@ def translate_text():
 
     if not text:
         return jsonify({
-            "error": "Text is required. Please enter English or Sesotho medical text."
+            "error": "Text is required. Please enter English, Sesotho, Zulu, Xhosa, or isiNdebele medical text."
         }), 400
 
     if direction not in SUPPORTED_DIRECTIONS:
         return jsonify({
             "error": (
                 "Unsupported language direction. "
-                "This system only supports English to Sesotho and Sesotho to English medical translation."
+                "This system only supports English ↔ Sesotho, Zulu, Xhosa, and isiNdebele medical translation."
             ),
             "supported_directions": [
                 {
                     "code": "en-st",
-                    "label": "English → Sesotho"
+                    "label": "English → supported Bantu language"
                 },
                 {
                     "code": "st-en",
-                    "label": "Sesotho → English"
+                    "label": "Supported Bantu language → English"
                 }
             ]
         }), 400
@@ -452,7 +849,7 @@ def translate_text():
     if not is_valid_language:
         return jsonify({
             "error": language_error,
-            "supported_language_pair": "English-Sesotho only",
+            "supported_language_scope": SUPPORTED_SCOPE_LABEL,
             "input_rejected": True
         }), 400
 
@@ -494,6 +891,12 @@ def translate_text():
 
         else:
             # Layer 3 — NLLB-200 neural translation
+            #
+            # NOTE:
+            # Your internal NLLB call still uses src/tgt names:
+            # english/sesotho. If you later fine-tune separate Zulu,
+            # Xhosa, or isiNdebele models, update nllb_translate()
+            # to accept a more specific detected language.
             translated = nllb_translate(
                 text,
                 src=src_lang,
@@ -503,7 +906,7 @@ def translate_text():
             model_used = "nllb_model"
             source = "neural"
 
-            # Run safety check here only to decide corpus promotion
+            # Run safety check here only to decide corpus promotion.
             _pre_safety = check_safety(text, translated)
 
             if not _pre_safety["is_high_risk"]:
@@ -532,10 +935,10 @@ def translate_text():
                             lookup_lang
                         )
 
-    # Safety check — always runs for every layer
+    # Safety check — always runs for every layer.
     safety_check = check_safety(text, translated)
 
-    # Log to history
+    # Log to history.
     conn = get_db()
 
     conn.execute(
@@ -565,7 +968,7 @@ def translate_text():
         "model": model_used,
         "source": source,
         "safety": safety_check,
-        "supported_language_pair": "English-Sesotho only"
+        "supported_language_scope": SUPPORTED_SCOPE_LABEL
     })
 
 
@@ -829,9 +1232,19 @@ def update_sentence(sentence_id):
 @app.route("/", methods=["GET"])
 def home():
     return jsonify({
-        "message": "Sesotho Medical MT Backend — running",
+        "message": "Medical MT Backend — running",
         "model_ready": _model_ready.is_set(),
-        "supported_language_pair": "English-Sesotho only"
+        "supported_language_scope": SUPPORTED_SCOPE_LABEL,
+        "supported_directions": [
+            "English → supported Bantu language",
+            "Supported Bantu language → English"
+        ],
+        "supported_bantu_languages": [
+            "Sesotho",
+            "Zulu",
+            "Xhosa",
+            "isiNdebele"
+        ]
     })
 
 
