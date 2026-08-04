@@ -1,58 +1,62 @@
-##  Project Overview
+# Sesotho Medical Machine Translation System
 
-The **Sesotho Medical Machine Translation System** is a proof-of-concept bilingual medical translation web application designed to translate healthcare-related information between **English and Sesotho**.
+## Project Overview
 
-Healthcare communication in Lesotho is often affected by a language barrier. Many patients speak Sesotho, while clinical records, medication labels, treatment instructions, and health guidelines are commonly written in English. This project addresses that gap by providing a specialized medical translation tool for use in healthcare communication and research.
+The **Sesotho Medical Machine Translation System** is a proof-of-concept bilingual medical translation web application designed to support healthcare-related translation between **English and Sesotho**.
 
-The system uses a **three-layer hybrid translation pipeline** to improve accuracy and reduce risk in the medical domain:
+Healthcare communication in Lesotho is often affected by a language barrier. Many patients speak Sesotho as their main everyday language, while clinical records, medication labels, treatment instructions, referral notes, discharge instructions, consent information, and health guidelines are commonly written in English. This project addresses that gap by providing a specialized medical translation prototype for healthcare communication and research.
+
+The system uses a **three-layer hybrid translation pipeline** to improve transparency, reduce reliance on unconstrained neural generation, and support safer translation in the medical domain:
 
 1. **Exact Corpus Match**
 2. **Semantic Similarity Search**
 3. **Fine-tuned Neural Machine Translation using NLLB-200**
 
-A medical safety filter is included to flag high-risk terms and provide warnings where professional review is required.
+A medical safety filter is included to flag high-risk terms and provide warnings where professional clinical review is required.
 
->  **Medical Disclaimer:** This system is a proof-of-concept research prototype. It is not a certified medical device and must not be used as the sole basis for diagnosis, treatment, medication dosing, emergency care, or clinical decision-making. All translations should be reviewed by a qualified bilingual healthcare professional before clinical use.
+> **Corpus Note:** The project uses a 5,000-pair curated English–Sesotho medical corpus. Of these pairs, 4,536 were reviewed, 459 remained raw, and 5 reached full clinical verification status. The corpus is therefore suitable for proof-of-concept research but should not be treated as a fully clinically verified medical translation resource.
+
+> **Medical Disclaimer:** This system is a proof-of-concept research prototype. It is not a certified medical device and must not be used as the sole basis for diagnosis, treatment, medication dosing, emergency care, or clinical decision-making. All translations should be reviewed by a qualified bilingual healthcare professional before clinical use.
 
 ---
 
-##  Key Features
+## Key Features
 
-- English to Sesotho medical translation
+- English-to-Sesotho and Sesotho-to-English interface support
 - Three-layer hybrid translation pipeline
-- Verified medical corpus lookup
-- Semantic similarity search using Sentence Transformers
+- Curated and reviewed medical corpus lookup
+- Semantic similarity search using Sentence Transformers and FAISS
 - Fine-tuned NLLB-200 neural machine translation
 - Medical safety filter for high-risk terms
 - Translation history storage
 - User feedback collection
-- System Usability Scale, SUS, feedback support
+- System Usability Scale (SUS) feedback support
 - Admin dashboard for system statistics
 - React frontend
 - Flask backend API
-- SQLite database for local storage
+- SQLite database for local prototype storage
 
 ---
 
-##  Translation Pipeline
+## Translation Pipeline
 
 The system processes each translation request using three layers.
 
 | **Layer** | **Method** | **Description** |
 |---|---|---|
-| **Layer 1** | Exact Corpus Match | Checks whether the input sentence exists in the verified English–Sesotho medical corpus. |
-| **Layer 2** | Semantic Search | Uses Sentence Transformers and FAISS to find the closest verified translation. |
-| **Layer 3** | Neural Translation | Uses the NLLB-200 distilled 600M model fine-tuned for medical Sesotho translation. |
+| **Layer 1** | Exact Corpus Match | Checks whether the input sentence exists in the curated and reviewed English–Sesotho medical corpus. |
+| **Layer 2** | Semantic Search | Uses Sentence Transformers and FAISS to find the closest reviewed corpus translation. |
+| **Layer 3** | Neural Translation | Uses the NLLB-200 distilled 600M model fine-tuned for medical English–Sesotho translation. |
 
 ---
 
 ### Layer 1: Exact Corpus Match
 
-The system first checks the input against a verified medical corpus.
+The system first checks the input against a curated and reviewed medical corpus.
 
-If an exact match is found, the system returns the corresponding human-verified Sesotho translation.
+If an exact match is found, the system returns the corresponding reviewed Sesotho translation.
 
-This layer is prioritized because verified corpus translations are safer and more reliable than generated translations.
+This layer is prioritized because reviewed corpus translations are more transparent and controlled than generated translations.
 
 ---
 
@@ -60,9 +64,11 @@ This layer is prioritized because verified corpus translations are safer and mor
 
 If no exact match is found, the system uses semantic search.
 
-The sentence is encoded using a Sentence Transformer model, then compared against the corpus using FAISS.
+The sentence is encoded using a Sentence Transformer model and compared against the corpus using FAISS.
 
-If the similarity score is above the configured threshold, the system returns the closest verified translation.
+If the similarity score is above the configured threshold, the system returns the closest reviewed corpus translation.
+
+In the project report, the semantic similarity threshold was set to **0.88** to prioritize precision over recall in a medical context.
 
 ---
 
@@ -70,17 +76,25 @@ If the similarity score is above the configured threshold, the system returns th
 
 If the first two layers do not return a confident match, the system uses a neural machine translation model.
 
-The system uses:
+The base model used for fine-tuning is:
 
 ```text
 facebook/nllb-200-distilled-600M
 ```
 
-The model is fine-tuned on English–Sesotho medical translation data to improve performance in healthcare-related contexts.
+The project fine-tunes this base model on English–Sesotho medical translation data to improve performance in healthcare-related contexts.
+
+In the deployed prototype, the fine-tuned checkpoint may be loaded from a project-specific Hugging Face model repository, depending on the deployment configuration.
+
+If available, the fine-tuned model checkpoint can be documented here:
+
+```text
+Fine-tuned model: Add Hugging Face model link here if publicly available
+```
 
 ---
 
-##  Safety Filter
+## Safety Filter
 
 Medical translation is high-risk. To reduce harm, the system includes a safety filter that detects predefined high-risk medical terms.
 
@@ -95,26 +109,64 @@ When a high-risk term is detected, the system displays a warning message advisin
 
 The safety filter is intended as an additional guardrail. It does not replace clinical judgment.
 
+### Safety Filter Limitations
+
+The current safety filter is strongest for English medical terms and internationally recognized drug names. If a high-risk term is fully translated or paraphrased into Sesotho, the filter may not always detect it.
+
+Future versions should expand the safety lexicon to include:
+
+- Sesotho medical equivalents
+- Spelling variants
+- Drug classes
+- Dosage patterns
+- Emergency symptom phrases
+- Locally used clinical terminology
+
 ---
 
-##  Evaluation Results
+## Evaluation Results
 
-The system was evaluated using automatic translation metrics and usability testing.
+The system was evaluated using automatic translation metrics, human evaluation, and usability testing.
+
+### Automatic Translation Evaluation
+
+The fine-tuned model was evaluated against the base NLLB-200 model on a held-out English–Sesotho medical test set.
 
 | **Metric** | **Base NLLB-200** | **Fine-Tuned Model** | **Improvement** |
 |---|---:|---:|---:|
 | **BLEU** | 27.01 | **50.41** | +23.40 |
 | **chrF++** | 49.15 | **65.89** | +16.74 |
 | **TER** | 60.67 | **36.78** | -23.89 |
-| **SUS Score** | — | **78.4 / 100** | Good usability band |
 
 BLEU and chrF++ measure translation similarity to reference translations, where higher scores indicate better performance.
 
 TER measures the amount of editing required to match the reference translation, where lower scores indicate better performance.
 
+### Human Evaluation
+
+Five Sesotho-proficient evaluators reviewed translations using a 1–5 scale.
+
+| **Category** | **Average Score** |
+|---|---:|
+| Adequacy | 4.30 |
+| Fluency | 4.18 |
+| Medical Accuracy | 4.04 |
+
+The human evaluation results should be interpreted as proof-of-concept evidence rather than statistically conclusive clinical validation.
+
+### Usability Evaluation
+
+The application achieved a System Usability Scale score of:
+
+```text
+78.4 / 100
+```
+
+This falls within the **Good** usability band.
+
 ---
 
-##  Repository Structure
+## Repository Structure
 
 ```text
 sesotho-medical-mt/
@@ -157,12 +209,9 @@ sesotho-medical-mt/
 ├── README.md
 └── .gitignore
 ```
-
-> Note: The exact file names may differ slightly depending on your local repository structure.
-
 ---
 
-##  Prerequisites
+## Prerequisites
 
 Before running the project, install the following tools.
 
@@ -184,7 +233,7 @@ Before running the project, install the following tools.
 
 ---
 
-##  Hardware Requirements
+## Hardware Requirements
 
 The project can run on CPU, but neural translation may be slow.
 
@@ -195,11 +244,11 @@ The project can run on CPU, but neural translation may be slow.
 | GPU | Not required | CUDA-compatible GPU |
 | Internet | Required for model download | Stable broadband connection |
 
-The NLLB model is approximately **2.4GB**, so the first setup may take some time depending on internet speed.
+The NLLB model is approximately **2.4GB**, so the first setup may take time depending on internet speed.
 
 ---
 
-##  Installation and Setup
+## Installation and Setup
 
 Follow the steps below to run the project locally.
 
@@ -208,11 +257,9 @@ Follow the steps below to run the project locally.
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/sesotho-medical-mt.git
+git clone https://github.com/L-Semakale/sesotho-medical-mt.git
 cd sesotho-medical-mt
 ```
-
-Replace `your-username` with your actual GitHub username.
 
 ---
 
@@ -274,9 +321,9 @@ pip install flask flask-cors pandas numpy torch transformers sentence-transforme
 
 ---
 
-### 2.4 Download the NLLB Translation Model
+### 2.4 Download the Base NLLB Translation Model
 
-The project uses Meta AI's NLLB-200 distilled 600M model.
+The project uses Meta AI's NLLB-200 distilled 600M model as the base model.
 
 Run the following command inside the backend environment:
 
@@ -285,6 +332,8 @@ python -c "from transformers import AutoTokenizer, AutoModelForSeq2SeqLM; model_
 ```
 
 This downloads and caches the model locally.
+
+If your deployment uses a separate fine-tuned checkpoint, update the model path inside the relevant backend configuration or `nllb_translator.py`.
 
 ---
 
@@ -352,12 +401,14 @@ http://localhost:3000
 
 ---
 
-##  Running the Full System Locally
+## Running the Full System Locally
 
 To run the complete system:
 
 1. Open Terminal 1.
-2. Start the backend:
+2. Start the backend.
+
+For macOS/Linux:
 
 ```bash
 cd backend
@@ -374,7 +425,7 @@ python app.py
 ```
 
 3. Open Terminal 2.
-4. Start the frontend:
+4. Start the frontend.
 
 ```bash
 cd frontend
@@ -389,7 +440,22 @@ http://localhost:3000
 
 ---
 
-##  API Endpoints
+## Supported Translation Directions
+
+The project is restricted to English–Sesotho translation directions only.
+
+| **Direction Code** | **Description** |
+|---|---|
+| `en-st` | English to Sesotho |
+| `st-en` | Sesotho to English |
+
+Unsupported language directions should be rejected by the application.
+
+The formal quantitative and human evaluation in the report focused on **English-to-Sesotho** translation.
+
+---
+
+## API Endpoints
 
 The Flask backend exposes several API endpoints.
 
@@ -397,13 +463,19 @@ The Flask backend exposes several API endpoints.
 
 ### `POST /translate`
 
-Translates English medical text into Sesotho using the three-layer pipeline.
+Translates medical text between the supported directions:
+
+- English to Sesotho
+- Sesotho to English
+
+The formal evaluation in the report focused on English-to-Sesotho translation.
 
 #### Request Body
 
 ```json
 {
-  "text": "Take this medicine twice a day"
+  "text": "Take this medicine twice a day",
+  "direction": "en-st"
 }
 ```
 
@@ -422,7 +494,7 @@ Translates English medical text into Sesotho using the three-layer pipeline.
 
 | **Source** | **Meaning** |
 |---|---|
-| `corpus_exact` | Translation came from the verified corpus |
+| `corpus_exact` | Translation came from the curated/reviewed corpus |
 | `semantic_search` | Translation came from semantic similarity search |
 | `neural` | Translation came from the NLLB neural model |
 
@@ -514,7 +586,7 @@ Returns summary statistics for the admin dashboard.
 
 ---
 
-##  Running Tests
+## Running Tests
 
 If the repository includes a test folder, run tests from the backend directory.
 
@@ -540,21 +612,32 @@ The tests may cover:
 
 ---
 
-##  Dataset
+## Dataset
 
-The project uses a verified English–Sesotho medical corpus.
+The project uses a curated English–Sesotho medical corpus.
 
-### Corpus Summary
+### Corpus Verification Status
+
+| **Status** | **Count** | **Percentage** |
+|---|---:|---:|
+| Reviewed | 4,536 | 90.7% |
+| Raw | 459 | 9.2% |
+| Fully clinically verified | 5 | 0.1% |
+| **Total** | **5,000** | **100%** |
+
+The corpus is suitable for proof-of-concept research and model development. It is not yet sufficient for unsupervised clinical deployment.
+
+### Corpus Domain Summary
 
 | **Domain** | **Pairs** | **Percentage** |
 |---|---:|---:|
 | HIV/AIDS | 1,000 | 20% |
 | Medication Instructions | 900 | 18% |
 | Tuberculosis | 800 | 16% |
-| Symptoms | 800 | 16% |
-| Appointments | 500 | 10% |
-| Maternal Health | 400 | 8% |
-| General Education | 600 | 12% |
+| Symptoms and Complaints | 800 | 16% |
+| Appointments and Follow-Up | 500 | 10% |
+| Maternal and Child Health | 400 | 8% |
+| General Patient Education | 600 | 12% |
 | **Total** | **5,000** | **100%** |
 
 The corpus is divided into:
@@ -567,7 +650,7 @@ The corpus is divided into:
 
 ---
 
-##  Model Training Details
+## Model Training Details
 
 The NLLB-200 distilled 600M model was fine-tuned for English–Sesotho medical translation.
 
@@ -579,13 +662,15 @@ The NLLB-200 distilled 600M model was fine-tuned for English–Sesotho medical t
 | Learning Rate | `2e-5` |
 | Batch Size | `4` to `8` |
 | Weight Decay | `0.01` |
-| Epochs | `3` to `5` |
+| Epochs | `3` |
 | Training Framework | Hugging Face Trainer |
 | Compute | Google Colab Pro |
 
+The model was fine-tuned for three epochs because the available domain-specific corpus was relatively small. Longer training could increase the risk of overfitting, where the model memorizes training examples rather than generalizing to unseen medical sentences.
+
 ---
 
-##  Evaluation
+## Evaluation
 
 The project was evaluated using automatic metrics and human evaluation.
 
@@ -615,11 +700,39 @@ The application achieved a System Usability Scale score of:
 78.4 / 100
 ```
 
-This falls within the “Good” usability band.
+This falls within the **Good** usability band.
+
+### Evaluation Limitations
+
+- Formal quantitative and human evaluation focused on English-to-Sesotho translation.
+- The human evaluation sample was small.
+- Inter-rater reliability was not computed in this proof-of-concept stage.
+- The 10-sentence manual error analysis should be interpreted as indicative, not statistically conclusive.
+- Larger clinical validation is required before real-world deployment.
 
 ---
 
-##  Troubleshooting
+## Google Translate Comparison Notebook
+
+The repository includes a supplementary notebook:
+
+```text
+notebooks/03_google_translate_comparison.ipynb
+```
+
+This notebook benchmarks Google Translate against NLLB-200 outputs on a 50-sentence held-out subset using BLEU, chrF++, and TER.
+
+This comparison is included for transparency and to contextualize the system against an existing public translation tool. The novelty of this project is not only automatic metric performance, but also:
+
+- Medical-domain corpus control
+- Source-layer transparency
+- Retrieval-first translation
+- Safety filtering for high-risk clinical terms
+- Local adaptability for Lesotho’s healthcare context
+
+---
+
+## Troubleshooting
 
 | **Problem** | **Cause** | **Solution** |
 |---|---|---|
@@ -635,9 +748,9 @@ This falls within the “Good” usability band.
 
 ---
 
-##  Deployment
+## Deployment
 
-The project can be deployed using:
+The project can be deployed using the following platforms.
 
 | **Component** | **Platform** |
 |---|---|
@@ -646,25 +759,28 @@ The project can be deployed using:
 | Model Hosting | Hugging Face |
 | Repository | GitHub |
 
-Example deployment links:
+Current project links:
 
 ```text
-Frontend: https://github.com/L-Semakale/sesotho-medical-mt
+Repository: https://github.com/L-Semakale/sesotho-medical-mt
 Backend: https://huggingface.co/spaces/Limpho/sesotho-medical-backend
+Frontend: https://sesotho-medical-mt.vercel.app/
 ```
 
+If the frontend is not publicly deployed, it can be run locally using the setup instructions above.
 
 ---
 
-##  Ethics and Privacy
+## Ethics and Privacy
 
 This project follows privacy-conscious design principles.
 
-- No personally identifiable information, PII, is required for translation.
+- No personally identifiable information (PII) is required for translation.
+- No private patient records were used to build the corpus.
 - Feedback is collected for usability and quality improvement.
 - Translation history is stored locally in SQLite for prototype evaluation.
 - The system includes a medical disclaimer.
-- The system is not intended to replace professional medical advice.
+- The system is not intended to replace professional medical advice or clinical judgment.
 
 Ethics information:
 
@@ -676,7 +792,7 @@ Ethics Pathway: Pathway A, Capstone-based
 
 ---
 
-##  Medical Disclaimer
+## Medical Disclaimer
 
 This system is a proof-of-concept academic research prototype.
 
@@ -695,21 +811,24 @@ All translations should be checked by a qualified bilingual healthcare professio
 
 ---
 
-##  Limitations
+## Limitations
 
 The current prototype has the following limitations:
 
 - The corpus size is limited compared to high-resource translation systems.
+- Only 5 out of 5,000 corpus pairs reached full clinical verification status.
 - The neural model may produce errors or hallucinations.
 - Not all evaluators were medical professionals.
-- The system requires internet access for deployment and initial model download.
-- The tool has not undergone regulatory certification.
-- Rural offline deployment is not yet supported.
+- Formal evaluation focused on English-to-Sesotho translation.
 - Sesotho-to-English translation requires further evaluation.
+- The system requires internet access for deployment and initial model download.
+- Rural offline deployment is not yet supported.
+- The tool has not undergone regulatory certification.
+- The safety filter may miss high-risk terms fully translated or paraphrased into Sesotho.
 
 ---
 
-##  Future Work
+## Future Work
 
 Recommended future improvements include:
 
@@ -719,17 +838,19 @@ Recommended future improvements include:
 4. Improve bidirectional English–Sesotho and Sesotho–English translation.
 5. Add speech-to-text and text-to-speech support.
 6. Integrate stronger medical terminology validation.
-7. Explore LLM-based post-editing for grammar and morphology correction.
-8. Extend the approach to other Southern African languages.
+7. Expand the safety filter to include Sesotho medical terms and dosage patterns.
+8. Explore LLM-based post-editing for grammar and morphology correction.
+9. Extend the approach to other Southern African languages.
+10. Compute inter-rater reliability in future human evaluation studies.
 
 ---
 
-##  Citation
+## Citation
 
 If you use this project, model, or corpus in your research, please cite:
 
 ```text
-Semakale, L.E. (2026). A Proof-of-Concept Sesotho-English Medical 
+Semakale, L.E. (2026). A Proof-of-Concept English–Sesotho Medical 
 Translation Prototype Using Open-Weight Multilingual Neural Machine 
 Translation Models. BSc. Software Engineering Capstone Project, 
 African Leadership University, Kigali, Rwanda.
@@ -737,12 +858,11 @@ African Leadership University, Kigali, Rwanda.
 
 ---
 
-
-##  Project Status
+## Project Status
 
 This project is a proof-of-concept academic capstone prototype.
 
-It demonstrates that a hybrid architecture combining verified corpus lookup, semantic search, and fine-tuned neural machine translation can improve low-resource medical translation for English and Sesotho.
+It demonstrates that a hybrid architecture combining curated corpus lookup, semantic search, and fine-tuned neural machine translation can support low-resource medical translation for English and Sesotho.
 
-Further clinical validation, regulatory review, and large-scale testing are required before real-world medical deployment.
+Further clinical validation, regulatory review, larger-scale human evaluation, and real-world testing are required before medical deployment.
 ```
